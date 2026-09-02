@@ -28,7 +28,17 @@ export interface AmbientBackdropProps {
   reducedMotion?: boolean;
 }
 
-/** Rerata warna satu petak gambar, dikembalikan sebagai 'r,g,b'. */
+/**
+ * Rerata warna satu petak gambar, dikembalikan sebagai 'r g b' — DIPISAH SPASI.
+ *
+ * Bukan koma, dan ini bukan selera. Semua pemakainya menyusun
+ * `rgb(<warna> / <alpha>)`, dan sintaks alpha dengan garis miring HANYA sah
+ * kalau channel-nya dipisah spasi. `rgb(166,169,83 / 0.95)` invalid, jadi stop
+ * gradient-nya dibuang parser — dan karena `background` dipakai sebagai
+ * shorthand, SELURUH lapisan hilang. Gejalanya: latar ambient hitam total
+ * padahal HTML memuat mesh-nya. Itu terjadi, dan tidak memberi satu pun error
+ * di konsol.
+ */
 function averageRegion(
   data: Uint8ClampedArray,
   width: number,
@@ -52,20 +62,21 @@ function averageRegion(
     }
   }
 
-  if (n === 0) return '28,28,30';
-  return `${Math.round(r / n)},${Math.round(g / n)},${Math.round(b / n)}`;
+  if (n === 0) return '28 28 30';
+  return `${Math.round(r / n)} ${Math.round(g / n)} ${Math.round(b / n)}`;
 }
 
 function hexToRgbString(hex: string): string | null {
   const clean = hex.replace('#', '').trim();
   if (!/^[0-9a-fA-F]{6}$/.test(clean)) return null;
   const value = Number.parseInt(clean, 16);
-  return `${(value >> 16) & 255},${(value >> 8) & 255},${value & 255}`;
+  // Spasi, bukan koma — lihat catatan di `averageRegion`.
+  return `${(value >> 16) & 255} ${(value >> 8) & 255} ${value & 255}`;
 }
 
-/** Ubah 'r,g,b' jadi [h, s, l] dengan h 0..360, s/l 0..1. */
+/** Ubah 'r g b' jadi [h, s, l] dengan h 0..360, s/l 0..1. */
 function rgbToHsl(rgb: string): [number, number, number] {
-  const [r, g, b] = rgb.split(',').map((v) => Number(v) / 255);
+  const [r, g, b] = rgb.split(/[\s,]+/).map((v) => Number(v) / 255);
   const max = Math.max(r, g, b);
   const min = Math.min(r, g, b);
   const l = (max + min) / 2;
@@ -84,7 +95,7 @@ function hslToRgb(h: number, s: number, l: number): string {
   const hh = ((h % 360) + 360) % 360 / 360;
   if (s === 0) {
     const v = Math.round(l * 255);
-    return `${v},${v},${v}`;
+    return `${v} ${v} ${v}`;
   }
   const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
   const p = 2 * l - q;
@@ -99,7 +110,7 @@ function hslToRgb(h: number, s: number, l: number): string {
   };
   return [channel(hh + 1 / 3), channel(hh), channel(hh - 1 / 3)]
     .map((v) => Math.round(v * 255))
-    .join(',');
+    .join(' ');
 }
 
 /**
@@ -220,10 +231,10 @@ export function AmbientBackdrop({
   }, [pixelColors, metaColors]);
 
   const [c1, c2, c3, c4] = [
-    colors[0] ?? '28,28,30',
-    colors[1] ?? colors[0] ?? '20,20,20',
-    colors[2] ?? colors[0] ?? '10,10,10',
-    colors[3] ?? colors[1] ?? '0,0,0',
+    colors[0] ?? '28 28 30',
+    colors[1] ?? colors[0] ?? '20 20 20',
+    colors[2] ?? colors[0] ?? '10 10 10',
+    colors[3] ?? colors[1] ?? '0 0 0',
   ];
 
   const filter = reducedMotion

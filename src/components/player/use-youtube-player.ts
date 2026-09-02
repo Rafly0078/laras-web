@@ -132,6 +132,8 @@ export interface YouTubePlayerHandle {
   pause: () => void;
   toggle: () => void;
   seek: (seconds: number) => void;
+  /** Volume 0..100 menurut pemutar. */
+  volume: number;
   setVolume: (volume: number) => void;
   muted: boolean;
   setMuted: (muted: boolean) => void;
@@ -151,6 +153,13 @@ export function useYouTubePlayer({
   const [duration, setDuration] = useState(0);
   const [ready, setReady] = useState(false);
   const [muted, setMutedState] = useState(true);
+  /*
+   * 100 sebagai nilai awal, bukan 0: slider harus menunjukkan keadaan yang
+   * PALING MUNGKIN benar sebelum pemutar siap. YouTube memulai dari volume
+   * penuh dan muted, jadi 0 akan membuat slider tampak di bawah padahal
+   * pengguna hanya perlu melepas mute.
+   */
+  const [volume, setVolumeState] = useState(100);
   const [error, setError] = useState<string | null>(null);
 
   const onEndedRef = useRef(onEnded);
@@ -203,6 +212,7 @@ export function useYouTubePlayer({
               setReady(true);
               setDuration(event.target.getDuration());
               setMutedState(event.target.isMuted());
+              setVolumeState(event.target.getVolume());
               clockRef.current.hardReset(
                 event.target.getCurrentTime(),
                 performance.now(),
@@ -323,8 +333,13 @@ export function useYouTubePlayer({
     clockRef.current.hardReset(clamped, performance.now());
   }, []);
 
-  const setVolume = useCallback((volume: number) => {
-    playerRef.current?.setVolume(Math.max(0, Math.min(100, volume)));
+  const setVolume = useCallback((next: number) => {
+    const clamped = Math.max(0, Math.min(100, next));
+    /* State disetel walau pemutar belum ada: slider harus tetap bergerak saat
+       pengguna menyeretnya sebelum lagu pertama diputar, dan nilainya dipakai
+       begitu pemutar siap. */
+    setVolumeState(clamped);
+    playerRef.current?.setVolume(clamped);
   }, []);
 
   const setMuted = useCallback((next: boolean) => {
@@ -343,6 +358,7 @@ export function useYouTubePlayer({
     pause,
     toggle,
     seek,
+    volume,
     setVolume,
     muted,
     setMuted,

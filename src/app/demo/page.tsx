@@ -1,13 +1,17 @@
 /**
- * Indeks demo lirik — daftar lagu fixture yang bisa diuji.
+ * Indeks demo lirik — permukaan uji mesin lirik dari fixture.
  *
- * Halaman ini hanya untuk fase frontend; nanti diganti Home sungguhan yang
- * membaca katalog Apple.
+ * BUKAN halaman produk. Ia 404 di produksi (lihat `lib/dev-routes.ts`): isinya
+ * lirik lengkap empat lagu dari TTML yang di-commit, dan itu teks berhak cipta.
+ * Yang membuatnya tetap ada adalah 32 assertion di
+ * `scripts/verify-lyrics.part2.cjs` yang dijalankan terhadap halaman ini.
  */
 
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 
 import { loadFixtureTracks } from '@/lib/data/fixtures';
+import { DEV_ROUTES_ENABLED } from '@/lib/dev-routes';
 
 function artworkUrl(template: string | null | undefined, size: number): string | null {
   if (!template) return null;
@@ -15,6 +19,8 @@ function artworkUrl(template: string | null | undefined, size: number): string |
 }
 
 export default async function DemoIndexPage() {
+  if (!DEV_ROUTES_ENABLED) notFound();
+
   const tracks = await loadFixtureTracks();
 
   return (

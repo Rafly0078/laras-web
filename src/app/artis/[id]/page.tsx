@@ -10,9 +10,21 @@ import { Artwork } from '@/components/ui/artwork';
 import { ShelfRow } from '@/components/ui/shelf-row';
 import { TrackList } from '@/components/ui/track-list';
 import { artworkUrl } from '@/lib/data/apple';
-import { SIDEBAR_PLAYLISTS, loadArtist } from '@/lib/data/catalog';
+import { loadArtist } from '@/lib/data/catalog';
+import { SIDEBAR_PLAYLISTS } from '@/lib/data/playlists';
+import { artistMetadata } from '@/lib/metadata';
 
 const CARD_SIZE = 176;
+
+/**
+ * `loadArtist` dipanggil dua kali (di sini dan di badan halaman) tapi TIDAK jadi
+ * dua permintaan: URL-nya identik, jadi coalescer di `data/coalesce.ts` plus
+ * Data Cache Next menyatukannya.
+ */
+export async function generateMetadata({ params }: PageProps<'/artis/[id]'>) {
+  const { id } = await params;
+  return artistMetadata(id, await loadArtist(id));
+}
 
 export default async function ArtistPage({
   params,

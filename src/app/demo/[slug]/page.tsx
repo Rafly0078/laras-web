@@ -11,6 +11,7 @@ import { notFound } from 'next/navigation';
 
 import { NowPlaying } from '@/components/player/now-playing';
 import { loadFixtureTrack, loadFixtureTracks, loadFixtureTtml } from '@/lib/data/fixtures';
+import { DEV_ROUTES_ENABLED } from '@/lib/dev-routes';
 import { parseAppleTtml } from '@/lib/lyrics/ttml';
 
 /** Isi template artwork Apple ({w}/{h}) dengan ukuran yang diminta. */
@@ -20,6 +21,9 @@ function artworkUrl(template: string | null | undefined, size: number): string |
 }
 
 export async function generateStaticParams() {
+  // Tanpa flag, nol halaman dipra-render — dan badan halaman tetap 404,
+  // karena `dynamicParams` default membolehkan render on-demand.
+  if (!DEV_ROUTES_ENABLED) return [];
   const tracks = await loadFixtureTracks();
   return tracks.map((entry) => ({ slug: entry.slug }));
 }
@@ -32,6 +36,8 @@ export default async function LyricsDemoPage({
   // akan menolaknya. Bentuk manual ini valid di kedua keadaan.
   params: Promise<{ slug: string }>;
 }) {
+  if (!DEV_ROUTES_ENABLED) notFound();
+
   const { slug } = await params;
 
   const entry = await loadFixtureTrack(slug);

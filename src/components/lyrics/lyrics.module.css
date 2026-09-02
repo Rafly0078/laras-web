@@ -209,6 +209,10 @@
 /* ── Skeleton saat lirik masih dijemput dari relay ───────────────────── */
 
 /*
+ * Hanya GEOMETRI di sini; warna dan denyutnya datang dari kelas global
+ * `.laras-skeleton` di globals.css, supaya seluruh app punya satu denyut yang
+ * sama dan tidak ada @keyframes kembar.
+ *
  * Bar skeleton hidup di dalam .larasLyrics + .scroller yang SAMA dengan lirik
  * sungguhan, jadi ia mewarisi font-size container-query, padding 25cqh, dan
  * mask tepi tanpa menyalin satu angka pun.
@@ -225,23 +229,6 @@
   height: 0.72em;
   margin: 0.57em 0;
   border-radius: 9999px;
-
-  /* 0.09 alpha: cukup terlihat di atas hitam, masih jelas BUKAN teks. */
-  background: rgb(255 255 255 / 0.09);
-
-  /* Denyut opacity, bukan shimmer gradient: satu properti yang bisa
-     dikomposit GPU, tanpa sambungan yang terlihat saat animasi berulang. */
-  animation: skeletonBreath 1.8s ease-in-out infinite;
-}
-
-@keyframes skeletonBreath {
-  0%,
-  100% {
-    opacity: 0.45;
-  }
-  50% {
-    opacity: 1;
-  }
 }
 
 /* ── Hormati preferensi gerak minimal ────────────────────────────────── */

@@ -48,7 +48,7 @@ export function LyricsSkeleton() {
           {BAR_WIDTHS.map((width, index) => (
             <div
               key={index}
-              className={styles.skeletonLine}
+              className={`laras-skeleton ${styles.skeletonLine}`}
               style={{
                 width: `${width}%`,
                 animationDelay: `${index * STAGGER_MS}ms`,

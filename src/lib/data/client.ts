@@ -15,6 +15,7 @@
  */
 
 import type { AppleFetchOptions } from '@/lib/data/api-types';
+import { relayCoalescer } from '@/lib/data/coalesce';
 
 /** Basis relay. Bisa ditimpa lewat env kalau host berganti. */
 const BASE_URL = process.env.APPLE_CATALOG_BASE ?? 'https://api.spicyamll.online';
@@ -73,42 +74,73 @@ function buildUrl(path: string, params: Record<string, string | number | undefin
 }
 
 /**
- * Ambil JSON dari relay. Mengembalikan null untuk SEMUA kegagalan.
+ * Ambil JSON dari sebuah URL absolut. Mengembalikan null untuk SEMUA kegagalan.
+ *
+ * Dipakai bersama oleh relay Apple dan LRCLIB — keduanya butuh perilaku yang
+ * sama persis (timeout, penggabungan, null saat gagal) dan hanya berbeda header
+ * serta batas waktunya. Menulisnya dua kali berarti dua tempat yang bisa lupa
+ * memasang AbortSignal.
  *
  * Kegagalan yang ditangani: timeout, jaringan mati, status non-200, dan body
  * yang bukan JSON. Tiga-tiganya pernah terjadi pada host sejenis.
+ *
+ * Permintaan dengan URL yang sama dan sedang berjalan DIGABUNG jadi satu
+ * (lihat `coalesce.ts`): cache Next belum berisi apa pun selama sepuluh detik
+ * pertama sebuah lagu baru, jadi tanpa penggabungan sepuluh pengunjung berarti
+ * sepuluh panggilan keluar.
+ *
+ * Konsekuensinya: dua pemanggil bisa menerima objek yang SAMA, bukan salinan.
+ * Jangan memutasi hasil fungsi ini — perlakukan sebagai read-only. Semua
+ * adapter di `apple.ts`/`innertube.ts` memang hanya membaca.
  */
+export async function requestJson(
+  url: string,
+  init: {
+    headers: Record<string, string>;
+    timeoutMs: number;
+    revalidate: number;
+    tags?: string[];
+  },
+): Promise<unknown> {
+  return relayCoalescer.run(url, async () => {
+    // AbortSignal dipasang manual, bukan AbortSignal.timeout: timer-nya perlu
+    // dibersihkan di `finally` supaya proses tidak ditahan menunggu timer mati.
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), init.timeoutMs);
+
+    try {
+      const response = await fetch(url, {
+        headers: init.headers,
+        signal: controller.signal,
+        // Cache Next: kunci di-derive dari URL + opsi, jadi dua halaman yang
+        // meminta data sama dalam satu render hanya memicu satu permintaan.
+        next: { revalidate: init.revalidate, tags: init.tags },
+      });
+
+      if (!response.ok) return null;
+      return (await response.json()) as unknown;
+    } catch {
+      // Termasuk AbortError saat timeout. Sengaja tidak dibedakan: pemanggil
+      // tidak punya tindakan berbeda untuk masing-masing.
+      return null;
+    } finally {
+      clearTimeout(timer);
+    }
+  });
+}
+
+/** Ambil JSON dari relay Apple. */
 export async function fetchJson(
   path: string,
   params: Record<string, string | number | undefined>,
   options: AppleFetchOptions,
 ): Promise<unknown> {
-  const url = buildUrl(path, params);
-  const timeout = options.slow ? TIMEOUT_MS.lyrics : TIMEOUT_MS.default;
-
-  // AbortSignal.timeout tersedia di Node 18+; membungkus fetch supaya
-  // permintaan yang menggantung tidak menahan render tanpa batas.
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeout);
-
-  try {
-    const response = await fetch(url, {
-      headers: HEADERS,
-      signal: controller.signal,
-      // Cache Next: kunci di-derive dari URL + opsi, jadi dua halaman yang
-      // meminta data sama dalam satu render hanya memicu satu permintaan.
-      next: { revalidate: options.revalidate, tags: options.tags },
-    });
-
-    if (!response.ok) return null;
-    return (await response.json()) as unknown;
-  } catch {
-    // Termasuk AbortError saat timeout. Sengaja tidak dibedakan: pemanggil
-    // tidak punya tindakan berbeda untuk masing-masing.
-    return null;
-  } finally {
-    clearTimeout(timer);
-  }
+  return requestJson(buildUrl(path, params), {
+    headers: HEADERS,
+    timeoutMs: options.slow ? TIMEOUT_MS.lyrics : TIMEOUT_MS.default,
+    revalidate: options.revalidate,
+    tags: options.tags,
+  });
 }
 
 /* ── Endpoint ──────────────────────────────────────────────────────────── */

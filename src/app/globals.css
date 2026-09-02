@@ -117,3 +117,27 @@ img {
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+/* Placeholder saat data belum sampai.
+
+   Satu definisi untuk seluruh app: bentuk (tinggi, lebar, radius) diurus di
+   tempat pemakaian, denyutnya di sini. Kenapa denyut opacity dan bukan shimmer
+   gradient: satu properti yang bisa dikomposit GPU, dan tidak ada sambungan
+   yang terlihat setiap animasi berulang.
+
+   0.07 alpha: terlihat di atas hitam, tapi jelas BUKAN konten. Aturan
+   prefers-reduced-motion di atas sudah mematikan denyutnya. */
+@keyframes laras-skeleton {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.laras-skeleton {
+  background: rgb(255 255 255 / 0.07);
+  animation: laras-skeleton 1.8s ease-in-out infinite;
+}

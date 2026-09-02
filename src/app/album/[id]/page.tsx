@@ -12,12 +12,24 @@ import { TopBar } from '@/components/shell/top-bar';
 import { Artwork } from '@/components/ui/artwork';
 import { TrackList } from '@/components/ui/track-list';
 import { artworkUrl } from '@/lib/data/apple';
-import { SIDEBAR_PLAYLISTS, loadAlbum } from '@/lib/data/catalog';
+import { loadAlbum } from '@/lib/data/catalog';
+import { SIDEBAR_PLAYLISTS } from '@/lib/data/playlists';
+import { albumMetadata } from '@/lib/metadata';
 
 function formatYear(releaseDate: string | null): string | null {
   if (!releaseDate) return null;
   const year = releaseDate.slice(0, 4);
   return /^\d{4}$/.test(year) ? year : null;
+}
+
+/**
+ * `loadAlbum` dipanggil dua kali (di sini dan di badan halaman) tapi TIDAK jadi
+ * dua permintaan: URL-nya identik, jadi coalescer di `data/coalesce.ts` plus
+ * Data Cache Next menyatukannya.
+ */
+export async function generateMetadata({ params }: PageProps<'/album/[id]'>) {
+  const { id } = await params;
+  return albumMetadata(id, await loadAlbum(id));
 }
 
 export default async function AlbumPage({

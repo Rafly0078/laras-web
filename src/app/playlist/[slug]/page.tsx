@@ -12,12 +12,13 @@ import { TopBar } from '@/components/shell/top-bar';
 import { Artwork } from '@/components/ui/artwork';
 import { TrackList } from '@/components/ui/track-list';
 import { artworkUrl } from '@/lib/data/apple';
+import { loadPlaylist } from '@/lib/data/catalog';
 import {
   HOME_PLAYLISTS,
   SIDEBAR_PLAYLISTS,
   homePlaylistBySlug,
-  loadPlaylist,
-} from '@/lib/data/catalog';
+} from '@/lib/data/playlists';
+import { playlistMetadata } from '@/lib/metadata';
 
 export async function generateStaticParams() {
   return HOME_PLAYLISTS.map((p) => ({ slug: p.slug }));
@@ -25,6 +26,20 @@ export async function generateStaticParams() {
 
 /** Jangan pra-render playlist yang tidak dikenal. */
 export const dynamicParams = false;
+
+/**
+ * Judul dan kurator diambil dari konstanta lokal, jadi kartu bagikan tetap
+ * benar meski relay gagal — yang hilang hanya jumlah lagu dan sampulnya.
+ *
+ * `loadPlaylist` dipanggil dua kali (di sini dan di badan halaman) tapi TIDAK
+ * jadi dua permintaan: URL-nya identik, jadi coalescer di `data/coalesce.ts`
+ * plus Data Cache Next menyatukannya.
+ */
+export async function generateMetadata({ params }: PageProps<'/playlist/[slug]'>) {
+  const { slug } = await params;
+  const meta = homePlaylistBySlug(slug);
+  return playlistMetadata(slug, meta, meta === null ? null : await loadPlaylist(slug));
+}
 
 export default async function PlaylistPage({
   params,

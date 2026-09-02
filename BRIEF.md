@@ -14,14 +14,20 @@ Nama produk: **LARAS** (satu keluarga dengan app Android LARAS milik pemilik rep
   bukan LARAS Android. Nilainya ada di `src/lib/lyrics/design-tokens.ts`.
 - **Tanpa akun.** Tidak ada login, tidak ada database user.
 
-## Fase sekarang: FRONTEND SAJA
+## Fase: SELESAI — data live, siap produksi
 
-Aturan keras dari pemilik repo: **frontend dulu, backend belakangan.**
+Bagian ini dulu berbunyi "FRONTEND SAJA, semua data dari fixtures". Itu sudah
+lewat. Keadaan sekarang:
 
-- Semua data dibaca dari `fixtures/` (data NYATA hasil fetch, bukan karangan).
-- Handler yang butuh backend ditulis sebagai stub: `console.log('[TODO backend] ...')`.
-- JANGAN membuat route handler yang memanggil api.spicyamll.online dari server.
-  Itu pekerjaan fase backend.
+- Katalog, lirik, dan audio semuanya LIVE. `fixtures/` tinggal dipakai unit test
+  dan dua rute uji (`/demo`, `/dev/lirik`) yang 404 di produksi.
+- Ada lapisan data milik sendiri: `src/lib/data/` dengan penggabungan permintaan,
+  dan `src/app/api/` (`/api/lirik/[id]`, `/api/health`) dengan rate limit.
+- Tidak ada lagi stub `[TODO backend]`.
+
+Yang TIDAK berubah dan tetap final: **tanpa akun, tanpa database user.** Riwayat
+dan favorit hidup di localStorage perangkat. Lihat `HANDOFF.md` §5 untuk
+konsekuensi yang diterima.
 
 ## Stack
 
@@ -65,6 +71,9 @@ Bahasa UI: **Indonesia**.
                                   bertaut 395 · hati-hati-di-jalan 239 · peradaban 935
     fixtures/apple/*.json         respons katalog mentah: search, recommendations,
                                   album-manusia, artist-tulus
+    fixtures/lrclib/*.json        respons LRCLIB nyata (bertaut, hati-hati)
+                                  — cadangan lirik line-level
+    fixtures/youtube/*.json       respons InnerTube nyata untuk uji parser
 
 Struktur TTML Apple:
 - root `itunes:timing="Word"`

@@ -80,6 +80,19 @@ export function Sidebar({ active, playlists }: SidebarProps) {
             active={active === '/cari'}
             icon={<SearchIcon />}
           />
+          <NavItem
+            href="/koleksi"
+            label="Koleksi"
+            active={active === '/koleksi'}
+            icon={
+              /* Hati garis luar: ikon yang sama dengan tombol favorit, supaya
+                 hubungan antara "menandai" dan "tempat yang ditandai" terlihat
+                 tanpa perlu dijelaskan. */
+              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth={1.8} aria-hidden="true">
+                <path d="M12 20.3l-1.1-1C6.1 15 3 12.2 3 8.8 3 6.1 5.1 4 7.8 4c1.5 0 3 .7 4.2 2.1C13.2 4.7 14.7 4 16.2 4 18.9 4 21 6.1 21 8.8c0 3.4-3.1 6.2-7.9 10.5z" />
+              </svg>
+            }
+          />
         </ul>
 
         <h2 className="px-6 pt-6 pb-2 text-xs uppercase tracking-wider text-laras-tertiary">

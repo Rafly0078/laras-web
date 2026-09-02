@@ -160,11 +160,11 @@ const UA_BROWSER =
  * `Accept-Encoding: identity` wajib: lapisan kompresi menahan chunk sampai
  * punya cukup data, dan itu mengaburkan justru yang sedang diukur.
  *
- * TERUKUR, bukan asumsi: UA bot HTML-limited (mis. `Twitterbot/1.0`) TIDAK
- * mematikan stream di rute ini. Next hanya menunggu `generateMetadata` untuk
- * bot, dan halaman lagu tidak punya `generateMetadata` — jadi jangan pakai UA
- * bot sebagai kontrol "perilaku tanpa stream". Sudah dicoba: TTFB-nya sama
- * cepat, 550–1006ms, dengan badan yang tetap dipecah 14 chunk.
+ * TERUKUR, bukan asumsi: UA bot HTML-limited (mis. `Twitterbot/1.0`) tidak bisa
+ * dipakai sebagai kontrol "perilaku tanpa stream". Next hanya menunggu
+ * `generateMetadata` untuk bot, bukan seluruh halaman — dan `generateMetadata`
+ * di sini sengaja tidak menyentuh `/lyrics`. Hasilnya bot tetap menerima stream,
+ * hanya dengan TTFB sedikit lebih tinggi. Lihat HANDOFF §4 #14.
  */
 function measureChunks(path, userAgent = UA_BROWSER) {
   return new Promise((resolve, reject) => {
@@ -373,10 +373,24 @@ async function main() {
       marks.skeleton !== null,
       ms(marks.skeleton),
     );
+    /*
+     * Skeleton harus tampil PALING LAMBAT bersamaan dengan kerangka — dan sejak
+     * ada `loading.tsx`, biasanya jauh LEBIH AWAL.
+     *
+     * Terukur: skeleton 49ms, `<h1>` 650ms. Bukan kesalahan pengukuran: fallback
+     * `loading.tsx` dikirim sebelum `loadTrack` menjawab, sedangkan `<h1>` baru
+     * bisa dirender setelahnya. Assertion versi pertama menuntut keduanya
+     * berjarak < 500ms dan GAGAL justru karena halamannya jadi lebih cepat.
+     */
     check(
-      'skeleton tampil bersama kerangka, bukan belakangan',
-      marks.skeleton !== null && Math.abs(marks.skeleton - marks.h1) < 500,
-      `h1 ${ms(marks.h1)} vs skeleton ${ms(marks.skeleton)}`,
+      'skeleton tampil paling lambat bersamaan dengan kerangka',
+      marks.skeleton !== null && marks.skeleton <= marks.h1 + 250,
+      `skeleton ${ms(marks.skeleton)} vs h1 ${ms(marks.h1)}`,
+    );
+    check(
+      'skeleton sudah ada di bawah 2 detik',
+      marks.skeleton !== null && marks.skeleton < 2000,
+      ms(marks.skeleton),
     );
     check(
       `kerangka mendahului lirik lebih dari ${MIN_GAIN_MS}ms`,

@@ -3,7 +3,10 @@ import { Inter, Inter_Tight } from 'next/font/google';
 import './globals.css';
 
 import { MiniPlayer } from '@/components/player/mini-player';
+import { PlayHistoryRecorder } from '@/components/player/play-history-recorder';
 import { VideoDock } from '@/components/player/video-dock';
+import { SITE_URL } from '@/lib/metadata';
+import { CollectionProvider } from '@/lib/player/collection-context';
 import { PlayerProvider } from '@/lib/player/player-context';
 
 /* Inter + Inter Tight = pengganti SF Pro (keputusan sama seperti LARAS Android). */
@@ -20,6 +23,9 @@ const interTight = Inter_Tight({
 });
 
 export const metadata: Metadata = {
+  /* Halaman detail menulis `og:url` dan canonical sebagai path relatif; tanpa
+     basis ini Next tidak bisa menyelesaikannya jadi URL absolut. */
+  metadataBase: SITE_URL,
   title: 'LARAS',
   description:
     'Pemutar musik dengan lirik tersinkron per kata. Katalog Apple Music, audio YouTube Music.',
@@ -49,11 +55,19 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
           pemutar diletakkan di dalam halaman, setiap navigasi memuat ulang
           iframe dan audio berhenti.
         */}
-        <PlayerProvider>
-          {children}
-          <VideoDock />
-          <MiniPlayer />
-        </PlayerProvider>
+        {/*
+          CollectionProvider di LUAR PlayerProvider: riwayat & favorit hidup di
+          localStorage dan tidak bergantung pada pemutar, sedangkan perekam
+          riwayat butuh keduanya. Urutan ini membuat ketergantungannya satu arah.
+        */}
+        <CollectionProvider>
+          <PlayerProvider>
+            {children}
+            <VideoDock />
+            <MiniPlayer />
+            <PlayHistoryRecorder />
+          </PlayerProvider>
+        </CollectionProvider>
       </body>
     </html>
   );

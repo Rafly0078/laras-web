@@ -15,7 +15,9 @@ import { HomeShelf } from './home-shelf';
 
 import { AppShell } from '@/components/shell/app-shell';
 import { TopBar } from '@/components/shell/top-bar';
-import { SIDEBAR_PLAYLISTS, loadHomeShelves } from '@/lib/data/catalog';
+import { loadHomeShelves } from '@/lib/data/catalog';
+import { DEV_ROUTES_ENABLED } from '@/lib/dev-routes';
+import { SIDEBAR_PLAYLISTS } from '@/lib/data/playlists';
 
 export default async function HomePage() {
   /* Keempat rak diambil paralel; yang gagal dibuang, bukan menjatuhkan
@@ -45,20 +47,25 @@ export default async function HomePage() {
           </p>
         ) : null}
 
-        <section className="px-6 py-10">
-          <h2 className="font-display text-xl font-bold tracking-tight">
-            Uji mesin lirik
-          </h2>
-          <p className="mt-1 text-sm text-laras-secondary">
-            Empat lagu dengan TTML word-level Apple Music asli.
-          </p>
-          <Link
-            href="/demo"
-            className="mt-4 inline-flex h-11 items-center rounded-[var(--radius-card)] bg-laras-card px-5 text-sm font-medium transition hover:bg-laras-control"
-          >
-            Buka demo lirik
-          </Link>
-        </section>
+        {/* Hanya muncul pada build pengembangan. Di produksi `/demo` membalas
+            404 (lihat lib/dev-routes.ts), jadi menautkannya berarti memasang
+            tautan mati di halaman depan. */}
+        {DEV_ROUTES_ENABLED ? (
+          <section className="px-6 py-10">
+            <h2 className="font-display text-xl font-bold tracking-tight">
+              Uji mesin lirik
+            </h2>
+            <p className="mt-1 text-sm text-laras-secondary">
+              Empat lagu dengan TTML word-level Apple Music asli.
+            </p>
+            <Link
+              href="/demo"
+              className="mt-4 inline-flex h-11 items-center rounded-[var(--radius-card)] bg-laras-card px-5 text-sm font-medium transition hover:bg-laras-control"
+            >
+              Buka demo lirik
+            </Link>
+          </section>
+        ) : null}
       </div>
     </AppShell>
   );

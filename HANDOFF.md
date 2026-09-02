@@ -17,27 +17,36 @@ Aplikasi berfungsi penuh dengan data live. Bukan mock, bukan fixture.
 | `/playlist/[slug]` | 100 baris lagu | ISR 6 jam | 45ms |
 | `/album/[id]` | track dengan nomor asli | dinamis | 1,9s |
 | `/artis/[id]` | lagu teratas + diskografi | dinamis | 0,6s |
-| `/lagu/[id]` | artwork + kontrol + lirik word-level | dinamis, lirik di-stream | kerangka 0,6–1,8s cold; lirik menyusul 9,5–11,5s; 13–130ms warm |
-| `/demo`, `/demo/[slug]` | 4 lagu dari fixture (peninggalan fase frontend) | SSG | — |
-| `/dev/lirik/[slug]` | uji mesin lirik dengan jam sintetis | SSG, `notFound()` di prod | — |
+| `/lagu/[id]` | artwork + kontrol + lirik word-level | dinamis, lirik di-stream | TTFB 15–26ms; skeleton 48ms; `<h1>` 0,65–0,97s; lirik 9,5–11,5s; 50ms warm |
+| `/koleksi` | favorit + riwayat dari localStorage | statis | nol permintaan jaringan |
+| `/api/lirik/[id]` | lirik ternormalisasi, JSON | dinamis, rate limit | mengikuti relay |
+| `/api/health` | keterjangkauan relay + latensinya | dinamis, `no-store` | 1 panggilan relay |
+| `/demo`, `/demo/[slug]` | 4 lagu fixture — permukaan uji mesin lirik | SSG, **404 di prod** | — |
+| `/dev/lirik/[slug]` | uji mesin lirik dengan jam sintetis | SSG, **404 di prod** | — |
+
+`/demo` dan `/dev/lirik` hanya hidup kalau `LARAS_ENABLE_DEV=1` diset saat build
+(lihat §7). Keduanya menyajikan lirik lengkap dari TTML yang di-commit, dan itu
+teks berhak cipta — bukan sesuatu yang layak terbuka di produksi.
 
 ### Verifikasi (semua hijau, jalankan sendiri sebelum percaya)
 
-    npm test                 184 test, 7 file
+    npm test                 303 test, 14 file
     npm run typecheck        bersih
     npm run lint             0 error, 0 warning
-    npm run build            sukses, 14 halaman
+    npm run build            sukses
 
     node scripts/verify-lyrics.cjs   45 assertion — mesin sapuan lirik
     node scripts/verify-home.cjs     29 assertion — kerangka UI
     node scripts/verify-live.cjs     43 assertion — data live + pemutar global
-    node scripts/verify-stream.cjs   16 assertion — kerangka dulu, lirik menyusul
+    node scripts/verify-stream.cjs   17 assertion — kerangka dulu, lirik menyusul
+
+134 assertion browser, semuanya hijau pada build yang sama.
 
 Harness CDP butuh Chrome berjalan dengan remote debugging — lihat §7.
 
 ---
 
-## 2. Arsitektur: empat keputusan yang tidak boleh dibatalkan
+## 2. Arsitektur: enam keputusan yang tidak boleh dibatalkan
 
 ### (a) Pemutar hidup di root layout, BUKAN di halaman
 
@@ -97,6 +106,15 @@ Diukur pada satu server dan satu build yang sama, dua id cold berbeda:
     lirik di-await di halaman   byte pertama & <h1>  9410ms
     lirik di dalam <Suspense>   <h1> 938ms, lirik menyusul 11453ms
 
+Setelah `loading.tsx` ditambahkan, byte pertama turun lagi jauh — Next mengirim
+fallback rute sebelum `loadTrack` menjawab:
+
+    TTFB 15–26ms · skeleton lirik 48ms · <h1> 650–970ms · lirik 9,5s
+
+Urutan itu penting dan sempat MEMBUAT ASSERTION GAGAL: `verify-stream` versi
+pertama menuntut skeleton dan `<h1>` muncul berjarak < 500ms, padahal sekarang
+skeleton mendahului `<h1>` 600ms. Assertion-nya yang salah, bukan aplikasinya.
+
 Yang harus dijaga:
 - **Satu promise, dua batas Suspense.** `loadLyrics` dipanggil SEKALI lalu
   promise-nya dibagi. Memanggilnya dua kali berarti dua permintaan relay.
@@ -112,6 +130,41 @@ Yang harus dijaga:
   Kalau geometri lirik diubah, skeleton ikut sendiri.
 
 Dibuktikan oleh `scripts/verify-stream.cjs`, bukan diasumsikan.
+
+### (e) Antrean adalah REDUCER MURNI, dan shuffle tidak mengacak antrean
+
+`src/lib/player/queue.ts` memegang lima nilai yang saling bergantung: `tracks`,
+`order`, `cursor`, `shuffle`, `repeat`. Sebagai `useState` terpisah, menghapus
+satu lagu berarti tiga pemanggil setState yang masing-masing hanya melihat
+sebagian kebenaran — bug-nya muncul sebagai "kadang melompat ke lagu yang
+salah". Sebagai reducer, 30 assertion mengujinya tanpa React.
+
+Yang diacak shuffle adalah `order` (daftar indeks), BUKAN `tracks`. Alasannya
+perilaku yang diharapkan: mematikan shuffle harus MENGEMBALIKAN urutan album.
+Kalau `tracks` yang diacak, urutan aslinya hilang selamanya.
+
+Dua hal yang dijaga:
+- **`repeat: 'one'` tidak ditangani reducer.** Mengulang lagu yang sama =
+  `seek(0)` pada pemutar, bukan memindahkan antrean. Reducer tidak boleh tahu
+  apa pun soal pemutar; konteks yang memutuskan.
+- **Aksi `resolvedAudio`, bukan `play` ulang.** Menambal audio satu lagu dengan
+  `play` akan membangun antrean dari nol dan menghapus 99 lagu lainnya.
+
+### (f) Lapisan data punya penggabungan permintaan, dan halaman TIDAK lewat `/api`
+
+`src/lib/data/coalesce.ts` menggabungkan permintaan berjalan dengan URL yang
+sama. Angkanya: `/lyrics` cold butuh ~10 detik, dan selama sepuluh detik itu
+cache Next masih kosong — jadi sepuluh pengunjung yang membuka lagu baru yang
+sama berarti sepuluh panggilan ke relay pihak ketiga. Dengan penggabungan: satu.
+
+Batasnya harus dipahami: peta itu hidup di memori SATU proses. Di Vercel berarti
+per instance, bukan per dunia. Untuk global butuh Redis; untuk lalu lintas app
+ini, per instance sudah memotong bagian terburuknya.
+
+`/api/lirik/[id]` dan `/api/health` ada untuk klien dan pemantauan dari luar.
+Server component TIDAK memakainya — ia memanggil `lib/data` langsung. Memanggil
+route handler sendiri dari server berarti satu round-trip HTTP ke proses kita
+sendiri dan Data Cache Next tidak ikut bekerja. Jangan "menyeragamkan" keduanya.
 
 ---
 
@@ -129,6 +182,13 @@ Dibuktikan oleh `scripts/verify-stream.cjs`, bukan diasumsikan.
     src/lib/data/youtube.ts         HTTP ke InnerTube + resolveAudio
     src/lib/data/bridge.ts          logika pencocokan durasi (MURNI, teruji)
     src/lib/data/fixtures.ts        pembaca fixture (dipakai /demo & /dev saja)
+    src/lib/data/coalesce.ts        penggabung permintaan berjalan (MURNI, teruji)
+    src/lib/data/rate-limit.ts      token bucket untuk /api (MURNI, teruji)
+    src/lib/data/lrclib.ts          adapter cadangan lirik (MURNI, teruji)
+    src/lib/data/lrclib-client.ts   HTTP ke LRCLIB
+    src/lib/data/playlists.ts       konstanta playlist — TANPA server-only,
+                                    karena komponen klien juga memakainya
+    src/lib/api/guard.ts            identitas pemanggil + batas laju /api
 
 Pemisahan `innertube.ts` (parsing) dari `youtube.ts` (fetch) itu sengaja: bentuk
 pohon InnerTube adalah bagian paling rapuh dari seluruh jembatan. Dengan
@@ -149,6 +209,7 @@ bentuknya, yang gagal lebih dulu adalah test, bukan pengguna.
     src/components/lyrics/lyrics-panel.tsx   penghubung LyricsView <-> pemutar global
     src/components/lyrics/lyrics-skeleton.tsx  isi pane selama relay dijemput
     src/app/lagu/[id]/lyrics-section.tsx     yang meng-await lirik, di bawah <Suspense>
+    src/lib/lyrics/lrc.ts           parser LRC line-level (MURNI, teruji)
 
 `lyrics-view.tsx` sengaja tidak tahu apa pun soal pemutar — ia hanya menerima
 `getPosition`. Itulah yang membuat mesinnya bisa diuji dengan jam sintetis.
@@ -156,12 +217,18 @@ bentuknya, yang gagal lebih dulu adalah test, bukan pengguna.
 ### Pemutar
 
     src/lib/player/clock.ts             LyricsClock: 250ms -> per-frame, MURNI
-    src/lib/player/player-context.tsx   konteks global + antrean
+    src/lib/player/queue.ts             antrean/shuffle/repeat, REDUCER MURNI
+    src/lib/player/collection.ts        riwayat & favorit, aturan MURNI
+    src/lib/player/collection-context.tsx  localStorage lewat useSyncExternalStore
+    src/lib/player/player-context.tsx   konteks global; antrean di reducer
     src/components/player/use-youtube-player.ts  IFrame API + polling jangkar
     src/components/player/video-dock.tsx         SATU iframe, selamanya
     src/components/player/mini-player.tsx        bar bawah, progres via rAF
     src/components/player/ambient-backdrop.tsx   mesh gradient dari warna artwork
-    src/components/player/now-playing.tsx        HANYA dipakai /demo (peninggalan)
+    src/components/player/now-playing.tsx        HANYA dipakai /demo (permukaan uji)
+    src/components/player/queue-panel.tsx        antrean yang bisa diubah
+    src/components/player/favorite-button.tsx    tombol hati
+    src/components/player/play-history-recorder.tsx  jembatan pemutar -> koleksi
 
 ### UI
 
@@ -238,13 +305,22 @@ memberi error di konsol.
     Sebelum itu, klaim "0 error" di dokumen ini SALAH; jangan percaya klaim
     lint tanpa menjalankannya.
 
-14. **UA bot HTML-limited TIDAK mematikan streaming di rute ini.** Dokumen Next
-    bilang bot menerima dokumen utuh, jadi `Twitterbot/1.0` sempat dipakai
-    sebagai kontrol "perilaku tanpa stream". Hasil terukur: TTFB tetap
-    550–1006ms dan badan tetap dipecah 14 chunk. Sebabnya Next hanya menunggu
-    `generateMetadata` untuk bot, dan halaman lagu tidak punya
-    `generateMetadata`. Untuk mengukur perilaku blocking, satu-satunya cara
-    adalah merender versi blocking-nya sungguhan.
+14. **Untuk bot, Next menunggu `generateMetadata` — bukan seluruh halaman.**
+    Ini pernah salah dibaca dua arah, jadi keduanya dicatat:
+
+    - Saat halaman lagu BELUM punya `generateMetadata`, `Twitterbot/1.0` tetap
+      menerima stream: TTFB 550–1006ms, badan tetap 14 chunk. Jadi UA bot tidak
+      bisa dipakai sebagai kontrol "perilaku tanpa stream".
+    - Setelah `generateMetadata` ditambahkan, bot memang menunggu — dan itulah
+      sebabnya `generateMetadata` **DILARANG menyentuh `/lyrics`**. Terukur
+      pada dua id cold di build yang sama: UA bot TTFB **1,14s** (hanya
+      menunggu `loadTrack`), UA Chrome TTFB **0,034s**, dan lirik tetap
+      menyusul di ~10s di bawah `<Suspense>` pada keduanya. Kalau
+      `generateMetadata` ikut menunggu lirik, TTFB bot jadi ~10 detik dan
+      seluruh kerja §2(d) hilang untuk setiap crawler.
+
+    Untuk mengukur perilaku blocking yang sesungguhnya, satu-satunya cara adalah
+    merender versi blocking-nya sungguhan.
 
 15. **Assertion bisa gagal permanen karena halaman sudah pindah bentuk.**
     `verify-home` §7 mencari `a[href^="/demo/"]` — kartu per lagu dari FASE
@@ -254,14 +330,43 @@ memberi error di konsol.
     selalu berarti aplikasi rusak — periksa dulu apakah assertion-nya masih
     menggambarkan halaman yang sekarang.
 
+### React 19 & Next 16 (ditemukan sambil menambah fitur)
+
+16. **`setState` di dalam `useEffect` DILARANG** (`react-hooks/set-state-in-effect`).
+    Ini menutup pola biasa "baca localStorage di efek lalu setState". Yang benar
+    `useSyncExternalStore` — lihat `collection-context.tsx`. Bonusnya: dua tab
+    ikut sinkron lewat event `storage`, gratis.
+
+17. **`useReducer` menolak reducer yang punya argumen ketiga.** `queueReducer`
+    menerima fungsi permutasi supaya shuffle bisa diuji deterministik; React
+    hanya memanggil `(state, action)` dan TypeScript menolaknya. Bungkus dengan
+    fungsi dua-argumen (`playerQueueReducer`), jangan hapus argumennya.
+
+18. **`generateStaticParams` yang mengembalikan `[]` TIDAK menutup rute.**
+    `dynamicParams` default `true`, jadi Next tetap merender slug apa pun
+    on-demand. `/dev/lirik/die-with-a-smile` membalas **200 di produksi**
+    padahal komentarnya mengklaim `notFound()`. Penjaga wajib ada di BADAN
+    halaman. Sekarang keduanya lewat `lib/dev-routes.ts`.
+
+19. **Paket `server-only` tidak bisa di-resolve Vitest** — Next menanganinya
+    sebagai modul virtual, dan `node_modules/server-only` tidak ada. Jadi modul
+    apa pun yang perlu diuji TIDAK BOLEH mengimpornya. Pola yang sudah dipakai
+    repo ini: pisahkan yang murni dari yang mem-fetch (`innertube.ts` vs
+    `youtube.ts`, `lrclib.ts` vs `lrclib-client.ts`).
+
+20. **Menyisipkan lagu "setelah yang sekarang" salah kalau lagunya sudah ada di
+    antrean.** Lagu itu dicabut dulu dari `order`, dan pencabutan menggeser
+    posisi lagu yang sedang diputar — angka posisi yang dihitung SEBELUM
+    pencabutan jadi salah satu. Ditangkap unit test, bukan mata.
+
 ### Lingkungan (Windows + MSYS bash)
 
-16. `next dev`/`next start` orphan menyajikan build LAMA. Kill listener dulu:
+21. `next dev`/`next start` orphan menyajikan build LAMA. Kill listener dulu:
     `powershell -Command "Get-NetTCPConnection -LocalPort 3210 -State Listen | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }"`.
     `taskkill //F` GAGAL di MSYS.
-17. `curl` exit code 23 di MSYS itu normal (write error pada `-o /dev/null -w`);
+22. `curl` exit code 23 di MSYS itu normal (write error pada `-o /dev/null -w`);
     baca body/HTTP code-nya, jangan exit code.
-18. Auto-lint `write_file` melaporkan TS6053 palsu di path ber-spasi. Verifikasi
+23. Auto-lint `write_file` melaporkan TS6053 palsu di path ber-spasi. Verifikasi
     lewat `npm run lint` / `npm run build` sungguhan.
 
 ---
@@ -270,20 +375,20 @@ memberi error di konsol.
 
 Bukan bug — belum dikerjakan. Urut dari yang paling terasa:
 
-1. **Antrean tidak bisa diubah manual** — hanya urut playlist. Tanpa shuffle,
-   tanpa repeat.
-2. **Tanpa riwayat / favorit** — butuh penyimpanan (localStorage cukup, tanpa akun).
-3. **Volume**: konteks punya `setMuted` tapi UI tidak punya slider.
-4. **Halaman `/demo` dan `now-playing.tsx` adalah peninggalan** fase fixture.
-   Masih hijau di test, tapi sudah digantikan `/lagu/[id]` + `LyricsPanel`.
-   Boleh dihapus kalau tidak dipakai lagi — hapus juga assertion terkait.
-5. **Fallback LRCLIB belum dipasang.** Kalau Apple tidak punya lirik untuk sebuah
-   lagu, tidak ada cadangan. LRCLIB hidup, CORS `*`, tapi line-level saja dan
-   cakupan Indonesia tipis. Sekarang pane-nya cuma menulis "Lirik tersinkron
-   tidak tersedia" — dan itu ditemui cukup sering saat mencari id cold.
-6. **`git status` masih kotor** — belum pernah di-commit selain
-   "Initial commit from Create Next App". Belum ada `.env`; semua konfigurasi
-   punya default (`APPLE_CATALOG_BASE` opsional).
+1. **Antrean belum bisa disusun ulang dengan seret.** Sudah bisa: shuffle,
+   repeat, "putar berikutnya", "ke antrean", hapus satu baris, lompat, kosongkan.
+   Yang belum: menggeser urutan dengan drag.
+2. **Koleksi tidak ikut pindah perangkat.** Konsekuensi langsung dari "tanpa
+   akun" di `BRIEF.md`, dan itu dikatakan terus terang di halaman `/koleksi`.
+   Ekspor/impor JSON akan menutupnya tanpa melanggar keputusan itu.
+3. **Penggabungan permintaan & rate limit hanya per instance.** Di Vercel setiap
+   instance punya memorinya sendiri. Global butuh Redis — layanan berbayar dan
+   satu titik gagal baru, jadi sengaja belum dipasang.
+4. **Lirik LRCLIB hanya line-level.** Cadangannya jalan, tapi tidak ada sapuan
+   per kata karena datanya memang tidak punya. Ditandai di pane lirik supaya
+   pengguna tidak menyangka mesinnya rusak.
+5. **Belum ada pemantauan.** `/api/health` ada, tapi tidak ada yang memanggilnya
+   secara berkala dan tidak ada tempat log dikumpulkan.
 
 ---
 
@@ -315,10 +420,15 @@ Butuh Chrome dengan remote debugging DAN jendela di depan (lihat jebakan #9):
       --disable-background-timer-throttling \
       --window-position=0,0 --window-size=1440,900 about:blank
 
-Lalu:
+Lalu — perhatikan flag-nya:
 
-    npm run build
+    LARAS_ENABLE_DEV=1 npm run build
     npx next start -p 3210
+
+`LARAS_ENABLE_DEV=1` WAJIB untuk harness. Tanpa itu `/demo` dan `/dev/lirik`
+membalas 404 di build produksi (lihat §1), dan `verify-lyrics` kehilangan 77
+assertion sekaligus tanpa penjelasan yang jelas. Build yang dipakai untuk
+produksi TIDAK boleh memakai flag ini.
 
     BU_CDP_URL=http://127.0.0.1:9222 TARGET=http://127.0.0.1:3210 \
       node scripts/verify-live.cjs
@@ -383,3 +493,35 @@ Jebakan endpoint:
 `api.spicylyrics.org` **MATI untuk publik** (403 Cloudflare, semua permintaan).
 YouTube Music InnerTube **tidak punya lirik ber-timestamp** — sudah ditelusuri
 sampai `browseId MPLY...`: nol `cueRange`, nol `timedLyricsData`. Jangan coba lagi.
+
+---
+
+## 9. Fakta LRCLIB (cadangan lirik, terukur)
+
+`https://lrclib.net` — `GET /api/get` dan `GET /api/search`. Tanpa kunci, tapi
+meminta User-Agent yang mengidentifikasi aplikasi; itu syarat wajar dan dipenuhi
+(bukan dipalsukan jadi browser seperti pada relay Apple).
+
+**Durasi menentukan rekaman mana yang dikirim.** Ini bukan detail kecil:
+
+    /api/get ... &duration=252   -> duration 250, timestamp terakhir 287,57
+    /api/get ... (tanpa duration) -> duration 316  ← REKAMAN LAIN
+
+Karena itu durasi selalu dikirim DAN hasilnya diperiksa ulang di
+`toLrclibLyrics` dengan toleransi 3 detik. Sama seperti jembatan audio YouTube:
+durasi yang memutuskan, bukan judul.
+
+Fakta lain yang sudah menjebak sekali:
+- `duration` di respons bisa TIDAK cocok dengan timestamp terakhirnya (bertaut:
+  250 vs 287,57). Jadi durasi jangan dipakai memotong lirik.
+- Format LRC-nya memakai timestamp BERTEKS-KOSONG (`[00:29.45] `) sebagai
+  penanda akhir baris sebelumnya. Membuangnya membuat baris terakhir sebelum
+  jeda menyala belasan detik.
+- Hanya line-level. Tidak ada timing per kata, jadi hasilnya `kind: 'line'` dan
+  animator sengaja TIDAK menyapunya — menyapu berarti mengarang presisi yang
+  tidak ada di datanya (`BRIEF.md`: "sapuan palsu").
+- Sebagian lagu dibalas `instrumental: true`. Itu jawaban BERGUNA, bukan
+  kegagalan: pane lirik bisa mengatakannya dengan yakin.
+
+Fixture nyata dua lagu ada di `fixtures/lrclib/`; 33 unit test berjalan
+terhadapnya.

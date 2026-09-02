@@ -300,3 +300,78 @@ describe('LyricsAnimator — ketahanan', () => {
     expect(frame.lines.has(interlude.index)).toBe(true);
   });
 });
+
+describe('LyricsAnimator — lirik line-level TIDAK disapu per kata', () => {
+  /**
+   * Aturan produk, bukan selera: sumber line-level (LRCLIB) hanya tahu kapan
+   * sebuah baris MULAI. Menggeser gradient perlahan di sepanjang baris berarti
+   * menampilkan presisi yang tidak ada di datanya — BRIEF menyebutnya "sapuan
+   * palsu" dan melarangnya. Baris aktif harus MENYALA penuh, bukan merayap.
+   */
+  const lineLevel: Lyrics = {
+    kind: 'line',
+    lines: [
+      {
+        index: 0,
+        start: 10,
+        end: 20,
+        lead: {
+          syllables: [
+            { text: 'satu baris utuh', start: 10, end: 20, isPartOfWord: false, emphasis: false },
+          ],
+          start: 10,
+          end: 20,
+        },
+        background: [],
+        oppositeAligned: false,
+        interlude: false,
+        songPart: null,
+        text: 'satu baris utuh',
+      },
+    ],
+    source: 'lrclib',
+    attribution: 'LRCLIB',
+    instrumental: false,
+  };
+
+  const key = syllableKey(0, -1, 0);
+
+  it('di TENGAH baris, gradient sudah penuh — bukan 50%', () => {
+    const animator = new LyricsAnimator(lineLevel);
+    const frame = animator.frame(15, FRAME, [0]);
+    expect(frame.syllables.get(key)?.gradientPosition).toBe(GRADIENT.positionSung);
+  });
+
+  it('gradient penuh sejak awal baris, dan tetap penuh sampai akhir', () => {
+    const animator = new LyricsAnimator(lineLevel);
+    for (const t of [10.01, 12, 15, 18, 19.99, 25]) {
+      const frame = animator.frame(t, FRAME, [0]);
+      expect(frame.syllables.get(key)?.gradientPosition).toBe(GRADIENT.positionSung);
+    }
+  });
+
+  it('sebelum baris mulai tetap belum tersapu', () => {
+    const animator = new LyricsAnimator(lineLevel);
+    const frame = animator.frame(5, FRAME, [0]);
+    expect(frame.syllables.get(key)?.gradientPosition).toBe(GRADIENT.positionNotSung);
+    expect(frame.syllables.get(key)?.state).toBe('notSung');
+  });
+
+  it('lirik word-level pada lagu nyata TETAP menyapu bertahap', () => {
+    // Kontrol: perubahan di atas tidak boleh mematikan sapuan Apple.
+    const lyrics = load('bertaut');
+    const animator = new LyricsAnimator(lyrics);
+    const line = lyrics.lines.find((l) => !l.interlude && l.lead.syllables.length > 3);
+    expect(line).toBeDefined();
+    if (!line) return;
+
+    const syllable = line.lead.syllables[1];
+    const mid = (syllable.start + syllable.end) / 2;
+    const value = animator.frame(mid, FRAME, [line.index]).syllables.get(
+      syllableKey(line.index, -1, 1),
+    )?.gradientPosition;
+
+    expect(value).toBeGreaterThan(GRADIENT.positionNotSung);
+    expect(value).toBeLessThan(GRADIENT.positionSung);
+  });
+});

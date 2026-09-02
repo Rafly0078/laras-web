@@ -17,7 +17,7 @@ Katalog + lirik dari Apple Music (via relay), audio dari YouTube Music.
 
 ## Urutan bacaan wajib
 
-1. **`HANDOFF.md`** — keadaan sekarang, arsitektur, dan 18 jebakan yang sudah
+1. **`HANDOFF.md`** — keadaan sekarang, arsitektur, dan 23 jebakan yang sudah
    dibayar. Baca ini sebelum menyentuh kode apa pun.
 2. **`BRIEF.md`** — keputusan produk yang sudah final (tema, lisensi, struktur
    TTML, aturan ToS YouTube).
@@ -30,17 +30,18 @@ aturan ToS.
 ## Perintah
 
     npm run dev              dev server (port 3000)
-    npm test                 184 unit test
+    npm test                 303 unit test
     npm run typecheck        tsc --noEmit
     npm run lint             eslint
     npm run build            build produksi
 
-Harness browser (butuh Chrome remote debugging — lihat `HANDOFF.md` §7):
+Harness browser (butuh Chrome remote debugging DAN build ber-flag —
+`LARAS_ENABLE_DEV=1 npm run build`, lihat `HANDOFF.md` §7):
 
     node scripts/verify-live.cjs     43 assertion, data live + pemutar
     node scripts/verify-lyrics.cjs   45 assertion, mesin sapuan lirik
     node scripts/verify-home.cjs     29 assertion, kerangka UI
-    node scripts/verify-stream.cjs   16 assertion, kerangka dulu lalu lirik
+    node scripts/verify-stream.cjs   17 assertion, kerangka dulu lalu lirik
 
 ## Empat aturan yang paling sering dilanggar
 

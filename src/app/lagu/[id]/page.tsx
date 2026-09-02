@@ -29,12 +29,29 @@ import { AppShell } from '@/components/shell/app-shell';
 import { TopBar } from '@/components/shell/top-bar';
 import { Artwork } from '@/components/ui/artwork';
 import { artworkUrl } from '@/lib/data/apple';
-import { SIDEBAR_PLAYLISTS, loadLyrics, loadTrack } from '@/lib/data/catalog';
+import { loadLyrics, loadTrack } from '@/lib/data/catalog';
+import { SIDEBAR_PLAYLISTS } from '@/lib/data/playlists';
+import { trackMetadata } from '@/lib/metadata';
 
 function formatDuration(seconds: number): string {
   if (!Number.isFinite(seconds) || seconds <= 0) return '—';
   const total = Math.round(seconds);
   return `${Math.floor(total / 60)}:${String(total % 60).padStart(2, '0')}`;
+}
+
+/**
+ * HANYA `loadTrack`. `loadLyrics` DILARANG di sini: untuk bot HTML-limited Next
+ * menahan halaman sampai `generateMetadata` selesai (HANDOFF §4 #14), dan
+ * `/lyrics` butuh 9,5–11,5 detik untuk lagu yang belum pernah diminta — itu
+ * membatalkan streaming lirik di bawah untuk setiap crawler.
+ *
+ * `loadTrack` dipanggil dua kali (di sini dan di badan halaman) tapi TIDAK jadi
+ * dua permintaan: URL-nya identik, jadi coalescer di `data/coalesce.ts` plus
+ * Data Cache Next menyatukannya.
+ */
+export async function generateMetadata({ params }: PageProps<'/lagu/[id]'>) {
+  const { id } = await params;
+  return trackMetadata(id, await loadTrack(id));
 }
 
 export default async function TrackPage({

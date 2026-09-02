@@ -265,6 +265,20 @@ export class LyricsAnimator {
     const group = groupIndex === -1 ? line.lead : line.background[groupIndex];
     if (!group) return;
 
+    /*
+     * Sapuan per kata hanya sah kalau sumbernya MEMANG punya timing per kata.
+     *
+     * Lirik LRCLIB (kind 'line') cuma tahu kapan sebuah baris mulai. Baris itu
+     * masuk sebagai SATU suku kata sepanjang baris, jadi kalau ia diperlakukan
+     * seperti kata biasa, gradient akan merayap dari kiri ke kanan selama lima
+     * detik — gerakan yang terlihat presisi padahal datanya tidak ada. BRIEF
+     * menyebutnya "sapuan palsu" dan melarangnya.
+     *
+     * Jadi untuk kind selain 'syllable': baris aktif MENYALA penuh (spring tetap
+     * dipakai supaya nyalanya tidak mengedip), tanpa gerakan horizontal.
+     */
+    const sweeps = this.lyrics.kind === 'syllable';
+
     group.syllables.forEach((syllable, syllableIndex) => {
       const key = syllableKey(lineIndex, groupIndex, syllableIndex);
       const springs = this.springsFor(key, syllable.emphasis);
@@ -276,7 +290,8 @@ export class LyricsAnimator {
       // Target spring diambil dari spline. Untuk keadaan NotSung/Sung kita
       // pakai ujung spline (0 atau 1) supaya kata pulang ke posisi diamnya
       // lewat spring yang sama — bukan lompat.
-      const splineAt = state === 'active' ? progress : state === 'sung' ? 1 : 0;
+      const splineAt =
+        state === 'notSung' ? 0 : state === 'sung' ? 1 : sweeps ? progress : 1;
 
       springs.scale.setGoal(scaleSpline.at(splineAt));
       springs.yOffset.setGoal(SPLINES.yOffset.at(splineAt));
@@ -289,11 +304,11 @@ export class LyricsAnimator {
       const opacity = springs.opacity.step(dt);
 
       const gradientPosition =
-        state === 'active'
-          ? GRADIENT.positionNotSung + GRADIENT.positionRange * progress
-          : state === 'sung'
+        state === 'notSung'
+          ? GRADIENT.positionNotSung
+          : state === 'sung' || !sweeps
             ? GRADIENT.positionSung
-            : GRADIENT.positionNotSung;
+            : GRADIENT.positionNotSung + GRADIENT.positionRange * progress;
 
       out.set(key, {
         gradientPosition,

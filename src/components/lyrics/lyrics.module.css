@@ -20,8 +20,11 @@
   overflow-x: hidden;
   overflow-y: auto;
 
-  /* clamp(1.85rem, 7cqw, 3.5rem) */
-  --laras-lyrics-size: clamp(1.85rem, calc(1cqw * 7), 3.5rem);
+  /* Lebih besar dari angka spicy-lyrics clamp(1.85rem, 7cqw, 3.5rem).
+     Rujukan Apple Music memakai teks yang mengisi pane dan membungkus ke
+     beberapa baris; pada 7cqw lirik terbaca seperti daftar, bukan seperti
+     lirik. Deviasi yang disengaja — angka aslinya ada di komentar ini. */
+  --laras-lyrics-size: clamp(2.1rem, calc(1cqw * 8.4), 4rem);
   font-size: var(--laras-lyrics-size);
   font-weight: 700;
 

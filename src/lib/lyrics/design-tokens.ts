@@ -156,9 +156,19 @@ export const BLUR = {
  * Perhatikan: Sung (0.497) sedikit LEBIH REDUP dari NotSung (0.51).
  * Bukan kekeliruan — baris yang sudah lewat sengaja mundur lebih jauh.  */
 export const LINE_OPACITY = {
-  notSung: 0.51,
+  /*
+   * Baris tidak aktif SENGAJA lebih pudar daripada angka spicy-lyrics
+   * (notSung 0.51, sung 0.497).
+   *
+   * Alasannya rujukan visual pemilik repo bergaya Apple Music: hanya baris yang
+   * sedang dinyanyikan yang terbaca penuh, sisanya nyaris menghilang ke latar.
+   * Pada 0.51 keempat baris tetangga masih terbaca dan mata tidak tahu harus ke
+   * mana. Ini deviasi yang disengaja, bukan salah salin — angka aslinya
+   * tercatat di atas supaya bisa dikembalikan.
+   */
+  notSung: 0.32,
   active: 1,
-  sung: 0.497,
+  sung: 0.28,
   hover: 1,
 } as const;
 
@@ -211,8 +221,16 @@ export const PANE = {
  * Kunci "kaya warna"-nya spicy-lyrics: saturasi 2.5×. Blur + dim saja
  * menghasilkan abu-abu mati.                                            */
 export const AMBIENT = {
-  animated: { saturate: 2.5, brightness: 0.65 },
-  static: { brightness: 0.55, contrast: 1.05, saturate: 1.7, scale: 1.25 },
+  /*
+   * Lebih terang dan lebih pekat dari sebelumnya (animated 0.65, static 0.55).
+   *
+   * Rujukan Apple Music memakai warna artwork sebagai permukaan penuh, bukan
+   * sebagai bayangan di belakang hitam. Yang paling menahan warnanya sebenarnya
+   * bukan angka di sini melainkan scrim di `ambient-backdrop.tsx`; keduanya
+   * dinaikkan bersama.
+   */
+  animated: { saturate: 2.8, brightness: 0.9 },
+  static: { brightness: 0.8, contrast: 1.1, saturate: 2.0, scale: 1.25 },
   /** Scrim gelap ke arah bawah pane. */
   scrimMask: 'linear-gradient(to top, transparent, black 145%)',
   scrimHeight: '90%',

@@ -78,6 +78,11 @@
   letter-spacing: 0;
 
   padding: 0.34em 0;
+
+  /* Ruang di kanan supaya kata terakhir tidak menempel ke tepi pane. Nilai yang
+     sama dipakai upstream (5cqw); kita dulu nol, dan akibatnya baris panjang
+     terlihat seperti terpotong padahal sebenarnya cuma mentok. */
+  padding-right: 5cqw;
   margin: 0;
   border: 0;
   background: none;
@@ -167,6 +172,29 @@
  * dalam satu kata harus duduk di baseline yang sama walau masing-masing
  * di-`scale()` sendiri.
  */
+/*
+ * Lirik LINE-LEVEL (LRCLIB) — satu baris = SATU suku kata berisi seluruh kalimat.
+ *
+ * Di situlah kelompok kata jadi racun: satu kelompok yang tidak boleh dipecah
+ * selebar kalimat penuh. Terukur pada satu lagu di pane 1190px: 1 kelompok per
+ * baris, kelompok terlebar 1814px, 10 kelompok lebih lebar dari pane, 3 baris
+ * meluber. Itu penyebab lirik terpotong yang dilaporkan.
+ *
+ * Untuk sumber tanpa timing per kata, teks memang harus membungkus di spasinya
+ * sendiri seperti paragraf biasa. `display: inline` mengembalikan pembungkusan
+ * itu; `pre-wrap` menjaga spasi ganda kalau ada di sumbernya.
+ *
+ * Konsekuensi yang diterima: `transform` tidak berlaku pada elemen inline
+ * non-replaced, jadi skala dan translateY diabaikan di mode ini. Tidak ada yang
+ * hilang — lirik line-level memang tidak disapu per kata (lihat animator), dan
+ * gradient plus opacity tetap bekerja.
+ */
+.lineLevel,
+.lineLevel .word {
+  display: inline;
+  white-space: pre-wrap;
+}
+
 .wordGroup {
   /*
    * `inline-block`, BUKAN `inline-flex` + `white-space: nowrap`.

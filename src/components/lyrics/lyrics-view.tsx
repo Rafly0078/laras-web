@@ -80,6 +80,11 @@ export function LyricsView({
 
   const animator = useMemo(() => new LyricsAnimator(lyrics), [lyrics]);
 
+  /* Sumber tanpa timing per kata menaruh SELURUH kalimat di satu suku kata, jadi
+     pengelompokan kata tidak punya arti di sana dan justru membuat baris tidak
+     bisa membungkus. Lihat `.lineLevel` di lyrics.module.css. */
+  const lineLevel = lyrics.kind !== 'syllable';
+
   /**
    * Cache gaya dibuang saat lirik berganti.
    *
@@ -282,7 +287,10 @@ export function LyricsView({
                 }}
               >
                 {toWordGroups(line.lead.syllables).map((indices) => (
-                  <span key={indices[0]} className={styles.wordGroup}>
+                  <span
+                    key={indices[0]}
+                    className={lineLevel ? styles.lineLevel : styles.wordGroup}
+                  >
                     {indices.map((i) => {
                       const key = syllableKey(line.index, -1, i);
                       return (
@@ -304,7 +312,10 @@ export function LyricsView({
                     className={`${styles.background} ${line.oppositeAligned ? styles.opposite : ''}`}
                   >
                     {toWordGroups(group.syllables).map((indices) => (
-                      <span key={indices[0]} className={styles.wordGroup}>
+                      <span
+                        key={indices[0]}
+                        className={lineLevel ? styles.lineLevel : styles.wordGroup}
+                      >
                         {indices.map((i) => {
                           const key = syllableKey(line.index, groupIndex, i);
                           return (

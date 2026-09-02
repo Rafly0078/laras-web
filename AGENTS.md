@@ -17,7 +17,7 @@ Katalog + lirik dari Apple Music (via relay), audio dari YouTube Music.
 
 ## Urutan bacaan wajib
 
-1. **`HANDOFF.md`** — keadaan sekarang, arsitektur, dan 27 jebakan yang sudah
+1. **`HANDOFF.md`** — keadaan sekarang, arsitektur, dan 29 jebakan yang sudah
    dibayar. Baca ini sebelum menyentuh kode apa pun.
 2. **`BRIEF.md`** — keputusan produk yang sudah final (tema, lisensi, struktur
    TTML, aturan ToS YouTube).

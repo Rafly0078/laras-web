@@ -11,6 +11,16 @@
  *    player. Tetap TERLIHAT (bukan display:none, bukan 0×0) karena kebijakan
  *    YouTube melarang menyembunyikan pemutar untuk membuat pengalaman
  *    audio-only.
+ *
+ *    BATAS 200×200 ITU LANTAI, BUKAN PILIHAN GAYA. Pemilik repo meminta video
+ *    ini dihilangkan; itu tidak bisa dikerjakan. Menyembunyikannya berarti
+ *    memakai embed YouTube sebagai sumber audio saja, dan kalau embed diblokir
+ *    yang mati bukan cuma videonya — seluruh jembatan audio ikut mati, karena
+ *    `/player` InnerTube membalas UNPLAYABLE tanpa PO token. Yang bisa
+ *    dilakukan hanya menurunkan bobot visualnya: bayangan dan ring dilepas
+ *    supaya ia menyatu ke latar alih-alih melayang seperti kartu. Ukuran,
+ *    opacity, dan visibilitas TIDAK boleh disentuh. `verify-live` §6 menjaga
+ *    kelimanya.
  *  - videoExpanded = true   →  panel besar di tengah; lirik disembunyikan
  *    sepenuhnya oleh halaman, karena tidak boleh ada apa pun di depan pemutar
  *    yang terlihat.
@@ -30,11 +40,13 @@ export function VideoDock() {
   return (
     <div
       className={[
-        'fixed z-40 overflow-hidden bg-black shadow-2xl ring-1 ring-white/10',
+        'fixed z-40 overflow-hidden bg-black',
         'transition-all duration-300 ease-out',
         videoExpanded
-          ? 'bottom-24 left-1/2 h-[min(56vw,405px)] w-[min(90vw,720px)] -translate-x-1/2 rounded-[var(--radius-sheet,16px)]'
-          : 'bottom-24 right-4 h-[200px] w-[200px] rounded-[var(--radius-artwork)]',
+          ? 'bottom-24 left-1/2 h-[min(56vw,405px)] w-[min(90vw,720px)] -translate-x-1/2 rounded-[var(--radius-sheet,16px)] shadow-2xl ring-1 ring-white/10'
+          // Tanpa bayangan/ring, dan didorong ke sudut: 200x200 tetap utuh,
+          // tapi ia tidak lagi bersaing dengan pane lirik.
+          : 'bottom-[80px] right-2 h-[200px] w-[200px] rounded-[var(--radius-artwork)]',
         // Di luar layar saat belum ada lagu — TIDAK dilepas dari DOM.
         hasTrack ? 'opacity-100' : 'pointer-events-none translate-y-[200vh] opacity-0',
       ].join(' ')}

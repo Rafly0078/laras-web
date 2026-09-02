@@ -405,14 +405,36 @@ memberi error di konsol.
     posisi lagu yang sedang diputar — angka posisi yang dihitung SEBELUM
     pencabutan jadi salah satu. Ditangkap unit test, bukan mata.
 
+### CSS
+
+25. **`rgb(r,g,b / alpha)` INVALID — alpha garis miring butuh channel dipisah
+    SPASI.** Ini mematikan latar ambient sejak file itu ditulis, tanpa satu pun
+    error di konsol. Karena warnanya dipakai di dalam `background` shorthand
+    berisi lima lapisan, satu stop yang invalid membuang SELURUH background.
+
+    Yang memisahkan diagnosanya: HTML SSR memuat 1 `radial-gradient`, DOM hidup
+    memuat **0** lapisan radial. Kalau markup ada tapi lapisannya nol, jangan
+    curiga hidrasi atau tinggi kotak — curigai nilai CSS yang tidak sah. Kotaknya
+    ternyata 1170×812 sejak awal; isinya yang kosong.
+
+    Semua helper warna di `ambient-backdrop.tsx` sekarang mengembalikan `'r g b'`.
+    Jangan kembalikan ke koma.
+
+26. **`textColors` Apple BUKAN warna latar.** Terukur pada satu lagu: `bgColor`
+    `a6a953` (kuning-hijau, cocok sampulnya) sementara keempat textColor-nya
+    `010100` / `060702` / `21230d` / `282a11` — nyaris hitam. Wajar: itu warna
+    TEKS yang dirancang Apple untuk ditaruh DI ATAS sampul terang. Memakainya
+    sebagai stop gradient menghasilkan latar hitam, dan menaikkan
+    saturate/brightness pada hitam tetap hitam.
+
 ### Lingkungan (Windows + MSYS bash)
 
-25. `next dev`/`next start` orphan menyajikan build LAMA. Kill listener dulu:
+27. `next dev`/`next start` orphan menyajikan build LAMA. Kill listener dulu:
     `powershell -Command "Get-NetTCPConnection -LocalPort 3210 -State Listen | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }"`.
     `taskkill //F` GAGAL di MSYS.
-26. `curl` exit code 23 di MSYS itu normal (write error pada `-o /dev/null -w`);
+28. `curl` exit code 23 di MSYS itu normal (write error pada `-o /dev/null -w`);
     baca body/HTTP code-nya, jangan exit code.
-27. Auto-lint `write_file` melaporkan TS6053 palsu di path ber-spasi. Verifikasi
+29. Auto-lint `write_file` melaporkan TS6053 palsu di path ber-spasi. Verifikasi
     lewat `npm run lint` / `npm run build` sungguhan.
 
 ---

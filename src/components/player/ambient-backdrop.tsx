@@ -123,9 +123,18 @@ function hslToRgb(h: number, s: number, l: number): string {
  * sampul terang. Memakainya sebagai stop gradient menghasilkan latar hitam,
  * dan menaikkan saturate/brightness pada hitam tetap hitam.
  *
- * Jadi mesh diturunkan dari satu warna dominan: hue diputar ±22°, lightness
- * dijaga di rentang yang masih berwarna (0.30..0.52) dan saturasi ditahan
- * minimal 0.45 supaya sampul yang pucat tidak menghasilkan abu.
+ * Jadi mesh diturunkan dari satu warna dominan: hue diputar, lightness dijaga di
+ * rentang yang masih berwarna (0.30..0.52) dan saturasi ditahan minimal 0.45
+ * supaya sampul yang pucat tidak menghasilkan abu.
+ *
+ * Putaran hue dilebarkan dari ±22° jadi ±38°/+70°. Alasannya sampul monokrom:
+ * pada ±22° keempat stop praktis satu warna dan latarnya terlihat rata. Tidak
+ * dilebarkan lebih jauh karena di titik tertentu ia berhenti menjadi turunan
+ * sampul dan mulai mengarang warna yang tidak ada di sana.
+ *
+ * Jalur ini HANYA cadangan. Kalau ekstraksi piksel sampul berhasil, empat warna
+ * nyata per kuadran yang dipakai — dan untuk sampul yang benar-benar
+ * berwarna-warni itu jauh lebih baik daripada turunan hue apa pun.
  */
 function deriveMesh(rgb: string): string[] {
   const [h, s, l] = rgbToHsl(rgb);
@@ -133,9 +142,9 @@ function deriveMesh(rgb: string): string[] {
   const light = Math.max(0.3, Math.min(0.52, l));
   return [
     hslToRgb(h, sat, light),
-    hslToRgb(h + 22, sat, light * 0.82),
-    hslToRgb(h - 22, sat * 0.9, light * 1.12),
-    hslToRgb(h + 44, sat * 0.8, light * 0.7),
+    hslToRgb(h + 38, sat, light * 0.82),
+    hslToRgb(h - 38, sat * 0.9, light * 1.12),
+    hslToRgb(h + 70, sat * 0.8, light * 0.7),
   ];
 }
 

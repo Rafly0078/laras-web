@@ -525,3 +525,42 @@ Fakta lain yang sudah menjebak sekali:
 
 Fixture nyata dua lagu ada di `fixtures/lrclib/`; 33 unit test berjalan
 terhadapnya.
+
+---
+
+## 10. Produksi
+
+    Repo    https://github.com/Rafly0078/laras-web   (private)
+    Live    https://laras-web.vercel.app             (publik, tanpa proteksi)
+    Vercel  proyek `laras-web`, akun rafly4018-5755, terhubung ke repo di atas
+
+Env di Vercel (Production): `NEXT_PUBLIC_SITE_URL=https://laras-web.vercel.app`.
+Itu satu-satunya yang diset. `APPLE_CATALOG_BASE` memakai default, dan
+`LARAS_ENABLE_DEV` **tidak diset** — kalau ia pernah diset di produksi, `/demo`
+dan `/dev/lirik` terbuka dan lirik berhak cipta empat lagu ikut tersaji.
+
+Deploy berikutnya: `npx vercel deploy --prod --yes`, atau push ke `master`
+(repo sudah terhubung).
+
+### Terukur di produksi, bukan diasumsikan
+
+Streaming **jalan di Vercel** tanpa konfigurasi apa pun. Satu id cold
+(`/lagu/6791909852`, belum pernah diminta):
+
+    TTFB 499ms · <h1> 708ms · lirik 9611ms · 9 chunk · badan tutup 9619ms
+
+Selisih kerangka→lirik 8,9 detik — sama seperti lokal. Kalau angka ini pernah
+berubah jadi "TTFB ≈ waktu lirik", berarti ada lapisan yang mem-buffer respons;
+periksa §2(d) dan panduan streaming Next soal proxy/CDN.
+
+Pemeriksaan cepat setelah deploy:
+
+    curl -s https://laras-web.vercel.app/api/health
+    → {"ok":true,"relay":{"terjangkau":true,"ms":244}}
+
+    /demo dan /dev/lirik WAJIB 404 di produksi. Kalau 200, `LARAS_ENABLE_DEV`
+    ikut terbawa ke build produksi.
+
+Rate limit terverifikasi lokal: permintaan ke-11 dalam satu ledakan ke
+`/api/lirik/<id>` dibalas **429** dengan `Retry-After`. Ingat batasnya — per
+instance, bukan global (§2(f)).

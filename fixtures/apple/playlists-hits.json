@@ -1,0 +1,526 @@
+{
+  "results": {
+    "playlists": {
+      "href": "/v1/catalog/id/search?groups=playlist&l=en-GB&limit=12&term=hits&types=playlists",
+      "next": "/v1/catalog/id/search?groups=playlist&l=en-GB&offset=12&term=hits&types=playlists",
+      "data": [
+        {
+          "id": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.f4d106fed2bd41149aaacabb233eb5eb?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "f6f6f6",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "313131",
+              "textColor4": "4d4d4d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b9/e8/d4/b9e8d407-9f17-462b-cdd5-6297bb0a752c/9a43619d-5b99-41a1-8e74-c92a0fe7a8e8.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Hits",
+            "description": {
+              "short": "On the key-laden “Dunia Yang Nanti”, Raim Laode faces the volatility of love with palpable honesty.",
+              "standard": "From ballads to bops, pop to hip-hop to R&B and more, these are the biggest hits anywhere and everywhere—an ever-changing snapshot of now. Our editors are constantly searching for new music and updating this mix—so if you hear a song you like, add it to your library."
+            },
+            "editorialNotes": {
+              "name": "Today’s Hits",
+              "short": "On the key-laden “Dunia Yang Nanti”, Raim Laode faces the volatility of love with palpable honesty.",
+              "standard": "From ballads to bops, pop to hip-hop to R&B and more, these are the biggest hits anywhere and everywhere—an ever-changing snapshot of now. Our editors are constantly searching for new music and updating this mix—so if you hear a song you like, add it to your library.",
+              "tagline": "Updated Playlist"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-27T03:11:35Z",
+            "name": "Today’s Hits",
+            "playParams": {
+              "id": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+              "kind": "playlist",
+              "versionHash": "65f3ddd3dbb0bf056c56f281ea0648243f293f78bd3f55dd3f0e21b0ca8100a5"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb"
+          }
+        },
+        {
+          "id": "pl.3de89e62aa3340038e08fa325c3f3f01",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.3de89e62aa3340038e08fa325c3f3f01?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "abea59",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "ffffff",
+              "textColor3": "4a4022",
+              "textColor4": "3e482b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/da/22/e3/da22e339-594e-f9b6-34c6-2f39982b6a03/fb75b349-089e-478f-aa8f-f2c9e71ee32b.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music",
+            "description": {
+              "short": "RAN sweep a new generation off their feet with a remake of “Pandangan Pertama”, 20 years on.",
+              "standard": "Social media hasn’t just changed how we communicate, but also what we listen to and how we hear it. With that, here’s our up-to-the-minute playlist of tracks making the leap from your social channels into the broader cultural stream. On top now is <b>Tame Impala</b> and <b>“Loser”</b>, a funky if self-pitying cut from his 2025 album, <i>Deadbeat</i> (which also flies high in <i>Spider-Man: Brand New Day</i>). Because there’s no schedule for going viral, our editors update these selections throughout the week as needed, so if you hear something you want to hang on to, add it to your library. If it’s trending there, you’ll hear it here."
+            },
+            "editorialNotes": {
+              "name": "Viral Hits",
+              "short": "RAN sweep a new generation off their feet with a remake of “Pandangan Pertama”, 20 years on.",
+              "standard": "Social media hasn’t just changed how we communicate, but also what we listen to and how we hear it. With that, here’s our up-to-the-minute playlist of tracks making the leap from your social channels into the broader cultural stream. On top now is <b>Tame Impala</b> and <b>“Loser”</b>, a funky if self-pitying cut from his 2025 album, <i>Deadbeat</i> (which also flies high in <i>Spider-Man: Brand New Day</i>). Because there’s no schedule for going viral, our editors update these selections throughout the week as needed, so if you hear something you want to hang on to, add it to your library. If it’s trending there, you’ll hear it here.",
+              "tagline": "The Songs That Matter"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-27T03:02:45Z",
+            "name": "Viral Hits",
+            "playParams": {
+              "id": "pl.3de89e62aa3340038e08fa325c3f3f01",
+              "kind": "playlist",
+              "versionHash": "7a2e487464a784e622ad1830920d820a04fb7adaa223075d64cbf189bb393494"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/viral-hits/pl.3de89e62aa3340038e08fa325c3f3f01"
+          }
+        },
+        {
+          "id": "pl.21e8899aaaeb455397c3d9a6faf18908",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.21e8899aaaeb455397c3d9a6faf18908?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "c59d58",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "2f2415",
+              "textColor4": "2f2414",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6f/aa/ae/6faaae04-063f-affd-7108-3a229c852080/9700c48c-ddef-4a61-9229-8c0458b5666a.png/{w}x{h}cc.jpg",
+              "width": 4320
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Hits",
+            "description": {
+              "short": "Sabrina Carpenter levelled up and had another unstoppable year in music.",
+              "standard": "Today’s Hits is home to the biggest songs in pop, hip-hop, R&B and more. Here are the biggest hits anywhere and everywhere—and you can’t talk hits in 2025 without mentioning Sabrina Carpenter. After the massive success of her sixth album <i>Short n’ Sweet</i>, which spawned hits “Espresso” and “Please Please Please”, the singer-songwriter levelled up again with her seventh album <i>Man’s Best Friend</i>. With its brutally honest, witty and catchy lyricism, <i>Man’s Best Friend</i> dominated the Apple Music charts; churned out viral anthems “Manchild”, “Tears” and “When Did You Get Hot?”; and solidified Carpenter as a mainstay in pop music. Get familiar with Sabrina Carpenter on Today’s Hits—as if you aren’t already—and if you hear a song you like, add it to your library."
+            },
+            "editorialNotes": {
+              "name": "Today’s Hits: Best of 2025 ",
+              "short": "Sabrina Carpenter levelled up and had another unstoppable year in music.",
+              "standard": "Today’s Hits is home to the biggest songs in pop, hip-hop, R&B and more. Here are the biggest hits anywhere and everywhere—and you can’t talk hits in 2025 without mentioning Sabrina Carpenter. After the massive success of her sixth album <i>Short n’ Sweet</i>, which spawned hits “Espresso” and “Please Please Please”, the singer-songwriter levelled up again with her seventh album <i>Man’s Best Friend</i>. With its brutally honest, witty and catchy lyricism, <i>Man’s Best Friend</i> dominated the Apple Music charts; churned out viral anthems “Manchild”, “Tears” and “When Did You Get Hot?”; and solidified Carpenter as a mainstay in pop music. Get familiar with Sabrina Carpenter on Today’s Hits—as if you aren’t already—and if you hear a song you like, add it to your library.",
+              "tagline": "Best of 2025"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2025-11-19T07:22:34Z",
+            "name": "Today’s Hits: Best of 2025 ",
+            "playParams": {
+              "id": "pl.21e8899aaaeb455397c3d9a6faf18908",
+              "kind": "playlist",
+              "versionHash": "955e5884bac2edeafd892ce8447d26b82c23b7dd885951f30b3953e3b2875431"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/todays-hits-best-of-2025/pl.21e8899aaaeb455397c3d9a6faf18908"
+          }
+        },
+        {
+          "id": "pl.7d657a836db14d768accd2e6ffd1b0ad",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.7d657a836db14d768accd2e6ffd1b0ad?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "000000",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "71bcc1",
+              "textColor3": "648d91",
+              "textColor4": "578e93",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/93/7a/5f/937a5f9e-6c2d-54a4-5d81-8b51ca0f2c08/U0MtTVMtV1ctSW50ZXJuYXRpb25hbF9IaXRzX1RvZGF5LUFEQU1fSUQ9MTE0OTIzMDE0Mi5wbmc.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Hits",
+            "description": {
+              "short": "This selection of hits knows no boundaries.",
+              "standard": "From major pop hits by your favourites to breakthrough tracks from new artists across all genres, these are the songs that people have on repeat across the globe. This playlist is updated regularly, so if you like a song, add it to your library."
+            },
+            "editorialNotes": {
+              "name": "Today’s Hits: International",
+              "short": "This selection of hits knows no boundaries.",
+              "standard": "From major pop hits by your favourites to breakthrough tracks from new artists across all genres, these are the songs that people have on repeat across the globe. This playlist is updated regularly, so if you like a song, add it to your library.",
+              "tagline": "Recommended Playlist"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2025-10-02T07:52:08Z",
+            "name": "Today’s Hits: International",
+            "playParams": {
+              "id": "pl.7d657a836db14d768accd2e6ffd1b0ad",
+              "kind": "playlist",
+              "versionHash": "4e92905026cf1f6b076dc8b84f3596aa7965a8606d296d325155d8a60bda7c15"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/todays-hits-international/pl.7d657a836db14d768accd2e6ffd1b0ad"
+          }
+        },
+        {
+          "id": "pl.cdbb22c553f24f7eadefcdf213c899fd",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.cdbb22c553f24f7eadefcdf213c899fd?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "f4f4f4",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "0e0b06",
+              "textColor3": "302c27",
+              "textColor4": "302d28",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/21/d5/2f/21d52f1b-ef59-fee2-3fef-4635066accec/U0MtTVMtV1ctRm9yZXZlcl9IaXRzLUFEQU1fSUQ9MTUwOTY3NDMxNC5wbmc.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Hits",
+            "description": {
+              "short": "Pop favourites that just don’t fade.",
+              "standard": "With the volume of new music coming out, it’s easy to let things slip into the rearview. We got you. Don’t think of this playlist—a mix of the biggest pop hits of the recent past—as a nostalgia trip per se, just a refresh on the floor-filling, crowd-pleasing tracks that everyone loves. The music here has been around, but our editors still switch things up regularly, so if you hear something you like, add it to your library."
+            },
+            "editorialNotes": {
+              "name": "Forever Hits",
+              "short": "Pop favourites that just don’t fade.",
+              "standard": "With the volume of new music coming out, it’s easy to let things slip into the rearview. We got you. Don’t think of this playlist—a mix of the biggest pop hits of the recent past—as a nostalgia trip per se, just a refresh on the floor-filling, crowd-pleasing tracks that everyone loves. The music here has been around, but our editors still switch things up regularly, so if you hear something you like, add it to your library.",
+              "tagline": "Playlist for You"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-27T23:35:36Z",
+            "name": "Forever Hits",
+            "playParams": {
+              "id": "pl.cdbb22c553f24f7eadefcdf213c899fd",
+              "kind": "playlist",
+              "versionHash": "830291132f0aa7b8359b7232e7a5e1fcf06673ba705bb6ec2d337420a07414ee"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/forever-hits/pl.cdbb22c553f24f7eadefcdf213c899fd"
+          }
+        },
+        {
+          "id": "pl.e50ccee7318043eaaf8e8e28a2a55114",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.e50ccee7318043eaaf8e8e28a2a55114?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "d0a40f",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "17130a",
+              "textColor3": "2f260a",
+              "textColor4": "342a0a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/1c/3b/cd/1c3bcdcf-a42c-f453-8f46-634ea85d6457/4a1b0fae-64f7-4d30-8764-e1e1325ed079.png/{w}x{h}SC.CAESS02.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music 2000s",
+            "description": {
+              "short": "The idols and pop stars who ruled the early 21st century.",
+              "standard": "As the calendar flipped to Y2K, teen pop ruled music’s roost, with megastars like Britney Spears and *NSYNC dominating the charts. But over the course of the 2000s, a varied pop landscape would emerge, with streetwise hip-hop, emotionally fraught rock, swooning R&B, hook-studded emo and big-tent pop all getting their moments in the sun—and even coming together in DJ-crafted mash-ups and high-profile collaborations. Pop in the 21st century’s first decade reflected the emergent digital-music era, with the “on shuffle” ideal resulting in radio playlists where Kanye rubbed elbows with The Killers and Kelly Clarkson, or where a hard-hitting Eminem track was bracketed by offerings from Beyoncé and Mariah Carey. That mix of genres and outsize personalities made for an exciting decade that put the party back in pop."
+            },
+            "editorialNotes": {
+              "name": "2000s Hits Essentials",
+              "short": "The idols and pop stars who ruled the early 21st century.",
+              "standard": "As the calendar flipped to Y2K, teen pop ruled music’s roost, with megastars like Britney Spears and *NSYNC dominating the charts. But over the course of the 2000s, a varied pop landscape would emerge, with streetwise hip-hop, emotionally fraught rock, swooning R&B, hook-studded emo and big-tent pop all getting their moments in the sun—and even coming together in DJ-crafted mash-ups and high-profile collaborations. Pop in the 21st century’s first decade reflected the emergent digital-music era, with the “on shuffle” ideal resulting in radio playlists where Kanye rubbed elbows with The Killers and Kelly Clarkson, or where a hard-hitting Eminem track was bracketed by offerings from Beyoncé and Mariah Carey. That mix of genres and outsize personalities made for an exciting decade that put the party back in pop.",
+              "tagline": "Playlist We Like"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2025-11-10T10:06:06Z",
+            "name": "2000s Hits Essentials",
+            "playParams": {
+              "id": "pl.e50ccee7318043eaaf8e8e28a2a55114",
+              "kind": "playlist",
+              "versionHash": "98c18182f324217a812205351453caf496b08acd5a78cb36e61914f320f9d68b"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/2000s-hits-essentials/pl.e50ccee7318043eaaf8e8e28a2a55114"
+          }
+        },
+        {
+          "id": "pl.996f9aac71024223853d13b11dd340a2",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.996f9aac71024223853d13b11dd340a2?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "f4f0e7",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "262524",
+              "textColor3": "343331",
+              "textColor4": "474644",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9e/d1/2d/9ed12d16-60ed-b7a6-7912-158392cce809/U0MtTVMtV1ctQmVzdF9vZl8yMDIxX1QxLVRvZGF5c19IaXRzLUFEQU1fSUQ9MTU5MjE3NzIzNS5wbmc.png/{w}x{h}cc.jpg",
+              "width": 4320
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Hits",
+            "description": {
+              "short": "There was no denying Doja Cat in 2021.",
+              "standard": "One thing about Doja Cat—she will not be ignored. And why would you want to? She’s easily one of the most intriguing artists out right now, unafraid of controversy and, perhaps more importantly, unafraid to simply be herself. She started the first weeks of the year with a pair of feature spots: one on Saweetie’s “Best Friend” and another on Ariana Grande’s “34+35 (Remix)” alongside Megan Thee Stallion. Then, just as she was preparing to attend the Grammys as both a performer and a three-time nominee, her song “Streets” went ultra-viral. The TikTok #SilhouetteChallenge created in its honour ruled the internet for what felt like an eternity, and Doja reaped the benefits right up the charts.\n\nHer crowning achievement and moment of arrival came with the release of her third album, Planet Her. The project proved a showstopping showcase of her kaleidoscopic pop, dancing along a spectrum of styles, both developing and popular. When it was all said and done, her domination was cemented everywhere, from the charts to the stages, including performances at the Billboard Music Awards, iHeartRadio Music Awards, Global Citizen and others. She has amassed over 1.8 billion global streams. There’s no denying it: Doja Cat is a bona fide superstar."
+            },
+            "editorialNotes": {
+              "name": "Today’s Hits 2021",
+              "short": "There was no denying Doja Cat in 2021.",
+              "standard": "One thing about Doja Cat—she will not be ignored. And why would you want to? She’s easily one of the most intriguing artists out right now, unafraid of controversy and, perhaps more importantly, unafraid to simply be herself. She started the first weeks of the year with a pair of feature spots: one on Saweetie’s “Best Friend” and another on Ariana Grande’s “34+35 (Remix)” alongside Megan Thee Stallion. Then, just as she was preparing to attend the Grammys as both a performer and a three-time nominee, her song “Streets” went ultra-viral. The TikTok #SilhouetteChallenge created in its honour ruled the internet for what felt like an eternity, and Doja reaped the benefits right up the charts.\n\nHer crowning achievement and moment of arrival came with the release of her third album, Planet Her. The project proved a showstopping showcase of her kaleidoscopic pop, dancing along a spectrum of styles, both developing and popular. When it was all said and done, her domination was cemented everywhere, from the charts to the stages, including performances at the Billboard Music Awards, iHeartRadio Music Awards, Global Citizen and others. She has amassed over 1.8 billion global streams. There’s no denying it: Doja Cat is a bona fide superstar.",
+              "tagline": "Featured Playlist for You"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2022-10-25T23:33:30Z",
+            "name": "Today’s Hits 2021",
+            "playParams": {
+              "id": "pl.996f9aac71024223853d13b11dd340a2",
+              "kind": "playlist",
+              "versionHash": "d05941a99ee39230fc80f5f8910c64a3807b87ed67cce74854e5b24a43401c95"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/todays-hits-2021/pl.996f9aac71024223853d13b11dd340a2"
+          }
+        },
+        {
+          "id": "pl.4dc5ea56024143d69904e3b6f014ad76",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.4dc5ea56024143d69904e3b6f014ad76?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "292c8d",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "e6e7f3",
+              "textColor3": "c4c6e2",
+              "textColor4": "bbbddd",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2b/6a/9a/2b6a9a66-077d-aef4-f328-50b857a7429e/8c581287-089e-4365-acb4-6c4003824bb0.png/{w}x{h}SC.CAESS02.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "A bright, blissful flashback to the turn of the new millennium.",
+              "standard": "An abundance of electric mid-tempo rhythm and emotive ballads recall fond memories of fresh musical beginnings. Indonesian pop unfolds through melodic narratives, whether it's Sheila On 7's inspired slices of alt-rock guitar lines and lyrical strings, or Ecoutez's sun-kissed jazzy serenades. Agnes Monica adds alluring R&B tones to the mix, underscoring romance with a sizzling, soft-swaying beat."
+            },
+            "editorialNotes": {
+              "name": "2000s Indonesian Music Essentials",
+              "short": "A bright, blissful flashback to the turn of the new millennium.",
+              "standard": "An abundance of electric mid-tempo rhythm and emotive ballads recall fond memories of fresh musical beginnings. Indonesian pop unfolds through melodic narratives, whether it's Sheila On 7's inspired slices of alt-rock guitar lines and lyrical strings, or Ecoutez's sun-kissed jazzy serenades. Agnes Monica adds alluring R&B tones to the mix, underscoring romance with a sizzling, soft-swaying beat."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-05-25T09:47:11Z",
+            "name": "2000s Indonesian Music Essentials",
+            "playParams": {
+              "id": "pl.4dc5ea56024143d69904e3b6f014ad76",
+              "kind": "playlist",
+              "versionHash": "95d4c67f37b2327668bb5f5166a0228632386256fefe894d79668d8e034c6cf4"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/2000s-indonesian-music-essentials/pl.4dc5ea56024143d69904e3b6f014ad76"
+          }
+        },
+        {
+          "id": "pl.8d6e453de1c04e17b31839c504045455",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.8d6e453de1c04e17b31839c504045455?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "edc7d4",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "ffffff",
+              "textColor3": "2f2f41",
+              "textColor4": "514956",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/65/34/b9/6534b964-4c0b-ceb5-db05-c240e488da58/03d9acf9-cf30-489f-9133-f3749f4fb010.png/{w}x{h}SC.CAESS02.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "Unforgettable Indopop hits from the best of the best.",
+              "standard": "Indonesia's most loved artists represent every shade on the modern pop spectrum in these hit songs. Renowned rockers like Noah and Virzha deliver blazing guitars with searing melodies and gritty vocals; Maudy Ayunda and Chrisye bring heart-rending tones to orchestral ballads; Rinni Wulandari and Teddy Adhitya lay honeyed vocals under smooth, sensual R&B rhythms."
+            },
+            "editorialNotes": {
+              "name": "All-Time Indonesian Hits",
+              "short": "Unforgettable Indopop hits from the best of the best.",
+              "standard": "Indonesia's most loved artists represent every shade on the modern pop spectrum in these hit songs. Renowned rockers like Noah and Virzha deliver blazing guitars with searing melodies and gritty vocals; Maudy Ayunda and Chrisye bring heart-rending tones to orchestral ballads; Rinni Wulandari and Teddy Adhitya lay honeyed vocals under smooth, sensual R&B rhythms."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-10T09:10:04Z",
+            "name": "All-Time Indonesian Hits",
+            "playParams": {
+              "id": "pl.8d6e453de1c04e17b31839c504045455",
+              "kind": "playlist",
+              "versionHash": "3dd97d9331d62516b26b54d0ad6a7b62101b5966cbc11b60de86bc4b86e7cd7a"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/all-time-indonesian-hits/pl.8d6e453de1c04e17b31839c504045455"
+          }
+        },
+        {
+          "id": "pl.a7e15641f20542418b0fb4a6057d165a",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.a7e15641f20542418b0fb4a6057d165a?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "0e3b5f",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "ffffff",
+              "textColor3": "c6d2da",
+              "textColor4": "8dacc3",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/77/7e/85/777e8549-6e89-4ba6-7100-ffbfab5bf3bd/b1c656fd-e393-47f4-be76-06834f671af6.png/{w}x{h}cc.jpg",
+              "width": 4320
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Hits",
+            "description": {
+              "short": "Few songs in 2024 hit a high note quite like Billie Eilish’s “BIRDS OF A FEATHER”.",
+              "standard": "Few songs in 2024 resonated quite like Billie Eilish’s “BIRDS OF A FEATHER”, a warm, weightless, pan-genre pop tune that felt right for any mood or circumstance this year. It’s Eilish’s most airy and accessible music to date, but just as importantly, it represented real growth: It’s the sound of the (now two-time) Apple Music Artist of the Year purely herself, pushing her voice and putting herself out there like never before. “It’s the highest I’ve ever belted in my life,” she told Apple Music Radio’s Zane Lowe of the song’s soaring finish. “I was alone in the dark, thinking, ‘You know what? I’m going to try something.’ And I literally just kept going higher and higher. This is a girl who could not belt until I was literally 18. I couldn’t physically do it. So I’m so proud of that. I remember coming home and being like, ‘Mom! Listen!’” "
+            },
+            "editorialNotes": {
+              "name": "Today’s Hits: Best of 2024",
+              "short": "Few songs in 2024 hit a high note quite like Billie Eilish’s “BIRDS OF A FEATHER”.",
+              "standard": "Few songs in 2024 resonated quite like Billie Eilish’s “BIRDS OF A FEATHER”, a warm, weightless, pan-genre pop tune that felt right for any mood or circumstance this year. It’s Eilish’s most airy and accessible music to date, but just as importantly, it represented real growth: It’s the sound of the (now two-time) Apple Music Artist of the Year purely herself, pushing her voice and putting herself out there like never before. “It’s the highest I’ve ever belted in my life,” she told Apple Music Radio’s Zane Lowe of the song’s soaring finish. “I was alone in the dark, thinking, ‘You know what? I’m going to try something.’ And I literally just kept going higher and higher. This is a girl who could not belt until I was literally 18. I couldn’t physically do it. So I’m so proud of that. I remember coming home and being like, ‘Mom! Listen!’” ",
+              "tagline": "The Best of 2024"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2024-12-10T18:40:09Z",
+            "name": "Today’s Hits: Best of 2024",
+            "playParams": {
+              "id": "pl.a7e15641f20542418b0fb4a6057d165a",
+              "kind": "playlist",
+              "versionHash": "aeadce847f59876be2e1a465f0d360f5eb605ed3d405ba00dff08b1d06b6604d"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/todays-hits-best-of-2024/pl.a7e15641f20542418b0fb4a6057d165a"
+          }
+        },
+        {
+          "id": "pl.3a85cc83130443b68415718f19372cf4",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.3a85cc83130443b68415718f19372cf4?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "f4f4f4",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "100d08",
+              "textColor3": "322d28",
+              "textColor4": "312e29",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/97/fe/04/97fe04ce-1278-58db-3e7c-b0312ce6c65b/U0MtTVMtV1ctVG9kYXlfc19FYXN5X0hpdHMtQURBTV9JRD0xMjc3Mzk3MjU1LnBuZw.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Hits",
+            "description": {
+              "short": "The mellow side of modern pop.",
+              "standard": "Mixing recent hits with the occasional old favourite, this playlist showcases the lighter side of modern pop—music you can unwind to without drifting away. Lean back, relax, and enjoy. Our editors update these songs regularly. If you like something, add it to your library."
+            },
+            "editorialNotes": {
+              "name": "Today’s Easy Hits",
+              "short": "The mellow side of modern pop.",
+              "standard": "Mixing recent hits with the occasional old favourite, this playlist showcases the lighter side of modern pop—music you can unwind to without drifting away. Lean back, relax, and enjoy. Our editors update these songs regularly. If you like something, add it to your library.",
+              "tagline": "Songs We’re Loving"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-21T06:31:23Z",
+            "name": "Today’s Easy Hits",
+            "playParams": {
+              "id": "pl.3a85cc83130443b68415718f19372cf4",
+              "kind": "playlist",
+              "versionHash": "02930656176f326d4d7b6d187c7f427e4a94c66c363b94e028e4b11fed954322"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/todays-easy-hits/pl.3a85cc83130443b68415718f19372cf4"
+          }
+        },
+        {
+          "id": "pl.abb6f92c0e3843e0af2672adfde94c83",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.abb6f92c0e3843e0af2672adfde94c83?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "3b3eaf",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "e9e9f7",
+              "textColor3": "cacceb",
+              "textColor4": "c2c4e8",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0c/ed/af/0cedaf19-fe38-9744-0157-aac21878f0e5/46f4d898-4204-4f18-848d-9c889ca14548.png/{w}x{h}SC.CAESS02.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "A survey of the decade’s definitive Indonesian pop cuts.",
+              "standard": "One of the most notable shifts in Indonesian pop throughout the 2010s was the increasingly prominent use of the English language. Stephanie Poetri’s “I Love You 3000” and NIKI’s “lowkey” showed that next-gen Indonesian artists are more than adept at conversing with global listeners linguistically as well as stylistically. Tulus and Hindia are shining examples of how the biggest sensations can emerge from the grassroots scene. Groups such as RAN and HIVI! churned out catchy numbers underpinned with jazzy chords and funky rhythms."
+            },
+            "editorialNotes": {
+              "name": "2010s Indonesian Essentials",
+              "short": "A survey of the decade’s definitive Indonesian pop cuts.",
+              "standard": "One of the most notable shifts in Indonesian pop throughout the 2010s was the increasingly prominent use of the English language. Stephanie Poetri’s “I Love You 3000” and NIKI’s “lowkey” showed that next-gen Indonesian artists are more than adept at conversing with global listeners linguistically as well as stylistically. Tulus and Hindia are shining examples of how the biggest sensations can emerge from the grassroots scene. Groups such as RAN and HIVI! churned out catchy numbers underpinned with jazzy chords and funky rhythms."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-03T10:14:08Z",
+            "name": "2010s Indonesian Essentials",
+            "playParams": {
+              "id": "pl.abb6f92c0e3843e0af2672adfde94c83",
+              "kind": "playlist",
+              "versionHash": "a47644a0f0a258756dccb197a828e121a4ade26be4d00bb394e7846011ab8b95"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/2010s-indonesian-essentials/pl.abb6f92c0e3843e0af2672adfde94c83"
+          }
+        }
+      ],
+      "name": "Playlists",
+      "groupId": "playlist"
+    }
+  },
+  "meta": {
+    "results": {
+      "order": [
+        "playlist"
+      ],
+      "rawOrder": [
+        "playlist"
+      ]
+    },
+    "metrics": {
+      "dataSetId": "71f49791-b04b-43cb-8c6d-6dd653901e40"
+    }
+  }
+}

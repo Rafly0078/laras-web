@@ -1,0 +1,1751 @@
+{
+  "data": [
+    {
+      "id": "1001681665",
+      "type": "artists",
+      "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+      "attributes": {
+        "artwork": {
+          "bgColor": "070506",
+          "defaultCropCode": "bb",
+          "hasP3": true,
+          "height": 1500,
+          "textColor1": "e1af96",
+          "textColor2": "db8248",
+          "textColor3": "b58d79",
+          "textColor4": "b0693b",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+          "width": 1500
+        },
+        "genreNames": [
+          "Pop"
+        ],
+        "name": "Tulus",
+        "url": "https://music.apple.com/id/artist/tulus/1001681665"
+      },
+      "relationships": {
+        "albums": {
+          "href": "/v1/catalog/id/artists/1001681665/albums?l=en-GB",
+          "data": [
+            {
+              "id": "1612163750",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1612163750?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2022 TulusCompany",
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": false,
+                "name": "Manusia",
+                "playParams": {
+                  "id": "1612163750",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2022-03-03",
+                "trackCount": 10,
+                "upc": "3616844868521",
+                "url": "https://music.apple.com/id/album/manusia/1612163750"
+              }
+            },
+            {
+              "id": "1639765367",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1639765367?l=en-GB",
+              "attributes": {
+                "artistName": "Yovie Widianto, Tulus & Glenn Fredly",
+                "artwork": {
+                  "bgColor": "968c71",
+                  "hasP3": false,
+                  "height": 2880,
+                  "textColor1": "050607",
+                  "textColor2": "11110f",
+                  "textColor3": "22211c",
+                  "textColor4": "2c2922",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/67/53/496753aa-6f3a-2019-2514-e744e7f5f8ca/22UMGIM79426.rgb.jpg/{w}x{h}bb.jpg",
+                  "width": 2880
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2019 YWMF",
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Adu Rayu - Single",
+                "playParams": {
+                  "id": "1639765367",
+                  "kind": "album"
+                },
+                "recordLabel": "YWMF",
+                "releaseDate": "2019-02-22",
+                "trackCount": 1,
+                "upc": "00602448322319",
+                "url": "https://music.apple.com/id/album/adu-rayu-single/1639765367"
+              }
+            },
+            {
+              "id": "6784585100",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/6784585100?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "a6a953",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "010100",
+                  "textColor2": "060702",
+                  "textColor3": "21230d",
+                  "textColor4": "282a11",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2026 TulusCompany",
+                "editorialNotes": {
+                  "short": "The star reassesses life’s low moments over warm, buoyant pop."
+                },
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Teh Hijau - Single",
+                "playParams": {
+                  "id": "6784585100",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2026-06-30",
+                "trackCount": 1,
+                "upc": "3618113290095",
+                "url": "https://music.apple.com/id/album/teh-hijau-single/6784585100"
+              }
+            },
+            {
+              "id": "1137907436",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1137907436?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "484d53",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "f7e2e1",
+                  "textColor2": "f5dddd",
+                  "textColor3": "d4c4c5",
+                  "textColor4": "d2c0c1",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2016 TulusCompany",
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": false,
+                "name": "Monokrom",
+                "playParams": {
+                  "id": "1137907436",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2016-08-03",
+                "trackCount": 10,
+                "upc": "3614970043287",
+                "url": "https://music.apple.com/id/album/monokrom/1137907436"
+              }
+            },
+            {
+              "id": "1086493643",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1086493643?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "e5eaee",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "0f1114",
+                  "textColor2": "171619",
+                  "textColor3": "3a3c40",
+                  "textColor4": "404143",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/8a/1e/b18a1ebe-59bb-6e49-f64b-5be2c40e510f/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "atmos",
+                  "lossless",
+                  "lossy-stereo",
+                  "spatial"
+                ],
+                "copyright": "℗ 2016 TulusCompany",
+                "genreNames": [
+                  "Alternative",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Pamit - Single",
+                "playParams": {
+                  "id": "1086493643",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2016-02-26",
+                "trackCount": 1,
+                "upc": "3614597553428",
+                "url": "https://music.apple.com/id/album/pamit-single/1086493643"
+              }
+            },
+            {
+              "id": "823622637",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/823622637?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "212834",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "f5ddcd",
+                  "textColor2": "d8c8be",
+                  "textColor3": "cab9ae",
+                  "textColor4": "b3a8a2",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/ef/7b/18ef7b5d-80e8-e4c7-838a-3110ebf94e52/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2014 TulusCompany",
+                "genreNames": [
+                  "Pop",
+                  "Music",
+                  "Rock",
+                  "Worldwide"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": false,
+                "name": "Gajah",
+                "playParams": {
+                  "id": "823622637",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2014-02-18",
+                "trackCount": 9,
+                "upc": "3610155415689",
+                "url": "https://music.apple.com/id/album/gajah/823622637"
+              }
+            },
+            {
+              "id": "1424234121",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1424234121?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "af8056",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "040100",
+                  "textColor2": "170e07",
+                  "textColor3": "261b11",
+                  "textColor4": "352517",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/de/f7/8fdef7fc-fe08-f439-76a3-2db00c790de5/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2018 TulusCompany",
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Labirin - Single",
+                "playParams": {
+                  "id": "1424234121",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2018-08-24",
+                "trackCount": 1,
+                "upc": "3615933802866",
+                "url": "https://music.apple.com/id/album/labirin-single/1424234121"
+              }
+            },
+            {
+              "id": "1514742529",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1514742529?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "ffffff",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "111111",
+                  "textColor2": "111111",
+                  "textColor3": "414141",
+                  "textColor4": "414141",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/01/e0/f101e0ff-8b9d-b2e0-541d-034631449e4b/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2020 TulusCompany",
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Adaptasi - Single",
+                "playParams": {
+                  "id": "1514742529",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2020-05-24",
+                "trackCount": 1,
+                "upc": "3616406033374",
+                "url": "https://music.apple.com/id/album/adaptasi-single/1514742529"
+              }
+            },
+            {
+              "id": "918912446",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/918912446?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "ebf0f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "282d32",
+                  "textColor2": "313436",
+                  "textColor3": "4f5459",
+                  "textColor4": "565a5c",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/63/22/42/632242fa-4a88-ccde-fa08-d8688d492262/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2011 TulusCompany",
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": false,
+                "name": "Tulus",
+                "playParams": {
+                  "id": "918912446",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2011-03-08",
+                "trackCount": 10,
+                "upc": "3610158510411",
+                "url": "https://music.apple.com/id/album/tulus/918912446"
+              }
+            },
+            {
+              "id": "1138140370",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1138140370?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "484d53",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "f7e2e1",
+                  "textColor2": "f5dddd",
+                  "textColor3": "d4c4c5",
+                  "textColor4": "d2c0c1",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/92/59/8b/92598b17-f649-394b-b0b6-346c7320f16a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2016 TulusCompany",
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Ruang Sendiri - Single",
+                "playParams": {
+                  "id": "1138140370",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2016-07-27",
+                "trackCount": 1,
+                "upc": "3614970100584",
+                "url": "https://music.apple.com/id/album/ruang-sendiri-single/1138140370"
+              }
+            },
+            {
+              "id": "1458312921",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1458312921?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "020403",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "e8e8e8",
+                  "textColor2": "cacaca",
+                  "textColor3": "bababa",
+                  "textColor4": "a2a2a2",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/3c/09/55/3c095569-332c-0713-ced1-240f8d419c02/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "contentRating": "explicit",
+                "copyright": "℗ 2019 TulusCompany",
+                "editorialNotes": {
+                  "short": "A live album that certifies the pop storyteller’s mesmeric charm."
+                },
+                "genreNames": [
+                  "Alternative",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": false,
+                "name": "Langsung Dari Konser Monokrom Jakarta (Live)",
+                "playParams": {
+                  "id": "1458312921",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2019-04-05",
+                "trackCount": 21,
+                "upc": "3615938056790",
+                "url": "https://music.apple.com/id/album/langsung-dari-konser-monokrom-jakarta-live/1458312921"
+              }
+            },
+            {
+              "id": "1445195256",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1445195256?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "82bada",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "0a0a0b",
+                  "textColor2": "0c0b0b",
+                  "textColor3": "222d35",
+                  "textColor4": "242e34",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/79/b8/98/79b898ce-88cc-387f-730d-94041ec5a330/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2018 TulusCompany",
+                "genreNames": [
+                  "J-Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Natsu Wa Kinu (Japanese) - Single",
+                "playParams": {
+                  "id": "1445195256",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2018-12-05",
+                "trackCount": 1,
+                "upc": "3615935790437",
+                "url": "https://music.apple.com/id/album/natsu-wa-kinu-japanese-single/1445195256"
+              }
+            },
+            {
+              "id": "1048350907",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1048350907?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "dde5e8",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "0a0a08",
+                  "textColor2": "0d1013",
+                  "textColor3": "343635",
+                  "textColor4": "373a3d",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/aa/a4/6d/aaa46d93-7372-af7a-af2b-339beda9a18e/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2015 TulusCompany",
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Kutsu - Single",
+                "playParams": {
+                  "id": "1048350907",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2015-12-10",
+                "trackCount": 1,
+                "upc": "3614595237085",
+                "url": "https://music.apple.com/id/album/kutsu-single/1048350907"
+              }
+            },
+            {
+              "id": "1373114002",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1373114002?l=en-GB",
+              "attributes": {
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f0f0f0",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "040404",
+                  "textColor2": "171717",
+                  "textColor3": "333333",
+                  "textColor4": "424242",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/dc/9c/bfdc9ca0-d81b-1d95-1b43-8decc8df210f/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2018 TulusCompany",
+                "genreNames": [
+                  "Alternative",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Langit Abu - Abu (Versi Akapela) - Single",
+                "playParams": {
+                  "id": "1373114002",
+                  "kind": "album"
+                },
+                "recordLabel": "TulusCompany",
+                "releaseDate": "2018-04-20",
+                "trackCount": 1,
+                "upc": "3615931686932",
+                "url": "https://music.apple.com/id/album/langit-abu-abu-versi-akapela-single/1373114002"
+              }
+            },
+            {
+              "id": "1382207738",
+              "type": "albums",
+              "href": "/v1/catalog/id/albums/1382207738?l=en-GB",
+              "attributes": {
+                "artistName": "Andien, Tulus & VIDI",
+                "artwork": {
+                  "bgColor": "dbecdb",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "070910",
+                  "textColor2": "0b0c0b",
+                  "textColor3": "313739",
+                  "textColor4": "343834",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/af/a4/d7/afa4d77d-d143-ed7c-21d1-aaa9313a5b9d/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "copyright": "℗ 2018 Libraries Music",
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "isCompilation": false,
+                "isComplete": true,
+                "isMasteredForItunes": false,
+                "isPrerelease": false,
+                "isSingle": true,
+                "name": "Semua Murid Semua Guru - Single",
+                "playParams": {
+                  "id": "1382207738",
+                  "kind": "album"
+                },
+                "recordLabel": "Libraries Music",
+                "releaseDate": "2018-05-18",
+                "trackCount": 1,
+                "upc": "3615932090493",
+                "url": "https://music.apple.com/id/album/semua-murid-semua-guru-single/1382207738"
+              }
+            }
+          ]
+        },
+        "songs": {
+          "href": "/v1/catalog/id/artists/1001681665/songs?l=en-GB",
+          "next": "/v1/catalog/id/artists/1001681665/songs?l=en-GB&offset=20",
+          "data": [
+            {
+              "id": "1612164667",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164667?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Ari Renaldi",
+                "discNumber": 1,
+                "durationInMillis": 242000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253130",
+                "name": "Hati-Hati di Jalan",
+                "playParams": {
+                  "id": "1612164667",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/50/cd/bb50cd11-dbbc-f84e-1244-f1b786af7ab4/mzaf_4105938475286762493.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 8,
+                "url": "https://music.apple.com/id/album/hati-hati-di-jalan/1612163750?i=1612164667"
+              }
+            },
+            {
+              "id": "1639765384",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1639765384?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Yovie Widianto, Tulus & Glenn Fredly",
+                "albumName": "Adu Rayu - Single",
+                "artistName": "Yovie Widianto, Tulus & Glenn Fredly",
+                "artwork": {
+                  "bgColor": "968c71",
+                  "hasP3": false,
+                  "height": 2880,
+                  "textColor1": "050607",
+                  "textColor2": "11110f",
+                  "textColor3": "22211c",
+                  "textColor4": "2c2922",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/67/53/496753aa-6f3a-2019-2514-e744e7f5f8ca/22UMGIM79426.rgb.jpg/{w}x{h}bb.jpg",
+                  "width": 2880
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Yovie Widianto",
+                "discNumber": 1,
+                "durationInMillis": 207700,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR10S1956070",
+                "name": "Adu Rayu",
+                "playParams": {
+                  "id": "1639765384",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/6b/c7/196bc7a5-291f-7c3a-972b-7ca7ed7bd50c/mzaf_10440665454974250476.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2019-02-22",
+                "trackNumber": 1,
+                "url": "https://music.apple.com/id/album/adu-rayu/1639765367?i=1639765384"
+              }
+            },
+            {
+              "id": "1612164256",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164256?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Topan Abimanyu",
+                "discNumber": 1,
+                "durationInMillis": 170000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253127",
+                "name": "Interaksi",
+                "playParams": {
+                  "id": "1612164256",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/70/e3/8170e3be-9115-f656-1bd1-ad56129ddaa3/mzaf_14557584647694110489.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 4,
+                "url": "https://music.apple.com/id/album/interaksi/1612163750?i=1612164256"
+              }
+            },
+            {
+              "id": "1137907946",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1137907946?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Monokrom",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "484d53",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "f7e2e1",
+                  "textColor2": "f5dddd",
+                  "textColor3": "d4c4c5",
+                  "textColor4": "d2c0c1",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Ari Renaldi",
+                "discNumber": 1,
+                "durationInMillis": 214567,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR59R1636575",
+                "name": "Monokrom",
+                "playParams": {
+                  "id": "1137907946",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/7b/00/f07b00d4-cea0-79f0-3062-7e2b2d2d274a/mzaf_11163551377700516028.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2016-08-03",
+                "trackNumber": 10,
+                "url": "https://music.apple.com/id/album/monokrom/1137907436?i=1137907946"
+              }
+            },
+            {
+              "id": "823622721",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/823622721?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Gajah",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "212834",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "f5ddcd",
+                  "textColor2": "d8c8be",
+                  "textColor3": "cab9ae",
+                  "textColor4": "b3a8a2",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/ef/7b/18ef7b5d-80e8-e4c7-838a-3110ebf94e52/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus",
+                "discNumber": 1,
+                "durationInMillis": 221540,
+                "genreNames": [
+                  "Pop",
+                  "Music",
+                  "Rock",
+                  "Worldwide"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR6V82272642",
+                "name": "Jangan Cintai Aku Apa Adanya",
+                "playParams": {
+                  "id": "823622721",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/98/28/d498285a-e644-2d6d-15e1-33fe57c9b9f3/mzaf_7562772024071116877.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2014-02-18",
+                "trackNumber": 9,
+                "url": "https://music.apple.com/id/album/jangan-cintai-aku-apa-adanya/823622637?i=823622721"
+              }
+            },
+            {
+              "id": "1612164680",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164680?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Ari Renaldi",
+                "discNumber": 1,
+                "durationInMillis": 240000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253131",
+                "name": "Diri",
+                "playParams": {
+                  "id": "1612164680",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/3d/23/ed3d23ea-30a4-ea64-37cb-4aa174c8f402/mzaf_1445550830766162689.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 9,
+                "url": "https://music.apple.com/id/album/diri/1612163750?i=1612164680"
+              }
+            },
+            {
+              "id": "823622715",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/823622715?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Gajah",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "212834",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "f5ddcd",
+                  "textColor2": "d8c8be",
+                  "textColor3": "cab9ae",
+                  "textColor4": "b3a8a2",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/ef/7b/18ef7b5d-80e8-e4c7-838a-3110ebf94e52/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus",
+                "discNumber": 1,
+                "durationInMillis": 219284,
+                "genreNames": [
+                  "Pop",
+                  "Music",
+                  "Rock",
+                  "Worldwide"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR6V82272636",
+                "name": "Sepatu",
+                "playParams": {
+                  "id": "823622715",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/cf/be/4ecfbe5a-c5b1-ec09-a734-567f98902356/mzaf_17105447625319821952.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2014-02-18",
+                "trackNumber": 3,
+                "url": "https://music.apple.com/id/album/sepatu/823622637?i=823622715"
+              }
+            },
+            {
+              "id": "918912463",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/918912463?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Tulus",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "ebf0f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "282d32",
+                  "textColor2": "313436",
+                  "textColor3": "4f5459",
+                  "textColor4": "565a5c",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/63/22/42/632242fa-4a88-ccde-fa08-d8688d492262/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus",
+                "discNumber": 1,
+                "durationInMillis": 222893,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR10S1433179",
+                "name": "Teman Hidup",
+                "playParams": {
+                  "id": "918912463",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e5/1e/31/e51e3149-e02d-e76b-6d7f-74b9d69a0701/mzaf_14274688828676650275.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2011-03-08",
+                "trackNumber": 8,
+                "url": "https://music.apple.com/id/album/teman-hidup/918912446?i=918912463"
+              }
+            },
+            {
+              "id": "1137907715",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1137907715?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Monokrom",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "484d53",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "f7e2e1",
+                  "textColor2": "f5dddd",
+                  "textColor3": "d4c4c5",
+                  "textColor4": "d2c0c1",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Ari Renaldi",
+                "discNumber": 1,
+                "durationInMillis": 202951,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": false,
+                "isrc": "FR59R1636572",
+                "name": "Langit Abu-Abu",
+                "playParams": {
+                  "id": "1137907715",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/ca/67/55ca675c-0104-79ec-4a96-4e562003e52f/mzaf_8674182646572252430.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2016-08-03",
+                "trackNumber": 7,
+                "url": "https://music.apple.com/id/album/langit-abu-abu/1137907436?i=1137907715"
+              }
+            },
+            {
+              "id": "918912453",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/918912453?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Tulus",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "ebf0f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "282d32",
+                  "textColor2": "313436",
+                  "textColor3": "4f5459",
+                  "textColor4": "565a5c",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/63/22/42/632242fa-4a88-ccde-fa08-d8688d492262/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Razis Henry",
+                "discNumber": 1,
+                "durationInMillis": 240493,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR10S1433175",
+                "name": "Sewindu",
+                "playParams": {
+                  "id": "918912453",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/6b/25/a46b25c3-b1e1-2ec4-e9cb-c575a65657a5/mzaf_13814704567133662227.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2011-03-08",
+                "trackNumber": 4,
+                "url": "https://music.apple.com/id/album/sewindu/918912446?i=918912453"
+              }
+            },
+            {
+              "id": "6784585105",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/6784585105?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Teh Hijau - Single",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "a6a953",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "010100",
+                  "textColor2": "060702",
+                  "textColor3": "21230d",
+                  "textColor4": "282a11",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus",
+                "discNumber": 1,
+                "durationInMillis": 212879,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FRX282637095",
+                "name": "Teh Hijau",
+                "playParams": {
+                  "id": "6784585105",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/fe/74/88fe7468-da1c-ad60-2080-f88563e38040/mzaf_3893396008702662653.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2026-06-30",
+                "trackNumber": 1,
+                "url": "https://music.apple.com/id/album/teh-hijau/6784585100?i=6784585105"
+              }
+            },
+            {
+              "id": "1612164263",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164263?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Petra Sihombing",
+                "discNumber": 1,
+                "durationInMillis": 235000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253128",
+                "name": "Jatuh Suka",
+                "playParams": {
+                  "id": "1612164263",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/d9/86/a5d986e9-17d5-03dc-d696-29e6bc33cc94/mzaf_17677146318972951508.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 6,
+                "url": "https://music.apple.com/id/album/jatuh-suka/1612163750?i=1612164263"
+              }
+            },
+            {
+              "id": "1137907645",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1137907645?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Monokrom",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "484d53",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "f7e2e1",
+                  "textColor2": "f5dddd",
+                  "textColor3": "d4c4c5",
+                  "textColor4": "d2c0c1",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Ari Renaldi",
+                "discNumber": 1,
+                "durationInMillis": 269247,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR59R1636568",
+                "name": "Ruang Sendiri",
+                "playParams": {
+                  "id": "1137907645",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/a6/70/23a670d5-c834-ef1c-f9dd-61588bc98a60/mzaf_12796494802182073440.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2016-07-27",
+                "trackNumber": 3,
+                "url": "https://music.apple.com/id/album/ruang-sendiri/1137907436?i=1137907645"
+              }
+            },
+            {
+              "id": "1137907656",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1137907656?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Monokrom",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "484d53",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "f7e2e1",
+                  "textColor2": "f5dddd",
+                  "textColor3": "d4c4c5",
+                  "textColor4": "d2c0c1",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Ari Renaldi",
+                "discNumber": 1,
+                "durationInMillis": 229548,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR59R1636569",
+                "name": "Tukar Jiwa",
+                "playParams": {
+                  "id": "1137907656",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/75/5d/73/755d730d-15c7-e6e0-be98-bff7755a52c5/mzaf_16701980325133228136.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2016-08-03",
+                "trackNumber": 4,
+                "url": "https://music.apple.com/id/album/tukar-jiwa/1137907436?i=1137907656"
+              }
+            },
+            {
+              "id": "1086493644",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1086493644?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Pamit - Single",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "e5eaee",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "0f1114",
+                  "textColor2": "171619",
+                  "textColor3": "3a3c40",
+                  "textColor4": "404143",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b1/8a/1e/b18a1ebe-59bb-6e49-f64b-5be2c40e510f/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "atmos",
+                  "lossless",
+                  "lossy-stereo",
+                  "spatial"
+                ],
+                "composerName": "Muhammad Tulus & Ari Renaldi",
+                "discNumber": 1,
+                "durationInMillis": 233600,
+                "genreNames": [
+                  "Alternative",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR10S1652722",
+                "name": "Pamit",
+                "playParams": {
+                  "id": "1086493644",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/61/96/e76196b3-30f0-7e8b-f119-4d3dda686040/mzaf_12951009867575384035.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2016-02-26",
+                "trackNumber": 1,
+                "url": "https://music.apple.com/id/album/pamit/1086493643?i=1086493644"
+              }
+            },
+            {
+              "id": "1496913224",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1496913224?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Various Artists",
+                "albumName": "Pongki Barata Meets The Stars",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "ededed",
+                  "hasP3": false,
+                  "height": 1440,
+                  "textColor1": "12100f",
+                  "textColor2": "201b19",
+                  "textColor3": "3e3c3c",
+                  "textColor4": "494543",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/07/86/e8/0786e831-263b-53e9-591a-6c87269fd5c8/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 1440
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Pongki Barata",
+                "discNumber": 1,
+                "durationInMillis": 232227,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FRX281937423",
+                "name": "1000 Tahun Lamanya",
+                "playParams": {
+                  "id": "1496913224",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c2/03/d3/c203d3ca-e053-eda5-5a1b-c4e2e4a1799f/mzaf_1373660739347578990.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2014-09-20",
+                "trackNumber": 1,
+                "url": "https://music.apple.com/id/album/1000-tahun-lamanya/1496913220?i=1496913224"
+              }
+            },
+            {
+              "id": "1612164136",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164136?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Petra Sihombing",
+                "discNumber": 1,
+                "durationInMillis": 254600,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR10S2294308",
+                "name": "Tujuh Belas",
+                "playParams": {
+                  "id": "1612164136",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/f2/e0/9df2e08d-6e5d-9d79-f925-f4dd84d1bfca/mzaf_17289810758853934068.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 1,
+                "url": "https://music.apple.com/id/album/tujuh-belas/1612163750?i=1612164136"
+              }
+            },
+            {
+              "id": "1424234507",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1424234507?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Labirin - Single",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "af8056",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "040100",
+                  "textColor2": "170e07",
+                  "textColor3": "261b11",
+                  "textColor4": "352517",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/de/f7/8fdef7fc-fe08-f439-76a3-2db00c790de5/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Petra Sihombing",
+                "discNumber": 1,
+                "durationInMillis": 182656,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR59R1878986",
+                "name": "Labirin",
+                "playParams": {
+                  "id": "1424234507",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/8f/07/fd8f07c3-e3fa-4727-79bc-1ec63043584d/mzaf_11372309953434782322.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2018-08-24",
+                "trackNumber": 1,
+                "url": "https://music.apple.com/id/album/labirin/1424234121?i=1424234507"
+              }
+            },
+            {
+              "id": "1612164268",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164268?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus, Theresia Margaretha Gultom & Topan Abimanyu",
+                "discNumber": 1,
+                "durationInMillis": 260000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": false,
+                "isrc": "FR2X42253129",
+                "name": "Nala",
+                "playParams": {
+                  "id": "1612164268",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/d0/04/4dd004a3-04cb-06ae-4f85-2338f0885c40/mzaf_14041390812904574583.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 7,
+                "url": "https://music.apple.com/id/album/nala/1612163750?i=1612164268"
+              }
+            },
+            {
+              "id": "1612164260",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164260?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus, Yoseph Sitompul & Arifandi",
+                "discNumber": 1,
+                "durationInMillis": 252000,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": false,
+                "isrc": "FRX282190147",
+                "name": "Ingkar",
+                "playParams": {
+                  "id": "1612164260",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/a7/d2/33a7d249-139e-3c97-cf65-761111a03b04/mzaf_7445605770477184972.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2021-08-13",
+                "trackNumber": 5,
+                "url": "https://music.apple.com/id/album/ingkar/1612163750?i=1612164260"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

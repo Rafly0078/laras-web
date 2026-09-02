@@ -1,0 +1,1931 @@
+{
+  "meta": {
+    "title": "All-Time Indonesian Hits",
+    "curator": "Apple Music Indonesian Music",
+    "description": "Indonesia's most loved artists represent every shade on the modern pop spectrum in these hit songs. Renowned rockers like Noah and Virzha deliver blazing guitars with searing melodies and gritty vocals; Maudy Ayunda and Chrisye bring heart-rending tones to orchestral ballads; Rinni Wulandari and Teddy Adhitya lay honeyed vocals under smooth, sensual R&B rhythms.",
+    "artwork": {
+      "bgColor": "edc7d4",
+      "hasP3": false,
+      "height": 1080,
+      "textColor1": "ffffff",
+      "textColor2": "ffffff",
+      "textColor3": "2f2f41",
+      "textColor4": "514956",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/65/34/b9/6534b964-4c0b-ceb5-db05-c240e488da58/03d9acf9-cf30-489f-9133-f3749f4fb010.png/{w}x{h}SC.CAESS02.jpg?l=en-GB",
+      "width": 1080
+    }
+  },
+  "tracks": {
+    "playlist_id": "pl.8d6e453de1c04e17b31839c504045455",
+    "total_parsed_tracks": 30,
+    "parsed_tracks": [
+      {
+        "id": "326490280",
+        "title": "Bendera",
+        "artist": "Cokelat",
+        "album": "Rasa Baru",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/4f/26/8d/mzi.lotttsrt.jpg/600x600bb.jpg",
+        "duration_ms": 247787,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1577743417",
+        "title": "Bento",
+        "artist": "Iwan Fals & Swami",
+        "album": "Swami 1",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/d8/99/71d89975-e1ee-6694-7d05-ef0a9c60d91c/dj.qyacxtqj.jpg/600x600bb.jpg",
+        "duration_ms": 357261,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "533699934",
+        "title": "Arjuna",
+        "artist": "Dewa 19",
+        "album": "Cintailah Cinta",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/47/e3/10/47e310f4-f7e5-3d7e-b23f-d058810765e4/dewa_cintailah_cinta.jpg/600x600bb.jpg",
+        "duration_ms": 313533,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "326499684",
+        "title": "Seberapa Pantas",
+        "artist": "Sheila On 7",
+        "album": "07 Des",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/11/3a/2c/113a2cd5-3613-736c-8219-8a0a620dfa41/mzi.ruzegwjg.jpg/600x600bb.jpg",
+        "duration_ms": 241285,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "534962625",
+        "title": "Berharap Tak Berpisah",
+        "artist": "Reza Artamevia",
+        "album": "Keyakinan",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a9/36/1a/a9361ab5-dc66-f37c-57ff-2b012eef187b/Reza_Keyakinan.jpg/600x600bb.jpg",
+        "duration_ms": 247293,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1566337654",
+        "title": "Sempurna",
+        "artist": "Andra And The Backbone",
+        "album": "Andra & The Backbone",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/76/9f/77769f6a-bdba-09ee-2d22-ba89fdc19010/190296746949.jpg/600x600bb.jpg",
+        "duration_ms": 268423,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "535422660",
+        "title": "Salah",
+        "artist": "POTRET",
+        "album": "Potret II",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/82/9a/4c829afb-0472-7927-984c-3df794a06d79/Potret_II.jpg/600x600bb.jpg",
+        "duration_ms": 203173,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1753913505",
+        "title": "Soulmate",
+        "artist": "Kahitna",
+        "album": "Soulmate",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/4f/77/8d4f7752-484b-fb95-19b6-45363209be15/24UMGIM29515.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 211302,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1536569098",
+        "title": "Pelangi Di Matamu",
+        "artist": "Jamrud",
+        "album": "Ningrat",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/20/b6/86/20b68651-e1d8-aace-adf1-6a708199a588/190295133986.jpg/600x600bb.jpg",
+        "duration_ms": 326867,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1639768073",
+        "title": "Mantan Terindah",
+        "artist": "Yovie Widianto & Raisa",
+        "album": "Yovie and His Friends: IRREPLACEABLE (#takkanterganti)",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/66/f2/e9/66f2e945-a8bc-6d43-296b-da19bb3794ab/22UMGIM79442.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 208267,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1769042548",
+        "title": "Hapus Aku",
+        "artist": "Nidji",
+        "album": "Breakthru",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/9c/04/c39c040e-64a3-90e7-0abd-64cd0f1b1b56/24UMGIM29485.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 252540,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1823953765",
+        "title": "Malaikat Juga Tahu",
+        "artist": "Dee Lestari",
+        "album": "Rectoverso",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5c/ff/dc5cffcd-6d77-345e-1604-3aa1aa1af5d1/25UMGIM90088.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 266000,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1677685278",
+        "title": "Rahasia Hati (Remastered 2023)",
+        "artist": "Element",
+        "album": "Perjalanan 1999 - 2003 (Remastered 2023)",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/1b/e4/b91be479-1974-2eed-b675-beedc619e64d/cover.jpg/600x600bb.jpg",
+        "duration_ms": 190152,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1753912757",
+        "title": "Ingatlah Hari Ini",
+        "artist": "Project Pop",
+        "album": "PopOK",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/ac/cb/69accb69-dae5-4180-ebfb-a133407a8c65/24UMGIM29472.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 240930,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1050615679",
+        "title": "Kau Adalah (feat. Rayi Putra)",
+        "artist": "Isyana Sarasvati",
+        "album": "Explore!",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/cc/ed/53/cced53d1-ea13-12df-119c-3819a30e0f60/886445558678.jpg/600x600bb.jpg",
+        "duration_ms": 242961,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "307679181",
+        "title": "Menjaga Hati",
+        "artist": "Yovie & Nuno",
+        "album": "The Special One",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c8/3c/bd/c83cbdc5-21d2-4440-1d92-95b3d8aa2419/mzi.qjqxjphw.jpg/600x600bb.jpg",
+        "duration_ms": 237400,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "853560088",
+        "title": "Cinta Dan Rahasia (feat. Glenn Fredly)",
+        "artist": "Yura Yunita",
+        "album": "Yura",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/65/4a/46/654a46ed-33ea-d3c8-1464-a672bf4b7ec0/cover.jpg/600x600bb.jpg",
+        "duration_ms": 262060,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1612164667",
+        "title": "Hati-Hati di Jalan",
+        "artist": "Tulus",
+        "album": "Manusia",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/600x600bb.jpg",
+        "duration_ms": 242000,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1481804589",
+        "title": "Rumah Ke Rumah",
+        "artist": "Hindia",
+        "album": "Menari Dengan Bayangan",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2a/da/57/2ada5765-472f-3193-11a3-861db06da99d/cover.jpg/600x600bb.jpg",
+        "duration_ms": 277457,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1829897693",
+        "title": "Pergilah Kau",
+        "artist": "Sherina Munaf",
+        "album": "Gemini",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/54/f9/9d54f9ca-44ee-0466-01e2-0782e421d72c/25UM1IM02206.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 233200,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "326493085",
+        "title": "Semua Tak Sama",
+        "artist": "Padi",
+        "album": "Sesuatu Yang Tertunda",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/f9/5d/f9/mzi.cqsqbhcm.jpg/600x600bb.jpg",
+        "duration_ms": 339230,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1832671149",
+        "title": "Tak Sanggup Lagi",
+        "artist": "Rossa",
+        "album": "Platinum Collection Rossa",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/f5/bc/03f5bc4a-fe3e-9843-2a08-9add257fb6c5/dj.zbspqqno.jpg/600x600bb.jpg",
+        "duration_ms": 249213,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1512861068",
+        "title": "Bertaut",
+        "artist": "Nadin Amizah",
+        "album": "Selamat Ulang Tahun",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1d/10/9b/1d109b17-1bbf-1894-e774-4d9ad6baa7b3/cover.jpg/600x600bb.jpg",
+        "duration_ms": 315960,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "324919306",
+        "title": "J.P.P. (Jangan Pernah Pergi)",
+        "artist": "ALEXA",
+        "album": "Alexa",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/5f/15/f1/mzi.mxgvljry.jpg/600x600bb.jpg",
+        "duration_ms": 253558,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1084410784",
+        "title": "Sesaat Kau Hadir",
+        "artist": "Utha Likumahuwa",
+        "album": "Perjalanan",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/34/60/bc3460e5-aa86-f1d6-35b2-70770bf3e687/190295987138.jpg/600x600bb.jpg",
+        "duration_ms": 237038,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "373280160",
+        "title": "Ya Sudahlah",
+        "artist": "Bondan Prakoso & Fade2black",
+        "album": "For All",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/19/b8/0519b873-250b-f59c-2ea2-99e412a551e0/mzi.uswjqixz.jpg/600x600bb.jpg",
+        "duration_ms": 254282,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1827897853",
+        "title": "P.U.S.P.A.",
+        "artist": "ST12",
+        "album": "P.U.S.P.A.",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/98/cf/f598cf3b-b375-d983-7b49-f07d12d19b9a/25UMGIM90600.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 196600,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "307678660",
+        "title": "Hijrah Ke London",
+        "artist": "The Changcuters",
+        "album": "Mencoba Sukses Kembali",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/eb/66/4ceb669a-18f1-a757-5f9e-73c08aa6b7d4/mzi.vohnzylh.jpg/600x600bb.jpg",
+        "duration_ms": 205707,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "326506045",
+        "title": "Hebat",
+        "artist": "Tangga",
+        "album": "Tangga",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/12/87/0d/mzi.yfdkgyhl.jpg/600x600bb.jpg",
+        "duration_ms": 234573,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "533326783",
+        "title": "Lepaskan Diriku",
+        "artist": "J-Rocks",
+        "album": "Topeng Sahabat",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/5f/10/a9/5f10a986-61ce-cc9d-2fe3-03695c2f37d7/J-Rocks_Topeng_Sahabat.jpg/600x600bb.jpg",
+        "duration_ms": 236960,
+        "is_explicit": false,
+        "type": "songs"
+      }
+    ],
+    "next": "/v1/catalog/id/playlists/pl.8d6e453de1c04e17b31839c504045455/tracks?l=en-GB&offset=30",
+    "raw_data": {
+      "next": "/v1/catalog/id/playlists/pl.8d6e453de1c04e17b31839c504045455/tracks?l=en-GB&offset=30",
+      "data": [
+        {
+          "id": "326490280",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/326490280?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Cokelat",
+            "albumName": "Rasa Baru",
+            "artistName": "Cokelat",
+            "artwork": {
+              "bgColor": "fcfbfb",
+              "hasP3": false,
+              "height": 600,
+              "textColor1": "1e1a23",
+              "textColor2": "2f282b",
+              "textColor3": "4a474e",
+              "textColor4": "585255",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/4f/26/8d/mzi.lotttsrt.jpg/{w}x{h}bb.jpg",
+              "width": 600
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Eross Candra",
+            "discNumber": 1,
+            "durationInMillis": 247787,
+            "genreNames": [
+              "Pop",
+              "Music",
+              "Pop/Rock"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC52002088",
+            "name": "Bendera",
+            "playParams": {
+              "id": "326490280",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b8/91/fd/b891fdac-6486-e76a-305b-2771e9946e73/mzaf_13559035980922774906.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2001-01-01",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/bendera/326490270?i=326490280"
+          }
+        },
+        {
+          "id": "1577743417",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1577743417?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Iwan Fals & Swami",
+            "albumName": "Swami 1",
+            "artistName": "Iwan Fals & Swami",
+            "artwork": {
+              "bgColor": "376060",
+              "hasP3": false,
+              "height": 2500,
+              "textColor1": "dffbf0",
+              "textColor2": "ebf7ef",
+              "textColor3": "bddcd4",
+              "textColor4": "c7d9d2",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/71/d8/99/71d89975-e1ee-6694-7d05-ef0a9c60d91c/dj.qyacxtqj.jpg/{w}x{h}bb.jpg",
+              "width": 2500
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "discNumber": 1,
+            "durationInMillis": 357261,
+            "genreNames": [
+              "Pop",
+              "Music",
+              "Indo Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA182131962",
+            "name": "Bento",
+            "playParams": {
+              "id": "1577743417",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/73/c4/b5/73c4b5c4-dc86-a295-a19c-89eaf2cc9b6c/mzaf_17156593478870874322.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "1989-01-01",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/bento/1577743416?i=1577743417"
+          }
+        },
+        {
+          "id": "533699934",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/533699934?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Dewa 19",
+            "albumName": "Cintailah Cinta",
+            "artistName": "Dewa 19",
+            "artwork": {
+              "bgColor": "db8f11",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "010305",
+              "textColor2": "231105",
+              "textColor3": "2d1f07",
+              "textColor4": "482a07",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/47/e3/10/47e310f4-f7e5-3d7e-b23f-d058810765e4/dewa_cintailah_cinta.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Ahmad Dhani",
+            "discNumber": 1,
+            "durationInMillis": 313533,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA040256801",
+            "name": "Arjuna",
+            "playParams": {
+              "id": "533699934",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7c/e5/cb/7ce5cb48-a5f3-80eb-6d71-c64236b42193/mzaf_8839262132251659567.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2002-04-05",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/arjuna/533699929?i=533699934"
+          }
+        },
+        {
+          "id": "326499684",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/326499684?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Sheila On 7",
+            "albumName": "07 Des",
+            "artistName": "Sheila On 7",
+            "artwork": {
+              "bgColor": "914d41",
+              "hasP3": false,
+              "height": 613,
+              "textColor1": "fae5d0",
+              "textColor2": "f5d2b2",
+              "textColor3": "e5c7b3",
+              "textColor4": "e1b79c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/11/3a/2c/113a2cd5-3613-736c-8219-8a0a620dfa41/mzi.ruzegwjg.jpg/{w}x{h}bb.jpg",
+              "width": 600
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Eross Candra",
+            "discNumber": 1,
+            "durationInMillis": 241285,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC52002051",
+            "name": "Seberapa Pantas",
+            "playParams": {
+              "id": "326499684",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8b/fb/54/8bfb5464-e30e-6d10-3c92-6a81359a9ed1/mzaf_15262995491719655383.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "1999-01-01",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/seberapa-pantas/326499677?i=326499684"
+          }
+        },
+        {
+          "id": "534962625",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/534962625?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Reza Artamevia",
+            "albumName": "Keyakinan",
+            "artistName": "Reza Artamevia",
+            "artwork": {
+              "bgColor": "101418",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "fcfbec",
+              "textColor2": "dad6c6",
+              "textColor3": "cdcdc1",
+              "textColor4": "b2afa3",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/a9/36/1a/a9361ab5-dc66-f37c-57ff-2b012eef187b/Reza_Keyakinan.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Denny Chasmala",
+            "discNumber": 1,
+            "durationInMillis": 247293,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA040222309",
+            "name": "Berharap Tak Berpisah",
+            "playParams": {
+              "id": "534962625",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/02/17/b5/0217b5a4-685f-aa54-bdd6-11867caaa90c/mzaf_11019152021306439908.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2002-11-21",
+            "trackNumber": 6,
+            "url": "https://music.apple.com/id/album/berharap-tak-berpisah/534962614?i=534962625"
+          }
+        },
+        {
+          "id": "1566337654",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1566337654?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Andra And The Backbone",
+            "albumName": "Andra & The Backbone",
+            "artistName": "Andra And The Backbone",
+            "artwork": {
+              "bgColor": "000000",
+              "hasP3": false,
+              "height": 4000,
+              "textColor1": "fddcc1",
+              "textColor2": "f15c3d",
+              "textColor3": "cab09a",
+              "textColor4": "c14930",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/76/9f/77769f6a-bdba-09ee-2d22-ba89fdc19010/190296746949.jpg/{w}x{h}bb.jpg",
+              "width": 4000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossy-stereo"
+            ],
+            "discNumber": 1,
+            "durationInMillis": 268423,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAB30600441",
+            "name": "Sempurna",
+            "playParams": {
+              "id": "1566337654",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/63/ef/0c/63ef0c27-1d16-717a-b8c7-cd0522fe8b8f/mzaf_13677745276839976170.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2006-12-28",
+            "trackNumber": 10,
+            "url": "https://music.apple.com/id/album/sempurna/1566337626?i=1566337654"
+          }
+        },
+        {
+          "id": "535422660",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/535422660?l=en-GB",
+          "attributes": {
+            "albumArtistName": "POTRET",
+            "albumName": "Potret II",
+            "artistName": "POTRET",
+            "artwork": {
+              "bgColor": "f57224",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "0b0603",
+              "textColor2": "0d0703",
+              "textColor3": "3a1b09",
+              "textColor4": "3b1c09",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/82/9a/4c829afb-0472-7927-984c-3df794a06d79/Potret_II.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "discNumber": 1,
+            "durationInMillis": 203173,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA049663202",
+            "name": "Salah",
+            "playParams": {
+              "id": "535422660",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/fc/ac/93fcac7d-c1ea-02fd-d8a5-59ef5b2c528b/mzaf_15199731305568479651.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "1997-10-15",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/salah/535422652?i=535422660"
+          }
+        },
+        {
+          "id": "1753913505",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1753913505?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Kahitna",
+            "albumName": "Soulmate",
+            "artistName": "Kahitna",
+            "artwork": {
+              "bgColor": "9cbce0",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "070707",
+              "textColor2": "070809",
+              "textColor3": "242b32",
+              "textColor4": "252c34",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8d/4f/77/8d4f7752-484b-fb95-19b6-45363209be15/24UMGIM29515.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Yovie Widianto",
+            "discNumber": 1,
+            "durationInMillis": 211302,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA181345728",
+            "name": "Soulmate",
+            "playParams": {
+              "id": "1753913505",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/a3/f5/1aa3f58a-176e-dca0-2f7a-f32d715c7185/mzaf_8394812156983438000.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2000-01-01",
+            "trackNumber": 5,
+            "url": "https://music.apple.com/id/album/soulmate/1753913497?i=1753913505"
+          }
+        },
+        {
+          "id": "1536569098",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1536569098?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Jamrud",
+            "albumName": "Ningrat",
+            "artistName": "Jamrud",
+            "artwork": {
+              "bgColor": "7518d3",
+              "hasP3": false,
+              "height": 2500,
+              "textColor1": "c2c6fb",
+              "textColor2": "d1b1fc",
+              "textColor3": "b3a3f3",
+              "textColor4": "bf93f3",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/20/b6/86/20b68651-e1d8-aace-adf1-6a708199a588/190295133986.jpg/{w}x{h}bb.jpg",
+              "width": 2500
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Azis MS & N.N.",
+            "discNumber": 1,
+            "durationInMillis": 326867,
+            "genreNames": [
+              "Rock",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FRX761561771",
+            "name": "Pelangi Di Matamu",
+            "playParams": {
+              "id": "1536569098",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/aa/b5/af/aab5afe9-3805-af6c-9bff-64d700ca876b/mzaf_18381294383342919423.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2000-01-01",
+            "trackNumber": 11,
+            "url": "https://music.apple.com/id/album/pelangi-di-matamu/1536569079?i=1536569098"
+          }
+        },
+        {
+          "id": "1639768073",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1639768073?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Yovie Widianto",
+            "albumName": "Yovie and His Friends: IRREPLACEABLE (#takkanterganti)",
+            "artistName": "Yovie Widianto & Raisa",
+            "artwork": {
+              "bgColor": "dbdbdb",
+              "hasP3": false,
+              "height": 2880,
+              "textColor1": "2b2826",
+              "textColor2": "362a25",
+              "textColor3": "4e4b4a",
+              "textColor4": "574d49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/66/f2/e9/66f2e945-a8bc-6d43-296b-da19bb3794ab/22UMGIM79442.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 2880
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Yovie Widianto",
+            "discNumber": 1,
+            "durationInMillis": 208267,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR6V81985394",
+            "name": "Mantan Terindah",
+            "playParams": {
+              "id": "1639768073",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/41/d7/8941d7ef-97f2-7593-3983-34db2eda23c9/mzaf_18369004841123605542.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2013-09-22",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/mantan-terindah/1639767821?i=1639768073"
+          }
+        },
+        {
+          "id": "1769042548",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1769042548?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Nidji",
+            "albumName": "Breakthru",
+            "artistName": "Nidji",
+            "artwork": {
+              "bgColor": "071117",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "e8ebeb",
+              "textColor2": "d4e3ee",
+              "textColor3": "bbbfc0",
+              "textColor4": "abb9c3",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/9c/04/c39c040e-64a3-90e7-0abd-64cd0f1b1b56/24UMGIM29485.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Giring Ganesha Djumaryo (Giring) & Andi Ariel Harsya (Ariel NIDJI)",
+            "discNumber": 1,
+            "durationInMillis": 252540,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA181237902",
+            "name": "Hapus Aku",
+            "playParams": {
+              "id": "1769042548",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/d2/83/67d28362-8512-ecad-0dc6-7f52d82cd5b0/mzaf_9340302425902376253.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2005-03-05",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/hapus-aku/1769042025?i=1769042548"
+          }
+        },
+        {
+          "id": "1823953765",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1823953765?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Dee Lestari",
+            "albumName": "Rectoverso",
+            "artistName": "Dee Lestari",
+            "artwork": {
+              "bgColor": "c7cd66",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "080a07",
+              "textColor2": "090a07",
+              "textColor3": "2e311a",
+              "textColor4": "2f311a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/dc/5c/ff/dc5cffcd-6d77-345e-1604-3aa1aa1af5d1/25UMGIM90088.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Dee Lestari",
+            "discNumber": 1,
+            "durationInMillis": 266000,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA171430019",
+            "name": "Malaikat Juga Tahu",
+            "playParams": {
+              "id": "1823953765",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7e/43/d9/7e43d924-79d0-6c68-0111-813aa6d008aa/mzaf_7293249124676598601.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2008-07-20",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/malaikat-juga-tahu/1823953458?i=1823953765"
+          }
+        },
+        {
+          "id": "1677685278",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1677685278?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Element",
+            "albumName": "Perjalanan 1999 - 2003 (Remastered 2023)",
+            "artistName": "Element",
+            "artwork": {
+              "bgColor": "8cafc2",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "111418",
+              "textColor2": "13171f",
+              "textColor3": "2a333a",
+              "textColor4": "2b353f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b9/1b/e4/b91be479-1974-2eed-b675-beedc619e64d/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Ferdy Kusumah Tahier",
+            "discNumber": 1,
+            "durationInMillis": 190152,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FRX202334183",
+            "name": "Rahasia Hati (Remastered 2023)",
+            "playParams": {
+              "id": "1677685278",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/a8/39/33/a8393363-27b7-be76-f206-418fc3f784b9/mzaf_13588696284502605452.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2023-03-17",
+            "trackNumber": 9,
+            "url": "https://music.apple.com/id/album/rahasia-hati-remastered-2023/1677684627?i=1677685278"
+          }
+        },
+        {
+          "id": "1753912757",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1753912757?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Project Pop",
+            "albumName": "PopOK",
+            "artistName": "Project Pop",
+            "artwork": {
+              "bgColor": "e5e4e2",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "2f2219",
+              "textColor2": "2f2c23",
+              "textColor3": "534841",
+              "textColor4": "535049",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/ac/cb/69accb69-dae5-4180-ebfb-a133407a8c65/24UMGIM29472.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Irwan Simanjuntak",
+            "discNumber": 1,
+            "durationInMillis": 240930,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA181231710",
+            "name": "Ingatlah Hari Ini",
+            "playParams": {
+              "id": "1753912757",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/7c/3e/a67c3e4b-68bd-d1e7-4e50-b4a1a1560107/mzaf_589397324994898678.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2003-07-16",
+            "trackNumber": 10,
+            "url": "https://music.apple.com/id/album/ingatlah-hari-ini/1753912205?i=1753912757"
+          }
+        },
+        {
+          "id": "1050615679",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1050615679?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Isyana Sarasvati",
+            "albumName": "Explore!",
+            "artistName": "Isyana Sarasvati",
+            "artwork": {
+              "bgColor": "161618",
+              "hasP3": false,
+              "height": 2400,
+              "textColor1": "e4c7b4",
+              "textColor2": "e4bb9c",
+              "textColor3": "bba395",
+              "textColor4": "ba9a82",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music6/v4/cc/ed/53/cced53d1-ea13-12df-119c-3819a30e0f60/886445558678.jpg/{w}x{h}bb.jpg",
+              "width": 2400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Alam Urbach",
+            "discNumber": 1,
+            "durationInMillis": 242961,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC51400094",
+            "name": "Kau Adalah (feat. Rayi Putra)",
+            "playParams": {
+              "id": "1050615679",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7b/6a/f3/7b6af342-815b-fc63-d171-a0f737e679e2/mzaf_6279282533357199140.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2015-11-25",
+            "trackNumber": 8,
+            "url": "https://music.apple.com/id/album/kau-adalah-feat-rayi-putra/1050614999?i=1050615679"
+          }
+        },
+        {
+          "id": "307679181",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/307679181?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Yovie & Nuno",
+            "albumName": "The Special One",
+            "artistName": "Yovie & Nuno",
+            "artwork": {
+              "bgColor": "aad6dd",
+              "hasP3": false,
+              "height": 600,
+              "textColor1": "131b20",
+              "textColor2": "191f25",
+              "textColor3": "314146",
+              "textColor4": "36444a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c8/3c/bd/c83cbdc5-21d2-4440-1d92-95b3d8aa2419/mzi.qjqxjphw.jpg/{w}x{h}bb.jpg",
+              "width": 600
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Yovie Widianto",
+            "discNumber": 1,
+            "durationInMillis": 237400,
+            "genreNames": [
+              "Pop",
+              "Music",
+              "Worldwide"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC50700306",
+            "name": "Menjaga Hati",
+            "playParams": {
+              "id": "307679181",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/8b/f7/db8bf786-57c9-d7f2-12d7-b1cec8b991be/mzaf_14618061796440315086.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2007-12-10",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/menjaga-hati/307679053?i=307679181"
+          }
+        },
+        {
+          "id": "853560088",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/853560088?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Yura Yunita",
+            "albumName": "Yura",
+            "artistName": "Yura Yunita",
+            "artwork": {
+              "bgColor": "ccd5aa",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "080908",
+              "textColor2": "272820",
+              "textColor3": "2f3228",
+              "textColor4": "484a3c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/65/4a/46/654a46ed-33ea-d3c8-1464-a672bf4b7ec0/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Glenn Fredly",
+            "discNumber": 1,
+            "durationInMillis": 262060,
+            "genreNames": [
+              "Singer/Songwriter",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR6V82380729",
+            "name": "Cinta Dan Rahasia (feat. Glenn Fredly)",
+            "playParams": {
+              "id": "853560088",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/30/59/a33059f2-64f4-dc8e-0d21-0233dab793f3/mzaf_4933857180592607727.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2014-03-19",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/cinta-dan-rahasia-feat-glenn-fredly/853560076?i=853560088"
+          }
+        },
+        {
+          "id": "1612164667",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1612164667?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Manusia",
+            "artistName": "Tulus",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Ari Renaldi",
+            "discNumber": 1,
+            "durationInMillis": 242000,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR2X42253130",
+            "name": "Hati-Hati di Jalan",
+            "playParams": {
+              "id": "1612164667",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/50/cd/bb50cd11-dbbc-f84e-1244-f1b786af7ab4/mzaf_4105938475286762493.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-03",
+            "trackNumber": 8,
+            "url": "https://music.apple.com/id/album/hati-hati-di-jalan/1612163750?i=1612164667"
+          }
+        },
+        {
+          "id": "1481804589",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1481804589?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Hindia",
+            "albumName": "Menari Dengan Bayangan",
+            "artistName": "Hindia",
+            "artwork": {
+              "bgColor": "141105",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "cdb38b",
+              "textColor2": "d4a368",
+              "textColor3": "a89270",
+              "textColor4": "ad8554",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/2a/da/57/2ada5765-472f-3193-11a3-861db06da99d/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "RAYHAN NOOR & Baskara Putra",
+            "discNumber": 1,
+            "durationInMillis": 277457,
+            "genreNames": [
+              "Indie Pop",
+              "Music",
+              "Alternative"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR96X1970882",
+            "name": "Rumah Ke Rumah",
+            "playParams": {
+              "id": "1481804589",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2f/6a/33/2f6a3387-87af-d371-2fac-eafdae28a8f2/mzaf_2267692174660592888.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2019-11-29",
+            "trackNumber": 12,
+            "url": "https://music.apple.com/id/album/rumah-ke-rumah/1481804269?i=1481804589"
+          }
+        },
+        {
+          "id": "1829897693",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1829897693?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Sherina Munaf",
+            "albumName": "Gemini",
+            "artistName": "Sherina Munaf",
+            "artwork": {
+              "bgColor": "bfbcb9",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "090808",
+              "textColor2": "292828",
+              "textColor3": "2e2c2b",
+              "textColor4": "474545",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9d/54/f9/9d54f9ca-44ee-0466-01e2-0782e421d72c/25UM1IM02206.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Sherina Munaf",
+            "discNumber": 1,
+            "durationInMillis": 233200,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": false,
+            "isrc": "IDA170901067",
+            "name": "Pergilah Kau",
+            "playParams": {
+              "id": "1829897693",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/ee/79/75ee79b9-bcd1-5f7d-624b-db473b289505/mzaf_2338397552596721698.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2009-07-09",
+            "trackNumber": 8,
+            "url": "https://music.apple.com/id/album/pergilah-kau/1829897681?i=1829897693"
+          }
+        },
+        {
+          "id": "326493085",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/326493085?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Padi",
+            "albumName": "Sesuatu Yang Tertunda",
+            "artistName": "Padi",
+            "artwork": {
+              "bgColor": "e5bd78",
+              "hasP3": false,
+              "height": 600,
+              "textColor1": "0f1d30",
+              "textColor2": "312c29",
+              "textColor3": "3a3d3e",
+              "textColor4": "554939",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/f9/5d/f9/mzi.cqsqbhcm.jpg/{w}x{h}bb.jpg",
+              "width": 600
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Piyu",
+            "discNumber": 1,
+            "durationInMillis": 339230,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC52001498",
+            "name": "Semua Tak Sama",
+            "playParams": {
+              "id": "326493085",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/2b/33/95/2b33955d-4ca8-81b4-dd25-85c7c23e2bd7/mzaf_17799221282248113337.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2001-06-20",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/semua-tak-sama/326492945?i=326493085"
+          }
+        },
+        {
+          "id": "1832671149",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1832671149?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Rossa",
+            "albumName": "Platinum Collection Rossa",
+            "artistName": "Rossa",
+            "artwork": {
+              "bgColor": "d0be9d",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0e0c0a",
+              "textColor2": "211c19",
+              "textColor3": "352f28",
+              "textColor4": "443c33",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/03/f5/bc/03f5bc4a-fe3e-9843-2a08-9add257fb6c5/dj.zbspqqno.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Aji Mirza Hakim",
+            "discNumber": 1,
+            "durationInMillis": 249213,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA171101036",
+            "name": "Tak Sanggup Lagi",
+            "playParams": {
+              "id": "1832671149",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6e/af/9d/6eaf9d5a-b4f0-21ed-73cb-f81519d53d59/mzaf_12306743626639222206.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2011-11-11",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/tak-sanggup-lagi/1832671147?i=1832671149"
+          }
+        },
+        {
+          "id": "1512861068",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1512861068?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Nadin Amizah",
+            "albumName": "Selamat Ulang Tahun",
+            "artistName": "Nadin Amizah",
+            "artwork": {
+              "bgColor": "dfcec2",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "281519",
+              "textColor2": "332022",
+              "textColor3": "4d3a3a",
+              "textColor4": "554342",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1d/10/9b/1d109b17-1bbf-1894-e774-4d9ad6baa7b3/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Nadin Amizah, Zulqi L Ramadhana & Mikha Angelo",
+            "discNumber": 1,
+            "durationInMillis": 315960,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR59R2049829",
+            "name": "Bertaut",
+            "playParams": {
+              "id": "1512861068",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/69/5f/0f/695f0f18-4d4a-e00f-557a-482ba64c4390/mzaf_13488469317802070625.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2020-05-28",
+            "trackNumber": 6,
+            "url": "https://music.apple.com/id/album/bertaut/1512860740?i=1512861068"
+          }
+        },
+        {
+          "id": "324919306",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/324919306?l=en-GB",
+          "attributes": {
+            "albumArtistName": "ALEXA",
+            "albumName": "Alexa",
+            "artistName": "ALEXA",
+            "artwork": {
+              "bgColor": "d2d0c9",
+              "hasP3": false,
+              "height": 1425,
+              "textColor1": "040203",
+              "textColor2": "2d2b2d",
+              "textColor3": "2d2b2b",
+              "textColor4": "4e4c4c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/5f/15/f1/mzi.mxgvljry.jpg/{w}x{h}bb.jpg",
+              "width": 1425
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Nur Satriatama",
+            "discNumber": 1,
+            "durationInMillis": 253558,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAA20800207",
+            "name": "J.P.P. (Jangan Pernah Pergi)",
+            "playParams": {
+              "id": "324919306",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ff/7f/fe/ff7ffeba-a1ba-93bf-c7e3-ba80d6e3707b/mzaf_8529641342484087794.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2008-02-25",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/j-p-p-jangan-pernah-pergi/324919297?i=324919306"
+          }
+        },
+        {
+          "id": "1084410784",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1084410784?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Utha Likumahuwa",
+            "albumName": "Perjalanan",
+            "artistName": "Utha Likumahuwa",
+            "artwork": {
+              "bgColor": "001039",
+              "hasP3": false,
+              "height": 1425,
+              "textColor1": "3bd0be",
+              "textColor2": "ff9156",
+              "textColor3": "2faaa4",
+              "textColor4": "cb7750",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bc/34/60/bc3460e5-aa86-f1d6-35b2-70770bf3e687/190295987138.jpg/{w}x{h}bb.jpg",
+              "width": 1425
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "hi-res-lossless",
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Boedi Bachtiar",
+            "discNumber": 1,
+            "durationInMillis": 237038,
+            "genreNames": [
+              "Pop",
+              "Music",
+              "Jazz",
+              "Mainstream Jazz"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAA21600382",
+            "name": "Sesaat Kau Hadir",
+            "playParams": {
+              "id": "1084410784",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c7/7b/70/c77b70bf-0326-52f6-e36c-18173bd7ef8a/mzaf_3764262839360927002.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2016-02-26",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/sesaat-kau-hadir/1084410766?i=1084410784"
+          }
+        },
+        {
+          "id": "373280160",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/373280160?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Bondan Prakoso & Fade2black",
+            "albumName": "For All",
+            "artistName": "Bondan Prakoso & Fade2black",
+            "artwork": {
+              "bgColor": "242b2d",
+              "hasP3": false,
+              "height": 600,
+              "textColor1": "edf3f3",
+              "textColor2": "ebf2e5",
+              "textColor3": "c5cbcb",
+              "textColor4": "c3cac0",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/05/19/b8/0519b873-250b-f59c-2ea2-99e412a551e0/mzi.uswjqixz.jpg/{w}x{h}bb.jpg",
+              "width": 600
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Bondan Prakoso, Tito Budi Dwinanto, Ardaninggar Nazir & Danial Rajab Fahreza",
+            "discNumber": 1,
+            "durationInMillis": 254282,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC51000015",
+            "name": "Ya Sudahlah",
+            "playParams": {
+              "id": "373280160",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/10/91/d5/1091d5b4-98ff-2b36-aff4-bbd3bf5beea3/mzaf_2895935981462922260.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2010-05-14",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/ya-sudahlah/373280159?i=373280160"
+          }
+        },
+        {
+          "id": "1827897853",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1827897853?l=en-GB",
+          "attributes": {
+            "albumArtistName": "ST12",
+            "albumName": "P.U.S.P.A.",
+            "artistName": "ST12",
+            "artwork": {
+              "bgColor": "c5c3b6",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0f0f0f",
+              "textColor2": "272b1e",
+              "textColor3": "343331",
+              "textColor4": "47493c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/98/cf/f598cf3b-b375-d983-7b49-f07d12d19b9a/25UMGIM90600.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Moh. Charly VH",
+            "discNumber": 1,
+            "durationInMillis": 196600,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA170885001",
+            "name": "P.U.S.P.A.",
+            "playParams": {
+              "id": "1827897853",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/31/26/78312615-ef7c-2005-ef81-4dfb82ae5930/mzaf_9704728836807170413.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2009-07-15",
+            "trackNumber": 8,
+            "url": "https://music.apple.com/id/album/p-u-s-p-a/1827897845?i=1827897853"
+          }
+        },
+        {
+          "id": "307678660",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/307678660?l=en-GB",
+          "attributes": {
+            "albumArtistName": "The Changcuters",
+            "albumName": "Mencoba Sukses Kembali",
+            "artistName": "The Changcuters",
+            "artwork": {
+              "bgColor": "b0a070",
+              "hasP3": false,
+              "height": 600,
+              "textColor1": "0d0a07",
+              "textColor2": "2b0e0d",
+              "textColor3": "2e281c",
+              "textColor4": "462b21",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/eb/66/4ceb669a-18f1-a757-5f9e-73c08aa6b7d4/mzi.vohnzylh.jpg/{w}x{h}bb.jpg",
+              "width": 600
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "The Changcuters",
+            "discNumber": 1,
+            "durationInMillis": 205707,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC50700345",
+            "name": "Hijrah Ke London",
+            "playParams": {
+              "id": "307678660",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/37/df/da/37dfda6e-b7ba-2ddb-890f-8bdf0a3e9472/mzaf_13624052076906614647.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2008-02-08",
+            "trackNumber": 11,
+            "url": "https://music.apple.com/id/album/hijrah-ke-london/307678638?i=307678660"
+          }
+        },
+        {
+          "id": "326506045",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/326506045?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tangga",
+            "albumName": "Tangga",
+            "artistName": "Tangga",
+            "artwork": {
+              "bgColor": "bb2b3a",
+              "hasP3": false,
+              "height": 603,
+              "textColor1": "fcf5f5",
+              "textColor2": "fcddd9",
+              "textColor3": "efcdcf",
+              "textColor4": "efb9b9",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/12/87/0d/mzi.yfdkgyhl.jpg/{w}x{h}bb.jpg",
+              "width": 600
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Johandi Yahya & Tata & Jovita",
+            "discNumber": 1,
+            "durationInMillis": 234573,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC52005043",
+            "name": "Hebat",
+            "playParams": {
+              "id": "326506045",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1c/c4/87/1cc487d8-2e53-d6ca-68e5-693d7ac5b2da/mzaf_9513064686459796062.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2005-03-03",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/hebat/326505972?i=326506045"
+          }
+        },
+        {
+          "id": "533326783",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/533326783?l=en-GB",
+          "attributes": {
+            "albumArtistName": "J-Rocks",
+            "albumName": "Topeng Sahabat",
+            "artistName": "J-Rocks",
+            "artwork": {
+              "bgColor": "ffffff",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "020407",
+              "textColor2": "382e2e",
+              "textColor3": "353638",
+              "textColor4": "605858",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/5f/10/a9/5f10a986-61ce-cc9d-2fe3-03695c2f37d7/J-Rocks_Topeng_Sahabat.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "discNumber": 1,
+            "durationInMillis": 236960,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA040558101",
+            "name": "Lepaskan Diriku",
+            "playParams": {
+              "id": "533326783",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/6b/5b/876b5be7-f5dc-5d5f-53b2-692b845b3a85/mzaf_16878061761793205999.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2005-05-16",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/lepaskan-diriku/533326771?i=533326783"
+          }
+        }
+      ]
+    }
+  }
+}

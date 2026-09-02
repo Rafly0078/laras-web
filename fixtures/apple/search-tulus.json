@@ -1,0 +1,3469 @@
+{
+  "results": {
+    "albums": {
+      "href": "/v1/catalog/id/search?groups=album&l=en-GB&limit=12&term=tulus&types=songs%2Calbums%2Cartists",
+      "next": "/v1/catalog/id/search?groups=album&l=en-GB&offset=12&term=tulus&types=songs%2Calbums%2Cartists",
+      "data": [
+        {
+          "id": "1612163750",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1612163750?l=en-GB",
+          "attributes": {
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "f4f3f3",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "05165a",
+                "textColor2": "072367",
+                "textColor3": "354278",
+                "textColor4": "364c83",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Manusia",
+            "playParams": {
+              "id": "1612163750",
+              "kind": "album"
+            },
+            "releaseDate": "2022-03-03",
+            "trackCount": 10,
+            "url": "https://music.apple.com/id/album/manusia/1612163750"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1612163750/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6784585100",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/6784585100?l=en-GB",
+          "attributes": {
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "a6a953",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "010100",
+              "textColor2": "060702",
+              "textColor3": "21230d",
+              "textColor4": "282a11",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "editorialArtwork": {
+              "subscriptionHero": {
+                "bgColor": "884820",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "f3ece8",
+                "textColor2": "f9bca4",
+                "textColor3": "ddcbc0",
+                "textColor4": "e3a58a",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d7/10/46/d7104690-14d5-2cc9-557a-e1ec8e8532b9/fc093e06-b780-4743-874d-1b0d4ce2f735.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "a6a953",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "010100",
+                "textColor2": "060702",
+                "textColor3": "21230d",
+                "textColor4": "282a11",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "The star reassesses life’s low moments over warm, buoyant pop."
+            },
+            "name": "Teh Hijau - Single",
+            "playParams": {
+              "id": "6784585100",
+              "kind": "album"
+            },
+            "releaseDate": "2026-06-30",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/teh-hijau-single/6784585100"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/6784585100/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1639765367",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1639765367?l=en-GB",
+          "attributes": {
+            "artistName": "Yovie Widianto, Tulus & Glenn Fredly",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=266611324-1001681665-271956384",
+            "artwork": {
+              "bgColor": "968c71",
+              "hasP3": false,
+              "height": 2880,
+              "textColor1": "050607",
+              "textColor2": "11110f",
+              "textColor3": "22211c",
+              "textColor4": "2c2922",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/67/53/496753aa-6f3a-2019-2514-e744e7f5f8ca/22UMGIM79426.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 2880
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "968c71",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "050607",
+                "textColor2": "11110f",
+                "textColor3": "22211c",
+                "textColor4": "2c2922",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/67/53/496753aa-6f3a-2019-2514-e744e7f5f8ca/22UMGIM79426.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Adu Rayu - Single",
+            "playParams": {
+              "id": "1639765367",
+              "kind": "album"
+            },
+            "releaseDate": "2019-02-22",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/adu-rayu-single/1639765367"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1639765367/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "266611324",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/266611324?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "222128",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 1142,
+                      "textColor1": "d0c6dd",
+                      "textColor2": "e8aa95",
+                      "textColor3": "ada5b9",
+                      "textColor4": "c08f7f",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/2e/c7/e4/2ec7e4fe-6256-f96d-2e55-411f1f3e01a4/pr_source.png/{w}x{h}bb.jpg",
+                      "width": 1142
+                    },
+                    "name": "Yovie Widianto",
+                    "url": "https://music.apple.com/id/artist/yovie-widianto/266611324"
+                  }
+                },
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                },
+                {
+                  "id": "271956384",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/271956384?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "cfb610",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 688,
+                      "textColor1": "0c0b04",
+                      "textColor2": "282626",
+                      "textColor3": "332d06",
+                      "textColor4": "494221",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/ca/60/91ca6075-6b2c-f78f-5706-b005ec8413db/pr_source.png/{w}x{h}bb.jpg",
+                      "width": 688
+                    },
+                    "name": "Glenn Fredly",
+                    "url": "https://music.apple.com/id/artist/glenn-fredly/271956384"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1137907436",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1137907436?l=en-GB",
+          "attributes": {
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "484d53",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f7e2e1",
+              "textColor2": "f5dddd",
+              "textColor3": "d4c4c5",
+              "textColor4": "d2c0c1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "editorialArtwork": {
+              "storeFlowcase": {
+                "bgColor": "44494d",
+                "hasP3": false,
+                "height": 1080,
+                "textColor1": "e8e6f1",
+                "textColor2": "a4c5eb",
+                "textColor3": "c7c7d0",
+                "textColor4": "91accc",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features60/v4/6c/60/7f/6c607f6e-f6ac-d457-b6f5-e235602fb3a3/pr_source.png/{w}x{h}bb.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "484d53",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "f7e2e1",
+                "textColor2": "f5dddd",
+                "textColor3": "d4c4c5",
+                "textColor4": "d2c0c1",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Monokrom",
+            "playParams": {
+              "id": "1137907436",
+              "kind": "album"
+            },
+            "releaseDate": "2016-08-03",
+            "trackCount": 10,
+            "url": "https://music.apple.com/id/album/monokrom/1137907436"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1137907436/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "823622637",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/823622637?l=en-GB",
+          "attributes": {
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "212834",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f5ddcd",
+              "textColor2": "d8c8be",
+              "textColor3": "cab9ae",
+              "textColor4": "b3a8a2",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/ef/7b/18ef7b5d-80e8-e4c7-838a-3110ebf94e52/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "212834",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "f5ddcd",
+                "textColor2": "d8c8be",
+                "textColor3": "cab9ae",
+                "textColor4": "b3a8a2",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/ef/7b/18ef7b5d-80e8-e4c7-838a-3110ebf94e52/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Gajah",
+            "playParams": {
+              "id": "823622637",
+              "kind": "album"
+            },
+            "releaseDate": "2014-02-18",
+            "trackCount": 9,
+            "url": "https://music.apple.com/id/album/gajah/823622637"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/823622637/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1424234121",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1424234121?l=en-GB",
+          "attributes": {
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "af8056",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "040100",
+              "textColor2": "170e07",
+              "textColor3": "261b11",
+              "textColor4": "352517",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/de/f7/8fdef7fc-fe08-f439-76a3-2db00c790de5/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "storeFlowcase": {
+                "bgColor": "fdead8",
+                "hasP3": false,
+                "height": 1080,
+                "textColor1": "0a0808",
+                "textColor2": "28231f",
+                "textColor3": "3a3632",
+                "textColor4": "524b44",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/1e/4f/9d/1e4f9de6-d167-213f-e4e9-dca8fec7de8e/pr_source.png/{w}x{h}bb.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "fdead8",
+                "hasP3": false,
+                "height": 1080,
+                "textColor1": "0f0e0f",
+                "textColor2": "38322d",
+                "textColor3": "3e3a37",
+                "textColor4": "5f574f",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/9e/0c/65/9e0c65d3-45e5-3544-357f-5598eda275aa/pr_source.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "af8056",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "040100",
+                "textColor2": "170e07",
+                "textColor3": "261b11",
+                "textColor4": "352517",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/de/f7/8fdef7fc-fe08-f439-76a3-2db00c790de5/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Labirin - Single",
+            "playParams": {
+              "id": "1424234121",
+              "kind": "album"
+            },
+            "releaseDate": "2018-08-24",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/labirin-single/1424234121"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1424234121/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1713152114",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1713152114?l=en-GB",
+          "attributes": {
+            "artistName": "Surepman",
+            "artistUrl": "https://music.apple.com/id/artist/surepman/1687802301",
+            "artwork": {
+              "bgColor": "212024",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "c4caca",
+              "textColor2": "bdc5d0",
+              "textColor3": "a4a8a9",
+              "textColor4": "9ea4ae",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8b/0a/28/8b0a28b8-fb95-274f-e27a-d92c80cd6bc7/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "212024",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "c4caca",
+                "textColor2": "bdc5d0",
+                "textColor3": "a4a8a9",
+                "textColor4": "9ea4ae",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/8b/0a/28/8b0a28b8-fb95-274f-e27a-d92c80cd6bc7/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Tulus (feat. Restianade) [Acoustic] - Single",
+            "playParams": {
+              "id": "1713152114",
+              "kind": "album"
+            },
+            "releaseDate": "2023-10-25",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/tulus-feat-restianade-acoustic-single/1713152114"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1713152114/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1687802301",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1687802301?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "000000",
+                      "defaultCropCode": "ac",
+                      "hasP3": false,
+                      "height": 3000,
+                      "textColor1": "d1d1d1",
+                      "textColor2": "dd9983",
+                      "textColor3": "a7a7a7",
+                      "textColor4": "b17a68",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/c1/29/18c1298a-893f-4592-caeb-b1f647d5bfba/cover.jpg/{w}x{h}ac.jpg",
+                      "width": 3000
+                    },
+                    "name": "Surepman",
+                    "url": "https://music.apple.com/id/artist/surepman/1687802301"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "918912446",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/918912446?l=en-GB",
+          "attributes": {
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "ebf0f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "282d32",
+              "textColor2": "313436",
+              "textColor3": "4f5459",
+              "textColor4": "565a5c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/63/22/42/632242fa-4a88-ccde-fa08-d8688d492262/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "ebf0f3",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "282d32",
+                "textColor2": "313436",
+                "textColor3": "4f5459",
+                "textColor4": "565a5c",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/63/22/42/632242fa-4a88-ccde-fa08-d8688d492262/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Tulus",
+            "playParams": {
+              "id": "918912446",
+              "kind": "album"
+            },
+            "releaseDate": "2011-03-08",
+            "trackCount": 10,
+            "url": "https://music.apple.com/id/album/tulus/918912446"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/918912446/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1514742529",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1514742529?l=en-GB",
+          "attributes": {
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "ffffff",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "111111",
+              "textColor2": "111111",
+              "textColor3": "414141",
+              "textColor4": "414141",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/01/e0/f101e0ff-8b9d-b2e0-541d-034631449e4b/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "ffffff",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "111111",
+                "textColor2": "111111",
+                "textColor3": "414141",
+                "textColor4": "414141",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/01/e0/f101e0ff-8b9d-b2e0-541d-034631449e4b/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Adaptasi - Single",
+            "playParams": {
+              "id": "1514742529",
+              "kind": "album"
+            },
+            "releaseDate": "2020-05-24",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/adaptasi-single/1514742529"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1514742529/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1138140370",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1138140370?l=en-GB",
+          "attributes": {
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "484d53",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f7e2e1",
+              "textColor2": "f5dddd",
+              "textColor3": "d4c4c5",
+              "textColor4": "d2c0c1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/92/59/8b/92598b17-f649-394b-b0b6-346c7320f16a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "484d53",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "f7e2e1",
+                "textColor2": "f5dddd",
+                "textColor3": "d4c4c5",
+                "textColor4": "d2c0c1",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/92/59/8b/92598b17-f649-394b-b0b6-346c7320f16a/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Ruang Sendiri - Single",
+            "playParams": {
+              "id": "1138140370",
+              "kind": "album"
+            },
+            "releaseDate": "2016-07-27",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/ruang-sendiri-single/1138140370"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1138140370/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1695669953",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1695669953?l=en-GB",
+          "attributes": {
+            "artistName": "DAVID CHANDRA & Niken Salindry",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=1530828941-1573652987",
+            "artwork": {
+              "bgColor": "0f0c10",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "e1ac9d",
+              "textColor2": "d49f92",
+              "textColor3": "b78c81",
+              "textColor4": "ad8278",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/be/01/65/be0165ef-5cf3-f02e-d492-a9e59d206107/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "0f0c10",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "e1ac9d",
+                "textColor2": "d49f92",
+                "textColor3": "b78c81",
+                "textColor4": "ad8278",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/be/01/65/be0165ef-5cf3-f02e-d492-a9e59d206107/cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Tulus - Single",
+            "playParams": {
+              "id": "1695669953",
+              "kind": "album"
+            },
+            "releaseDate": "2023-07-03",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/tulus-single/1695669953"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1695669953/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1530828941",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1530828941?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "2a1431",
+                      "defaultCropCode": "ac",
+                      "hasP3": false,
+                      "height": 1440,
+                      "textColor1": "df96a9",
+                      "textColor2": "e277e2",
+                      "textColor3": "bb7c91",
+                      "textColor4": "bd63bf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/91/87/42/91874257-d3aa-2cc5-0236-4a989d0805f9/cover.jpg/{w}x{h}ac.jpg",
+                      "width": 1440
+                    },
+                    "name": "DAVID CHANDRA",
+                    "url": "https://music.apple.com/id/artist/david-chandra/1530828941"
+                  }
+                },
+                {
+                  "id": "1573652987",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1573652987?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "1e1f1c",
+                      "defaultCropCode": "ac",
+                      "hasP3": false,
+                      "height": 1400,
+                      "textColor1": "d3b7ac",
+                      "textColor2": "df6f2a",
+                      "textColor3": "af988f",
+                      "textColor4": "b85f27",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/4f/a9/2f4fa958-7bdc-7c51-7a8b-62c68f5fae5a/198595590850.jpg/{w}x{h}ac.jpg",
+                      "width": 1400
+                    },
+                    "name": "Niken Salindry",
+                    "url": "https://music.apple.com/id/artist/niken-salindry/1573652987"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6767763061",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/6767763061?l=en-GB",
+          "attributes": {
+            "artistName": "Arya Galih",
+            "artistUrl": "https://music.apple.com/id/artist/arya-galih/1507322430",
+            "artwork": {
+              "bgColor": "7f87aa",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "0b0912",
+              "textColor2": "0f151c",
+              "textColor3": "222230",
+              "textColor4": "262c39",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/70/56/66/705666b3-da67-6111-68b9-9e7b7e709ca9/2098600.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "7f87aa",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "0b0912",
+                "textColor2": "0f151c",
+                "textColor3": "222230",
+                "textColor4": "262c39",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/70/56/66/705666b3-da67-6111-68b9-9e7b7e709ca9/2098600.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Tulus (feat. Rina Aditama) - Single",
+            "playParams": {
+              "id": "6767763061",
+              "kind": "album"
+            },
+            "releaseDate": "2023-08-18",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/tulus-feat-rina-aditama-single/6767763061"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/6767763061/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1507322430",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1507322430?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "380b04",
+                      "defaultCropCode": "ac",
+                      "hasP3": false,
+                      "height": 1440,
+                      "textColor1": "d3c547",
+                      "textColor2": "4cc2e9",
+                      "textColor3": "b49f3a",
+                      "textColor4": "489dbb",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/83/a5/43/83a54375-2911-702a-d069-fac957f08f7e/cover.jpg/{w}x{h}ac.jpg",
+                      "width": 1440
+                    },
+                    "name": "Arya Galih",
+                    "url": "https://music.apple.com/id/artist/arya-galih/1507322430"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "name": "Albums",
+      "groupId": "album"
+    },
+    "artists": {
+      "href": "/v1/catalog/id/search?groups=artist&l=en-GB&limit=12&term=tulus&types=songs%2Calbums%2Cartists",
+      "next": "/v1/catalog/id/search?groups=artist&l=en-GB&offset=12&term=tulus&types=songs%2Calbums%2Cartists",
+      "data": [
+        {
+          "id": "1001681665",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "070506",
+              "defaultCropCode": "bb",
+              "hasP3": true,
+              "height": 1500,
+              "textColor1": "e1af96",
+              "textColor2": "db8248",
+              "textColor3": "b58d79",
+              "textColor4": "b0693b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+              "width": 1500
+            },
+            "name": "Tulus",
+            "url": "https://music.apple.com/id/artist/tulus/1001681665"
+          }
+        },
+        {
+          "id": "1456100417",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1456100417?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "081017",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "bdc6cc",
+              "textColor2": "daaf71",
+              "textColor3": "99a1a7",
+              "textColor4": "b08f5f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/f9/29/52f929d1-26dd-040c-e8b4-c00dc4f5d659/cover.jpg/{w}x{h}ac.jpg",
+              "width": 3000
+            },
+            "name": "Tulus",
+            "url": "https://music.apple.com/id/artist/tulus/1456100417"
+          }
+        },
+        {
+          "id": "254499187",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/254499187?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "3a3f43",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 1500,
+              "textColor1": "e6e7e8",
+              "textColor2": "c8d2dd",
+              "textColor3": "c3c5c7",
+              "textColor4": "abb4be",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/e9/3a/e4/e93ae478-3687-37fe-e720-3353f0e1e5eb/dj.rrbllfhf.jpg/{w}x{h}ac.jpg",
+              "width": 1500
+            },
+            "name": "Tulus",
+            "url": "https://music.apple.com/id/artist/tulus/254499187"
+          }
+        },
+        {
+          "id": "1162822735",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1162822735?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "2a1621",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f7d4a5",
+              "textColor2": "fec168",
+              "textColor3": "ceae8a",
+              "textColor4": "d49f5a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/4d/91/4c/4d914c8c-651c-7d2b-c7fb-535af6512772/193428987654.jpg/{w}x{h}ac.jpg",
+              "width": 3000
+            },
+            "name": "Tulús",
+            "url": "https://music.apple.com/id/artist/tul%C3%BAs/1162822735"
+          }
+        },
+        {
+          "id": "1111311270",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1111311270?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "e9e2d2",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 1600,
+              "textColor1": "0a2027",
+              "textColor2": "63040d",
+              "textColor3": "364749",
+              "textColor4": "7d3134",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/8e/91/cf/8e91cfee-8e3a-da39-3ba7-8a2e3b2fb0ff/cover.jpg/{w}x{h}ac.jpg",
+              "width": 1600
+            },
+            "name": "Tulus",
+            "url": "https://music.apple.com/id/artist/tulus/1111311270"
+          }
+        },
+        {
+          "id": "1467283278",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1467283278?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "2d252a",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "90d2d8",
+              "textColor2": "cdc173",
+              "textColor3": "7cafb5",
+              "textColor4": "ada264",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/8a/9e/9f/8a9e9fcf-296a-52fe-709a-a79405f8f7e5/artwork.jpg/{w}x{h}ac.jpg",
+              "width": 3000
+            },
+            "name": "Gospel Covertajat & Tulus",
+            "url": "https://music.apple.com/id/artist/gospel-covertajat-tulus/1467283278"
+          }
+        },
+        {
+          "id": "1597658355",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1597658355?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "241512",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f1d9cb",
+              "textColor2": "e6ddc7",
+              "textColor3": "c8b2a6",
+              "textColor4": "bfb5a3",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/e3/09/2ee309cd-bb3a-27fc-7666-10d0d0ffe593/artwork.jpg/{w}x{h}ac.jpg",
+              "width": 3000
+            },
+            "name": "Tulus-kuoro",
+            "url": "https://music.apple.com/id/artist/tulus-kuoro/1597658355"
+          }
+        },
+        {
+          "id": "1859376543",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1859376543?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "794714",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f8f8ef",
+              "textColor2": "e4b579",
+              "textColor3": "ded4c4",
+              "textColor4": "cf9f65",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d7/5c/1d/d75c1d81-60d5-c506-572d-10e016dde127/0.jpg/{w}x{h}ac.jpg",
+              "width": 3000
+            },
+            "name": "Tulus M jawa",
+            "url": "https://music.apple.com/id/artist/tulus-m-jawa/1859376543"
+          }
+        },
+        {
+          "id": "1552532886",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1552532886?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "fff8f0",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0b0b12",
+              "textColor2": "0e2b4b",
+              "textColor3": "3c3a3e",
+              "textColor4": "3e546c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/60/7b/6e/607b6e7f-c650-6148-d7c7-38846802cfc2/194491845933.jpg/{w}x{h}ac.jpg",
+              "width": 3000
+            },
+            "name": "Gospelkuoro Tulus",
+            "url": "https://music.apple.com/id/artist/gospelkuoro-tulus/1552532886"
+          }
+        },
+        {
+          "id": "1524154043",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1524154043?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "97a3b3",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 1448,
+              "textColor1": "131215",
+              "textColor2": "292321",
+              "textColor3": "2d2f34",
+              "textColor4": "3f3c3e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0a/7d/45/0a7d4594-f5aa-7c8b-574d-d7bc7afd9caa/018736804083.png/{w}x{h}ac.jpg",
+              "width": 1448
+            },
+            "name": "Billy Tulus Septiawan",
+            "url": "https://music.apple.com/id/artist/billy-tulus-septiawan/1524154043"
+          }
+        },
+        {
+          "id": "1637065323",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1637065323?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "5c6b72",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f1fafd",
+              "textColor2": "fbe4dc",
+              "textColor3": "d3dde1",
+              "textColor4": "dbccc7",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9d/40/96/9d409653-13d0-d36f-12c2-3e8eb3b25a71/cover.jpg/{w}x{h}ac.jpg",
+              "width": 1440
+            },
+            "name": "Tulus Dwi Sugiarto",
+            "url": "https://music.apple.com/id/artist/tulus-dwi-sugiarto/1637065323"
+          }
+        },
+        {
+          "id": "1652275640",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1652275640?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "6d6c6a",
+              "defaultCropCode": "ac",
+              "hasP3": false,
+              "height": 1500,
+              "textColor1": "fef1e1",
+              "textColor2": "ebe441",
+              "textColor3": "e1d6c9",
+              "textColor4": "d2cc4a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c1/2b/05/c12b0560-4861-31cb-a067-3cecfbb9a278/491b616d-23ca-4394-89e3-e6a6ce33caa7.jpg/{w}x{h}ac.jpg",
+              "width": 1500
+            },
+            "name": "Novelia Tulus",
+            "url": "https://music.apple.com/id/artist/novelia-tulus/1652275640"
+          }
+        }
+      ],
+      "name": "Artists",
+      "groupId": "artist"
+    },
+    "songs": {
+      "href": "/v1/catalog/id/search?groups=song&l=en-GB&limit=12&term=tulus&types=songs%2Calbums%2Cartists",
+      "next": "/v1/catalog/id/search?groups=song&l=en-GB&offset=12&term=tulus&types=songs%2Calbums%2Cartists",
+      "data": [
+        {
+          "id": "6784585105",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6784585105?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Teh Hijau - Single",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "a6a953",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "010100",
+              "textColor2": "060702",
+              "textColor3": "21230d",
+              "textColor4": "282a11",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus",
+            "discNumber": 1,
+            "durationInMillis": 212879,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FRX282637095",
+            "name": "Teh Hijau",
+            "playParams": {
+              "id": "6784585105",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/fe/74/88fe7468-da1c-ad60-2080-f88563e38040/mzaf_3893396008702662653.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-06-30",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/teh-hijau/6784585100?i=6784585105"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/6784585105/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "6784585100",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/6784585100?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/6784585105/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1612164263",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1612164263?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Manusia",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Petra Sihombing",
+            "discNumber": 1,
+            "durationInMillis": 235000,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR2X42253128",
+            "name": "Jatuh Suka",
+            "playParams": {
+              "id": "1612164263",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/d9/86/a5d986e9-17d5-03dc-d696-29e6bc33cc94/mzaf_17677146318972951508.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-03",
+            "trackNumber": 6,
+            "url": "https://music.apple.com/id/album/jatuh-suka/1612163750?i=1612164263"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1612164263/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1612163750",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1612164263/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1612164256",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1612164256?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Manusia",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Topan Abimanyu",
+            "discNumber": 1,
+            "durationInMillis": 170000,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR2X42253127",
+            "name": "Interaksi",
+            "playParams": {
+              "id": "1612164256",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/70/e3/8170e3be-9115-f656-1bd1-ad56129ddaa3/mzaf_14557584647694110489.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-03",
+            "trackNumber": 4,
+            "url": "https://music.apple.com/id/album/interaksi/1612163750?i=1612164256"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1612164256/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1612163750",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1612164256/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1612164667",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1612164667?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Manusia",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Ari Renaldi",
+            "discNumber": 1,
+            "durationInMillis": 242000,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR2X42253130",
+            "name": "Hati-Hati di Jalan",
+            "playParams": {
+              "id": "1612164667",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/50/cd/bb50cd11-dbbc-f84e-1244-f1b786af7ab4/mzaf_4105938475286762493.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-03",
+            "trackNumber": 8,
+            "url": "https://music.apple.com/id/album/hati-hati-di-jalan/1612163750?i=1612164667"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1612164667/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1612163750",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1612164667/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1137907946",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1137907946?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Monokrom",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "484d53",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f7e2e1",
+              "textColor2": "f5dddd",
+              "textColor3": "d4c4c5",
+              "textColor4": "d2c0c1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Ari Renaldi",
+            "discNumber": 1,
+            "durationInMillis": 214567,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR59R1636575",
+            "name": "Monokrom",
+            "playParams": {
+              "id": "1137907946",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/7b/00/f07b00d4-cea0-79f0-3062-7e2b2d2d274a/mzaf_11163551377700516028.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2016-08-03",
+            "trackNumber": 10,
+            "url": "https://music.apple.com/id/album/monokrom/1137907436?i=1137907946"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1137907946/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1137907436",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1137907436?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1137907946/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1639765384",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1639765384?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Yovie Widianto, Tulus & Glenn Fredly",
+            "albumName": "Adu Rayu - Single",
+            "artistName": "Yovie Widianto, Tulus & Glenn Fredly",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=266611324-1001681665-271956384",
+            "artwork": {
+              "bgColor": "968c71",
+              "hasP3": false,
+              "height": 2880,
+              "textColor1": "050607",
+              "textColor2": "11110f",
+              "textColor3": "22211c",
+              "textColor4": "2c2922",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/67/53/496753aa-6f3a-2019-2514-e744e7f5f8ca/22UMGIM79426.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 2880
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Yovie Widianto",
+            "discNumber": 1,
+            "durationInMillis": 207700,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR10S1956070",
+            "name": "Adu Rayu",
+            "playParams": {
+              "id": "1639765384",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/6b/c7/196bc7a5-291f-7c3a-972b-7ca7ed7bd50c/mzaf_10440665454974250476.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2019-02-22",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/adu-rayu/1639765367?i=1639765384"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1639765384/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1639765367",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1639765367?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1639765384/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "266611324",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/266611324?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "222128",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 1142,
+                      "textColor1": "d0c6dd",
+                      "textColor2": "e8aa95",
+                      "textColor3": "ada5b9",
+                      "textColor4": "c08f7f",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/2e/c7/e4/2ec7e4fe-6256-f96d-2e55-411f1f3e01a4/pr_source.png/{w}x{h}bb.jpg",
+                      "width": 1142
+                    },
+                    "name": "Yovie Widianto",
+                    "url": "https://music.apple.com/id/artist/yovie-widianto/266611324"
+                  }
+                },
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                },
+                {
+                  "id": "271956384",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/271956384?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "cfb610",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 688,
+                      "textColor1": "0c0b04",
+                      "textColor2": "282626",
+                      "textColor3": "332d06",
+                      "textColor4": "494221",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/ca/60/91ca6075-6b2c-f78f-5706-b005ec8413db/pr_source.png/{w}x{h}bb.jpg",
+                      "width": 688
+                    },
+                    "name": "Glenn Fredly",
+                    "url": "https://music.apple.com/id/artist/glenn-fredly/271956384"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1424234507",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1424234507?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Labirin - Single",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "af8056",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "040100",
+              "textColor2": "170e07",
+              "textColor3": "261b11",
+              "textColor4": "352517",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/de/f7/8fdef7fc-fe08-f439-76a3-2db00c790de5/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Petra Sihombing",
+            "discNumber": 1,
+            "durationInMillis": 182656,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR59R1878986",
+            "name": "Labirin",
+            "playParams": {
+              "id": "1424234507",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/8f/07/fd8f07c3-e3fa-4727-79bc-1ec63043584d/mzaf_11372309953434782322.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2018-08-24",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/labirin/1424234121?i=1424234507"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1424234507/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1424234121",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1424234121?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1424234507/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "823622721",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/823622721?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Gajah",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "212834",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f5ddcd",
+              "textColor2": "d8c8be",
+              "textColor3": "cab9ae",
+              "textColor4": "b3a8a2",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/ef/7b/18ef7b5d-80e8-e4c7-838a-3110ebf94e52/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus",
+            "discNumber": 1,
+            "durationInMillis": 221540,
+            "genreNames": [
+              "Pop",
+              "Music",
+              "Rock",
+              "Worldwide"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR6V82272642",
+            "name": "Jangan Cintai Aku Apa Adanya",
+            "playParams": {
+              "id": "823622721",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/98/28/d498285a-e644-2d6d-15e1-33fe57c9b9f3/mzaf_7562772024071116877.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2014-02-18",
+            "trackNumber": 9,
+            "url": "https://music.apple.com/id/album/jangan-cintai-aku-apa-adanya/823622637?i=823622721"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/823622721/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "823622637",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/823622637?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/823622721/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1137907715",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1137907715?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Monokrom",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "484d53",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f7e2e1",
+              "textColor2": "f5dddd",
+              "textColor3": "d4c4c5",
+              "textColor4": "d2c0c1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Ari Renaldi",
+            "discNumber": 1,
+            "durationInMillis": 202951,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": false,
+            "isrc": "FR59R1636572",
+            "name": "Langit Abu-Abu",
+            "playParams": {
+              "id": "1137907715",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/ca/67/55ca675c-0104-79ec-4a96-4e562003e52f/mzaf_8674182646572252430.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2016-08-03",
+            "trackNumber": 7,
+            "url": "https://music.apple.com/id/album/langit-abu-abu/1137907436?i=1137907715"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1137907715/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1137907436",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1137907436?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1137907715/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1496913224",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1496913224?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Various Artists",
+            "albumName": "Pongki Barata Meets The Stars",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "ededed",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "12100f",
+              "textColor2": "201b19",
+              "textColor3": "3e3c3c",
+              "textColor4": "494543",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/07/86/e8/0786e831-263b-53e9-591a-6c87269fd5c8/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Pongki Barata",
+            "discNumber": 1,
+            "durationInMillis": 232227,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FRX281937423",
+            "name": "1000 Tahun Lamanya",
+            "playParams": {
+              "id": "1496913224",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c2/03/d3/c203d3ca-e053-eda5-5a1b-c4e2e4a1799f/mzaf_1373660739347578990.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2014-09-20",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/1000-tahun-lamanya/1496913220?i=1496913224"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1496913224/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1496913220",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1496913220?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1496913224/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1612164136",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1612164136?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Manusia",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Petra Sihombing",
+            "discNumber": 1,
+            "durationInMillis": 254600,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR10S2294308",
+            "name": "Tujuh Belas",
+            "playParams": {
+              "id": "1612164136",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/f2/e0/9df2e08d-6e5d-9d79-f925-f4dd84d1bfca/mzaf_17289810758853934068.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-03",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/tujuh-belas/1612163750?i=1612164136"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1612164136/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1612163750",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1612164136/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "823622715",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/823622715?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Gajah",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "212834",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f5ddcd",
+              "textColor2": "d8c8be",
+              "textColor3": "cab9ae",
+              "textColor4": "b3a8a2",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/ef/7b/18ef7b5d-80e8-e4c7-838a-3110ebf94e52/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus",
+            "discNumber": 1,
+            "durationInMillis": 219284,
+            "genreNames": [
+              "Pop",
+              "Music",
+              "Rock",
+              "Worldwide"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR6V82272636",
+            "name": "Sepatu",
+            "playParams": {
+              "id": "823622715",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4e/cf/be/4ecfbe5a-c5b1-ec09-a734-567f98902356/mzaf_17105447625319821952.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2014-02-18",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/sepatu/823622637?i=823622715"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/823622715/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "823622637",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/823622637?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/823622715/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "name": "Songs",
+      "groupId": "song"
+    },
+    "top": {
+      "groupId": "top",
+      "name": "Top Results",
+      "data": [
+        {
+          "id": "6784585105",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6784585105?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Teh Hijau - Single",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "a6a953",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "010100",
+              "textColor2": "060702",
+              "textColor3": "21230d",
+              "textColor4": "282a11",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus",
+            "discNumber": 1,
+            "durationInMillis": 212879,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FRX282637095",
+            "name": "Teh Hijau",
+            "playParams": {
+              "id": "6784585105",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/fe/74/88fe7468-da1c-ad60-2080-f88563e38040/mzaf_3893396008702662653.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-06-30",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/teh-hijau/6784585100?i=6784585105"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/6784585105/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "6784585100",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/6784585100?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/6784585105/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1612164263",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1612164263?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Manusia",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Petra Sihombing",
+            "discNumber": 1,
+            "durationInMillis": 235000,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR2X42253128",
+            "name": "Jatuh Suka",
+            "playParams": {
+              "id": "1612164263",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/d9/86/a5d986e9-17d5-03dc-d696-29e6bc33cc94/mzaf_17677146318972951508.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-03",
+            "trackNumber": 6,
+            "url": "https://music.apple.com/id/album/jatuh-suka/1612163750?i=1612164263"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1612164263/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1612163750",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1612164263/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1001681665",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "070506",
+              "defaultCropCode": "bb",
+              "hasP3": true,
+              "height": 1500,
+              "textColor1": "e1af96",
+              "textColor2": "db8248",
+              "textColor3": "b58d79",
+              "textColor4": "b0693b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+              "width": 1500
+            },
+            "name": "Tulus",
+            "url": "https://music.apple.com/id/artist/tulus/1001681665"
+          }
+        },
+        {
+          "id": "1612164256",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1612164256?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Manusia",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Topan Abimanyu",
+            "discNumber": 1,
+            "durationInMillis": 170000,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR2X42253127",
+            "name": "Interaksi",
+            "playParams": {
+              "id": "1612164256",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/70/e3/8170e3be-9115-f656-1bd1-ad56129ddaa3/mzaf_14557584647694110489.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-03",
+            "trackNumber": 4,
+            "url": "https://music.apple.com/id/album/interaksi/1612163750?i=1612164256"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1612164256/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1612163750",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1612164256/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1612164667",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1612164667?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Manusia",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Ari Renaldi",
+            "discNumber": 1,
+            "durationInMillis": 242000,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR2X42253130",
+            "name": "Hati-Hati di Jalan",
+            "playParams": {
+              "id": "1612164667",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/50/cd/bb50cd11-dbbc-f84e-1244-f1b786af7ab4/mzaf_4105938475286762493.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-03",
+            "trackNumber": 8,
+            "url": "https://music.apple.com/id/album/hati-hati-di-jalan/1612163750?i=1612164667"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1612164667/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1612163750",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1612164667/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1137907946",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1137907946?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Monokrom",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "484d53",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f7e2e1",
+              "textColor2": "f5dddd",
+              "textColor3": "d4c4c5",
+              "textColor4": "d2c0c1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Ari Renaldi",
+            "discNumber": 1,
+            "durationInMillis": 214567,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR59R1636575",
+            "name": "Monokrom",
+            "playParams": {
+              "id": "1137907946",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f0/7b/00/f07b00d4-cea0-79f0-3062-7e2b2d2d274a/mzaf_11163551377700516028.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2016-08-03",
+            "trackNumber": 10,
+            "url": "https://music.apple.com/id/album/monokrom/1137907436?i=1137907946"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1137907946/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1137907436",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1137907436?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1137907946/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1639765384",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1639765384?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Yovie Widianto, Tulus & Glenn Fredly",
+            "albumName": "Adu Rayu - Single",
+            "artistName": "Yovie Widianto, Tulus & Glenn Fredly",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=266611324-1001681665-271956384",
+            "artwork": {
+              "bgColor": "968c71",
+              "hasP3": false,
+              "height": 2880,
+              "textColor1": "050607",
+              "textColor2": "11110f",
+              "textColor3": "22211c",
+              "textColor4": "2c2922",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/67/53/496753aa-6f3a-2019-2514-e744e7f5f8ca/22UMGIM79426.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 2880
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Yovie Widianto",
+            "discNumber": 1,
+            "durationInMillis": 207700,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR10S1956070",
+            "name": "Adu Rayu",
+            "playParams": {
+              "id": "1639765384",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/6b/c7/196bc7a5-291f-7c3a-972b-7ca7ed7bd50c/mzaf_10440665454974250476.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2019-02-22",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/adu-rayu/1639765367?i=1639765384"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1639765384/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1639765367",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1639765367?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1639765384/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "266611324",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/266611324?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "222128",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 1142,
+                      "textColor1": "d0c6dd",
+                      "textColor2": "e8aa95",
+                      "textColor3": "ada5b9",
+                      "textColor4": "c08f7f",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/2e/c7/e4/2ec7e4fe-6256-f96d-2e55-411f1f3e01a4/pr_source.png/{w}x{h}bb.jpg",
+                      "width": 1142
+                    },
+                    "name": "Yovie Widianto",
+                    "url": "https://music.apple.com/id/artist/yovie-widianto/266611324"
+                  }
+                },
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                },
+                {
+                  "id": "271956384",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/271956384?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "cfb610",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 688,
+                      "textColor1": "0c0b04",
+                      "textColor2": "282626",
+                      "textColor3": "332d06",
+                      "textColor4": "494221",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/91/ca/60/91ca6075-6b2c-f78f-5706-b005ec8413db/pr_source.png/{w}x{h}bb.jpg",
+                      "width": 688
+                    },
+                    "name": "Glenn Fredly",
+                    "url": "https://music.apple.com/id/artist/glenn-fredly/271956384"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1424234507",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1424234507?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Labirin - Single",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "af8056",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "040100",
+              "textColor2": "170e07",
+              "textColor3": "261b11",
+              "textColor4": "352517",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/de/f7/8fdef7fc-fe08-f439-76a3-2db00c790de5/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Petra Sihombing",
+            "discNumber": 1,
+            "durationInMillis": 182656,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR59R1878986",
+            "name": "Labirin",
+            "playParams": {
+              "id": "1424234507",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/8f/07/fd8f07c3-e3fa-4727-79bc-1ec63043584d/mzaf_11372309953434782322.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2018-08-24",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/labirin/1424234121?i=1424234507"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1424234507/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1424234121",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1424234121?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1424234507/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "823622721",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/823622721?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Gajah",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "212834",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f5ddcd",
+              "textColor2": "d8c8be",
+              "textColor3": "cab9ae",
+              "textColor4": "b3a8a2",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/ef/7b/18ef7b5d-80e8-e4c7-838a-3110ebf94e52/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus",
+            "discNumber": 1,
+            "durationInMillis": 221540,
+            "genreNames": [
+              "Pop",
+              "Music",
+              "Rock",
+              "Worldwide"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR6V82272642",
+            "name": "Jangan Cintai Aku Apa Adanya",
+            "playParams": {
+              "id": "823622721",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d4/98/28/d498285a-e644-2d6d-15e1-33fe57c9b9f3/mzaf_7562772024071116877.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2014-02-18",
+            "trackNumber": 9,
+            "url": "https://music.apple.com/id/album/jangan-cintai-aku-apa-adanya/823622637?i=823622721"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/823622721/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "823622637",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/823622637?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/823622721/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1137907715",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1137907715?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Monokrom",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "484d53",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "f7e2e1",
+              "textColor2": "f5dddd",
+              "textColor3": "d4c4c5",
+              "textColor4": "d2c0c1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music18/v4/d1/8f/41/d18f41cf-45e4-39f4-4d10-0a0af01f7eb7/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Ari Renaldi",
+            "discNumber": 1,
+            "durationInMillis": 202951,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": false,
+            "isrc": "FR59R1636572",
+            "name": "Langit Abu-Abu",
+            "playParams": {
+              "id": "1137907715",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/ca/67/55ca675c-0104-79ec-4a96-4e562003e52f/mzaf_8674182646572252430.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2016-08-03",
+            "trackNumber": 7,
+            "url": "https://music.apple.com/id/album/langit-abu-abu/1137907436?i=1137907715"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1137907715/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1137907436",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1137907436?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1137907715/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1496913224",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1496913224?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Various Artists",
+            "albumName": "Pongki Barata Meets The Stars",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "ededed",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "12100f",
+              "textColor2": "201b19",
+              "textColor3": "3e3c3c",
+              "textColor4": "494543",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/07/86/e8/0786e831-263b-53e9-591a-6c87269fd5c8/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Pongki Barata",
+            "discNumber": 1,
+            "durationInMillis": 232227,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FRX281937423",
+            "name": "1000 Tahun Lamanya",
+            "playParams": {
+              "id": "1496913224",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c2/03/d3/c203d3ca-e053-eda5-5a1b-c4e2e4a1799f/mzaf_1373660739347578990.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2014-09-20",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/1000-tahun-lamanya/1496913220?i=1496913224"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1496913224/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1496913220",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1496913220?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1496913224/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1612164136",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1612164136?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Manusia",
+            "artistName": "Tulus",
+            "artistUrl": "https://music.apple.com/id/artist/tulus/1001681665",
+            "artwork": {
+              "bgColor": "f4f3f3",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "05165a",
+              "textColor2": "072367",
+              "textColor3": "354278",
+              "textColor4": "364c83",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus & Petra Sihombing",
+            "discNumber": 1,
+            "durationInMillis": 254600,
+            "genreNames": [
+              "Indo Pop",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR10S2294308",
+            "name": "Tujuh Belas",
+            "playParams": {
+              "id": "1612164136",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/f2/e0/9df2e08d-6e5d-9d79-f925-f4dd84d1bfca/mzaf_17289810758853934068.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-03",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/tujuh-belas/1612163750?i=1612164136"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1612164136/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1612163750",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1612164136/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1001681665",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "070506",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 1500,
+                      "textColor1": "e1af96",
+                      "textColor2": "db8248",
+                      "textColor3": "b58d79",
+                      "textColor4": "b0693b",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Tulus",
+                    "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "meta": {
+    "results": {
+      "order": [
+        "top",
+        "artist",
+        "album",
+        "song"
+      ],
+      "rawOrder": [
+        "top",
+        "artist",
+        "album",
+        "song"
+      ]
+    },
+    "metrics": {
+      "dataSetId": "562bd2c2-13d7-4398-a069-581c0b5aa117"
+    }
+  }
+}

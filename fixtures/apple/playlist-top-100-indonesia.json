@@ -1,0 +1,1966 @@
+{
+  "meta": {
+    "title": "Top 100: Indonesia",
+    "curator": "Apple Music",
+    "description": "The most-played songs in Indonesia, updated every day.",
+    "artwork": {
+      "bgColor": "f1f1f1",
+      "hasP3": false,
+      "height": 1080,
+      "textColor1": "000000",
+      "textColor2": "110101",
+      "textColor3": "322525",
+      "textColor4": "322525",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/81/36/4c/81364c9b-2c97-12f2-3b97-6c16b567e456/d143b0b2-35b3-40d7-94ac-020386689180.png/{w}x{h}cc.jpg",
+      "width": 4320
+    }
+  },
+  "tracks": {
+    "playlist_id": "pl.2b7e089dc9ef4dd7a18429df9c6e26a3",
+    "total_parsed_tracks": 30,
+    "parsed_tracks": [
+      {
+        "id": "6784585105",
+        "title": "Teh Hijau",
+        "artist": "Tulus",
+        "album": "Teh Hijau - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/600x600bb.jpg",
+        "duration_ms": 212879,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6781391180",
+        "title": "MMG (My Mine Gueh)",
+        "artist": "Naykilla",
+        "album": "MMG (My Mine Gueh) - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/fb/b2/f5fbb244-5aae-f06b-39e1-ca0ff7422560/820233746380.jpg/600x600bb.jpg",
+        "duration_ms": 193091,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6764270080",
+        "title": "Astaga Bercanda",
+        "artist": "Akbar Chalay & Mingse",
+        "album": "Astaga Bercanda - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/a6/1f/afa61ff7-4276-910c-0121-05a523a3df14/196874351154.jpg/600x600bb.jpg",
+        "duration_ms": 166851,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1868326920",
+        "title": "Sesi Potret",
+        "artist": "eńau & Ari Lesmana",
+        "album": "Sesi Potret - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/e1/41/3de14120-ccc4-3cb4-0d93-541b551bd1c5/26UMGIM01710.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 243000,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1889992113",
+        "title": "drop dead",
+        "artist": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 224999,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6762495387",
+        "title": "Dunia Yang Nanti",
+        "artist": "Raim Laode",
+        "album": "iqro'",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/da/83/87da8377-ecbc-b53f-9719-7fab3092fe80/3589989.jpg/600x600bb.jpg",
+        "duration_ms": 202100,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1884895750",
+        "title": "Berapa Kali Kita Akan Saling Memaafkan",
+        "artist": "Pamungkas",
+        "album": "Berapa Kali Kita Akan Saling Memaafkan - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/60/77/70607770-6c49-ed4f-9827-503eee681c58/8721465617283.png/600x600bb.jpg",
+        "duration_ms": 280000,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1814569054",
+        "title": "Titik Nadir (feat. Monita Tahalea)",
+        "artist": "Kahitna",
+        "album": "Titik Nadir (feat. Monita Tahalea) - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/f0/0c/e7f00c5b-7e92-7206-2b33-b4510559e9fa/25UMGIM70932.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 245462,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "303171282",
+        "title": "Shape of My Heart",
+        "artist": "Backstreet Boys",
+        "album": "Black & Blue",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d1/04/3f/d1043ff2-73b8-e7c5-3ed8-ae9b768bb24f/012414174321.jpg/600x600bb.jpg",
+        "duration_ms": 230093,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1867165038",
+        "title": "Ini Abadi",
+        "artist": "Perunggu",
+        "album": "Memorandum",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f9/d8/46f9d899-0194-e9f1-5ea0-c4c4719a53b7/3551441.jpg/600x600bb.jpg",
+        "duration_ms": 232000,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6766465451",
+        "title": "2001x",
+        "artist": "Adrian Khalif",
+        "album": "2001x - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/d8/e0/bdd8e01a-e2ca-4571-7e45-d2b216187b2d/823375159513_Cover.jpg/600x600bb.jpg",
+        "duration_ms": 204149,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1889992123",
+        "title": "the cure",
+        "artist": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 297090,
+        "is_explicit": true,
+        "type": "songs"
+      },
+      {
+        "id": "6763656876",
+        "title": "hate that i made you love me",
+        "artist": "Ariana Grande",
+        "album": "petal",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 197950,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1793295104",
+        "title": "everything u are",
+        "artist": "Hindia",
+        "album": "Doves, '25 on Blank Canvas",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/f8/d2/57f8d295-5ea9-f7b2-70ff-9494ce50fc5c/cover.jpg/600x600bb.jpg",
+        "duration_ms": 236490,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6769552411",
+        "title": "Great Expectation",
+        "artist": "SIENNA SPIRO",
+        "album": "Visitor (Deluxe)",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/e5/61/f4e561f5-3e73-68c7-7ca4-295ac5a063ed/26UMGIM51351.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 173975,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1889992115",
+        "title": "stupid song",
+        "artist": "Olivia Rodrigo",
+        "album": "you seem pretty sad for a girl so in love",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 209680,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1875212140",
+        "title": "1000X",
+        "artist": "Ghea Indrawari",
+        "album": "1000X - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/7f/72/977f7218-7002-c696-78e7-19511c6095a4/190403.jpg/600x600bb.jpg",
+        "duration_ms": 252249,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1756631382",
+        "title": "Kita Lewati Berdua",
+        "artist": "Overnight",
+        "album": "Kita Lewati Berdua - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/51/e1/58/51e15860-8028-8437-ed77-6b9c529eec3a/859790948357_cover.jpg/600x600bb.jpg",
+        "duration_ms": 239630,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1866732797",
+        "title": "Risk It All",
+        "artist": "Bruno Mars",
+        "album": "The Romantic",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/600x600bb.jpg",
+        "duration_ms": 204068,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1775877096",
+        "title": "Merry Christmas, Please Don't Call",
+        "artist": "Bleachers",
+        "album": "Merry Christmas, Please Don't Call - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/63/85/ce638513-9167-2a5c-2c4a-94b4c8f9f88f/198704216732_Cover.jpg/600x600bb.jpg",
+        "duration_ms": 202132,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1727526894",
+        "title": "Training Season",
+        "artist": "Dua Lipa",
+        "album": "Training Season - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/89/15/828915ea-d716-61c4-3de7-ef00c1f800fb/5054197853630.jpg/600x600bb.jpg",
+        "duration_ms": 209488,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1699730098",
+        "title": "Terbuang Dalam Waktu",
+        "artist": "Barasuara",
+        "album": "Terbuang Dalam Waktu - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/32/e0/62/32e06291-5849-ee28-bdfa-4fcbe8c76730/859776425711_cover.jpg/600x600bb.jpg",
+        "duration_ms": 279234,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1885485750",
+        "title": "Rabun Jauh",
+        "artist": "Bernadya",
+        "album": "Rabun Jauh - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/f7/c5/a9f7c53c-8a18-3e44-4fa8-473e57c5ca68/26UMGIM32434.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 175177,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6786444729",
+        "title": "honk!",
+        "artist": "no na",
+        "album": "honk! - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/df/4f/5bdf4f9b-bc4b-8984-57a7-978e1d0c36a1/820233897815.jpg/600x600bb.jpg",
+        "duration_ms": 135461,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1833328840",
+        "title": "The Fate of Ophelia",
+        "artist": "Taylor Swift",
+        "album": "The Life of a Showgirl",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 226074,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1875871278",
+        "title": "Iqro'",
+        "artist": "Raim Laode",
+        "album": "Iqro' - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/3a/ca/993aca2e-32b9-0304-4446-a23da44a13d7/326772.jpg/600x600bb.jpg",
+        "duration_ms": 234229,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1137966332",
+        "title": "Cinderella (feat. Ty Dolla $ign)",
+        "artist": "Mac Miller",
+        "album": "The Divine Feminine",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/600x600bb.jpg",
+        "duration_ms": 480223,
+        "is_explicit": true,
+        "type": "songs"
+      },
+      {
+        "id": "1639765384",
+        "title": "Adu Rayu",
+        "artist": "Yovie Widianto, Tulus & Glenn Fredly",
+        "album": "Adu Rayu - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/67/53/496753aa-6f3a-2019-2514-e744e7f5f8ca/22UMGIM79426.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 207700,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6793277028",
+        "title": "Less than a Lover",
+        "artist": "JENNIE",
+        "album": "Less than a Lover - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8d/ac/90/8dac9090-2a14-20d9-ed97-6a35ad299beb/196874620281.jpg/600x600bb.jpg",
+        "duration_ms": 145680,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1440650961",
+        "title": "Beauty and a Beat (feat. Nicki Minaj)",
+        "artist": "Justin Bieber",
+        "album": "Believe (Deluxe Edition)",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 227987,
+        "is_explicit": false,
+        "type": "songs"
+      }
+    ],
+    "next": "/v1/catalog/id/playlists/pl.2b7e089dc9ef4dd7a18429df9c6e26a3/tracks?l=en-GB&offset=30",
+    "raw_data": {
+      "next": "/v1/catalog/id/playlists/pl.2b7e089dc9ef4dd7a18429df9c6e26a3/tracks?l=en-GB&offset=30",
+      "data": [
+        {
+          "id": "6784585105",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6784585105?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Teh Hijau - Single",
+            "artistName": "Tulus",
+            "artwork": {
+              "bgColor": "a6a953",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "010100",
+              "textColor2": "060702",
+              "textColor3": "21230d",
+              "textColor4": "282a11",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus",
+            "discNumber": 1,
+            "durationInMillis": 212879,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FRX282637095",
+            "name": "Teh Hijau",
+            "playParams": {
+              "id": "6784585105",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/fe/74/88fe7468-da1c-ad60-2080-f88563e38040/mzaf_3893396008702662653.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-06-30",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/teh-hijau/6784585100?i=6784585105"
+          }
+        },
+        {
+          "id": "6781391180",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6781391180?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Naykilla",
+            "albumName": "MMG (My Mine Gueh) - Single",
+            "artistName": "Naykilla",
+            "artwork": {
+              "bgColor": "121118",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f6d0be",
+              "textColor2": "f6aa9d",
+              "textColor3": "c9aa9d",
+              "textColor4": "c88b82",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/fb/b2/f5fbb244-5aae-f06b-39e1-ca0ff7422560/820233746380.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Nayya Rahmania",
+            "discNumber": 1,
+            "durationInMillis": 193091,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QMBZ92612829",
+            "name": "MMG (My Mine Gueh)",
+            "playParams": {
+              "id": "6781391180",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/de/38/c4de3885-2634-ed06-3d2d-09cee66e3bc7/mzaf_17779267043825550472.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-06-13",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/mmg-my-mine-gueh/6781390906?i=6781391180"
+          }
+        },
+        {
+          "id": "6764270080",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6764270080?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Akbar Chalay & Mingse",
+            "albumName": "Astaga Bercanda - Single",
+            "artistName": "Akbar Chalay & Mingse",
+            "artwork": {
+              "bgColor": "ca74ad",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "070205",
+              "textColor2": "090306",
+              "textColor3": "2e1926",
+              "textColor4": "301a27",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/a6/1f/afa61ff7-4276-910c-0121-05a523a3df14/196874351154.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Giant Prayash Trinanda, Nabil Adesya Putra, Aji Suherri & Happy Andromeda",
+            "discNumber": 1,
+            "durationInMillis": 166851,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC52600044",
+            "name": "Astaga Bercanda",
+            "playParams": {
+              "id": "6764270080",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/4c/88/444c88c1-dfaa-8b96-17fa-dd665757fddb/mzaf_4866056703330573390.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-08",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/astaga-bercanda/1895710936?i=6764270080"
+          }
+        },
+        {
+          "id": "1868326920",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1868326920?l=en-GB",
+          "attributes": {
+            "albumArtistName": "eńau & Ari Lesmana",
+            "albumName": "Sesi Potret - Single",
+            "artistName": "eńau & Ari Lesmana",
+            "artwork": {
+              "bgColor": "e1dbd1",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "1b1c28",
+              "textColor2": "2b2934",
+              "textColor3": "43424a",
+              "textColor4": "4f4d53",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/e1/41/3de14120-ccc4-3cb4-0d93-541b551bd1c5/26UMGIM01710.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "eńau",
+            "discNumber": 1,
+            "durationInMillis": 243000,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDB902600001",
+            "name": "Sesi Potret",
+            "playParams": {
+              "id": "1868326920",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/65/ed/0465ed21-5925-0ef9-9431-2c2113f6c774/mzaf_3178591469279182038.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-01-30",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/sesi-potret/1868326919?i=1868326920"
+          }
+        },
+        {
+          "id": "1889992113",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1889992113?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Olivia Rodrigo",
+            "albumName": "you seem pretty sad for a girl so in love",
+            "artistName": "Olivia Rodrigo",
+            "artwork": {
+              "bgColor": "7c939f",
+              "hasP3": false,
+              "height": 4000,
+              "textColor1": "070605",
+              "textColor2": "141413",
+              "textColor3": "1e2224",
+              "textColor4": "282d2f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 4000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Olivia Rodrigo, Daniel Nigro & Amy Allen",
+            "discNumber": 1,
+            "durationInMillis": 224999,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUG12601721",
+            "name": "drop dead",
+            "playParams": {
+              "id": "1889992113",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/89/57/ad/8957adf6-1862-4e4e-bcb5-810d6cf79cc4/mzaf_17505264633075662220.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-16",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/drop-dead/1889992111?i=1889992113"
+          }
+        },
+        {
+          "id": "6762495387",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6762495387?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Raim Laode",
+            "albumName": "iqro'",
+            "artistName": "Raim Laode",
+            "artwork": {
+              "bgColor": "db772a",
+              "hasP3": false,
+              "height": 2000,
+              "textColor1": "100402",
+              "textColor2": "201108",
+              "textColor3": "391b0a",
+              "textColor4": "45250f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/da/83/87da8377-ecbc-b53f-9719-7fab3092fe80/3589989.jpg/{w}x{h}bb.jpg",
+              "width": 2000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Raim Laode",
+            "discNumber": 1,
+            "durationInMillis": 202100,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QT82V2635864",
+            "name": "Dunia Yang Nanti",
+            "playParams": {
+              "id": "6762495387",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/31/bb/7531bb82-777d-67f1-9833-99be4c646fb0/mzaf_5505693797667123192.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-24",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/dunia-yang-nanti/1894381175?i=6762495387"
+          }
+        },
+        {
+          "id": "1884895750",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1884895750?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Pamungkas",
+            "albumName": "Berapa Kali Kita Akan Saling Memaafkan - Single",
+            "artistName": "Pamungkas",
+            "artwork": {
+              "bgColor": "180c03",
+              "hasP3": false,
+              "height": 5000,
+              "textColor1": "d7cfd4",
+              "textColor2": "c8bdc2",
+              "textColor3": "b1a8aa",
+              "textColor4": "a5999c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/60/77/70607770-6c49-ed4f-9827-503eee681c58/8721465617283.png/{w}x{h}bb.jpg",
+              "width": 5000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Pamungkas Jr",
+            "discNumber": 1,
+            "durationInMillis": 280000,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "NL8RL2609579",
+            "name": "Berapa Kali Kita Akan Saling Memaafkan",
+            "playParams": {
+              "id": "1884895750",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/f6/47/e8f64758-8e4f-c5d6-0953-6e4f9ccbbaf6/mzaf_15815175752697077732.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-08",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/berapa-kali-kita-akan-saling-memaafkan/1884895749?i=1884895750"
+          }
+        },
+        {
+          "id": "1814569054",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1814569054?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Kahitna",
+            "albumName": "Titik Nadir (feat. Monita Tahalea) - Single",
+            "artistName": "Kahitna",
+            "artwork": {
+              "bgColor": "008ce7",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "030308",
+              "textColor2": "0f1316",
+              "textColor3": "021e34",
+              "textColor4": "0c2b40",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/f0/0c/e7f00c5b-7e92-7206-2b33-b4510559e9fa/25UMGIM70932.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Yovie Widianto",
+            "discNumber": 1,
+            "durationInMillis": 245462,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA182500249",
+            "name": "Titik Nadir (feat. Monita Tahalea)",
+            "playParams": {
+              "id": "1814569054",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/a4/dd/39a4ddf4-2fb7-2bc9-d6ac-1611242c93e1/mzaf_335125820212524029.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2025-06-24",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/titik-nadir-feat-monita-tahalea/1814569053?i=1814569054"
+          }
+        },
+        {
+          "id": "303171282",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/303171282?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Backstreet Boys",
+            "albumName": "Black & Blue",
+            "artistName": "Backstreet Boys",
+            "artwork": {
+              "bgColor": "1b1b1d",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "bfc8e1",
+              "textColor2": "9fb7f4",
+              "textColor3": "9ea6ba",
+              "textColor4": "8597c9",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d1/04/3f/d1043ff2-73b8-e7c5-3ed8-ae9b768bb24f/012414174321.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Max Martin, Rami Yacoub & Lisa Miskovsky",
+            "discNumber": 1,
+            "durationInMillis": 230093,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USJI10000536",
+            "name": "Shape of My Heart",
+            "playParams": {
+              "id": "303171282",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/91/d1/5591d104-aa48-220c-055d-050a6397ed80/mzaf_5681226089786311079.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2000-10-03",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/shape-of-my-heart/303171231?i=303171282"
+          }
+        },
+        {
+          "id": "1867165038",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1867165038?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Perunggu",
+            "albumName": "Memorandum",
+            "artistName": "Perunggu",
+            "artwork": {
+              "bgColor": "1e0d0d",
+              "hasP3": false,
+              "height": 2000,
+              "textColor1": "e8d8d1",
+              "textColor2": "e5cca1",
+              "textColor3": "bfafaa",
+              "textColor4": "bda683",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/46/f9/d8/46f9d899-0194-e9f1-5ea0-c4c4719a53b7/3551441.jpg/{w}x{h}bb.jpg",
+              "width": 2000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Adam Adenan, Ildo Hasman & Maulana Ibrahim",
+            "discNumber": 1,
+            "durationInMillis": 232000,
+            "genreNames": [
+              "Alternative",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR2X42219173",
+            "name": "Ini Abadi",
+            "playParams": {
+              "id": "1867165038",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/50/b9/d2/50b9d23e-9c29-f8a5-315a-70fe90d191df/mzaf_7215290454437642533.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2022-03-11",
+            "trackNumber": 6,
+            "url": "https://music.apple.com/id/album/ini-abadi/1867165025?i=1867165038"
+          }
+        },
+        {
+          "id": "6766465451",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6766465451?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Adrian Khalif",
+            "albumName": "2001x - Single",
+            "artistName": "Adrian Khalif",
+            "artwork": {
+              "bgColor": "313036",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "e3dfe4",
+              "textColor2": "d6c9d5",
+              "textColor3": "bfbcc1",
+              "textColor4": "b5aab5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/d8/e0/bdd8e01a-e2ca-4571-7e45-d2b216187b2d/823375159513_Cover.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Iqbal Siregar, Adrian Khalif, Belanegara Abimanyu & Kaleb Jonathan",
+            "discNumber": 1,
+            "durationInMillis": 204149,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA162600600",
+            "name": "2001x",
+            "playParams": {
+              "id": "6766465451",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/79/40/70794023-671f-d37f-61fd-e0c1b77f8e0d/mzaf_4148389798615312287.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-22",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/2001x/6766465450?i=6766465451"
+          }
+        },
+        {
+          "id": "1889992123",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1889992123?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Olivia Rodrigo",
+            "albumName": "you seem pretty sad for a girl so in love",
+            "artistName": "Olivia Rodrigo",
+            "artwork": {
+              "bgColor": "7c939f",
+              "hasP3": false,
+              "height": 4000,
+              "textColor1": "070605",
+              "textColor2": "141413",
+              "textColor3": "1e2224",
+              "textColor4": "282d2f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 4000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Olivia Rodrigo & Daniel Nigro",
+            "contentRating": "explicit",
+            "discNumber": 1,
+            "durationInMillis": 297090,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUG12601729",
+            "name": "the cure",
+            "playParams": {
+              "id": "1889992123",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/bc/1e/a5bc1e73-55d7-3835-4020-cb005f8a3b3d/mzaf_15097226120658344754.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-22",
+            "trackNumber": 8,
+            "url": "https://music.apple.com/id/album/the-cure/1889992111?i=1889992123"
+          }
+        },
+        {
+          "id": "6763656876",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6763656876?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Ariana Grande",
+            "albumName": "petal",
+            "artistName": "Ariana Grande",
+            "artwork": {
+              "bgColor": "181818",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f3f3f3",
+              "textColor2": "e4e4e4",
+              "textColor3": "c7c7c7",
+              "textColor4": "bbbbbb",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7e/e6/82/7ee682bd-1b17-6adc-be63-b5af1bdff369/26UMGIM51126.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Ilya Salmanzadeh, Max Martin & Ariana Grande",
+            "discNumber": 1,
+            "durationInMillis": 197950,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM72601821",
+            "name": "hate that i made you love me",
+            "playParams": {
+              "id": "6763656876",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/41/f3/0241f307-2ec2-f817-3953-78df5f80f63d/mzaf_6339924045157787447.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-28",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/hate-that-i-made-you-love-me/1895420989?i=6763656876"
+          }
+        },
+        {
+          "id": "1793295104",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1793295104?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Hindia",
+            "albumName": "Doves, '25 on Blank Canvas",
+            "artistName": "Hindia",
+            "artwork": {
+              "bgColor": "454344",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f5f5f5",
+              "textColor2": "e5e5e5",
+              "textColor3": "d2d1d2",
+              "textColor4": "c5c4c5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/f8/d2/57f8d295-5ea9-f7b2-70ff-9494ce50fc5c/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Baskara Putra, Iga Massardi & Pradipta Beawiharta",
+            "discNumber": 1,
+            "durationInMillis": 236490,
+            "genreNames": [
+              "Indie Pop",
+              "Music",
+              "Alternative"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR10S2592467",
+            "name": "everything u are",
+            "playParams": {
+              "id": "1793295104",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/cb/60/abcb6010-e7cd-2a91-3cd2-e1c9cbd9cb75/mzaf_18434902036461998408.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2025-02-24",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/everything-u-are/1793295095?i=1793295104"
+          }
+        },
+        {
+          "id": "6769552411",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6769552411?l=en-GB",
+          "attributes": {
+            "albumArtistName": "SIENNA SPIRO",
+            "albumName": "Visitor (Deluxe)",
+            "artistName": "SIENNA SPIRO",
+            "artwork": {
+              "bgColor": "f58a54",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "060505",
+              "textColor2": "080606",
+              "textColor3": "361f15",
+              "textColor4": "372115",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/e5/61/f4e561f5-3e73-68c7-7ca4-295ac5a063ed/26UMGIM51351.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "SIENNA SPIRO, Omer Fedi & Michael Pollack",
+            "discNumber": 1,
+            "durationInMillis": 173975,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": false,
+            "isrc": "USUG12603505",
+            "name": "Great Expectation",
+            "playParams": {
+              "id": "6769552411",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/40/c1/d9/40c1d9be-697c-b5ee-e8ae-73fef69df41b/mzaf_15699166814605471296.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-07-02",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/great-expectation/6769552402?i=6769552411"
+          }
+        },
+        {
+          "id": "1889992115",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1889992115?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Olivia Rodrigo",
+            "albumName": "you seem pretty sad for a girl so in love",
+            "artistName": "Olivia Rodrigo",
+            "artwork": {
+              "bgColor": "7c939f",
+              "hasP3": false,
+              "height": 4000,
+              "textColor1": "070605",
+              "textColor2": "141413",
+              "textColor3": "1e2224",
+              "textColor4": "282d2f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/1b/f9/1d1bf9b1-44c6-9a6c-6ffb-c158488c06ce/26UMGIM39303.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 4000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Olivia Rodrigo & Daniel Nigro",
+            "discNumber": 1,
+            "durationInMillis": 209680,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUG12601723",
+            "name": "stupid song",
+            "playParams": {
+              "id": "1889992115",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/d6/78/abd678a1-bf4e-7ee9-d0b2-ba8afee10914/mzaf_3726531799916235303.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-06-12",
+            "trackNumber": 2,
+            "url": "https://music.apple.com/id/album/stupid-song/1889992111?i=1889992115"
+          }
+        },
+        {
+          "id": "1875212140",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1875212140?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Ghea Indrawari",
+            "albumName": "1000X - Single",
+            "artistName": "Ghea Indrawari",
+            "artwork": {
+              "bgColor": "10142e",
+              "hasP3": false,
+              "height": 1430,
+              "textColor1": "eca57f",
+              "textColor2": "dc9070",
+              "textColor3": "c0886f",
+              "textColor4": "b37763",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/7f/72/977f7218-7002-c696-78e7-19511c6095a4/190403.jpg/{w}x{h}bb.jpg",
+              "width": 1430
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Ghea Indrawari",
+            "discNumber": 1,
+            "durationInMillis": 252249,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QT5M22668384",
+            "name": "1000X",
+            "playParams": {
+              "id": "1875212140",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/3e/0a/223e0a38-ffb6-8e52-1543-4ea6ed6d500f/mzaf_1671511930564209282.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-02-05",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/1000x/1875212139?i=1875212140"
+          }
+        },
+        {
+          "id": "1756631382",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1756631382?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Overnight",
+            "albumName": "Kita Lewati Berdua - Single",
+            "artistName": "Overnight",
+            "artwork": {
+              "bgColor": "046348",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "e6eae8",
+              "textColor2": "ecaea2",
+              "textColor3": "b9cfc8",
+              "textColor4": "bd9f90",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/51/e1/58/51e15860-8028-8437-ed77-6b9c529eec3a/859790948357_cover.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Yoga Dwi Herlianto",
+            "discNumber": 1,
+            "durationInMillis": 239630,
+            "genreNames": [
+              "Alternative",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "TCAIM2494368",
+            "name": "Kita Lewati Berdua",
+            "playParams": {
+              "id": "1756631382",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/78/da/b978da55-8e11-c7af-4185-908a77f9748c/mzaf_1709204873393696120.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2024-07-21",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/kita-lewati-berdua/1756631381?i=1756631382"
+          }
+        },
+        {
+          "id": "1866732797",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1866732797?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Bruno Mars",
+            "albumName": "The Romantic",
+            "artistName": "Bruno Mars",
+            "artwork": {
+              "bgColor": "b1b1b1",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "070707",
+              "textColor2": "1e1e1e",
+              "textColor3": "292929",
+              "textColor4": "3b3b3b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "hi-res-lossless",
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Bruno Mars, Dernst Emile II, James Fauntleroy & Philip Lawrence",
+            "discNumber": 1,
+            "durationInMillis": 204068,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USAT22600001",
+            "name": "Risk It All",
+            "playParams": {
+              "id": "1866732797",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/fc/d7/61fcd7e8-ea20-2f90-3672-09516cd050e6/mzaf_8731070401573980357.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-02-27",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/risk-it-all/1866732792?i=1866732797"
+          }
+        },
+        {
+          "id": "1775877096",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1775877096?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Bleachers",
+            "albumName": "Merry Christmas, Please Don't Call - Single",
+            "artistName": "Bleachers",
+            "artwork": {
+              "bgColor": "a50b00",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "faf2f2",
+              "textColor2": "f6e6e5",
+              "textColor3": "e9c4c1",
+              "textColor4": "e5bab7",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/63/85/ce638513-9167-2a5c-2c4a-94b4c8f9f88f/198704216732_Cover.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Jack Antonoff",
+            "discNumber": 1,
+            "durationInMillis": 202132,
+            "genreNames": [
+              "Alternative",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "GBK3W2403232",
+            "name": "Merry Christmas, Please Don't Call",
+            "playParams": {
+              "id": "1775877096",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/cd/e4/f9cde42f-cb75-0596-f412-627135b69c89/mzaf_14100063524368727517.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2024-11-13",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/merry-christmas-please-dont-call/1775877095?i=1775877096"
+          }
+        },
+        {
+          "id": "1727526894",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1727526894?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Dua Lipa",
+            "albumName": "Training Season - Single",
+            "artistName": "Dua Lipa",
+            "artwork": {
+              "bgColor": "f1efee",
+              "hasP3": false,
+              "height": 4000,
+              "textColor1": "31231b",
+              "textColor2": "3d2f28",
+              "textColor3": "584c45",
+              "textColor4": "61554f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/82/89/15/828915ea-d716-61c4-3de7-ef00c1f800fb/5054197853630.jpg/{w}x{h}bb.jpg",
+              "width": 4000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Caroline Ailin, Danny L Harle, Dua Lipa, Kevin Parker, Martina Sorbara, Nicholas Gale, Shaun Frank, Steve Francis Richard Mastroianni, Tobias Jesso Jr. & Yaakov Gruzman",
+            "discNumber": 1,
+            "durationInMillis": 209488,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "GBAHT2301078",
+            "name": "Training Season",
+            "playParams": {
+              "id": "1727526894",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/87/16/a88716e2-9474-ec4e-06d6-d3a9a3ba96c8/mzaf_1835523934823229389.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2024-02-16",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/training-season/1727526670?i=1727526894"
+          }
+        },
+        {
+          "id": "1699730098",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1699730098?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Barasuara",
+            "albumName": "Terbuang Dalam Waktu - Single",
+            "artistName": "Barasuara",
+            "artwork": {
+              "bgColor": "2d160a",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "d6a97d",
+              "textColor2": "de956c",
+              "textColor3": "b48c66",
+              "textColor4": "bb7c58",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/32/e0/62/32e06291-5849-ee28-bdfa-4fcbe8c76730/859776425711_cover.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Gerald Situmorang",
+            "discNumber": 1,
+            "durationInMillis": 279234,
+            "genreNames": [
+              "Rock",
+              "Music",
+              "Alternative"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "TCAHH2369388",
+            "name": "Terbuang Dalam Waktu",
+            "playParams": {
+              "id": "1699730098",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/60/38/0b/60380bc2-e4d6-84e5-3940-216f8374a6fa/mzaf_17677830162381867913.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2023-08-08",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/terbuang-dalam-waktu/1699730096?i=1699730098"
+          }
+        },
+        {
+          "id": "1885485750",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1885485750?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Bernadya",
+            "albumName": "Rabun Jauh - Single",
+            "artistName": "Bernadya",
+            "artwork": {
+              "bgColor": "a8abab",
+              "hasP3": false,
+              "height": 2000,
+              "textColor1": "140a0b",
+              "textColor2": "1a1112",
+              "textColor3": "312a2b",
+              "textColor4": "362f30",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/f7/c5/a9f7c53c-8a18-3e44-4fa8-473e57c5ca68/26UMGIM32434.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 2000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Bernadya Ribka & Rendy Pandugo",
+            "discNumber": 1,
+            "durationInMillis": 175177,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA682600109",
+            "name": "Rabun Jauh",
+            "playParams": {
+              "id": "1885485750",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/4a/e6/6c4ae6da-3adb-3c3b-7fa7-b714463f83d6/mzaf_2147021251317755805.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-13",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/rabun-jauh/1885485747?i=1885485750"
+          }
+        },
+        {
+          "id": "6786444729",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6786444729?l=en-GB",
+          "attributes": {
+            "albumArtistName": "no na",
+            "albumName": "honk! - Single",
+            "artistName": "no na",
+            "artwork": {
+              "bgColor": "050d03",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "cec5bc",
+              "textColor2": "96c1cd",
+              "textColor3": "a6a097",
+              "textColor4": "799da5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/df/4f/5bdf4f9b-bc4b-8984-57a7-978e1d0c36a1/820233897815.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Andres Felipe Rebellon, Baila Fauri, Denial Christian Gardena, Esther Geraldine, fussy, Jonathan Xavier Cunningham, Piao Piao Huang, Shazfa Adesya Zahra, Stephanie Poetri & Tyler Acord",
+            "discNumber": 1,
+            "durationInMillis": 135461,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QMBZ92671097",
+            "name": "honk!",
+            "playParams": {
+              "id": "6786444729",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/4b/fc/4a4bfc2c-1e6b-acc6-884d-9864b3df8bc9/mzaf_4459891657401690838.plus.aac.p.m4a"
+              }
+            ],
+            "releaseDate": "2026-07-24",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/honk/6786444488?i=6786444729"
+          }
+        },
+        {
+          "id": "1833328840",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1833328840?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Taylor Swift",
+            "albumName": "The Life of a Showgirl",
+            "artistName": "Taylor Swift",
+            "artwork": {
+              "bgColor": "4c592e",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "c7ebd0",
+              "textColor2": "acdcc4",
+              "textColor3": "aeceb0",
+              "textColor4": "98c2a6",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/46/e0/2d46e0bc-8ab9-85dd-4b56-ee6951351034/25UM1IM19577.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Taylor Swift, Max Martin & Shellback",
+            "discNumber": 1,
+            "durationInMillis": 226074,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUG12506436",
+            "name": "The Fate of Ophelia",
+            "playParams": {
+              "id": "1833328840",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4b/07/28/4b07285f-b50c-7aff-cb40-2d732256b703/mzaf_14590041634085649439.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2025-10-03",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/the-fate-of-ophelia/1833328839?i=1833328840"
+          }
+        },
+        {
+          "id": "1875871278",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1875871278?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Raim Laode",
+            "albumName": "Iqro' - Single",
+            "artistName": "Raim Laode",
+            "artwork": {
+              "bgColor": "db772a",
+              "hasP3": false,
+              "height": 2000,
+              "textColor1": "100402",
+              "textColor2": "201108",
+              "textColor3": "391b0a",
+              "textColor4": "45250f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/3a/ca/993aca2e-32b9-0304-4446-a23da44a13d7/326772.jpg/{w}x{h}bb.jpg",
+              "width": 2000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "la ode Raimudin",
+            "discNumber": 1,
+            "durationInMillis": 234229,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "SGW502640498",
+            "name": "Iqro'",
+            "playParams": {
+              "id": "1875871278",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/94/07/3394075f-3def-721b-0d50-bdd91714e97e/mzaf_14893488899127858357.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-02-06",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/iqro/1875871277?i=1875871278"
+          }
+        },
+        {
+          "id": "1137966332",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1137966332?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Mac Miller",
+            "albumName": "The Divine Feminine",
+            "artistName": "Mac Miller",
+            "artwork": {
+              "bgColor": "d8bfbb",
+              "hasP3": false,
+              "height": 1425,
+              "textColor1": "040404",
+              "textColor2": "232423",
+              "textColor3": "2e2928",
+              "textColor4": "474342",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/cc/4d/33cc4d85-e92a-b171-1b72-4dc882ce2359/093624918844.jpg/{w}x{h}bb.jpg",
+              "width": 1425
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Aja Grant, Dacoury Natche, Jeff \"Gitty\" Gitelman, Malcolm McCormick, Sunni Colón, Tyrone Griffin Jr & Vic Wainstein",
+            "contentRating": "explicit",
+            "discNumber": 1,
+            "durationInMillis": 480223,
+            "genreNames": [
+              "Hip-Hop",
+              "Music",
+              "Hip-Hop/Rap"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USWB11601446",
+            "name": "Cinderella (feat. Ty Dolla $ign)",
+            "playParams": {
+              "id": "1137966332",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e1/e9/9c/e1e99cfa-12c9-1c8c-ab9f-0079b2e04b45/mzaf_14368810131539218088.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2016-09-16",
+            "trackNumber": 5,
+            "url": "https://music.apple.com/id/album/cinderella-feat-ty-dolla-%24ign/1137965822?i=1137966332"
+          }
+        },
+        {
+          "id": "1639765384",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1639765384?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Yovie Widianto, Tulus & Glenn Fredly",
+            "albumName": "Adu Rayu - Single",
+            "artistName": "Yovie Widianto, Tulus & Glenn Fredly",
+            "artwork": {
+              "bgColor": "968c71",
+              "hasP3": false,
+              "height": 2880,
+              "textColor1": "050607",
+              "textColor2": "11110f",
+              "textColor3": "22211c",
+              "textColor4": "2c2922",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/49/67/53/496753aa-6f3a-2019-2514-e744e7f5f8ca/22UMGIM79426.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 2880
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Yovie Widianto",
+            "discNumber": 1,
+            "durationInMillis": 207700,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR10S1956070",
+            "name": "Adu Rayu",
+            "playParams": {
+              "id": "1639765384",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/6b/c7/196bc7a5-291f-7c3a-972b-7ca7ed7bd50c/mzaf_10440665454974250476.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2019-02-22",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/adu-rayu/1639765367?i=1639765384"
+          }
+        },
+        {
+          "id": "6793277028",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6793277028?l=en-GB",
+          "attributes": {
+            "albumArtistName": "JENNIE",
+            "albumName": "Less than a Lover - Single",
+            "artistName": "JENNIE",
+            "artwork": {
+              "bgColor": "c78355",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0f0e0d",
+              "textColor2": "14110f",
+              "textColor3": "34251b",
+              "textColor4": "38281d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8d/ac/90/8dac9090-2a14-20d9-ed97-6a35ad299beb/196874620281.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "JENNIE, Bibi Bourelly, Tyler Spry, Deb Never, Jelli & Magnus August Høiberg",
+            "discNumber": 1,
+            "durationInMillis": 145680,
+            "genreNames": [
+              "Pop",
+              "Music",
+              "K-Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USQX92604129",
+            "name": "Less than a Lover",
+            "playParams": {
+              "id": "6793277028",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/53/b8/e953b8de-e72a-d2f9-b416-c4c4d1281134/mzaf_14344586424514115122.plus.aac.p.m4a"
+              }
+            ],
+            "releaseDate": "2026-07-24",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/less-than-a-lover/6793277024?i=6793277028"
+          }
+        },
+        {
+          "id": "1440650961",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1440650961?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Justin Bieber",
+            "albumName": "Believe (Deluxe Edition)",
+            "artistName": "Justin Bieber",
+            "artwork": {
+              "bgColor": "3a1a12",
+              "hasP3": false,
+              "height": 1500,
+              "textColor1": "ffffff",
+              "textColor2": "fbe1aa",
+              "textColor3": "d7d1cf",
+              "textColor4": "d4ba8c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/08/1a/73081a96-0f7c-b5f8-2757-5c17fb714323/12UMGIM31899.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 1500
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Max Martin, Zedd, Savan Kotecha & Onika Maraj",
+            "discNumber": 1,
+            "durationInMillis": 227987,
+            "genreNames": [
+              "Pop",
+              "Music",
+              "Rock",
+              "Teen Pop",
+              "Vocal",
+              "Dance"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM71205367",
+            "name": "Beauty and a Beat (feat. Nicki Minaj)",
+            "playParams": {
+              "id": "1440650961",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ea/b4/da/eab4da01-c422-c640-1ac3-97d746c5871c/mzaf_8122652423461071690.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2012-06-15",
+            "trackNumber": 10,
+            "url": "https://music.apple.com/id/album/beauty-and-a-beat-feat-nicki-minaj/1440650852?i=1440650961"
+          },
+          "meta": {
+            "formerIds": [
+              "534441559",
+              "534590210"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

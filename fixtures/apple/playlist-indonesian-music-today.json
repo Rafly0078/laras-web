@@ -1,0 +1,1955 @@
+{
+  "meta": {
+    "title": "Indonesian Music Today",
+    "curator": "Apple Music Indonesian Music",
+    "description": "Considering the bevy of concerts and festivals in Indonesia, it’s no surprise that the current musical landscape encompasses a wide range of styles. From soaring ballads to pumped-up rock instrumentals, toe-tapping hooks and more, these are the top new tracks from the Indonesian pop scene and beyond. This playlist is updated regularly—if you like a song, add it to your library.",
+    "artwork": {
+      "bgColor": "df09be",
+      "hasP3": false,
+      "height": 1080,
+      "textColor1": "ffffff",
+      "textColor2": "0a030b",
+      "textColor3": "240928",
+      "textColor4": "280925",
+      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/bf/dd/8d/bfdd8d51-8402-9aa1-4633-ee85d182adff/U0MtTVMtV1ctSW5kb25lc2lhbl9NdXNpY19Ub2RheS1BREFNX0lEPTEwNDg0Nzg2MTYucG5n.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+      "width": 1080
+    }
+  },
+  "tracks": {
+    "playlist_id": "pl.9701289a07b845fb91b0a428c12f42c9",
+    "total_parsed_tracks": 30,
+    "parsed_tracks": [
+      {
+        "id": "6786444729",
+        "title": "honk!",
+        "artist": "no na",
+        "album": "honk! - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/df/4f/5bdf4f9b-bc4b-8984-57a7-978e1d0c36a1/820233897815.jpg/600x600bb.jpg",
+        "duration_ms": 135461,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6764270080",
+        "title": "Astaga Bercanda",
+        "artist": "Akbar Chalay & Mingse",
+        "album": "Astaga Bercanda - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/a6/1f/afa61ff7-4276-910c-0121-05a523a3df14/196874351154.jpg/600x600bb.jpg",
+        "duration_ms": 166851,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6781391180",
+        "title": "MMG (My Mine Gueh)",
+        "artist": "Naykilla",
+        "album": "MMG (My Mine Gueh) - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/fb/b2/f5fbb244-5aae-f06b-39e1-ca0ff7422560/820233746380.jpg/600x600bb.jpg",
+        "duration_ms": 193091,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6784585105",
+        "title": "Teh Hijau",
+        "artist": "Tulus",
+        "album": "Teh Hijau - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/600x600bb.jpg",
+        "duration_ms": 212879,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1885485750",
+        "title": "Rabun Jauh",
+        "artist": "Bernadya",
+        "album": "Rabun Jauh - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/f7/c5/a9f7c53c-8a18-3e44-4fa8-473e57c5ca68/26UMGIM32434.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 175177,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1884895750",
+        "title": "Berapa Kali Kita Akan Saling Memaafkan",
+        "artist": "Pamungkas",
+        "album": "Berapa Kali Kita Akan Saling Memaafkan - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/60/77/70607770-6c49-ed4f-9827-503eee681c58/8721465617283.png/600x600bb.jpg",
+        "duration_ms": 280000,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1875212140",
+        "title": "1000X",
+        "artist": "Ghea Indrawari",
+        "album": "1000X - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/7f/72/977f7218-7002-c696-78e7-19511c6095a4/190403.jpg/600x600bb.jpg",
+        "duration_ms": 252249,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1868326920",
+        "title": "Sesi Potret",
+        "artist": "eńau & Ari Lesmana",
+        "album": "Sesi Potret - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/e1/41/3de14120-ccc4-3cb4-0d93-541b551bd1c5/26UMGIM01710.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 243000,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6767109577",
+        "title": "Melompat Lebih Tinggi",
+        "artist": "Lomba Sihir",
+        "album": "Melompat Lebih Tinggi - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/ce/30/c6ce30d6-74f4-3a20-d4bf-d05117399533/196874344767.jpg/600x600bb.jpg",
+        "duration_ms": 220527,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6766465451",
+        "title": "2001x",
+        "artist": "Adrian Khalif",
+        "album": "2001x - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/d8/e0/bdd8e01a-e2ca-4571-7e45-d2b216187b2d/823375159513_Cover.jpg/600x600bb.jpg",
+        "duration_ms": 204149,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1894009284",
+        "title": "Hatchu!!",
+        "artist": "Salma Salsabil",
+        "album": "Hatchu!! - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/a4/b7/d5a4b795-d8a1-07bd-b321-c43f01341280/26UMGIM40670.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 204344,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6763201192",
+        "title": "seketika",
+        "artist": "Rizwan Fadilah, RnBoyz* & Mahalini",
+        "album": "seketika - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/61/76/ce6176fd-fac8-7439-c744-150684ed4333/26UMGIM48380.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 170362,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6778883456",
+        "title": "bERANI",
+        "artist": "Kunto Aji",
+        "album": "bERANI - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/11/e8/4211e874-629f-5243-6fa8-415bc264cbdc/cover.jpg/600x600bb.jpg",
+        "duration_ms": 210692,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1894225917",
+        "title": "Masih Ada Cahaya (feat. Hindia)",
+        "artist": "Idgitaf",
+        "album": "Berusaha di Bawah Hujan",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/0a/ff/1e0affa9-0fe9-3faf-313d-c07b5d3b6bc8/cover.jpg/600x600bb.jpg",
+        "duration_ms": 234488,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1814569054",
+        "title": "Titik Nadir (feat. Monita Tahalea)",
+        "artist": "Kahitna",
+        "album": "Titik Nadir (feat. Monita Tahalea) - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/f0/0c/e7f00c5b-7e92-7206-2b33-b4510559e9fa/25UMGIM70932.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 245462,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6784714357",
+        "title": "Sementara",
+        "artist": "Barasuara",
+        "album": "Sementara - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/06/bb/ce06bb02-9705-f6e1-28c0-f9136672feee/859741274221_cover.jpg/600x600bb.jpg",
+        "duration_ms": 302009,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1881750229",
+        "title": "rollerblade",
+        "artist": "no na",
+        "album": "rollerblade - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/12/08/f31208cd-2f8d-c1fb-9fe2-adfd58a9d544/820200544841.jpg/600x600bb.jpg",
+        "duration_ms": 114056,
+        "is_explicit": true,
+        "type": "songs"
+      },
+      {
+        "id": "6791909852",
+        "title": "I Miss You Every Brand New Day (From \"Spider-Man: Brand New Day\" Movie)",
+        "artist": "For Revenge",
+        "album": "I Miss You Every Brand New Day (From \"Spider-Man: Brand New Day\" Movie) - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/ba/80/7cba80cc-f64b-6837-246d-4007bedbd383/196874591994.jpg/600x600bb.jpg",
+        "duration_ms": 240109,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1793295104",
+        "title": "everything u are",
+        "artist": "Hindia",
+        "album": "Doves, '25 on Blank Canvas",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/f8/d2/57f8d295-5ea9-f7b2-70ff-9494ce50fc5c/cover.jpg/600x600bb.jpg",
+        "duration_ms": 236490,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6785825957",
+        "title": "Pura-Pura Hidup Lagi",
+        "artist": "Aruma",
+        "album": "Pura-Pura Hidup Lagi - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/f0/19/4df01962-17bc-984c-d5d8-01961573a392/196874558072.jpg/600x600bb.jpg",
+        "duration_ms": 200739,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6762495387",
+        "title": "Dunia Yang Nanti",
+        "artist": "Raim Laode",
+        "album": "iqro'",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/da/83/87da8377-ecbc-b53f-9719-7fab3092fe80/3589989.jpg/600x600bb.jpg",
+        "duration_ms": 202100,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1868294171",
+        "title": "Kita Buat Menyenangkan",
+        "artist": "Bernadya",
+        "album": "Kita Buat Menyenangkan - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/c0/8b/50c08bf3-f106-9b29-5bf0-4a9c269add43/26UMGIM00072.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 249921,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1737267355",
+        "title": "Foto kita blur",
+        "artist": "Sal Priadi",
+        "album": "MARKERS AND SUCH PENS FLASHDISKS",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/a8/4c/faa84c4f-0f09-3730-6460-8c53e9dc159d/cover.jpg/600x600bb.jpg",
+        "duration_ms": 271477,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6770856148",
+        "title": "Hompimpa",
+        "artist": "Marbles",
+        "album": "Hompimpa - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/ef/a2/25efa230-5cfc-b26c-1304-619cdf7f3bb5/26UMGIM64467.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 139223,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1884301907",
+        "title": "Sempurnanya Aku",
+        "artist": "NPD",
+        "album": "Sempurnanya Aku - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/af/8d/d4af8dea-dc98-07e6-bc73-b042edfc6959/1016192.jpg/600x600bb.jpg",
+        "duration_ms": 228852,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1809400069",
+        "title": "shoot",
+        "artist": "no na",
+        "album": "shoot - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/ca/3a/59ca3aea-e0f2-99e8-4a21-36f1a07eda88/199350381072.jpg/600x600bb.jpg",
+        "duration_ms": 214301,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6788311344",
+        "title": "Sudah Tahu Tuhan Kita Berbeda",
+        "artist": "eńau & Momo",
+        "album": "Sudah Tahu Tuhan Kita Berbeda - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/b8/99/f6b8993f-208d-d42c-69c2-c49578122f1e/26UMGIM90180.rgb.jpg/600x600bb.jpg",
+        "duration_ms": 232615,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "6793993927",
+        "title": "Tell Me What",
+        "artist": "idom & RACH?",
+        "album": "Tell Me What - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/c0/53/0dc0535f-b743-d011-3665-dc5201600ec4/4547366843026.jpg/600x600bb.jpg",
+        "duration_ms": 180845,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1870566304",
+        "title": "Kicau Mania",
+        "artist": "Ndarboy Genk, Banditoz Yaow 86 & BoyCord",
+        "album": "Kicau Mania - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/3b/c3/543bc3fb-f493-57b0-ac9f-aa9f5b1a2e9d/cover.jpg/600x600bb.jpg",
+        "duration_ms": 224000,
+        "is_explicit": false,
+        "type": "songs"
+      },
+      {
+        "id": "1756631382",
+        "title": "Kita Lewati Berdua",
+        "artist": "Overnight",
+        "album": "Kita Lewati Berdua - Single",
+        "album_id": null,
+        "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/51/e1/58/51e15860-8028-8437-ed77-6b9c529eec3a/859790948357_cover.jpg/600x600bb.jpg",
+        "duration_ms": 239630,
+        "is_explicit": false,
+        "type": "songs"
+      }
+    ],
+    "next": "/v1/catalog/id/playlists/pl.9701289a07b845fb91b0a428c12f42c9/tracks?l=en-GB&offset=30",
+    "raw_data": {
+      "next": "/v1/catalog/id/playlists/pl.9701289a07b845fb91b0a428c12f42c9/tracks?l=en-GB&offset=30",
+      "data": [
+        {
+          "id": "6786444729",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6786444729?l=en-GB",
+          "attributes": {
+            "albumArtistName": "no na",
+            "albumName": "honk! - Single",
+            "artistName": "no na",
+            "artwork": {
+              "bgColor": "050d03",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "cec5bc",
+              "textColor2": "96c1cd",
+              "textColor3": "a6a097",
+              "textColor4": "799da5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/5b/df/4f/5bdf4f9b-bc4b-8984-57a7-978e1d0c36a1/820233897815.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Andres Felipe Rebellon, Baila Fauri, Denial Christian Gardena, Esther Geraldine, fussy, Jonathan Xavier Cunningham, Piao Piao Huang, Shazfa Adesya Zahra, Stephanie Poetri & Tyler Acord",
+            "discNumber": 1,
+            "durationInMillis": 135461,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QMBZ92671097",
+            "name": "honk!",
+            "playParams": {
+              "id": "6786444729",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/4b/fc/4a4bfc2c-1e6b-acc6-884d-9864b3df8bc9/mzaf_4459891657401690838.plus.aac.p.m4a"
+              }
+            ],
+            "releaseDate": "2026-07-24",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/honk/6786444488?i=6786444729"
+          }
+        },
+        {
+          "id": "6764270080",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6764270080?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Akbar Chalay & Mingse",
+            "albumName": "Astaga Bercanda - Single",
+            "artistName": "Akbar Chalay & Mingse",
+            "artwork": {
+              "bgColor": "ca74ad",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "070205",
+              "textColor2": "090306",
+              "textColor3": "2e1926",
+              "textColor4": "301a27",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/af/a6/1f/afa61ff7-4276-910c-0121-05a523a3df14/196874351154.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Giant Prayash Trinanda, Nabil Adesya Putra, Aji Suherri & Happy Andromeda",
+            "discNumber": 1,
+            "durationInMillis": 166851,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC52600044",
+            "name": "Astaga Bercanda",
+            "playParams": {
+              "id": "6764270080",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/4c/88/444c88c1-dfaa-8b96-17fa-dd665757fddb/mzaf_4866056703330573390.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-08",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/astaga-bercanda/1895710936?i=6764270080"
+          }
+        },
+        {
+          "id": "6781391180",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6781391180?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Naykilla",
+            "albumName": "MMG (My Mine Gueh) - Single",
+            "artistName": "Naykilla",
+            "artwork": {
+              "bgColor": "121118",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f6d0be",
+              "textColor2": "f6aa9d",
+              "textColor3": "c9aa9d",
+              "textColor4": "c88b82",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f5/fb/b2/f5fbb244-5aae-f06b-39e1-ca0ff7422560/820233746380.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Nayya Rahmania",
+            "discNumber": 1,
+            "durationInMillis": 193091,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QMBZ92612829",
+            "name": "MMG (My Mine Gueh)",
+            "playParams": {
+              "id": "6781391180",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c4/de/38/c4de3885-2634-ed06-3d2d-09cee66e3bc7/mzaf_17779267043825550472.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-06-13",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/mmg-my-mine-gueh/6781390906?i=6781391180"
+          }
+        },
+        {
+          "id": "6784585105",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6784585105?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Tulus",
+            "albumName": "Teh Hijau - Single",
+            "artistName": "Tulus",
+            "artwork": {
+              "bgColor": "a6a953",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "010100",
+              "textColor2": "060702",
+              "textColor3": "21230d",
+              "textColor4": "282a11",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bb/12/3e/bb123e64-7747-78f3-ce81-8b04bfe30e73/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Muhammad Tulus",
+            "discNumber": 1,
+            "durationInMillis": 212879,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FRX282637095",
+            "name": "Teh Hijau",
+            "playParams": {
+              "id": "6784585105",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/fe/74/88fe7468-da1c-ad60-2080-f88563e38040/mzaf_3893396008702662653.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-06-30",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/teh-hijau/6784585100?i=6784585105"
+          }
+        },
+        {
+          "id": "1885485750",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1885485750?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Bernadya",
+            "albumName": "Rabun Jauh - Single",
+            "artistName": "Bernadya",
+            "artwork": {
+              "bgColor": "a8abab",
+              "hasP3": false,
+              "height": 2000,
+              "textColor1": "140a0b",
+              "textColor2": "1a1112",
+              "textColor3": "312a2b",
+              "textColor4": "362f30",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/f7/c5/a9f7c53c-8a18-3e44-4fa8-473e57c5ca68/26UMGIM32434.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 2000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Bernadya Ribka & Rendy Pandugo",
+            "discNumber": 1,
+            "durationInMillis": 175177,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA682600109",
+            "name": "Rabun Jauh",
+            "playParams": {
+              "id": "1885485750",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6c/4a/e6/6c4ae6da-3adb-3c3b-7fa7-b714463f83d6/mzaf_2147021251317755805.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-13",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/rabun-jauh/1885485747?i=1885485750"
+          }
+        },
+        {
+          "id": "1884895750",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1884895750?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Pamungkas",
+            "albumName": "Berapa Kali Kita Akan Saling Memaafkan - Single",
+            "artistName": "Pamungkas",
+            "artwork": {
+              "bgColor": "180c03",
+              "hasP3": false,
+              "height": 5000,
+              "textColor1": "d7cfd4",
+              "textColor2": "c8bdc2",
+              "textColor3": "b1a8aa",
+              "textColor4": "a5999c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/60/77/70607770-6c49-ed4f-9827-503eee681c58/8721465617283.png/{w}x{h}bb.jpg",
+              "width": 5000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Pamungkas Jr",
+            "discNumber": 1,
+            "durationInMillis": 280000,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "NL8RL2609579",
+            "name": "Berapa Kali Kita Akan Saling Memaafkan",
+            "playParams": {
+              "id": "1884895750",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e8/f6/47/e8f64758-8e4f-c5d6-0953-6e4f9ccbbaf6/mzaf_15815175752697077732.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-08",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/berapa-kali-kita-akan-saling-memaafkan/1884895749?i=1884895750"
+          }
+        },
+        {
+          "id": "1875212140",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1875212140?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Ghea Indrawari",
+            "albumName": "1000X - Single",
+            "artistName": "Ghea Indrawari",
+            "artwork": {
+              "bgColor": "10142e",
+              "hasP3": false,
+              "height": 1430,
+              "textColor1": "eca57f",
+              "textColor2": "dc9070",
+              "textColor3": "c0886f",
+              "textColor4": "b37763",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/97/7f/72/977f7218-7002-c696-78e7-19511c6095a4/190403.jpg/{w}x{h}bb.jpg",
+              "width": 1430
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Ghea Indrawari",
+            "discNumber": 1,
+            "durationInMillis": 252249,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QT5M22668384",
+            "name": "1000X",
+            "playParams": {
+              "id": "1875212140",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/22/3e/0a/223e0a38-ffb6-8e52-1543-4ea6ed6d500f/mzaf_1671511930564209282.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-02-05",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/1000x/1875212139?i=1875212140"
+          }
+        },
+        {
+          "id": "1868326920",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1868326920?l=en-GB",
+          "attributes": {
+            "albumArtistName": "eńau & Ari Lesmana",
+            "albumName": "Sesi Potret - Single",
+            "artistName": "eńau & Ari Lesmana",
+            "artwork": {
+              "bgColor": "e1dbd1",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "1b1c28",
+              "textColor2": "2b2934",
+              "textColor3": "43424a",
+              "textColor4": "4f4d53",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/3d/e1/41/3de14120-ccc4-3cb4-0d93-541b551bd1c5/26UMGIM01710.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "eńau",
+            "discNumber": 1,
+            "durationInMillis": 243000,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDB902600001",
+            "name": "Sesi Potret",
+            "playParams": {
+              "id": "1868326920",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/65/ed/0465ed21-5925-0ef9-9431-2c2113f6c774/mzaf_3178591469279182038.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-01-30",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/sesi-potret/1868326919?i=1868326920"
+          }
+        },
+        {
+          "id": "6767109577",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6767109577?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lomba Sihir",
+            "albumName": "Melompat Lebih Tinggi - Single",
+            "artistName": "Lomba Sihir",
+            "artwork": {
+              "bgColor": "0a1b24",
+              "hasP3": false,
+              "height": 3939,
+              "textColor1": "dac7bf",
+              "textColor2": "d8959f",
+              "textColor3": "b0a4a0",
+              "textColor4": "af7d87",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c6/ce/30/c6ce30d6-74f4-3a20-d4bf-d05117399533/196874344767.jpg/{w}x{h}bb.jpg",
+              "width": 3939
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Eross Candra",
+            "discNumber": 1,
+            "durationInMillis": 220527,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC52600042",
+            "name": "Melompat Lebih Tinggi",
+            "playParams": {
+              "id": "6767109577",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bc/0e/3b/bc0e3bcb-ad1c-68a1-8668-c88adac043a1/mzaf_4416621508344932006.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-22",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/melompat-lebih-tinggi/1896386171?i=6767109577"
+          }
+        },
+        {
+          "id": "6766465451",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6766465451?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Adrian Khalif",
+            "albumName": "2001x - Single",
+            "artistName": "Adrian Khalif",
+            "artwork": {
+              "bgColor": "313036",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "e3dfe4",
+              "textColor2": "d6c9d5",
+              "textColor3": "bfbcc1",
+              "textColor4": "b5aab5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bd/d8/e0/bdd8e01a-e2ca-4571-7e45-d2b216187b2d/823375159513_Cover.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Iqbal Siregar, Adrian Khalif, Belanegara Abimanyu & Kaleb Jonathan",
+            "discNumber": 1,
+            "durationInMillis": 204149,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA162600600",
+            "name": "2001x",
+            "playParams": {
+              "id": "6766465451",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/79/40/70794023-671f-d37f-61fd-e0c1b77f8e0d/mzaf_4148389798615312287.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-22",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/2001x/6766465450?i=6766465451"
+          }
+        },
+        {
+          "id": "1894009284",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1894009284?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Salma Salsabil",
+            "albumName": "Hatchu!! - Single",
+            "artistName": "Salma Salsabil",
+            "artwork": {
+              "bgColor": "081114",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "d9e8dd",
+              "textColor2": "c0d7ce",
+              "textColor3": "afbdb5",
+              "textColor4": "9bb0a9",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d5/a4/b7/d5a4b795-d8a1-07bd-b321-c43f01341280/26UMGIM40670.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Rahman Sadli Waraiya",
+            "discNumber": 1,
+            "durationInMillis": 204344,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDUM72600049",
+            "name": "Hatchu!!",
+            "playParams": {
+              "id": "1894009284",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/d1/ee/e4d1ee24-bac7-cbcb-03ed-c942dcd93f24/mzaf_4249712495081411440.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-08",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/hatchu/1894009274?i=1894009284"
+          }
+        },
+        {
+          "id": "6763201192",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6763201192?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Rizwan Fadilah, RnBoyz* & Mahalini",
+            "albumName": "seketika - Single",
+            "artistName": "Rizwan Fadilah, RnBoyz* & Mahalini",
+            "artwork": {
+              "bgColor": "343444",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "c9ced9",
+              "textColor2": "cfb6b9",
+              "textColor3": "abafbb",
+              "textColor4": "b09ca1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ce/61/76/ce6176fd-fac8-7439-c744-150684ed4333/26UMGIM48380.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Rizwan Fadilah, Aldo Janitrayuda, Valliant Karim & Deeto Vantra",
+            "discNumber": 1,
+            "durationInMillis": 170362,
+            "genreNames": [
+              "R&B/Soul",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "GB2DY2603002",
+            "name": "seketika",
+            "playParams": {
+              "id": "6763201192",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/78/fc/0e/78fc0e15-97c8-5172-c213-c6c2012b8848/mzaf_9950017514752795420.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-08",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/seketika/1895212268?i=6763201192"
+          }
+        },
+        {
+          "id": "6778883456",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6778883456?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Kunto Aji",
+            "albumName": "bERANI - Single",
+            "artistName": "Kunto Aji",
+            "artwork": {
+              "bgColor": "980404",
+              "hasP3": false,
+              "height": 2001,
+              "textColor1": "f9f2f2",
+              "textColor2": "f4e5e5",
+              "textColor3": "e6c2c2",
+              "textColor4": "e2b8b8",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/42/11/e8/4211e874-629f-5243-6fa8-415bc264cbdc/cover.jpg/{w}x{h}bb.jpg",
+              "width": 2001
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Kunto Aji Wibisono",
+            "discNumber": 1,
+            "durationInMillis": 210692,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FRX202690533",
+            "name": "bERANI",
+            "playParams": {
+              "id": "6778883456",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/13/bd/fb/13bdfbfc-ef20-d3f7-24bc-ac6b05446b61/mzaf_9854145905611263024.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-06-30",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/berani/6778883453?i=6778883456"
+          }
+        },
+        {
+          "id": "1894225917",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1894225917?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Idgitaf",
+            "albumName": "Berusaha di Bawah Hujan",
+            "artistName": "Idgitaf",
+            "artwork": {
+              "bgColor": "0f1d15",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "d2c2bc",
+              "textColor2": "aabcc8",
+              "textColor3": "aba19b",
+              "textColor4": "8b9ca4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/1e/0a/ff/1e0affa9-0fe9-3faf-313d-c07b5d3b6bc8/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Brigita Meliala & Daniel Baskara Putra",
+            "discNumber": 1,
+            "durationInMillis": 234488,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR96X2628889",
+            "name": "Masih Ada Cahaya (feat. Hindia)",
+            "playParams": {
+              "id": "1894225917",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/af/28/50/af285053-5356-b80f-bdf6-2b364fb3b617/mzaf_15365142632853601192.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-05-15",
+            "trackNumber": 8,
+            "url": "https://music.apple.com/id/album/masih-ada-cahaya-feat-hindia/1894225643?i=1894225917"
+          }
+        },
+        {
+          "id": "1814569054",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1814569054?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Kahitna",
+            "albumName": "Titik Nadir (feat. Monita Tahalea) - Single",
+            "artistName": "Kahitna",
+            "artwork": {
+              "bgColor": "008ce7",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "030308",
+              "textColor2": "0f1316",
+              "textColor3": "021e34",
+              "textColor4": "0c2b40",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/f0/0c/e7f00c5b-7e92-7206-2b33-b4510559e9fa/25UMGIM70932.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Yovie Widianto",
+            "discNumber": 1,
+            "durationInMillis": 245462,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA182500249",
+            "name": "Titik Nadir (feat. Monita Tahalea)",
+            "playParams": {
+              "id": "1814569054",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/39/a4/dd/39a4ddf4-2fb7-2bc9-d6ac-1611242c93e1/mzaf_335125820212524029.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2025-06-24",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/titik-nadir-feat-monita-tahalea/1814569053?i=1814569054"
+          }
+        },
+        {
+          "id": "6784714357",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6784714357?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Barasuara",
+            "albumName": "Sementara - Single",
+            "artistName": "Barasuara",
+            "artwork": {
+              "bgColor": "010101",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "eeba94",
+              "textColor2": "e3ab83",
+              "textColor3": "be9577",
+              "textColor4": "b68969",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ce/06/bb/ce06bb02-9705-f6e1-28c0-f9136672feee/859741274221_cover.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "hi-res-lossless",
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Iga Massardi",
+            "discNumber": 1,
+            "durationInMillis": 302009,
+            "genreNames": [
+              "Alternative",
+              "Music",
+              "Rock"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QT6662659714",
+            "name": "Sementara",
+            "playParams": {
+              "id": "6784714357",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/1b/f7/7d1bf76d-4f9d-0e90-86e4-88c4010e5479/mzaf_14056752394545409830.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-07-10",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/sementara/6784713964?i=6784714357"
+          }
+        },
+        {
+          "id": "1881750229",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1881750229?l=en-GB",
+          "attributes": {
+            "albumArtistName": "no na",
+            "albumName": "rollerblade - Single",
+            "artistName": "no na",
+            "artwork": {
+              "bgColor": "006370",
+              "hasP3": false,
+              "height": 3615,
+              "textColor1": "f5e0e5",
+              "textColor2": "a6d7ef",
+              "textColor3": "c4c7cd",
+              "textColor4": "85c0d5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f3/12/08/f31208cd-2f8d-c1fb-9fe2-adfd58a9d544/820200544841.jpg/{w}x{h}bb.jpg",
+              "width": 3615
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Andres Felipe Rebellon, fussy, Jonathan Xavier Cunningham, Piao Piao Huang & Stephanie Poetri",
+            "contentRating": "explicit",
+            "discNumber": 1,
+            "durationInMillis": 114056,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QM6MZ2610146",
+            "name": "rollerblade",
+            "playParams": {
+              "id": "1881750229",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5d/d5/be/5dd5bed6-a2f2-698c-e688-9d0bf0440535/mzaf_12748922573121118531.plus.aac.p.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-17",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/rollerblade/1881750216?i=1881750229"
+          }
+        },
+        {
+          "id": "6791909852",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6791909852?l=en-GB",
+          "attributes": {
+            "albumArtistName": "For Revenge",
+            "albumName": "I Miss You Every Brand New Day (From \"Spider-Man: Brand New Day\" Movie) - Single",
+            "artistName": "For Revenge",
+            "artwork": {
+              "bgColor": "34598d",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "edf4f9",
+              "textColor2": "d2eafc",
+              "textColor3": "c8d5e3",
+              "textColor4": "b3cde6",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7c/ba/80/7cba80cc-f64b-6837-246d-4007bedbd383/196874591994.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Moch Boniex Nurwega & Faisal Riant Sahputra",
+            "discNumber": 1,
+            "durationInMillis": 240109,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC52600071",
+            "name": "I Miss You Every Brand New Day (From \"Spider-Man: Brand New Day\" Movie)",
+            "playParams": {
+              "id": "6791909852",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/ba/09/9bba092d-1b6f-5042-212e-2573b4eee7ab/mzaf_6050931409081961645.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-07-27",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/i-miss-you-every-brand-new-day-from-spider-man-brand/6791909848?i=6791909852"
+          }
+        },
+        {
+          "id": "1793295104",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1793295104?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Hindia",
+            "albumName": "Doves, '25 on Blank Canvas",
+            "artistName": "Hindia",
+            "artwork": {
+              "bgColor": "454344",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f5f5f5",
+              "textColor2": "e5e5e5",
+              "textColor3": "d2d1d2",
+              "textColor4": "c5c4c5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/57/f8/d2/57f8d295-5ea9-f7b2-70ff-9494ce50fc5c/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Baskara Putra, Iga Massardi & Pradipta Beawiharta",
+            "discNumber": 1,
+            "durationInMillis": 236490,
+            "genreNames": [
+              "Indie Pop",
+              "Music",
+              "Alternative"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR10S2592467",
+            "name": "everything u are",
+            "playParams": {
+              "id": "1793295104",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ab/cb/60/abcb6010-e7cd-2a91-3cd2-e1c9cbd9cb75/mzaf_18434902036461998408.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2025-02-24",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/everything-u-are/1793295095?i=1793295104"
+          }
+        },
+        {
+          "id": "6785825957",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6785825957?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Aruma",
+            "albumName": "Pura-Pura Hidup Lagi - Single",
+            "artistName": "Aruma",
+            "artwork": {
+              "bgColor": "0e0905",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f9b658",
+              "textColor2": "e6a150",
+              "textColor3": "ca9447",
+              "textColor4": "ba8241",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4d/f0/19/4df01962-17bc-984c-d5d8-01961573a392/196874558072.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Meyta Iskandar",
+            "discNumber": 1,
+            "durationInMillis": 200739,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDAC52600066",
+            "name": "Pura-Pura Hidup Lagi",
+            "playParams": {
+              "id": "6785825957",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/1a/c5/8e1ac5cf-f5c6-e134-2a8e-2602ea722dee/mzaf_15341909429607638048.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-07-09",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/pura-pura-hidup-lagi/6785825955?i=6785825957"
+          }
+        },
+        {
+          "id": "6762495387",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6762495387?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Raim Laode",
+            "albumName": "iqro'",
+            "artistName": "Raim Laode",
+            "artwork": {
+              "bgColor": "db772a",
+              "hasP3": false,
+              "height": 2000,
+              "textColor1": "100402",
+              "textColor2": "201108",
+              "textColor3": "391b0a",
+              "textColor4": "45250f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/87/da/83/87da8377-ecbc-b53f-9719-7fab3092fe80/3589989.jpg/{w}x{h}bb.jpg",
+              "width": 2000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Raim Laode",
+            "discNumber": 1,
+            "durationInMillis": 202100,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QT82V2635864",
+            "name": "Dunia Yang Nanti",
+            "playParams": {
+              "id": "6762495387",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/75/31/bb/7531bb82-777d-67f1-9833-99be4c646fb0/mzaf_5505693797667123192.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-24",
+            "trackNumber": 3,
+            "url": "https://music.apple.com/id/album/dunia-yang-nanti/1894381175?i=6762495387"
+          }
+        },
+        {
+          "id": "1868294171",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1868294171?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Bernadya",
+            "albumName": "Kita Buat Menyenangkan - Single",
+            "artistName": "Bernadya",
+            "artwork": {
+              "bgColor": "060706",
+              "hasP3": false,
+              "height": 2000,
+              "textColor1": "f0deb0",
+              "textColor2": "e1b18d",
+              "textColor3": "c1b38e",
+              "textColor4": "b58f72",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/c0/8b/50c08bf3-f106-9b29-5bf0-4a9c269add43/26UMGIM00072.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 2000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Bernadya Ribka",
+            "discNumber": 1,
+            "durationInMillis": 249921,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA682600101",
+            "name": "Kita Buat Menyenangkan",
+            "playParams": {
+              "id": "1868294171",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/63/d9/ec/63d9ec71-3d71-7624-3c3d-46b2ec3be3f5/mzaf_18392461016260098067.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-01-28",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/kita-buat-menyenangkan/1868294168?i=1868294171"
+          }
+        },
+        {
+          "id": "1737267355",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1737267355?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Sal Priadi",
+            "albumName": "MARKERS AND SUCH PENS FLASHDISKS",
+            "artistName": "Sal Priadi",
+            "artwork": {
+              "bgColor": "d1904f",
+              "hasP3": false,
+              "height": 1440,
+              "textColor1": "020101",
+              "textColor2": "281408",
+              "textColor3": "2b1d11",
+              "textColor4": "492c17",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/a8/4c/faa84c4f-0f09-3730-6460-8c53e9dc159d/cover.jpg/{w}x{h}bb.jpg",
+              "width": 1440
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Salmantyo Ashrizky Priadi & Matter Mos",
+            "discNumber": 1,
+            "durationInMillis": 271477,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR96X2446820",
+            "name": "Foto kita blur",
+            "playParams": {
+              "id": "1737267355",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/24/3a/e8243a0b-9684-37cc-5f9c-93226c0dab72/mzaf_4232936628114349539.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2024-03-29",
+            "trackNumber": 7,
+            "url": "https://music.apple.com/id/album/foto-kita-blur/1737266457?i=1737267355"
+          }
+        },
+        {
+          "id": "6770856148",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6770856148?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Marbles",
+            "albumName": "Hompimpa - Single",
+            "artistName": "Marbles",
+            "artwork": {
+              "bgColor": "121116",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "e59c7f",
+              "textColor2": "ee5f3d",
+              "textColor3": "bb806a",
+              "textColor4": "c24f35",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/ef/a2/25efa230-5cfc-b26c-1304-619cdf7f3bb5/26UMGIM64467.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Derrick Hoh, D-wayne, Azis Harun, Tarapti Ikhtiar Rinrin & Rizky Maulana Hidayat",
+            "discNumber": 1,
+            "durationInMillis": 139223,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDA172636002",
+            "name": "Hompimpa",
+            "playParams": {
+              "id": "6770856148",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/d8/30/55d830c6-d892-d0a0-5b0f-1e676201854b/mzaf_1214724950379239981.plus.aac.p.m4a"
+              }
+            ],
+            "releaseDate": "2026-06-12",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/hompimpa/6770855871?i=6770856148"
+          }
+        },
+        {
+          "id": "1884301907",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1884301907?l=en-GB",
+          "attributes": {
+            "albumArtistName": "NPD",
+            "albumName": "Sempurnanya Aku - Single",
+            "artistName": "NPD",
+            "artwork": {
+              "bgColor": "1250a4",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "fbef0f",
+              "textColor2": "e5e93b",
+              "textColor3": "cdcf2c",
+              "textColor4": "bbcb50",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d4/af/8d/d4af8dea-dc98-07e6-bc73-b042edfc6959/1016192.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Kev Luqman Hakim, Niky Putra, Mario Caesar & Junizar Valyant",
+            "discNumber": 1,
+            "durationInMillis": 228852,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QT5M52629291",
+            "name": "Sempurnanya Aku",
+            "playParams": {
+              "id": "1884301907",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/40/08/38/40083874-574d-1af5-f639-a8b1170d22fc/mzaf_13075873244492004604.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-03-11",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/sempurnanya-aku/1884301906?i=1884301907"
+          }
+        },
+        {
+          "id": "1809400069",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1809400069?l=en-GB",
+          "attributes": {
+            "albumArtistName": "no na",
+            "albumName": "shoot - Single",
+            "artistName": "no na",
+            "artwork": {
+              "bgColor": "131f1d",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "a3cae4",
+              "textColor2": "8db6d4",
+              "textColor3": "86a7bc",
+              "textColor4": "7498af",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/59/ca/3a/59ca3aea-e0f2-99e8-4a21-36f1a07eda88/199350381072.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Jeff Baranowski, Jelli Dorman, Jeremy Reeves, Jonathan Yip, Luke Milano, Ray Romulus, Feli Ferraro & Jack Edwards",
+            "discNumber": 1,
+            "durationInMillis": 214301,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "QM6P42519938",
+            "name": "shoot",
+            "playParams": {
+              "id": "1809400069",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/29/ef/c829effb-6bf9-58cd-a553-c93709359863/mzaf_658412976221617785.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2025-05-02",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/shoot/1809400066?i=1809400069"
+          }
+        },
+        {
+          "id": "6788311344",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6788311344?l=en-GB",
+          "attributes": {
+            "albumArtistName": "eńau & Momo",
+            "albumName": "Sudah Tahu Tuhan Kita Berbeda - Single",
+            "artistName": "eńau & Momo",
+            "artwork": {
+              "bgColor": "545454",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f4f4f4",
+              "textColor2": "e8e8e8",
+              "textColor3": "d4d4d4",
+              "textColor4": "cacaca",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/b8/99/f6b8993f-208d-d42c-69c2-c49578122f1e/26UMGIM90180.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Ryan Wijaya, Kevin Pangestu & eńau",
+            "discNumber": 1,
+            "durationInMillis": 232615,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "IDB902600093",
+            "name": "Sudah Tahu Tuhan Kita Berbeda",
+            "playParams": {
+              "id": "6788311344",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/69/18/f8691825-d133-2f49-b5aa-c8567b1c0bd9/mzaf_4387652155029481370.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-07-28",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/sudah-tahu-tuhan-kita-berbeda/6788310880?i=6788311344"
+          }
+        },
+        {
+          "id": "6793993927",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/6793993927?l=en-GB",
+          "attributes": {
+            "albumArtistName": "idom & RACH?",
+            "albumName": "Tell Me What - Single",
+            "artistName": "idom & RACH?",
+            "artwork": {
+              "bgColor": "1c1d18",
+              "hasP3": false,
+              "height": 4000,
+              "textColor1": "e7bd70",
+              "textColor2": "dc9846",
+              "textColor3": "be9d5f",
+              "textColor4": "b6803d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/0d/c0/53/0dc0535f-b743-d011-3665-dc5201600ec4/4547366843026.jpg/{w}x{h}bb.jpg",
+              "width": 4000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "idom & RACH?",
+            "discNumber": 1,
+            "durationInMillis": 180845,
+            "genreNames": [
+              "R&B/Soul",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "JPU902603070",
+            "name": "Tell Me What",
+            "playParams": {
+              "id": "6793993927",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/38/a3/7738a331-5ca2-1d78-412f-9030c964e919/mzaf_14530837390971031802.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-08-14",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/tell-me-what/6793993925?i=6793993927"
+          }
+        },
+        {
+          "id": "1870566304",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1870566304?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Ndarboy Genk, Banditoz Yaow 86 & BoyCord",
+            "albumName": "Kicau Mania - Single",
+            "artistName": "Ndarboy Genk, Banditoz Yaow 86 & BoyCord",
+            "artwork": {
+              "bgColor": "16162b",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "a996df",
+              "textColor2": "a383de",
+              "textColor3": "8c7cbb",
+              "textColor4": "876eba",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/3b/c3/543bc3fb-f493-57b0-ac9f-aa9f5b1a2e9d/cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "jv",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Anindito Adhi Rahman & Helarius Daru Indrajaya",
+            "discNumber": 1,
+            "durationInMillis": 224000,
+            "genreNames": [
+              "Hip-Hop/Rap",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "FR10S2651611",
+            "name": "Kicau Mania",
+            "playParams": {
+              "id": "1870566304",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c2/bc/7c/c2bc7c74-0fc1-a79b-327d-5fbff38805b8/mzaf_13884062856770946572.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-01-22",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/kicau-mania/1870566298?i=1870566304"
+          }
+        },
+        {
+          "id": "1756631382",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1756631382?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Overnight",
+            "albumName": "Kita Lewati Berdua - Single",
+            "artistName": "Overnight",
+            "artwork": {
+              "bgColor": "046348",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "e6eae8",
+              "textColor2": "ecaea2",
+              "textColor3": "b9cfc8",
+              "textColor4": "bd9f90",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/51/e1/58/51e15860-8028-8437-ed77-6b9c529eec3a/859790948357_cover.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "audioLocale": "id",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Yoga Dwi Herlianto",
+            "discNumber": 1,
+            "durationInMillis": 239630,
+            "genreNames": [
+              "Alternative",
+              "Music",
+              "Pop"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "TCAIM2494368",
+            "name": "Kita Lewati Berdua",
+            "playParams": {
+              "id": "1756631382",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b9/78/da/b978da55-8e11-c7af-4185-908a77f9748c/mzaf_1709204873393696120.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2024-07-21",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/kita-lewati-berdua/1756631381?i=1756631382"
+          }
+        }
+      ]
+    }
+  }
+}

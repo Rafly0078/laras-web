@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "die-with-a-smile",
+    "appleId": "1762656732",
+    "title": "Die With A Smile",
+    "artist": "Lady Gaga & Bruno Mars",
+    "album": "Die With A Smile - Single",
+    "durationMs": 251668,
+    "isrc": "USUM72409273",
+    "hasLyrics": true,
+    "hasWordLevel": true,
+    "wordSpans": 306,
+    "artworkTemplate": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/{w}x{h}bb.jpg",
+    "artworkBg": "013149",
+    "youtube": {
+      "videoId": "DlFXDl_ROAM",
+      "title": "Die With A Smile",
+      "artist": "Lady Gaga",
+      "durationSeconds": 252
+    },
+    "youtubeCandidates": 20
+  },
+  {
+    "slug": "hati-hati-di-jalan",
+    "appleId": "1612164667",
+    "title": "Hati-Hati di Jalan",
+    "artist": "Tulus",
+    "album": "Manusia",
+    "durationMs": 242000,
+    "isrc": "FR2X42253130",
+    "hasLyrics": true,
+    "hasWordLevel": true,
+    "wordSpans": 239,
+    "artworkTemplate": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+    "artworkBg": "f4f3f3",
+    "youtube": {
+      "videoId": "E7kHvjvU6JY",
+      "title": "Hati-Hati di Jalan",
+      "artist": "Tulus",
+      "durationSeconds": 242
+    },
+    "youtubeCandidates": 20
+  },
+  {
+    "slug": "peradaban",
+    "appleId": "1436190253",
+    "title": "Peradaban",
+    "artist": ".Feast",
+    "album": "Beberapa Orang Memaafkan - EP",
+    "durationMs": 339000,
+    "isrc": "FR96X1812780",
+    "hasLyrics": true,
+    "hasWordLevel": true,
+    "wordSpans": 935,
+    "artworkTemplate": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/33/1d/1c/331d1ccd-ac98-f2fa-51ee-97bc95acc519/cover.jpg/{w}x{h}bb.jpg",
+    "artworkBg": "78566b",
+    "youtube": {
+      "videoId": "8c0IzngvGEw",
+      "title": "Peradaban",
+      "artist": ".Feast",
+      "durationSeconds": 339
+    },
+    "youtubeCandidates": 20
+  },
+  {
+    "slug": "bertaut",
+    "appleId": "1512861068",
+    "title": "Bertaut",
+    "artist": "Nadin Amizah",
+    "album": "Selamat Ulang Tahun",
+    "durationMs": 315960,
+    "isrc": "FR59R2049829",
+    "hasLyrics": true,
+    "hasWordLevel": true,
+    "wordSpans": 395,
+    "artworkTemplate": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1d/10/9b/1d109b17-1bbf-1894-e774-4d9ad6baa7b3/cover.jpg/{w}x{h}bb.jpg",
+    "artworkBg": "dfcec2",
+    "youtube": {
+      "videoId": "Xh93FL06JwQ",
+      "title": "Bertaut",
+      "artist": "Nadin Amizah",
+      "durationSeconds": 316
+    },
+    "youtubeCandidates": 20
+  }
+]

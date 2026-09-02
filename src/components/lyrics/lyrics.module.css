@@ -1,0 +1,259 @@
+/**
+ * Gaya lirik — implementasi ulang teknik spicy-lyrics dari nol.
+ *
+ * Inti visualnya: teks dibuat TRANSPARAN, lalu diwarnai oleh background-image
+ * ber-gradient yang di-clip ke bentuk huruf. Menggeser --gradient-position dari
+ * -20% ke 100% menghasilkan sapuan. Ini jauh lebih murah daripada menganimasikan
+ * dua lapis teks bertumpuk, dan sapuannya mengikuti bentuk huruf dengan tepat.
+ *
+ * Angka di file ini SENGAJA sama dengan src/lib/lyrics/design-tokens.ts. CSS
+ * tidak bisa mengimpor TS, jadi keduanya harus dijaga sinkron manual — kalau
+ * mengubah satu, ubah yang lain.
+ */
+
+.larasLyrics {
+  /* container-type wajib supaya satuan cqw/cqh di dalam bekerja. */
+  container-type: size;
+
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  /* clamp(1.85rem, 7cqw, 3.5rem) */
+  --laras-lyrics-size: clamp(1.85rem, calc(1cqw * 7), 3.5rem);
+  font-size: var(--laras-lyrics-size);
+  font-weight: 700;
+
+  /* Fade di tepi atas & bawah supaya baris tidak terpotong keras. */
+  --laras-mask: linear-gradient(
+    180deg,
+    transparent 0,
+    transparent 16px,
+    #000 64px,
+    #000 calc(100% - 64px),
+    transparent calc(100% - 16px),
+    transparent
+  );
+  -webkit-mask-image: var(--laras-mask);
+  mask-image: var(--laras-mask);
+
+  scrollbar-width: none;
+}
+
+.larasLyrics::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ruang agar baris pertama & terakhir bisa mencapai tengah pane. */
+.scroller {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25cqh;
+  padding-bottom: 30cqh;
+}
+
+/* ── Baris ────────────────────────────────────────────────────────────── */
+
+.line {
+  --gradient-position: -20%;
+  --gradient-alpha: 0.85;
+  --gradient-alpha-end: 0.35;
+  --gradient-degrees: 180deg;
+  --gradient-offset: 0%;
+  --blur-amount: 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0;
+
+  /* 1.1818181818 — nilai spicy-lyrics, bukan 1.2 */
+  line-height: 1.1818181818;
+  letter-spacing: 0;
+
+  padding: 0.34em 0;
+  margin: 0;
+  border: 0;
+  background: none;
+  text-align: start;
+  cursor: pointer;
+
+  /* Transisi hanya untuk opacity antar keadaan; transform/scale diurus spring. */
+  transition: opacity 0.2s cubic-bezier(0.61, 1, 0.88, 1);
+
+  /* Baris jauh dibuat lembut lewat text-shadow, BUKAN filter: blur().
+     filter memaksa lapisan komposit baru per baris dan jauh lebih mahal. */
+  will-change: opacity;
+}
+
+/* Penyanyi kedua (ttm:agent v2) diratakan ke kanan. */
+.opposite {
+  justify-content: flex-end;
+  text-align: end;
+}
+
+/* Baris yang belum/sudah dinyanyikan tetap bisa diklik untuk seek; saat
+   di-hover ia menyala penuh dan blurnya dilepas sebagai umpan balik. */
+.line:hover {
+  opacity: 1 !important;
+  --blur-amount: 0px !important;
+}
+
+.line:focus-visible {
+  outline: 2px solid var(--color-laras-accent);
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+/* ── Kata / suku kata ─────────────────────────────────────────────────── */
+
+.word {
+  --text-shadow-blur: 4px;
+  --text-shadow-opacity: 0%;
+
+  position: relative;
+  display: inline-block;
+  white-space: pre;
+
+  /* Kunci sapuan: huruf transparan, warna datang dari background. */
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  background-image: linear-gradient(
+    var(--gradient-degrees),
+    rgb(255 255 255 / var(--gradient-alpha)) var(--gradient-position),
+    rgb(255 255 255 / var(--gradient-alpha-end))
+      calc(var(--gradient-position) + 20% + var(--gradient-offset))
+  );
+
+  /* Dua bayangan berbeda peran:
+     1. glow kata aktif (radius & opacity dianimasikan spring)
+     2. blur baris jauh (--blur-amount, konstan per baris)  */
+  text-shadow:
+    0 0 var(--text-shadow-blur) rgb(255 255 255 / var(--text-shadow-opacity)),
+    0 0 var(--blur-amount) rgb(255 255 255 / var(--gradient-alpha-end));
+
+  transform-origin: center bottom;
+  will-change: transform, background-position, text-shadow;
+}
+
+/* Jarak antar KATA (bukan antar suku kata) = 0.32ch, dipasang lewat ::after
+   supaya tidak ikut ter-scale saat kata membesar. */
+.word:not(.partOfWord):not(.lastInLine)::after {
+  content: '';
+  margin-right: 0.32ch;
+}
+
+/* Suku kata yang menempel: nol jarak, jadi "Su"+"a"+"tu" terbaca "Suatu". */
+.partOfWord {
+  margin-right: 0;
+}
+
+/* Kata terakhir di baris tidak perlu jarak di belakangnya. */
+.lastInLine {
+  margin-right: 0;
+}
+
+/* ── Vokal latar ─────────────────────────────────────────────────────── */
+
+/* Apple menaruh vokal latar sebagai lapis lebih redup di baris yang sama. */
+.background {
+  --gradient-alpha: 0.6;
+  --gradient-alpha-end: 0.3;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 0.72em;
+  margin-top: 0.12em;
+}
+
+.background.opposite {
+  justify-content: flex-end;
+}
+
+/* ── Interlude (jeda instrumental) ───────────────────────────────────── */
+
+.interlude {
+  display: flex;
+  align-items: center;
+  gap: 0.28em;
+  padding: 0.5em 0;
+  cursor: pointer;
+}
+
+.dot {
+  display: block;
+  width: 0.3em;
+  height: 0.3em;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.35);
+  transform: scale(0.75);
+  will-change: transform, opacity;
+}
+
+/* ── Kredit sumber lirik di kaki pane ────────────────────────────────── */
+
+.credit {
+  font-size: 0.3em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: rgb(255 255 255 / 0.35);
+  padding: 1.5em 0 0;
+  text-transform: uppercase;
+}
+
+/* ── Skeleton saat lirik masih dijemput dari relay ───────────────────── */
+
+/*
+ * Bar skeleton hidup di dalam .larasLyrics + .scroller yang SAMA dengan lirik
+ * sungguhan, jadi ia mewarisi font-size container-query, padding 25cqh, dan
+ * mask tepi tanpa menyalin satu angka pun.
+ *
+ * Ukuran dinyatakan dalam `em` supaya ikut skala teks lirik:
+ *  - 0.72em  ≈ tinggi huruf kapital pada ukuran itu, jadi bar terbaca sebagai
+ *              "sebaris teks", bukan sebagai kotak.
+ *  - 0.57em margin atas/bawah membuat tinggi total satu bar = 1.86em, sama
+ *              dengan satu baris lirik (line-height 1.1818em + padding 0.34em
+ *              × 2). Dengan begitu lirik yang masuk mendarat di tempat yang
+ *              hampir sama dan halaman tidak melompat.
+ */
+.skeletonLine {
+  height: 0.72em;
+  margin: 0.57em 0;
+  border-radius: 9999px;
+
+  /* 0.09 alpha: cukup terlihat di atas hitam, masih jelas BUKAN teks. */
+  background: rgb(255 255 255 / 0.09);
+
+  /* Denyut opacity, bukan shimmer gradient: satu properti yang bisa
+     dikomposit GPU, tanpa sambungan yang terlihat saat animasi berulang. */
+  animation: skeletonBreath 1.8s ease-in-out infinite;
+}
+
+@keyframes skeletonBreath {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* ── Hormati preferensi gerak minimal ────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .word {
+    /* Tanpa sapuan bertahap: kata langsung penuh saat aktif. Lirik tetap
+       terbaca dan tetap tersinkron, hanya tanpa gerakan. */
+    text-shadow: none;
+  }
+
+  .line {
+    transition: none;
+  }
+}

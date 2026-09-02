@@ -1,0 +1,1484 @@
+{
+  "album_id": "1612163750",
+  "total_parsed_tracks": 10,
+  "parsed_tracks": [
+    {
+      "id": "1612164136",
+      "title": "Tujuh Belas",
+      "artist": "Tulus",
+      "track_number": 1,
+      "duration_ms": 254600,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    },
+    {
+      "id": "1612164147",
+      "title": "Kelana",
+      "artist": "Tulus",
+      "track_number": 2,
+      "duration_ms": 192000,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    },
+    {
+      "id": "1612164249",
+      "title": "Remedi",
+      "artist": "Tulus",
+      "track_number": 3,
+      "duration_ms": 247600,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    },
+    {
+      "id": "1612164256",
+      "title": "Interaksi",
+      "artist": "Tulus",
+      "track_number": 4,
+      "duration_ms": 170000,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    },
+    {
+      "id": "1612164260",
+      "title": "Ingkar",
+      "artist": "Tulus",
+      "track_number": 5,
+      "duration_ms": 252000,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    },
+    {
+      "id": "1612164263",
+      "title": "Jatuh Suka",
+      "artist": "Tulus",
+      "track_number": 6,
+      "duration_ms": 235000,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    },
+    {
+      "id": "1612164268",
+      "title": "Nala",
+      "artist": "Tulus",
+      "track_number": 7,
+      "duration_ms": 260000,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    },
+    {
+      "id": "1612164667",
+      "title": "Hati-Hati di Jalan",
+      "artist": "Tulus",
+      "track_number": 8,
+      "duration_ms": 242000,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    },
+    {
+      "id": "1612164680",
+      "title": "Diri",
+      "artist": "Tulus",
+      "track_number": 9,
+      "duration_ms": 240000,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    },
+    {
+      "id": "1612164686",
+      "title": "Satu Kali",
+      "artist": "Tulus",
+      "track_number": 10,
+      "duration_ms": 224500,
+      "artwork_url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/300x300bb.jpg",
+      "is_explicit": false
+    }
+  ],
+  "raw_data": {
+    "data": [
+      {
+        "id": "1612163750",
+        "type": "albums",
+        "href": "/v1/catalog/id/albums/1612163750?l=en-GB",
+        "attributes": {
+          "artistName": "Tulus",
+          "artwork": {
+            "bgColor": "f4f3f3",
+            "hasP3": false,
+            "height": 3000,
+            "textColor1": "05165a",
+            "textColor2": "072367",
+            "textColor3": "354278",
+            "textColor4": "364c83",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+            "width": 3000
+          },
+          "audioTraits": [
+            "lossless",
+            "lossy-stereo"
+          ],
+          "copyright": "℗ 2022 TulusCompany",
+          "genreNames": [
+            "Indo Pop",
+            "Music",
+            "Pop"
+          ],
+          "isCompilation": false,
+          "isComplete": true,
+          "isMasteredForItunes": false,
+          "isPrerelease": false,
+          "isSingle": false,
+          "name": "Manusia",
+          "playParams": {
+            "id": "1612163750",
+            "kind": "album"
+          },
+          "recordLabel": "TulusCompany",
+          "releaseDate": "2022-03-03",
+          "trackCount": 10,
+          "upc": "3616844868521",
+          "url": "https://music.apple.com/id/album/manusia/1612163750"
+        },
+        "relationships": {
+          "artists": {
+            "href": "/v1/catalog/id/albums/1612163750/artists?l=en-GB",
+            "data": [
+              {
+                "id": "1001681665",
+                "type": "artists",
+                "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+                "attributes": {
+                  "artwork": {
+                    "bgColor": "070506",
+                    "defaultCropCode": "bb",
+                    "hasP3": true,
+                    "height": 1500,
+                    "textColor1": "e1af96",
+                    "textColor2": "db8248",
+                    "textColor3": "b58d79",
+                    "textColor4": "b0693b",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                    "width": 1500
+                  },
+                  "genreNames": [
+                    "Pop"
+                  ],
+                  "name": "Tulus",
+                  "url": "https://music.apple.com/id/artist/tulus/1001681665"
+                },
+                "relationships": {
+                  "albums": {
+                    "href": "/v1/catalog/id/artists/1001681665/albums?l=en-GB",
+                    "data": [
+                      {
+                        "id": "1612163750",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                      },
+                      {
+                        "id": "1639765367",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1639765367?l=en-GB"
+                      },
+                      {
+                        "id": "6784585100",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/6784585100?l=en-GB"
+                      },
+                      {
+                        "id": "1137907436",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1137907436?l=en-GB"
+                      },
+                      {
+                        "id": "1086493643",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1086493643?l=en-GB"
+                      },
+                      {
+                        "id": "823622637",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/823622637?l=en-GB"
+                      },
+                      {
+                        "id": "1424234121",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1424234121?l=en-GB"
+                      },
+                      {
+                        "id": "1514742529",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1514742529?l=en-GB"
+                      },
+                      {
+                        "id": "918912446",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/918912446?l=en-GB"
+                      },
+                      {
+                        "id": "1138140370",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1138140370?l=en-GB"
+                      },
+                      {
+                        "id": "1458312921",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1458312921?l=en-GB"
+                      },
+                      {
+                        "id": "1445195256",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1445195256?l=en-GB"
+                      },
+                      {
+                        "id": "1048350907",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1048350907?l=en-GB"
+                      },
+                      {
+                        "id": "1373114002",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1373114002?l=en-GB"
+                      },
+                      {
+                        "id": "1382207738",
+                        "type": "albums",
+                        "href": "/v1/catalog/id/albums/1382207738?l=en-GB"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "tracks": {
+            "href": "/v1/catalog/id/albums/1612163750/tracks?l=en-GB",
+            "data": [
+              {
+                "id": "1612164136",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164136?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus & Petra Sihombing",
+                  "discNumber": 1,
+                  "durationInMillis": 254600,
+                  "genreNames": [
+                    "Indo Pop",
+                    "Music",
+                    "Pop"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": true,
+                  "isrc": "FR10S2294308",
+                  "name": "Tujuh Belas",
+                  "playParams": {
+                    "id": "1612164136",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/f2/e0/9df2e08d-6e5d-9d79-f925-f4dd84d1bfca/mzaf_17289810758853934068.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2022-03-03",
+                  "trackNumber": 1,
+                  "url": "https://music.apple.com/id/album/tujuh-belas/1612163750?i=1612164136"
+                }
+              },
+              {
+                "id": "1612164147",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164147?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus & Petra Sihombing",
+                  "discNumber": 1,
+                  "durationInMillis": 192000,
+                  "genreNames": [
+                    "Indo Pop",
+                    "Music",
+                    "Pop"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": true,
+                  "isrc": "FR2X42253125",
+                  "name": "Kelana",
+                  "playParams": {
+                    "id": "1612164147",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/63/d1/7763d137-e10f-6a2c-857e-7da1a50ab208/mzaf_13260536266324386951.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2022-03-03",
+                  "trackNumber": 2,
+                  "url": "https://music.apple.com/id/album/kelana/1612163750?i=1612164147"
+                }
+              },
+              {
+                "id": "1612164249",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164249?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus & Theresia Margaretha Gultom",
+                  "discNumber": 1,
+                  "durationInMillis": 247600,
+                  "genreNames": [
+                    "Indo Pop",
+                    "Music",
+                    "Pop"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": false,
+                  "isrc": "FR2X42253126",
+                  "name": "Remedi",
+                  "playParams": {
+                    "id": "1612164249",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/55/91/8e5591bc-fa0a-c3eb-24b5-b730c6f57282/mzaf_14049854195976417447.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2022-03-03",
+                  "trackNumber": 3,
+                  "url": "https://music.apple.com/id/album/remedi/1612163750?i=1612164249"
+                }
+              },
+              {
+                "id": "1612164256",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164256?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus & Topan Abimanyu",
+                  "discNumber": 1,
+                  "durationInMillis": 170000,
+                  "genreNames": [
+                    "Indo Pop",
+                    "Music",
+                    "Pop"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": true,
+                  "isrc": "FR2X42253127",
+                  "name": "Interaksi",
+                  "playParams": {
+                    "id": "1612164256",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/70/e3/8170e3be-9115-f656-1bd1-ad56129ddaa3/mzaf_14557584647694110489.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2022-03-03",
+                  "trackNumber": 4,
+                  "url": "https://music.apple.com/id/album/interaksi/1612163750?i=1612164256"
+                }
+              },
+              {
+                "id": "1612164260",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164260?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus, Yoseph Sitompul & Arifandi",
+                  "discNumber": 1,
+                  "durationInMillis": 252000,
+                  "genreNames": [
+                    "Pop",
+                    "Music"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": false,
+                  "isrc": "FRX282190147",
+                  "name": "Ingkar",
+                  "playParams": {
+                    "id": "1612164260",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/a7/d2/33a7d249-139e-3c97-cf65-761111a03b04/mzaf_7445605770477184972.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2021-08-13",
+                  "trackNumber": 5,
+                  "url": "https://music.apple.com/id/album/ingkar/1612163750?i=1612164260"
+                }
+              },
+              {
+                "id": "1612164263",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164263?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus & Petra Sihombing",
+                  "discNumber": 1,
+                  "durationInMillis": 235000,
+                  "genreNames": [
+                    "Indo Pop",
+                    "Music",
+                    "Pop"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": true,
+                  "isrc": "FR2X42253128",
+                  "name": "Jatuh Suka",
+                  "playParams": {
+                    "id": "1612164263",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/d9/86/a5d986e9-17d5-03dc-d696-29e6bc33cc94/mzaf_17677146318972951508.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2022-03-03",
+                  "trackNumber": 6,
+                  "url": "https://music.apple.com/id/album/jatuh-suka/1612163750?i=1612164263"
+                }
+              },
+              {
+                "id": "1612164268",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164268?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus, Theresia Margaretha Gultom & Topan Abimanyu",
+                  "discNumber": 1,
+                  "durationInMillis": 260000,
+                  "genreNames": [
+                    "Indo Pop",
+                    "Music",
+                    "Pop"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": false,
+                  "isrc": "FR2X42253129",
+                  "name": "Nala",
+                  "playParams": {
+                    "id": "1612164268",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/d0/04/4dd004a3-04cb-06ae-4f85-2338f0885c40/mzaf_14041390812904574583.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2022-03-03",
+                  "trackNumber": 7,
+                  "url": "https://music.apple.com/id/album/nala/1612163750?i=1612164268"
+                }
+              },
+              {
+                "id": "1612164667",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164667?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus & Ari Renaldi",
+                  "discNumber": 1,
+                  "durationInMillis": 242000,
+                  "genreNames": [
+                    "Indo Pop",
+                    "Music",
+                    "Pop"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": true,
+                  "isrc": "FR2X42253130",
+                  "name": "Hati-Hati di Jalan",
+                  "playParams": {
+                    "id": "1612164667",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/50/cd/bb50cd11-dbbc-f84e-1244-f1b786af7ab4/mzaf_4105938475286762493.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2022-03-03",
+                  "trackNumber": 8,
+                  "url": "https://music.apple.com/id/album/hati-hati-di-jalan/1612163750?i=1612164667"
+                }
+              },
+              {
+                "id": "1612164680",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164680?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus & Ari Renaldi",
+                  "discNumber": 1,
+                  "durationInMillis": 240000,
+                  "genreNames": [
+                    "Indo Pop",
+                    "Music",
+                    "Pop"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": true,
+                  "isrc": "FR2X42253131",
+                  "name": "Diri",
+                  "playParams": {
+                    "id": "1612164680",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/3d/23/ed3d23ea-30a4-ea64-37cb-4aa174c8f402/mzaf_1445550830766162689.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2022-03-03",
+                  "trackNumber": 9,
+                  "url": "https://music.apple.com/id/album/diri/1612163750?i=1612164680"
+                }
+              },
+              {
+                "id": "1612164686",
+                "type": "songs",
+                "href": "/v1/catalog/id/songs/1612164686?l=en-GB",
+                "attributes": {
+                  "albumArtistName": "Tulus",
+                  "albumName": "Manusia",
+                  "artistName": "Tulus",
+                  "artwork": {
+                    "bgColor": "f4f3f3",
+                    "hasP3": false,
+                    "height": 3000,
+                    "textColor1": "05165a",
+                    "textColor2": "072367",
+                    "textColor3": "354278",
+                    "textColor4": "364c83",
+                    "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                    "width": 3000
+                  },
+                  "audioLocale": "id",
+                  "audioTraits": [
+                    "lossless",
+                    "lossy-stereo"
+                  ],
+                  "composerName": "Muhammad Tulus & Yoseph Sitompul",
+                  "discNumber": 1,
+                  "durationInMillis": 224500,
+                  "genreNames": [
+                    "Indo Pop",
+                    "Music",
+                    "Pop"
+                  ],
+                  "hasLyrics": true,
+                  "hasTimeSyncedLyrics": true,
+                  "isAppleDigitalMaster": false,
+                  "isMasteredForItunes": false,
+                  "isVocalAttenuationAllowed": true,
+                  "isrc": "FR2X42253132",
+                  "name": "Satu Kali",
+                  "playParams": {
+                    "id": "1612164686",
+                    "kind": "song"
+                  },
+                  "previews": [
+                    {
+                      "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/19/4a/b1194a91-050d-97c7-56c2-14d71d55419a/mzaf_17966598914845585634.plus.aac.ep.m4a"
+                    }
+                  ],
+                  "releaseDate": "2022-03-03",
+                  "trackNumber": 10,
+                  "url": "https://music.apple.com/id/album/satu-kali/1612163750?i=1612164686"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "data": [
+    {
+      "id": "1612163750",
+      "type": "albums",
+      "href": "/v1/catalog/id/albums/1612163750?l=en-GB",
+      "attributes": {
+        "artistName": "Tulus",
+        "artwork": {
+          "bgColor": "f4f3f3",
+          "hasP3": false,
+          "height": 3000,
+          "textColor1": "05165a",
+          "textColor2": "072367",
+          "textColor3": "354278",
+          "textColor4": "364c83",
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+          "width": 3000
+        },
+        "audioTraits": [
+          "lossless",
+          "lossy-stereo"
+        ],
+        "copyright": "℗ 2022 TulusCompany",
+        "genreNames": [
+          "Indo Pop",
+          "Music",
+          "Pop"
+        ],
+        "isCompilation": false,
+        "isComplete": true,
+        "isMasteredForItunes": false,
+        "isPrerelease": false,
+        "isSingle": false,
+        "name": "Manusia",
+        "playParams": {
+          "id": "1612163750",
+          "kind": "album"
+        },
+        "recordLabel": "TulusCompany",
+        "releaseDate": "2022-03-03",
+        "trackCount": 10,
+        "upc": "3616844868521",
+        "url": "https://music.apple.com/id/album/manusia/1612163750"
+      },
+      "relationships": {
+        "artists": {
+          "href": "/v1/catalog/id/albums/1612163750/artists?l=en-GB",
+          "data": [
+            {
+              "id": "1001681665",
+              "type": "artists",
+              "href": "/v1/catalog/id/artists/1001681665?l=en-GB",
+              "attributes": {
+                "artwork": {
+                  "bgColor": "070506",
+                  "defaultCropCode": "bb",
+                  "hasP3": true,
+                  "height": 1500,
+                  "textColor1": "e1af96",
+                  "textColor2": "db8248",
+                  "textColor3": "b58d79",
+                  "textColor4": "b0693b",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/4a/eb/9f/4aeb9fff-c06d-f16c-957c-a208b940e385/file_cropped.png/{w}x{h}bb.jpg",
+                  "width": 1500
+                },
+                "genreNames": [
+                  "Pop"
+                ],
+                "name": "Tulus",
+                "url": "https://music.apple.com/id/artist/tulus/1001681665"
+              },
+              "relationships": {
+                "albums": {
+                  "href": "/v1/catalog/id/artists/1001681665/albums?l=en-GB",
+                  "data": [
+                    {
+                      "id": "1612163750",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1612163750?l=en-GB"
+                    },
+                    {
+                      "id": "1639765367",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1639765367?l=en-GB"
+                    },
+                    {
+                      "id": "6784585100",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/6784585100?l=en-GB"
+                    },
+                    {
+                      "id": "1137907436",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1137907436?l=en-GB"
+                    },
+                    {
+                      "id": "1086493643",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1086493643?l=en-GB"
+                    },
+                    {
+                      "id": "823622637",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/823622637?l=en-GB"
+                    },
+                    {
+                      "id": "1424234121",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1424234121?l=en-GB"
+                    },
+                    {
+                      "id": "1514742529",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1514742529?l=en-GB"
+                    },
+                    {
+                      "id": "918912446",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/918912446?l=en-GB"
+                    },
+                    {
+                      "id": "1138140370",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1138140370?l=en-GB"
+                    },
+                    {
+                      "id": "1458312921",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1458312921?l=en-GB"
+                    },
+                    {
+                      "id": "1445195256",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1445195256?l=en-GB"
+                    },
+                    {
+                      "id": "1048350907",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1048350907?l=en-GB"
+                    },
+                    {
+                      "id": "1373114002",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1373114002?l=en-GB"
+                    },
+                    {
+                      "id": "1382207738",
+                      "type": "albums",
+                      "href": "/v1/catalog/id/albums/1382207738?l=en-GB"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "tracks": {
+          "href": "/v1/catalog/id/albums/1612163750/tracks?l=en-GB",
+          "data": [
+            {
+              "id": "1612164136",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164136?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Petra Sihombing",
+                "discNumber": 1,
+                "durationInMillis": 254600,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR10S2294308",
+                "name": "Tujuh Belas",
+                "playParams": {
+                  "id": "1612164136",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/f2/e0/9df2e08d-6e5d-9d79-f925-f4dd84d1bfca/mzaf_17289810758853934068.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 1,
+                "url": "https://music.apple.com/id/album/tujuh-belas/1612163750?i=1612164136"
+              }
+            },
+            {
+              "id": "1612164147",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164147?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Petra Sihombing",
+                "discNumber": 1,
+                "durationInMillis": 192000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253125",
+                "name": "Kelana",
+                "playParams": {
+                  "id": "1612164147",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/63/d1/7763d137-e10f-6a2c-857e-7da1a50ab208/mzaf_13260536266324386951.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 2,
+                "url": "https://music.apple.com/id/album/kelana/1612163750?i=1612164147"
+              }
+            },
+            {
+              "id": "1612164249",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164249?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Theresia Margaretha Gultom",
+                "discNumber": 1,
+                "durationInMillis": 247600,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": false,
+                "isrc": "FR2X42253126",
+                "name": "Remedi",
+                "playParams": {
+                  "id": "1612164249",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8e/55/91/8e5591bc-fa0a-c3eb-24b5-b730c6f57282/mzaf_14049854195976417447.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 3,
+                "url": "https://music.apple.com/id/album/remedi/1612163750?i=1612164249"
+              }
+            },
+            {
+              "id": "1612164256",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164256?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Topan Abimanyu",
+                "discNumber": 1,
+                "durationInMillis": 170000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253127",
+                "name": "Interaksi",
+                "playParams": {
+                  "id": "1612164256",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/81/70/e3/8170e3be-9115-f656-1bd1-ad56129ddaa3/mzaf_14557584647694110489.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 4,
+                "url": "https://music.apple.com/id/album/interaksi/1612163750?i=1612164256"
+              }
+            },
+            {
+              "id": "1612164260",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164260?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus, Yoseph Sitompul & Arifandi",
+                "discNumber": 1,
+                "durationInMillis": 252000,
+                "genreNames": [
+                  "Pop",
+                  "Music"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": false,
+                "isrc": "FRX282190147",
+                "name": "Ingkar",
+                "playParams": {
+                  "id": "1612164260",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/33/a7/d2/33a7d249-139e-3c97-cf65-761111a03b04/mzaf_7445605770477184972.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2021-08-13",
+                "trackNumber": 5,
+                "url": "https://music.apple.com/id/album/ingkar/1612163750?i=1612164260"
+              }
+            },
+            {
+              "id": "1612164263",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164263?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Petra Sihombing",
+                "discNumber": 1,
+                "durationInMillis": 235000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253128",
+                "name": "Jatuh Suka",
+                "playParams": {
+                  "id": "1612164263",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/d9/86/a5d986e9-17d5-03dc-d696-29e6bc33cc94/mzaf_17677146318972951508.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 6,
+                "url": "https://music.apple.com/id/album/jatuh-suka/1612163750?i=1612164263"
+              }
+            },
+            {
+              "id": "1612164268",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164268?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus, Theresia Margaretha Gultom & Topan Abimanyu",
+                "discNumber": 1,
+                "durationInMillis": 260000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": false,
+                "isrc": "FR2X42253129",
+                "name": "Nala",
+                "playParams": {
+                  "id": "1612164268",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4d/d0/04/4dd004a3-04cb-06ae-4f85-2338f0885c40/mzaf_14041390812904574583.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 7,
+                "url": "https://music.apple.com/id/album/nala/1612163750?i=1612164268"
+              }
+            },
+            {
+              "id": "1612164667",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164667?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Ari Renaldi",
+                "discNumber": 1,
+                "durationInMillis": 242000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253130",
+                "name": "Hati-Hati di Jalan",
+                "playParams": {
+                  "id": "1612164667",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bb/50/cd/bb50cd11-dbbc-f84e-1244-f1b786af7ab4/mzaf_4105938475286762493.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 8,
+                "url": "https://music.apple.com/id/album/hati-hati-di-jalan/1612163750?i=1612164667"
+              }
+            },
+            {
+              "id": "1612164680",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164680?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Ari Renaldi",
+                "discNumber": 1,
+                "durationInMillis": 240000,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253131",
+                "name": "Diri",
+                "playParams": {
+                  "id": "1612164680",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ed/3d/23/ed3d23ea-30a4-ea64-37cb-4aa174c8f402/mzaf_1445550830766162689.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 9,
+                "url": "https://music.apple.com/id/album/diri/1612163750?i=1612164680"
+              }
+            },
+            {
+              "id": "1612164686",
+              "type": "songs",
+              "href": "/v1/catalog/id/songs/1612164686?l=en-GB",
+              "attributes": {
+                "albumArtistName": "Tulus",
+                "albumName": "Manusia",
+                "artistName": "Tulus",
+                "artwork": {
+                  "bgColor": "f4f3f3",
+                  "hasP3": false,
+                  "height": 3000,
+                  "textColor1": "05165a",
+                  "textColor2": "072367",
+                  "textColor3": "354278",
+                  "textColor4": "364c83",
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6f/18/10/6f1810e0-2d6a-a456-1362-de607c70408a/cover.jpg/{w}x{h}bb.jpg",
+                  "width": 3000
+                },
+                "audioLocale": "id",
+                "audioTraits": [
+                  "lossless",
+                  "lossy-stereo"
+                ],
+                "composerName": "Muhammad Tulus & Yoseph Sitompul",
+                "discNumber": 1,
+                "durationInMillis": 224500,
+                "genreNames": [
+                  "Indo Pop",
+                  "Music",
+                  "Pop"
+                ],
+                "hasLyrics": true,
+                "hasTimeSyncedLyrics": true,
+                "isAppleDigitalMaster": false,
+                "isMasteredForItunes": false,
+                "isVocalAttenuationAllowed": true,
+                "isrc": "FR2X42253132",
+                "name": "Satu Kali",
+                "playParams": {
+                  "id": "1612164686",
+                  "kind": "song"
+                },
+                "previews": [
+                  {
+                    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/19/4a/b1194a91-050d-97c7-56c2-14d71d55419a/mzaf_17966598914845585634.plus.aac.ep.m4a"
+                  }
+                ],
+                "releaseDate": "2022-03-03",
+                "trackNumber": 10,
+                "url": "https://music.apple.com/id/album/satu-kali/1612163750?i=1612164686"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

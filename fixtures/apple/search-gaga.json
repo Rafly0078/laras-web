@@ -1,0 +1,3948 @@
+{
+  "results": {
+    "albums": {
+      "href": "/v1/catalog/id/search?groups=album&l=en-GB&limit=12&term=lady+gaga&types=songs%2Calbums%2Cartists",
+      "next": "/v1/catalog/id/search?groups=album&l=en-GB&offset=12&term=lady+gaga&types=songs%2Calbums%2Cartists",
+      "data": [
+        {
+          "id": "1476095083",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1476095083?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "313131",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "efefef",
+              "textColor2": "cdcdcd",
+              "textColor3": "c9c9c9",
+              "textColor4": "adadad",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/25/c4/1f25c4bf-7f7a-ff26-8769-20ab6052dadf/09UMGIM40719.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "313131",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "efefef",
+                "textColor2": "cdcdcd",
+                "textColor3": "c9c9c9",
+                "textColor4": "adadad",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/25/c4/1f25c4bf-7f7a-ff26-8769-20ab6052dadf/09UMGIM40719.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "Gaga fulfills her diva destiny on this hit-packed collection.",
+              "standard": "It would seem as if Lady Gaga just dropped—make that <i>danced</i>—from the disco heavens as a born-ready star on 2008’s <i>The Fame</i>. But before the artist born Stefani Germanotta was actually living the lifestyle of the rich and famous, she was getting ready for her close-up in the New York club scene. And you can really hear the blood, sweat and twirls through many a beer-splattered stage on <i>The Fame</i>. She lived it—and you feel it.\n\nThat’s what makes <i>The Fame</i> such a self-manifesting statement—an album that chronicles the celebrity culture Gaga had yet to experience. When she sings about having “a little bit too much” on “Just Dance”—the album’s defining first single, featuring assists from singer Colby O’Donis, co-writer Akon and main <i>Fame</i> producer RedOne—she’s that party girl we’ve all been (and if you haven’t been there, she offers a blueprint for your free-bootied future). You can also hear the gritty groove of the downtown New York scene on debaucherous dance tracks such as “Beautiful, Dirty, Rich”, “Money Honey” and the disco-stick-riding “LoveGame”. Meanwhile, pop bops such as “Poker Face”—which followed “Just Dance” to the top of the charts—and “Paparazzi” reveal the lyrical and melodic beast behind the beat.\n\n<i>The Fame</i> was already a multi-platinum, Grammy-winning sensation when it was reissued as <i>The Fame Monster (Deluxe Edition)</i> in 2009. But with Gaga having now fulfilled her diva destiny, she quickly proved her success was no fluke, continuing her string of hits with “Bad Romance”, “Alejandro” and “Telephone”. The latter pairs Gaga with Beyoncé—a pop-icon team-up equalled only by Barbra Streisand and Donna Summer’s 1979 classic “No More Tears (Enough Is Enough)”. A worldwide smash that would earn the singer her second consecutive Grammy nomination for Album of the Year, <i>The Fame Monster</i> left little doubt that the world had gone gaga for Gaga."
+            },
+            "name": "The Fame Monster (Deluxe Edition)",
+            "playParams": {
+              "id": "1476095083",
+              "kind": "album"
+            },
+            "releaseDate": "2009-11-18",
+            "trackCount": 24,
+            "url": "https://music.apple.com/id/album/the-fame-monster-deluxe-edition/1476095083"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1476095083/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1621817793",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1621817793?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga, Lorne Balfe, Harold Faltermeyer & Hans Zimmer",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-81586169-286718-454295032",
+            "artwork": {
+              "bgColor": "281d11",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "fbe897",
+              "textColor2": "e4c377",
+              "textColor3": "d1bf7c",
+              "textColor4": "bea262",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/14/14/e6141444-6597-4c3a-7ad1-86304528acf4/22UMGIM45569.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "storeFlowcase": {
+                "bgColor": "cbad63",
+                "hasP3": false,
+                "height": 1080,
+                "textColor1": "110a07",
+                "textColor2": "3b2111",
+                "textColor3": "362b19",
+                "textColor4": "583d22",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/76/8e/c0/768ec037-2c14-0101-abbb-ffd0b5ef326d/9d57d05c-cc74-4c87-97f0-4f4e2c60ec0b.png/{w}x{h}bb.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "43433e",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "ffffe4",
+                "textColor2": "eeeed2",
+                "textColor3": "d5d6bf",
+                "textColor4": "c8c8b1",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/d7/f5/bf/d7f5bf47-6b5c-7a99-7956-9f4555d4e670/28bba646-6c49-4ff9-8da7-fbdc96ac5302.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "281d11",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "fbe897",
+                "textColor2": "e4c377",
+                "textColor3": "d1bf7c",
+                "textColor4": "bea262",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/14/14/e6141444-6597-4c3a-7ad1-86304528acf4/22UMGIM45569.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "Tom Cruise’s return to the cockpit calls for a thunderous score."
+            },
+            "name": "Top Gun: Maverick (Music from the Motion Picture)",
+            "playParams": {
+              "id": "1621817793",
+              "kind": "album"
+            },
+            "releaseDate": "2022-05-27",
+            "trackCount": 12,
+            "url": "https://music.apple.com/id/album/top-gun-maverick-music-from-the-motion-picture/1621817793"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1621817793/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "81586169",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/81586169?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "000000",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 2400,
+                      "textColor1": "e9e0d5",
+                      "textColor2": "d5ccc0",
+                      "textColor3": "bbb3aa",
+                      "textColor4": "aaa39a",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/92/a8/29/92a82957-7c1e-d162-a1cf-5e7eea86f5e3/mzl.lmmersdo.jpg/{w}x{h}bb.jpg",
+                      "width": 2400
+                    },
+                    "name": "Lorne Balfe",
+                    "url": "https://music.apple.com/id/artist/lorne-balfe/81586169"
+                  }
+                },
+                {
+                  "id": "286718",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/286718?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "2e2e2e",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 695,
+                      "textColor1": "fefefe",
+                      "textColor2": "dedede",
+                      "textColor3": "d4d4d4",
+                      "textColor4": "bababa",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/bd/dd/ac/bdddac94-f627-11e2-c0dc-1cb85839a20f/pr_source.png/{w}x{h}bb.jpg",
+                      "width": 695
+                    },
+                    "name": "Harold Faltermeyer",
+                    "url": "https://music.apple.com/id/artist/harold-faltermeyer/286718"
+                  }
+                },
+                {
+                  "id": "454295032",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/454295032?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "10323d",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "efc5ae",
+                      "textColor2": "e5ab90",
+                      "textColor3": "c2a797",
+                      "textColor4": "ba9380",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/11/a7/d4/11a7d4ad-54a2-9c22-4fff-f6362ce72422/mza_10944695695822940773.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Hans Zimmer",
+                    "url": "https://music.apple.com/id/artist/hans-zimmer/454295032"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1762656724",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1762656724?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga & Bruno Mars",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-278873078",
+            "artwork": {
+              "bgColor": "013149",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "80cff2",
+              "textColor2": "73a8d9",
+              "textColor3": "67afd0",
+              "textColor4": "5c90bc",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "013149",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "80cff2",
+                "textColor2": "73a8d9",
+                "textColor3": "67afd0",
+                "textColor4": "5c90bc",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Die With A Smile - Single",
+            "playParams": {
+              "id": "1762656724",
+              "kind": "album"
+            },
+            "releaseDate": "2024-08-16",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/die-with-a-smile-single/1762656724"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1762656724/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "278873078",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/278873078?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "2c2c2c",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 1500,
+                      "textColor1": "f4f4f4",
+                      "textColor2": "d6d6d6",
+                      "textColor3": "cccccc",
+                      "textColor4": "b4b4b4",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/75/7e/dd/757edd95-3276-ff15-7de3-5c8e8ec87b4c/ami-identity-865f12490d8b5356071cd06a025b5b6a-2026-01-09T05-04-02.540Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Bruno Mars",
+                    "url": "https://music.apple.com/id/artist/bruno-mars/278873078"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1515424457",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1515424457?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga & BLACKPINK",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-1141774019",
+            "artwork": {
+              "bgColor": "1d1917",
+              "hasP3": false,
+              "height": 3600,
+              "textColor1": "c5bad0",
+              "textColor2": "e0979a",
+              "textColor3": "a399ab",
+              "textColor4": "b97e80",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d5/8f/a0/d58fa00b-461a-2321-cb46-70fbb1cf5058/20UMGIM15390.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3600
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "1d1917",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "c5bad0",
+                "textColor2": "e0979a",
+                "textColor3": "a399ab",
+                "textColor4": "b97e80",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/d5/8f/a0/d58fa00b-461a-2321-cb46-70fbb1cf5058/20UMGIM15390.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Sour Candy - Single",
+            "playParams": {
+              "id": "1515424457",
+              "kind": "album"
+            },
+            "releaseDate": "2020-05-28",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/sour-candy-single/1515424457"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1515424457/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "1141774019",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1141774019?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "0e111c",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 3000,
+                      "textColor1": "dbb2a5",
+                      "textColor2": "cda095",
+                      "textColor3": "b29289",
+                      "textColor4": "a7847d",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/72/0c/7d/720c7d75-dff0-97ac-ec79-6639c616412c/ami-identity-2d9111efdb30d9928ef6b549bcef0daf-2026-02-27T04-58-11.825Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 3000
+                    },
+                    "name": "BLACKPINK",
+                    "url": "https://music.apple.com/id/artist/blackpink/1141774019"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1895776688",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1895776688?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga, Doechii, SIENNA SPIRO & Izzy Escobar",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-1437641643-1745678083-1411652186",
+            "artwork": {
+              "bgColor": "ffffff",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "310505",
+              "textColor2": "420d0d",
+              "textColor3": "5a3737",
+              "textColor4": "683d3e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/74/14/a674143b-9f3c-a148-b29b-b55457849ad1/26UMGIM46877.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "staticDetailSquare": {
+                "bgColor": "ffffff",
+                "gradient": {
+                  "color": "ffffff",
+                  "y2": 0.48
+                },
+                "hasP3": false,
+                "height": 3840,
+                "textColor1": "000000",
+                "textColor2": "4c0a0a",
+                "textColor3": "663f3f",
+                "textColor4": "744646",
+                "textGradient": [
+                  "000000",
+                  "4c0a0a"
+                ],
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/f7/16/46/f7164607-cf81-1c15-8ea2-e8aa9c14326c/5cf585fde637b3bb361c2f97d2dcf1d0_Preview_Image_Intermediate_nonvideo_sdr_443201853_2689273720.png/{w}x{h}bb.jpg",
+                "width": 3840
+              },
+              "staticDetailTall": {
+                "bgColor": "ffffff",
+                "gradient": {
+                  "color": "ffffff",
+                  "y2": 0.48
+                },
+                "hasP3": false,
+                "height": 2732,
+                "textColor1": "000000",
+                "textColor2": "410708",
+                "textColor3": "624140",
+                "textColor4": "6b4343",
+                "textGradient": [
+                  "000000",
+                  "410708"
+                ],
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Video211/v4/8b/ed/ae/8bedae14-03bb-fea9-ca20-5992a943f10c/248171355323f69d48af88f11571631d_Preview_Image_Intermediate_nonvideo_sdr_443201854_2689273721.png/{w}x{h}bb.jpg",
+                "width": 2048
+              },
+              "superHeroTall": {
+                "bgColor": "ffffff",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "310505",
+                "textColor2": "420d0d",
+                "textColor3": "5a3737",
+                "textColor4": "683d3e",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/74/14/a674143b-9f3c-a148-b29b-b55457849ad1/26UMGIM46877.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "Gird your loins for new Gaga and more pop stylings from the big-screen sequel.",
+              "standard": "It’s not 10 or 15 skirts from Calvin Klein, but it is 13 tracks that accessorise the scenes of <i>The Devil Wears Prada 2</i>—the highly anticipated sequel to the 2006 film starring Meryl Streep, Anne Hathaway, Emily Blunt and Stanley Tucci. Lady Gaga sets the trend up top with three bespoke offerings: the powerful “Shape of a Woman”, the vivacious Doechii duet “RUNWAY”—after the movie’s namesake magazine and, of course, a model’s catwalk—and the angsty “Glamorous Life”. New cuts from SIENNA SPIRO (“Material Lover”) as well as singer-songwriter Izzy Escobar (“Evergreen Avenue”) add flair, and songs from Olivia Dean, SZA, RAYE and more complete the stylish collection. That’s all.",
+              "tagline": "New Soundtrack"
+            },
+            "name": "The Devil Wears Prada 2 (Music From The Motion Picture)",
+            "playParams": {
+              "id": "1895776688",
+              "kind": "album"
+            },
+            "releaseDate": "2026-05-01",
+            "trackCount": 14,
+            "url": "https://music.apple.com/id/album/the-devil-wears-prada-2-music-from-the-motion-picture/1895776688"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1895776688/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "1437641643",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1437641643?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "0a1b04",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 6623,
+                      "textColor1": "d6b079",
+                      "textColor2": "d38f65",
+                      "textColor3": "ad9261",
+                      "textColor4": "ab7851",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/04/2c/3c042c42-e11e-2d89-9ba4-68d758a0888a/fd4be4b0-2014-43d7-bbac-750d0275c3a0_ami-identity-0940409ff9680e463498614ed1682b9f-2024-08-28T18-53-24.428Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 6623
+                    },
+                    "name": "Doechii",
+                    "url": "https://music.apple.com/id/artist/doechii/1437641643"
+                  }
+                },
+                {
+                  "id": "1745678083",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1745678083?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "ed905c",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 976,
+                      "textColor1": "060505",
+                      "textColor2": "070505",
+                      "textColor3": "342116",
+                      "textColor4": "352116",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/84/21/ea/8421eae0-9438-7367-c528-b2c44cc2bc8d/ami-identity-195d53777dc96cb9986599824cc6d26e-2026-05-20T16-02-53.799Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 976
+                    },
+                    "name": "SIENNA SPIRO",
+                    "url": "https://music.apple.com/id/artist/sienna-spiro/1745678083"
+                  }
+                },
+                {
+                  "id": "1411652186",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1411652186?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "2b1c12",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 1366,
+                      "textColor1": "dbcdca",
+                      "textColor2": "deb894",
+                      "textColor3": "b7a9a5",
+                      "textColor4": "ba997a",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/04/62/78/046278ce-3cc0-5cbd-fe4f-c131b95ec0b6/ami-identity-063e99c40f04651ebf7a9ebbdf2ba837-2025-08-27T16-59-36.879Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1366
+                    },
+                    "name": "Izzy Escobar",
+                    "url": "https://music.apple.com/id/artist/izzy-escobar/1411652186"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1891472590",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1891472590?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga & Doechii",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-1437641643",
+            "artwork": {
+              "bgColor": "14191b",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "cbd6cb",
+              "textColor2": "d9c1af",
+              "textColor3": "a6b0a8",
+              "textColor4": "b19f91",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/bd/16/74bd16c0-1a16-96e7-41e2-23c722952fc7/26UMGIM41541.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "14191b",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "cbd6cb",
+                "textColor2": "d9c1af",
+                "textColor3": "a6b0a8",
+                "textColor4": "b19f91",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/bd/16/74bd16c0-1a16-96e7-41e2-23c722952fc7/26UMGIM41541.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "RUNWAY - Single",
+            "playParams": {
+              "id": "1891472590",
+              "kind": "album"
+            },
+            "releaseDate": "2026-04-10",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/runway-single/1891472590"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1891472590/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "1437641643",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1437641643?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "0a1b04",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 6623,
+                      "textColor1": "d6b079",
+                      "textColor2": "d38f65",
+                      "textColor3": "ad9261",
+                      "textColor4": "ab7851",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/04/2c/3c042c42-e11e-2d89-9ba4-68d758a0888a/fd4be4b0-2014-43d7-bbac-750d0275c3a0_ami-identity-0940409ff9680e463498614ed1682b9f-2024-08-28T18-53-24.428Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 6623
+                    },
+                    "name": "Doechii",
+                    "url": "https://music.apple.com/id/artist/doechii/1437641643"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1434371867",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1434371867?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga & Bradley Cooper",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-300300595",
+            "artwork": {
+              "bgColor": "dad8d4",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0b0a09",
+              "textColor2": "292827",
+              "textColor3": "343332",
+              "textColor4": "4c4b49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "bannerUber": {
+                "bgColor": "f1f0ef",
+                "hasP3": false,
+                "height": 1080,
+                "textColor1": "1a1918",
+                "textColor2": "2b2a29",
+                "textColor3": "454443",
+                "textColor4": "525150",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/09/1e/67/091e6797-5e83-b95b-ee85-298161183351/pr_source.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "emailFeature": {
+                "bgColor": "f1f0ef",
+                "hasP3": false,
+                "height": 1080,
+                "textColor1": "1a1918",
+                "textColor2": "2b2a29",
+                "textColor3": "454443",
+                "textColor4": "525150",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/85/3f/b2/853fb2b6-3470-ca6f-00d1-97abc4c99213/temp..ucnbdtuf.png/{w}x{h}bb.jpg",
+                "width": 4320
+              },
+              "storeFlowcase": {
+                "bgColor": "fefefe",
+                "hasP3": false,
+                "height": 1080,
+                "textColor1": "1d1d1b",
+                "textColor2": "323131",
+                "textColor3": "4a4a49",
+                "textColor4": "5b5a5a",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/01/88/25/018825d3-c153-2ac6-f714-aa9f00c52bf6/pr_source.png/{w}x{h}bb.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "ffffff",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "111111",
+                "textColor2": "262625",
+                "textColor3": "353534",
+                "textColor4": "494948",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/24/1f/dc/241fdcc0-16dc-5b3a-e467-57018c32fea0/e72ef528-2784-40e4-8822-12753172ce4b.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "dad8d4",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "0b0a09",
+                "textColor2": "292827",
+                "textColor3": "343332",
+                "textColor4": "4c4b49",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "A sprawling set of original tunes for the star-studded Hollywood tale.",
+              "standard": "For their retelling of the classic <i>A Star Is Born</i> tale—fading celebrity meets ingénue, passes torch—writer/director Bradley Cooper and costar Lady Gaga had to do a little role reversal. Gaga makes her first turn as a leading lady (big-voiced, fresh-faced singer Ally), while Cooper both directs and sings (ageing country-rocker Jackson Maine) for the first time. It turns out that Cooper is just as impressive a singer as Gaga is an actress, and the intense dynamic between the two leads is present from the start.<br />\nAs Gaga told Beats 1 host Zane Lowe, the pair first huddled around the piano in her Malibu home to practice a Creedence Clearwater Revival song, and she was stunned when she first heard his singing voice. “Instantly we started to harmonise, and we were looking at each other and laughing, and it was just this magical experience.” Cooper claims the inspiration for his character came from Eddie Vedder; Gaga merely needed to look in the mirror, drawing on bittersweet memories of her pre-fame days as Stefani Germanotta, busking outside of bars on Manhattan's Lower East Side. “I was so bullied and so insecure and so depressed, and that is what I drew from”, she recalled.<br /> \nThat vulnerability is on display in the movie's central number, “Shallow”, a power ballad that comes closest to Gaga’s usual recorded fare. The rest of the soundtrack encompasses country-rockers (“Diggin’ My Grave”), Carole King-style piano bops (“Look What I Found”) and slow-dance duets (“Music to My Eyes”). This wide variety of Broadway-ready cues is the product of a dream team of songwriters, including Natalie Hemby, Hillary Lindsey, Jason Isbell, Lori McKenna, Julia Michaels, Lukas Nelson and Mark Ronson.<br />\nBut what grounds it all is Gaga's and Cooper's star power, and their natural flair for the dramatic. The day they filmed the movie's climactic piano torch song, “I'll Never Love Again”, Gaga rushed from the soundstage to her friend Sonya’s bedside at the hospital; she passed away that day, after a long struggle with cancer. At the urging of Sonya's husband, Gaga drove right back to set and poured everything she was feeling into that performance. “I sang that song for Jackson,” she told Zane, “and for her.”"
+            },
+            "name": "A Star Is Born Soundtrack",
+            "playParams": {
+              "id": "1434371867",
+              "kind": "album"
+            },
+            "releaseDate": "2018-10-05",
+            "trackCount": 34,
+            "url": "https://music.apple.com/id/album/a-star-is-born-soundtrack/1434371867"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1434371867/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "300300595",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/300300595?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "222222",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 2400,
+                      "textColor1": "e7e7e7",
+                      "textColor2": "cecece",
+                      "textColor3": "bfbfbf",
+                      "textColor4": "ababab",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/86/aa/04/86aa04f6-3ad7-4815-9d16-5b544114375d/mzl.yvmakgqp.jpg/{w}x{h}bb.jpg",
+                      "width": 2400
+                    },
+                    "name": "Bradley Cooper",
+                    "url": "https://music.apple.com/id/artist/bradley-cooper/300300595"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1793869707",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1793869707?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "111214",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f9f6ef",
+              "textColor2": "e3d9cd",
+              "textColor3": "cac8c3",
+              "textColor4": "b9b1a8",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/64/2c/54642c8f-4c6c-5e55-45ea-475f98cf74b4/25UMGIM06790.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "111214",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "f9f6ef",
+                "textColor2": "e3d9cd",
+                "textColor3": "cac8c3",
+                "textColor4": "b9b1a8",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/64/2c/54642c8f-4c6c-5e55-45ea-475f98cf74b4/25UMGIM06790.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Abracadabra - Single",
+            "playParams": {
+              "id": "1793869707",
+              "kind": "album"
+            },
+            "releaseDate": "2025-02-03",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/abracadabra-single/1793869707"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1793869707/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1792666546",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1792666546?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "323232",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f9f9f9",
+              "textColor2": "e3e3e3",
+              "textColor3": "d1d1d1",
+              "textColor4": "c0c0c0",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/11/d1/be11d187-1aeb-99f3-01c5-597ed65cdb6a/25UMGIM07433.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "staticDetailSquare": {
+                "bgColor": "2f2f2f",
+                "hasP3": false,
+                "height": 3840,
+                "textColor1": "f6f6f6",
+                "textColor2": "dadada",
+                "textColor3": "cecece",
+                "textColor4": "b8b8b8",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/85/96/e5/8596e5c9-ea5d-f074-14ab-0def74d49a41/Job55a60f4d-834e-43b4-b0ac-bc65708cbd78-187464330-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_366977506_2078765148-Time1741332248310.png/{w}x{h}bb.jpg",
+                "width": 3840
+              },
+              "staticDetailTall": {
+                "bgColor": "000000",
+                "gradient": {
+                  "color": "000000",
+                  "y2": 0.48
+                },
+                "hasP3": false,
+                "height": 2732,
+                "textColor1": "ffffff",
+                "textColor2": "c8c8c8",
+                "textColor3": "cbcbcb",
+                "textColor4": "a9a9a9",
+                "textGradient": [
+                  "ffffff",
+                  "c8c8c8"
+                ],
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/b3/10/b8/b310b881-11d0-5022-2778-2aa1fa3ee34b/Job24a69080-f65d-4603-8c4a-d62937049df2-187464329-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_366977505_2078765147-Time1741331326345.png/{w}x{h}bb.jpg",
+                "width": 2048
+              },
+              "storeFlowcase": {
+                "bgColor": "8e9091",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "0a0806",
+                "textColor2": "141312",
+                "textColor3": "242322",
+                "textColor4": "2c2c2c",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/f1/50/a0/f150a02f-4df5-b12b-7b7f-e61588e591cb/7d31d60b-173a-43dd-934c-bb0f477f8b8b.png/{w}x{h}bb.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "525152",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "f5f5f5",
+                "textColor2": "e9e9e9",
+                "textColor3": "d5d5d5",
+                "textColor4": "cbcbcb",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a3/a1/aa/a3a1aa8c-4624-fff5-3604-45a7df0ba9f3/7fd7d818-cd12-4920-86bb-6d6eee2aaec7.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "323232",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "f9f9f9",
+                "textColor2": "e3e3e3",
+                "textColor3": "d1d1d1",
+                "textColor4": "c0c0c0",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/be/11/d1/be11d187-1aeb-99f3-01c5-597ed65cdb6a/25UMGIM07433.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "“It’s a series of gothic dreams”: Gaga invites MAYHEM into your life.",
+              "standard": "“That is who Lady Gaga is to me,” Lady Gaga tells Apple Music’s Zane Lowe of creating <i>MAYHEM</i>. “Maybe to someone else, it might be the Meat Dress or something that I did that they remember as me. But for me, I always want to be remembered for being a real artist and someone that cares so much.” In that vein, Gaga set out to make her latest album—which she calls her “favourite record in a long time”—its own thing. “<i>ARTPOP</i> was a vibe. <i>Joanne</i> was a sound. <i>Chromatica</i> had a sound. All different. <i>The Fame Monster</i> was more chaotic. <i>The Fame</i> was theatrical pop. <i>Born This Way</i>, to me, had more of a metal/electro New York vibe to it,” she says. “I actually made the effort making <i>MAYHEM</i> to not do that and not try to give my music an outfit, but instead to allow myself to be influenced by everything.”\n\nIndeed, <i>MAYHEM</i> traverses—and oftentimes melds—the various flavours of Mother Monster’s career, from the disco scene of her earliest work to her singer-songwriter era and back again. The opening tracks, singles “Disease” and “Abracadabra”, revisit dance-floor Gaga to thrilling fanfare. The spirited “Garden of Eden” follows the trend of what she calls “2000 throwbacks”. With its sparkly synths, “LoveDrug” might be seen as the brighter and shinier elder sibling of her early cut “LoveGame”. She even specifically admits the “electro-grunge influence” seeps its way in—especially apparent in “Perfect Celebrity”, “Vanish into You” and “The Beast”. The latter even shows shades of <i>Joanne</i>, but “Blade of Grass” and her Bruno Mars duet “Die with a Smile” really put her former folk-pop-rock persona on display.\n\nIt’s also all incredibly personal to her. “The album is a series of gothic dreams,” she says. “I say it’s like images of the past that haunt me, and they somehow find their way into who I am today.” Below, Gaga takes us through several tracks (all in Spatial Audio), in her own words.\n\n<b>“Abracadabra”</b>\n“I think I didn’t want to make this kind of music for a long time, even though I had it in me. And I think ‘Abracadabra’ is very much my sound—something that I honed in [on] after many years, and I wanted to do it again. I felt like being stagnant was just death in my artistry. And I just really wanted to constantly be a student. Not just reinvent myself, but learn something new with every record. And that wasn’t always what people wanted from me, but that’s what I wanted from me. And it’s the thing that I’m the most probably proud of, if I look back on my career, is I know how much I grew from record to record and how authentic it all was. The thing that was most important to me was being a student of music, above everything else.”\n\n<b>“Perfect Celebrity”</b>\n“It’s super angry: ‘I’ve become a notorious being/Find my clone, she’s asleep on the ceiling.’ It’s almost comical, this idea that any time I’m in the room with anyone, there’s me—Stefani—and Lady Gaga asleep on the ceiling, and I have to figure out which body to be in. It’s kind of intense, but that song, that was an important song on this album because it didn’t feel honest to me on <i>MAYHEM</i> to exclude something that had that kind of anger in it because then it felt like I was trying to be a good girl or whatever and be something that I’m not actually. Part of my personal mayhem is that I have joy and celebration, but I’m also sometimes angry or super sad or really celebratory or completely insecure and have no confidence.”\n\n<b>“Shadow of a Man”</b>\n“That song is so much a response to my career and what it always felt like to be the only girl in the room a lot of the time. And to always be standing in the shadow of a man because there were so many around me that I learned how to dance in that shadow.”\n\n<b>“The Beast”</b>\n“In that record, it is me or someone singing to their lover who’s a werewolf, but what I believe about this is, this record is also about [my fiancé] Michael [Polansky] and I, and that this song is also about me and being Lady Gaga. What the beast is, who I become when I’m onstage and who I am when I make my art and the prechorus of that song is, ‘You can’t hide who you are. 11:59, your heart’s racing, you’re growling and we both know why.’ It’s like somebody that is saying to the beast, ‘I know you’re a monster, but I can handle you, and I love you.’”\n\n<b>“Blade of Grass”</b>\n“Michael asked me how I would want him to propose to me one day. We were in our backyard, and I said, ‘Just take a blade of grass and wrap it around my finger,’ and then I wrote ‘Blade of Grass’ because I remembered the way his face looked, and I remembered the grass in the backyard, and I remember thinking he should use that really long grass that’s in the centre of the backyard. Those moments, to me, at a certain point I was into the idea of fame and artifice and being the conductor of your own life when it came to your own inner sense of fame. I had to fight a lot harder to make music and dance a little bit later into my career because my life became so different that I didn’t have as much life around me to inspire me.”",
+              "tagline": "New Album and Interview"
+            },
+            "name": "MAYHEM",
+            "playParams": {
+              "id": "1792666546",
+              "kind": "album"
+            },
+            "releaseDate": "2025-03-07",
+            "trackCount": 17,
+            "url": "https://music.apple.com/id/album/mayhem/1792666546"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1792666546/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1476727669",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1476727669?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "2f2f2e",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "eeeff0",
+              "textColor2": "cccdcd",
+              "textColor3": "c8c9c9",
+              "textColor4": "acadad",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/98/88/1b9888da-6a1f-bff0-ec03-518f445019f6/19UMGIM73435.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "2f2f2e",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "eeeff0",
+                "textColor2": "cccdcd",
+                "textColor3": "c8c9c9",
+                "textColor4": "acadad",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/98/88/1b9888da-6a1f-bff0-ec03-518f445019f6/19UMGIM73435.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "Before there was paparazzi, there was “Paparazzi”.",
+              "standard": "<b>100 Best Albums</b> It would seem as if Lady Gaga just dropped—make that <i>danced</i>—from the disco heavens as a born-ready star on 2008’s <i>The Fame</i>. But before the artist born Stefani Germanotta was actually living the lifestyle of the rich and famous, she was getting ready for her close-up in the New York club scene. And you can really hear the blood, sweat and twirls through many a beer-splattered stage on <i>The Fame</i>. She lived it—and you feel it.\n\nThat’s what makes <i>The Fame</i> such a self-manifesting statement—an album that chronicles the celebrity culture Gaga had yet to experience. When she sings about having “a little bit too much” on “Just Dance”—the album’s defining first single, featuring assists from singer Colby O’Donis, co-writer Akon and main <i>Fame</i> producer RedOne—she’s that party girl we’ve all been (and if you haven’t been there, she offers a blueprint for your free-bootied future). You can also hear the gritty groove of the downtown New York scene on debaucherous dance tracks such as “Beautiful, Dirty, Rich”, “Money Honey” and the disco-stick-riding “LoveGame”. Meanwhile, pop bops such as “Poker Face”—which followed “Just Dance” to the top of the charts—and “Paparazzi” reveal the lyrical and melodic beast behind the beat.\n\n<i>The Fame</i> was already a multi-platinum, Grammy-winning sensation when it was reissued as <i>The Fame Monster (Deluxe Edition)</i> in 2009. But with Gaga having now fulfilled her diva destiny, she quickly proved her success was no fluke, continuing her string of hits with “Bad Romance”, “Alejandro” and “Telephone”. The latter pairs Gaga with Beyoncé—a pop-icon team-up equalled only by Barbra Streisand and Donna Summer’s 1979 classic “No More Tears (Enough Is Enough)”. A worldwide smash that would earn the singer her second consecutive Grammy nomination for Album of the Year, <i>The Fame Monster</i> left little doubt that the world had gone gaga for Gaga.",
+              "tagline": "Featured in 100 Best Albums"
+            },
+            "name": "The Fame Monster (Deluxe Edition)",
+            "playParams": {
+              "id": "1476727669",
+              "kind": "album"
+            },
+            "releaseDate": "2009-11-18",
+            "trackCount": 24,
+            "url": "https://music.apple.com/id/album/the-fame-monster-deluxe-edition/1476727669"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1476727669/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1445051390",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1445051390?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "dedede",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "031111",
+              "textColor2": "192527",
+              "textColor3": "2e3a3a",
+              "textColor4": "404a4b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c4/f1/86/c4f186ea-1742-5e73-64c7-9179fc4b8566/00602557652536.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "storeFlowcase": {
+                "bgColor": "002327",
+                "hasP3": false,
+                "height": 1080,
+                "textColor1": "d0eeed",
+                "textColor2": "bed4d4",
+                "textColor3": "a7caca",
+                "textColor4": "98b5b6",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features82/v4/81/9b/8d/819b8d50-9b28-f1eb-1a6e-4071e6726c64/pr_source.png/{w}x{h}bb.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "4e6060",
+                "hasP3": false,
+                "height": 1080,
+                "textColor1": "a8eabe",
+                "textColor2": "a8eabe",
+                "textColor3": "96cfab",
+                "textColor4": "96cfab",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features91/v4/e7/7a/56/e77a5691-d503-0110-f01e-fa8e83a46d04/pr_source.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "dedede",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "031111",
+                "textColor2": "192527",
+                "textColor3": "2e3a3a",
+                "textColor4": "404a4b",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c4/f1/86/c4f186ea-1742-5e73-64c7-9179fc4b8566/00602557652536.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "A dose of perfect pop that feels both modern and timeless."
+            },
+            "name": "The Cure - Single",
+            "playParams": {
+              "id": "1445051390",
+              "kind": "album"
+            },
+            "releaseDate": "2017-04-16",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/the-cure-single/1445051390"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1445051390/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6768201775",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/6768201775?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "1a1323",
+              "hasP3": false,
+              "height": 2000,
+              "textColor1": "cacad1",
+              "textColor2": "c5b4bc",
+              "textColor3": "a7a5ae",
+              "textColor4": "a3949d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/12/80/08128053-d7df-489d-bfde-be6f45f075be/26UMGIM57129.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 2000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "staticDetailSquare": {
+                "bgColor": "1b1419",
+                "hasP3": true,
+                "height": 3840,
+                "textColor1": "daae9b",
+                "textColor2": "cea396",
+                "textColor3": "b48f81",
+                "textColor4": "aa867d",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/cd/81/23/cd812327-e1a8-f659-3b4c-a912ffc3cad9/ece6155d-a8a1-4239-9275-04a351926575.png/{w}x{h}bb.jpg",
+                "width": 3840
+              },
+              "staticDetailTall": {
+                "bgColor": "19101c",
+                "hasP3": true,
+                "height": 2732,
+                "textColor1": "ffffff",
+                "textColor2": "ffffff",
+                "textColor3": "b4978e",
+                "textColor4": "b48378",
+                "textGradient": [
+                  "ffffff",
+                  "ffffff"
+                ],
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6f/48/25/6f48251a-3f28-af2c-4b1a-48722cfcf83e/f0607c7b-966b-4c3e-8704-cb54137599c0.png/{w}x{h}bb.jpg",
+                "width": 2048
+              },
+              "storeFlowcase": {
+                "bgColor": "000000",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "cfc1c0",
+                "textColor2": "d0a593",
+                "textColor3": "a69b9a",
+                "textColor4": "a68476",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/48/af/c3/48afc327-7bb6-1928-a0a0-b04cc97c4f9e/a7ab9166-4229-412d-a24f-9326fb63045e.png/{w}x{h}bb.jpg",
+                "width": 4320
+              },
+              "subscriptionCover": {
+                "bgColor": "070101",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "ffffff",
+                "textColor2": "ffffff",
+                "textColor3": "c3a6ac",
+                "textColor4": "a38c85",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/4b/b2/bf/4bb2bf3b-e0fe-d598-f222-fcf07df78f5a/a8b7b8bc-ce64-4dca-8a6f-97b360f4a691.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "1d0c12",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "ceb5a1",
+                "textColor2": "cda683",
+                "textColor3": "aa9384",
+                "textColor4": "a9876c",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f9/52/17/f9521755-6080-6f6e-bd8b-970e19c6a7e1/eb2e2cb5-70ca-47a3-af85-f2f2fad4d919.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "070101",
+                "gradient": {},
+                "hasP3": true,
+                "height": 2240,
+                "textColor1": "ffffff",
+                "textColor2": "ffffff",
+                "textColor3": "c3a6ac",
+                "textColor4": "a38c85",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/4b/b2/bf/4bb2bf3b-e0fe-d598-f222-fcf07df78f5a/a8b7b8bc-ce64-4dca-8a6f-97b360f4a691.png/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "Lady Gaga’s MAYHEM is complete. Hear MAYHEM Requiem in Spatial Audio.",
+              "standard": "When Lady Gaga set off on an international tour in support of <i>MAYHEM</i>, her sixth studio album, she travelled the globe with her own opera house in tow. Each night, the columns and ornate finishes of this surreal theatre’s facade served as the backdrop for her journey into the madness of <i>MAYHEM</i>. But now the opera house has been reduced to rubble—and it’s time to pay our respects and prepare for <i>MAYHEM</i>’s final act.\n\nFor Apple Music Live, Gaga presents MAYHEM Requiem, a celebration and musical reimagining of <i>MAYHEM</i>. The phantom of her own gothic opera, she spends most of the intimate evening at The Wiltern in Los Angeles at the piano or synths, where she helms reimagined arrangements of “Abracadabra”, “Disease” and the rest of <i>MAYHEM</i>’s tracklist among the cracked columns and scattered ruins of the opera house. From the heavy industrial clashes of “Killah” to an electro-funk rework of her Bruno Mars duet “Die with a Smile”, MAYHEM Requiem is both a perfect companion to the original album and a singular experience: You’ll never hear the songs of <i>MAYHEM</i> the same way, but you <i>can</i> hear them now in Spatial Audio.",
+              "tagline": "Exclusive Album"
+            },
+            "name": "Apple Music Live: MAYHEM Requiem",
+            "playParams": {
+              "id": "6768201775",
+              "kind": "album"
+            },
+            "releaseDate": "2026-05-14",
+            "trackCount": 42,
+            "url": "https://music.apple.com/id/album/apple-music-live-mayhem-requiem/6768201775"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/6768201775/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "name": "Albums",
+      "groupId": "album"
+    },
+    "artists": {
+      "href": "/v1/catalog/id/search?groups=artist&l=en-GB&limit=12&term=lady+gaga&types=songs%2Calbums%2Cartists",
+      "next": "/v1/catalog/id/search?groups=artist&l=en-GB&offset=12&term=lady+gaga&types=songs%2Calbums%2Cartists",
+      "data": [
+        {
+          "id": "277293880",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "131825",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 3840,
+              "textColor1": "b8cce0",
+              "textColor2": "a9bed2",
+              "textColor3": "97a8ba",
+              "textColor4": "8b9caf",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+              "width": 3840
+            },
+            "name": "Lady Gaga",
+            "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+          }
+        },
+        {
+          "id": "412554916",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/412554916?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "f6f6f6",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 1200,
+              "textColor1": "080808",
+              "textColor2": "1d1d1d",
+              "textColor3": "373737",
+              "textColor4": "484848",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/7c/ce/8f/7cce8fa7-c5d9-79ec-ef99-7950c2e2a3c5/mzl.fvhutpga.jpg/{w}x{h}bb.jpg",
+              "width": 1200
+            },
+            "name": "GAGa.",
+            "url": "https://music.apple.com/id/artist/gaga/412554916"
+          }
+        },
+        {
+          "id": "913944",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/913944?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "f1e5f2",
+              "defaultCropCode": "bb",
+              "hasP3": true,
+              "height": 2400,
+              "textColor1": "2a1f28",
+              "textColor2": "332633",
+              "textColor3": "524651",
+              "textColor4": "594c59",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/f6/80/10/f680109c-b757-86ae-7254-67b5c5890982/ami-identity-fd6c71bb39caaa510d9e9f47a8921a43-2026-08-27T17-57-11.001Z_cropped.png/{w}x{h}bb.jpg",
+              "width": 2400
+            },
+            "name": "JENNIE",
+            "url": "https://music.apple.com/id/artist/jennie/913944"
+          }
+        },
+        {
+          "id": "1406242696",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1406242696?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "5e330f",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 5359,
+              "textColor1": "f9c5a4",
+              "textColor2": "f7b086",
+              "textColor3": "daa886",
+              "textColor4": "d8976e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/e5/2b/6f/e52b6f42-d751-aeb2-7c1f-43be133bfabb/ami-identity-02caae62a4b6b93e74586343e6cf896e-2024-10-18T03-52-40.015Z_cropped.png/{w}x{h}bb.jpg",
+              "width": 5359
+            },
+            "name": "ROSÉ",
+            "url": "https://music.apple.com/id/artist/ros%C3%A9/1406242696"
+          }
+        },
+        {
+          "id": "215542909",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/215542909?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "5c5336",
+              "defaultCropCode": "bb",
+              "hasP3": true,
+              "height": 1763,
+              "textColor1": "f1e1d2",
+              "textColor2": "e6b89a",
+              "textColor3": "d3c5b3",
+              "textColor4": "caa386",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/a0/66/16/a0661621-dcd9-8198-901d-bf32de81cca3/ami-identity-4126cfb57301f8b0df0fadf4de5ca298-2026-01-21T21-02-57.156Z_cropped.png/{w}x{h}bb.jpg",
+              "width": 1763
+            },
+            "name": "Lady A",
+            "url": "https://music.apple.com/id/artist/lady-a/215542909"
+          }
+        },
+        {
+          "id": "1583908668",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1583908668?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "000000",
+              "defaultCropCode": "bb",
+              "hasP3": true,
+              "height": 3000,
+              "textColor1": "c6d5d6",
+              "textColor2": "afc7d3",
+              "textColor3": "9eaaab",
+              "textColor4": "8c9fa9",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/97/a0/06/97a006c3-7d48-ede6-cd14-2a70d00eabee/ami-identity-12f909ec81863daf22cc5f6d3c33db3d-2026-08-24T13-04-46.196Z_cropped.png/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "name": "LISA",
+            "url": "https://music.apple.com/id/artist/lisa/1583908668"
+          }
+        },
+        {
+          "id": "1556097160",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1556097160?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "2a1a12",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 2400,
+              "textColor1": "e2a85d",
+              "textColor2": "e89c7c",
+              "textColor3": "bd8c4e",
+              "textColor4": "c28267",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/ff/2c/00/ff2c00aa-51ec-62f4-a4fc-c3149ff4e511/mzl.midlqcut.jpg/{w}x{h}bb.jpg",
+              "width": 2400
+            },
+            "name": "Silk Sonic",
+            "url": "https://music.apple.com/id/artist/silk-sonic/1556097160"
+          }
+        },
+        {
+          "id": "1548008317",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1548008317?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "282828",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 618,
+              "textColor1": "e5e5e5",
+              "textColor2": "d0d0d0",
+              "textColor3": "bfbfbf",
+              "textColor4": "aeaeae",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/10/9a/ea/109aeaf0-170b-a620-cb2e-d33588f43d95/ami-identity-27ce329449e330082219af194269e317-2025-10-10T10-04-34.369Z_cropped.png/{w}x{h}bb.jpg",
+              "width": 618
+            },
+            "name": "JISOO",
+            "url": "https://music.apple.com/id/artist/jisoo/1548008317"
+          }
+        },
+        {
+          "id": "300300595",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/300300595?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "222222",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 2400,
+              "textColor1": "e7e7e7",
+              "textColor2": "cecece",
+              "textColor3": "bfbfbf",
+              "textColor4": "ababab",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/86/aa/04/86aa04f6-3ad7-4815-9d16-5b544114375d/mzl.yvmakgqp.jpg/{w}x{h}bb.jpg",
+              "width": 2400
+            },
+            "name": "Bradley Cooper",
+            "url": "https://music.apple.com/id/artist/bradley-cooper/300300595"
+          }
+        },
+        {
+          "id": "28673423",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/28673423?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "0c2130",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 1599,
+              "textColor1": "e1dcc7",
+              "textColor2": "d0c8a8",
+              "textColor3": "b7b7a9",
+              "textColor4": "a9a790",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages123/v4/53/ea/13/53ea1398-3c7f-addb-9373-3fc63048b318/1fa85529-2c36-4928-933b-17a2d15afeb7_ami-identity-21187399153a680bbb3449e7ce920172-2023-01-18T15-10-56.952Z_cropped.png/{w}x{h}bb.jpg",
+              "width": 1599
+            },
+            "name": "Fall Out Boy",
+            "url": "https://music.apple.com/id/artist/fall-out-boy/28673423"
+          }
+        },
+        {
+          "id": "1437641643",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1437641643?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "0a1b04",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 6623,
+              "textColor1": "d6b079",
+              "textColor2": "d38f65",
+              "textColor3": "ad9261",
+              "textColor4": "ab7851",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/04/2c/3c042c42-e11e-2d89-9ba4-68d758a0888a/fd4be4b0-2014-43d7-bbac-750d0275c3a0_ami-identity-0940409ff9680e463498614ed1682b9f-2024-08-28T18-53-24.428Z_cropped.png/{w}x{h}bb.jpg",
+              "width": 6623
+            },
+            "name": "Doechii",
+            "url": "https://music.apple.com/id/artist/doechii/1437641643"
+          }
+        },
+        {
+          "id": "1040595108",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/1040595108?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "939193",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 4861,
+              "textColor1": "0b0502",
+              "textColor2": "121215",
+              "textColor3": "26211f",
+              "textColor4": "2c2b2e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/93/68/a3/9368a3e3-8034-8c91-874f-3ad45ebc9881/mza_17479975302983322842.png/{w}x{h}bb.jpg",
+              "width": 4861
+            },
+            "name": "DNCE",
+            "url": "https://music.apple.com/id/artist/dnce/1040595108"
+          }
+        }
+      ],
+      "name": "Artists",
+      "groupId": "artist"
+    },
+    "songs": {
+      "href": "/v1/catalog/id/search?groups=song&l=en-GB&limit=12&term=lady+gaga&types=songs%2Calbums%2Cartists",
+      "next": "/v1/catalog/id/search?groups=song&l=en-GB&offset=12&term=lady+gaga&types=songs%2Calbums%2Cartists",
+      "data": [
+        {
+          "id": "1434372043",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1434372043?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Bradley Cooper",
+            "albumName": "A Star Is Born Soundtrack",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "dad8d4",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0b0a09",
+              "textColor2": "292827",
+              "textColor3": "343332",
+              "textColor4": "4c4b49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga, Natalie Hemby, Hillary Lindsey & Lori McKenna",
+            "discNumber": 1,
+            "durationInMillis": 210198,
+            "genreNames": [
+              "Soundtrack",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM71813195",
+            "name": "Always Remember Us This Way",
+            "playParams": {
+              "id": "1434372043",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/b8/f3/e4b8f37d-91b4-ca6f-d903-604bb3ada165/mzaf_745875361798513793.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2018-10-05",
+            "trackNumber": 17,
+            "url": "https://music.apple.com/id/album/always-remember-us-this-way/1434371867?i=1434372043"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1434372043/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1434371867",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1434371867?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1434372043/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1476095084",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1476095084?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "The Fame Monster (Deluxe Edition)",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "313131",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "efefef",
+              "textColor2": "cdcdcd",
+              "textColor3": "c9c9c9",
+              "textColor4": "adadad",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/25/c4/1f25c4bf-7f7a-ff26-8769-20ab6052dadf/09UMGIM40719.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga & RedOne",
+            "discNumber": 1,
+            "durationInMillis": 294504,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM70903859",
+            "name": "Bad Romance",
+            "playParams": {
+              "id": "1476095084",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/54/f0/1b54f0b7-db6a-1a40-6af8-4ae4650d8d6d/mzaf_11808422520159211693.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2009-10-26",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/bad-romance/1476095083?i=1476095084"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1476095084/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1476095083",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1476095083?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1476095084/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1476727864",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1476727864?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "The Fame Monster (Deluxe Edition)",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "2f2f2e",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "eeeff0",
+              "textColor2": "cccdcd",
+              "textColor3": "c8c9c9",
+              "textColor4": "acadad",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/98/88/1b9888da-6a1f-bff0-ec03-518f445019f6/19UMGIM73435.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Lady Gaga & RedOne",
+            "contentRating": "explicit",
+            "discNumber": 2,
+            "durationInMillis": 237078,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM70824409",
+            "name": "Poker Face",
+            "playParams": {
+              "id": "1476727864",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/bb/67/15bb6794-b294-95ab-2a8d-68d03e09b6f3/mzaf_5288726253601768293.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2008-08-19",
+            "trackNumber": 4,
+            "url": "https://music.apple.com/id/album/poker-face/1476727669?i=1476727864"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1476727864/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1476727669",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1476727669?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1476727864/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1762656732",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1762656732?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Bruno Mars",
+            "albumName": "Die With A Smile - Single",
+            "artistName": "Lady Gaga & Bruno Mars",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-278873078",
+            "artwork": {
+              "bgColor": "013149",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "80cff2",
+              "textColor2": "73a8d9",
+              "textColor3": "67afd0",
+              "textColor4": "5c90bc",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Lady Gaga, Bruno Mars, Dernst \"D'Mile\" Emile II, James Fauntleroy & Andrew Watt",
+            "discNumber": 1,
+            "durationInMillis": 251668,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM72409273",
+            "name": "Die With A Smile",
+            "playParams": {
+              "id": "1762656732",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/6a/99/076a99ed-b946-431b-6f1f-54fa187ca5bd/mzaf_16287261770881947951.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2024-08-16",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/die-with-a-smile/1762656724?i=1762656732"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1762656732/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1762656724",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1762656724?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1762656732/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "278873078",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/278873078?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "2c2c2c",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 1500,
+                      "textColor1": "f4f4f4",
+                      "textColor2": "d6d6d6",
+                      "textColor3": "cccccc",
+                      "textColor4": "b4b4b4",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/75/7e/dd/757edd95-3276-ff15-7de3-5c8e8ec87b4c/ami-identity-865f12490d8b5356071cd06a025b5b6a-2026-01-09T05-04-02.540Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Bruno Mars",
+                    "url": "https://music.apple.com/id/artist/bruno-mars/278873078"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1434371887",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1434371887?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Bradley Cooper",
+            "albumName": "A Star Is Born Soundtrack",
+            "artistName": "Lady Gaga & Bradley Cooper",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-300300595",
+            "artwork": {
+              "bgColor": "dad8d4",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0b0a09",
+              "textColor2": "292827",
+              "textColor3": "343332",
+              "textColor4": "4c4b49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga, Mark Ronson, Anthony Rossomando & Andrew Wyatt",
+            "discNumber": 1,
+            "durationInMillis": 215737,
+            "genreNames": [
+              "Soundtrack",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM71813192",
+            "name": "Shallow",
+            "playParams": {
+              "id": "1434371887",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/cc/ed/0ccced59-6e6f-f0a0-0c9a-d20bfd475052/mzaf_14191477421672598209.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2018-09-27",
+            "trackNumber": 12,
+            "url": "https://music.apple.com/id/album/shallow/1434371867?i=1434371887"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1434371887/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1434371867",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1434371867?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1434371887/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "300300595",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/300300595?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "222222",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 2400,
+                      "textColor1": "e7e7e7",
+                      "textColor2": "cecece",
+                      "textColor3": "bfbfbf",
+                      "textColor4": "ababab",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/86/aa/04/86aa04f6-3ad7-4815-9d16-5b544114375d/mzl.yvmakgqp.jpg/{w}x{h}bb.jpg",
+                      "width": 2400
+                    },
+                    "name": "Bradley Cooper",
+                    "url": "https://music.apple.com/id/artist/bradley-cooper/300300595"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1434372132",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1434372132?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Bradley Cooper",
+            "albumName": "A Star Is Born Soundtrack",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "dad8d4",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0b0a09",
+              "textColor2": "292827",
+              "textColor3": "343332",
+              "textColor4": "4c4b49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Natalie Hemby, Hillary Lindsey, Aaron Raitiere & Stefani Germanotta",
+            "discNumber": 1,
+            "durationInMillis": 328855,
+            "genreNames": [
+              "Soundtrack",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": false,
+            "isrc": "USUM71813205",
+            "name": "I'll Never Love Again (Extended Version)",
+            "playParams": {
+              "id": "1434372132",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/69/ee/8869ee27-d2ae-9688-7aa7-5a9c3cc45177/mzaf_17164615686549613938.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2018-10-05",
+            "trackNumber": 34,
+            "url": "https://music.apple.com/id/album/ill-never-love-again-extended-version/1434371867?i=1434372132"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1434372132/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1434371867",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1434371867?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1434372132/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1476727861",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1476727861?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "The Fame Monster (Deluxe Edition)",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "2f2f2e",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "eeeff0",
+              "textColor2": "cccdcd",
+              "textColor3": "c8c9c9",
+              "textColor4": "acadad",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/98/88/1b9888da-6a1f-bff0-ec03-518f445019f6/19UMGIM73435.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga, RedOne & Akon",
+            "discNumber": 2,
+            "durationInMillis": 242017,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM70807646",
+            "name": "Just Dance (feat. Colby O'Donis)",
+            "playParams": {
+              "id": "1476727861",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/33/c7/1633c79c-ed6f-cde6-a39b-0df767656357/mzaf_2551443267775252965.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2008-04-08",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/just-dance-feat-colby-odonis/1476727669?i=1476727861"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1476727861/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1476727669",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1476727669?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1476727861/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1440857433",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1440857433?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "Born This Way (Special Edition)",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "b2b0b0",
+              "hasP3": false,
+              "height": 1500,
+              "textColor1": "060707",
+              "textColor2": "191a1a",
+              "textColor3": "292829",
+              "textColor4": "373838",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/9f/0f/429f0fd2-30bd-b64e-27fc-76d8fbbd0988/11UMGIM12476.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 1500
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Lady Gaga & RedOne",
+            "discNumber": 1,
+            "durationInMillis": 249071,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM71104998",
+            "name": "Judas",
+            "playParams": {
+              "id": "1440857433",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/43/75/0c437569-cb18-d647-b887-150e8ac8f76e/mzaf_10797698833362321357.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2011-04-15",
+            "trackNumber": 4,
+            "url": "https://music.apple.com/id/album/judas/1440857161?i=1440857433"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1440857433/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1440857161",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1440857161?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1440857433/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          },
+          "meta": {
+            "formerIds": [
+              "903211289",
+              "902180920"
+            ]
+          }
+        },
+        {
+          "id": "1891472591",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1891472591?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Doechii",
+            "albumName": "RUNWAY - Single",
+            "artistName": "Lady Gaga & Doechii",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-1437641643",
+            "artwork": {
+              "bgColor": "14191b",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "cbd6cb",
+              "textColor2": "d9c1af",
+              "textColor3": "a6b0a8",
+              "textColor4": "b19f91",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/bd/16/74bd16c0-1a16-96e7-41e2-23c722952fc7/26UMGIM41541.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Bruno Mars, Jaylah Hickmon, Stefani Germanotta, Andrew Watt, Henry Walter, Dernst \"D' Mile\" Emile II & Jayda Love",
+            "contentRating": "explicit",
+            "discNumber": 1,
+            "durationInMillis": 171010,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUG12603164",
+            "name": "RUNWAY",
+            "playParams": {
+              "id": "1891472591",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/d0/f9/6bd0f9f7-b9c3-81df-8c47-e68869bc7c2a/mzaf_17128936363655028744.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-10",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/runway/1891472590?i=1891472591"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1891472591/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1891472590",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1891472590?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1891472591/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "1437641643",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1437641643?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "0a1b04",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 6623,
+                      "textColor1": "d6b079",
+                      "textColor2": "d38f65",
+                      "textColor3": "ad9261",
+                      "textColor4": "ab7851",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/04/2c/3c042c42-e11e-2d89-9ba4-68d758a0888a/fd4be4b0-2014-43d7-bbac-750d0275c3a0_ami-identity-0940409ff9680e463498614ed1682b9f-2024-08-28T18-53-24.428Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 6623
+                    },
+                    "name": "Doechii",
+                    "url": "https://music.apple.com/id/artist/doechii/1437641643"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1500952424",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1500952424?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "Chromatica",
+            "artistName": "Lady Gaga & Ariana Grande",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-412778295",
+            "artwork": {
+              "bgColor": "1d1917",
+              "hasP3": false,
+              "height": 3600,
+              "textColor1": "c5bad0",
+              "textColor2": "e0979a",
+              "textColor3": "a399ab",
+              "textColor4": "b97e80",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5d/4d/f9/5d4df96a-e95e-2fe9-404a-5d570513762d/20UMGIM15390.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3600
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga, Ariana Grande, BloodPop®, BURNS, Nija Charles, Rami Yacoub, Martin Bresso, Alexander Ridha, Jeremiah Burden, Lynn Williams & Betty Wright",
+            "discNumber": 1,
+            "durationInMillis": 182203,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM72004304",
+            "name": "Rain On Me",
+            "playParams": {
+              "id": "1500952424",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/76/5f/a1765f7c-aef6-30bb-a7fa-8cf5ffa7c8eb/mzaf_9497184505459035948.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2020-05-22",
+            "trackNumber": 4,
+            "url": "https://music.apple.com/id/album/rain-on-me/1500951604?i=1500952424"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1500952424/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1500951604",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1500951604?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1500952424/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "412778295",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/412778295?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "232323",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 3750,
+                      "textColor1": "dfdfdf",
+                      "textColor2": "c2c2c2",
+                      "textColor3": "b9b9b9",
+                      "textColor4": "a2a2a2",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/06/f0/41/06f0418f-97d3-34f8-f0a3-3acc37964d89/ami-identity-b7ce039aac2c803c4620ff4ff18920ca-2026-08-06T15-12-54.044Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 3750
+                    },
+                    "name": "Ariana Grande",
+                    "url": "https://music.apple.com/id/artist/ariana-grande/412778295"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1442885406",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1442885406?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Various Artists",
+            "albumName": "For Love",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "b92842",
+              "hasP3": false,
+              "height": 1500,
+              "textColor1": "faffff",
+              "textColor2": "f9ebef",
+              "textColor3": "ecd4d9",
+              "textColor4": "ecc4cd",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6b/09/c5/6b09c575-3599-eac0-8808-d3231f036423/15UMGIM05542.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 1500
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga",
+            "discNumber": 1,
+            "durationInMillis": 307360,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": false,
+            "isMasteredForItunes": false,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM71106457",
+            "name": "Yoü and I",
+            "playParams": {
+              "id": "1442885406",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/d7/f2/ffd7f239-b676-b452-b233-5cbaa921df8b/mzaf_1107661040194386095.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2011-05-23",
+            "trackNumber": 9,
+            "url": "https://music.apple.com/id/album/yo%C3%BC-and-i/1442885136?i=1442885406"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1442885406/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1442885136",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1442885136?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1442885406/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          },
+          "meta": {
+            "formerIds": [
+              "964393552"
+            ]
+          }
+        },
+        {
+          "id": "1793869710",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1793869710?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "Abracadabra - Single",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "111214",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f9f6ef",
+              "textColor2": "e3d9cd",
+              "textColor3": "cac8c3",
+              "textColor4": "b9b1a8",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/54/64/2c/54642c8f-4c6c-5e55-45ea-475f98cf74b4/25UMGIM06790.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga, Andrew Watt, Henry Walter, Susan Janet Ballion, Pete Edward Clarke, Steven Severin & John McGeoch",
+            "discNumber": 1,
+            "durationInMillis": 223398,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM72412581",
+            "name": "Abracadabra",
+            "playParams": {
+              "id": "1793869710",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/ae/23/66ae23ad-76f2-cc89-bcef-8592f03f4a74/mzaf_9391876263204014388.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2025-02-03",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/abracadabra/1793869707?i=1793869710"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1793869710/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1793869707",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1793869707?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1793869710/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "name": "Songs",
+      "groupId": "song"
+    },
+    "top": {
+      "groupId": "top",
+      "name": "Top Results",
+      "data": [
+        {
+          "id": "277293880",
+          "type": "artists",
+          "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "131825",
+              "defaultCropCode": "bb",
+              "hasP3": false,
+              "height": 3840,
+              "textColor1": "b8cce0",
+              "textColor2": "a9bed2",
+              "textColor3": "97a8ba",
+              "textColor4": "8b9caf",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+              "width": 3840
+            },
+            "name": "Lady Gaga",
+            "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+          }
+        },
+        {
+          "id": "1434372043",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1434372043?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Bradley Cooper",
+            "albumName": "A Star Is Born Soundtrack",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "dad8d4",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0b0a09",
+              "textColor2": "292827",
+              "textColor3": "343332",
+              "textColor4": "4c4b49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga, Natalie Hemby, Hillary Lindsey & Lori McKenna",
+            "discNumber": 1,
+            "durationInMillis": 210198,
+            "genreNames": [
+              "Soundtrack",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM71813195",
+            "name": "Always Remember Us This Way",
+            "playParams": {
+              "id": "1434372043",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/b8/f3/e4b8f37d-91b4-ca6f-d903-604bb3ada165/mzaf_745875361798513793.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2018-10-05",
+            "trackNumber": 17,
+            "url": "https://music.apple.com/id/album/always-remember-us-this-way/1434371867?i=1434372043"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1434372043/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1434371867",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1434371867?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1434372043/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1476095084",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1476095084?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "The Fame Monster (Deluxe Edition)",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "313131",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "efefef",
+              "textColor2": "cdcdcd",
+              "textColor3": "c9c9c9",
+              "textColor4": "adadad",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/25/c4/1f25c4bf-7f7a-ff26-8769-20ab6052dadf/09UMGIM40719.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga & RedOne",
+            "discNumber": 1,
+            "durationInMillis": 294504,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM70903859",
+            "name": "Bad Romance",
+            "playParams": {
+              "id": "1476095084",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/54/f0/1b54f0b7-db6a-1a40-6af8-4ae4650d8d6d/mzaf_11808422520159211693.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2009-10-26",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/bad-romance/1476095083?i=1476095084"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1476095084/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1476095083",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1476095083?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1476095084/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1476095083",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1476095083?l=en-GB",
+          "attributes": {
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "313131",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "efefef",
+              "textColor2": "cdcdcd",
+              "textColor3": "c9c9c9",
+              "textColor4": "adadad",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/25/c4/1f25c4bf-7f7a-ff26-8769-20ab6052dadf/09UMGIM40719.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "313131",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "efefef",
+                "textColor2": "cdcdcd",
+                "textColor3": "c9c9c9",
+                "textColor4": "adadad",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1f/25/c4/1f25c4bf-7f7a-ff26-8769-20ab6052dadf/09UMGIM40719.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "Gaga fulfills her diva destiny on this hit-packed collection.",
+              "standard": "It would seem as if Lady Gaga just dropped—make that <i>danced</i>—from the disco heavens as a born-ready star on 2008’s <i>The Fame</i>. But before the artist born Stefani Germanotta was actually living the lifestyle of the rich and famous, she was getting ready for her close-up in the New York club scene. And you can really hear the blood, sweat and twirls through many a beer-splattered stage on <i>The Fame</i>. She lived it—and you feel it.\n\nThat’s what makes <i>The Fame</i> such a self-manifesting statement—an album that chronicles the celebrity culture Gaga had yet to experience. When she sings about having “a little bit too much” on “Just Dance”—the album’s defining first single, featuring assists from singer Colby O’Donis, co-writer Akon and main <i>Fame</i> producer RedOne—she’s that party girl we’ve all been (and if you haven’t been there, she offers a blueprint for your free-bootied future). You can also hear the gritty groove of the downtown New York scene on debaucherous dance tracks such as “Beautiful, Dirty, Rich”, “Money Honey” and the disco-stick-riding “LoveGame”. Meanwhile, pop bops such as “Poker Face”—which followed “Just Dance” to the top of the charts—and “Paparazzi” reveal the lyrical and melodic beast behind the beat.\n\n<i>The Fame</i> was already a multi-platinum, Grammy-winning sensation when it was reissued as <i>The Fame Monster (Deluxe Edition)</i> in 2009. But with Gaga having now fulfilled her diva destiny, she quickly proved her success was no fluke, continuing her string of hits with “Bad Romance”, “Alejandro” and “Telephone”. The latter pairs Gaga with Beyoncé—a pop-icon team-up equalled only by Barbra Streisand and Donna Summer’s 1979 classic “No More Tears (Enough Is Enough)”. A worldwide smash that would earn the singer her second consecutive Grammy nomination for Album of the Year, <i>The Fame Monster</i> left little doubt that the world had gone gaga for Gaga."
+            },
+            "name": "The Fame Monster (Deluxe Edition)",
+            "playParams": {
+              "id": "1476095083",
+              "kind": "album"
+            },
+            "releaseDate": "2009-11-18",
+            "trackCount": 24,
+            "url": "https://music.apple.com/id/album/the-fame-monster-deluxe-edition/1476095083"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1476095083/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1476727864",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1476727864?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "The Fame Monster (Deluxe Edition)",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "2f2f2e",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "eeeff0",
+              "textColor2": "cccdcd",
+              "textColor3": "c8c9c9",
+              "textColor4": "acadad",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/98/88/1b9888da-6a1f-bff0-ec03-518f445019f6/19UMGIM73435.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Lady Gaga & RedOne",
+            "contentRating": "explicit",
+            "discNumber": 2,
+            "durationInMillis": 237078,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM70824409",
+            "name": "Poker Face",
+            "playParams": {
+              "id": "1476727864",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/bb/67/15bb6794-b294-95ab-2a8d-68d03e09b6f3/mzaf_5288726253601768293.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2008-08-19",
+            "trackNumber": 4,
+            "url": "https://music.apple.com/id/album/poker-face/1476727669?i=1476727864"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1476727864/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1476727669",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1476727669?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1476727864/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1762656732",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1762656732?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Bruno Mars",
+            "albumName": "Die With A Smile - Single",
+            "artistName": "Lady Gaga & Bruno Mars",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-278873078",
+            "artwork": {
+              "bgColor": "013149",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "80cff2",
+              "textColor2": "73a8d9",
+              "textColor3": "67afd0",
+              "textColor4": "5c90bc",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Lady Gaga, Bruno Mars, Dernst \"D'Mile\" Emile II, James Fauntleroy & Andrew Watt",
+            "discNumber": 1,
+            "durationInMillis": 251668,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM72409273",
+            "name": "Die With A Smile",
+            "playParams": {
+              "id": "1762656732",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/6a/99/076a99ed-b946-431b-6f1f-54fa187ca5bd/mzaf_16287261770881947951.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2024-08-16",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/die-with-a-smile/1762656724?i=1762656732"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1762656732/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1762656724",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1762656724?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1762656732/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "278873078",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/278873078?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "2c2c2c",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 1500,
+                      "textColor1": "f4f4f4",
+                      "textColor2": "d6d6d6",
+                      "textColor3": "cccccc",
+                      "textColor4": "b4b4b4",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/75/7e/dd/757edd95-3276-ff15-7de3-5c8e8ec87b4c/ami-identity-865f12490d8b5356071cd06a025b5b6a-2026-01-09T05-04-02.540Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 1500
+                    },
+                    "name": "Bruno Mars",
+                    "url": "https://music.apple.com/id/artist/bruno-mars/278873078"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1434371887",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1434371887?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Bradley Cooper",
+            "albumName": "A Star Is Born Soundtrack",
+            "artistName": "Lady Gaga & Bradley Cooper",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-300300595",
+            "artwork": {
+              "bgColor": "dad8d4",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0b0a09",
+              "textColor2": "292827",
+              "textColor3": "343332",
+              "textColor4": "4c4b49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga, Mark Ronson, Anthony Rossomando & Andrew Wyatt",
+            "discNumber": 1,
+            "durationInMillis": 215737,
+            "genreNames": [
+              "Soundtrack",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM71813192",
+            "name": "Shallow",
+            "playParams": {
+              "id": "1434371887",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/cc/ed/0ccced59-6e6f-f0a0-0c9a-d20bfd475052/mzaf_14191477421672598209.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2018-09-27",
+            "trackNumber": 12,
+            "url": "https://music.apple.com/id/album/shallow/1434371867?i=1434371887"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1434371887/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1434371867",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1434371867?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1434371887/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "300300595",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/300300595?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "222222",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 2400,
+                      "textColor1": "e7e7e7",
+                      "textColor2": "cecece",
+                      "textColor3": "bfbfbf",
+                      "textColor4": "ababab",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/86/aa/04/86aa04f6-3ad7-4815-9d16-5b544114375d/mzl.yvmakgqp.jpg/{w}x{h}bb.jpg",
+                      "width": 2400
+                    },
+                    "name": "Bradley Cooper",
+                    "url": "https://music.apple.com/id/artist/bradley-cooper/300300595"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1434372132",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1434372132?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Bradley Cooper",
+            "albumName": "A Star Is Born Soundtrack",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "dad8d4",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "0b0a09",
+              "textColor2": "292827",
+              "textColor3": "343332",
+              "textColor4": "4c4b49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Natalie Hemby, Hillary Lindsey, Aaron Raitiere & Stefani Germanotta",
+            "discNumber": 1,
+            "durationInMillis": 328855,
+            "genreNames": [
+              "Soundtrack",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": false,
+            "isrc": "USUM71813205",
+            "name": "I'll Never Love Again (Extended Version)",
+            "playParams": {
+              "id": "1434372132",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/69/ee/8869ee27-d2ae-9688-7aa7-5a9c3cc45177/mzaf_17164615686549613938.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2018-10-05",
+            "trackNumber": 34,
+            "url": "https://music.apple.com/id/album/ill-never-love-again-extended-version/1434371867?i=1434372132"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1434372132/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1434371867",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1434371867?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1434372132/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1476727861",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1476727861?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "The Fame Monster (Deluxe Edition)",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "2f2f2e",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "eeeff0",
+              "textColor2": "cccdcd",
+              "textColor3": "c8c9c9",
+              "textColor4": "acadad",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/98/88/1b9888da-6a1f-bff0-ec03-518f445019f6/19UMGIM73435.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga, RedOne & Akon",
+            "discNumber": 2,
+            "durationInMillis": 242017,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM70807646",
+            "name": "Just Dance (feat. Colby O'Donis)",
+            "playParams": {
+              "id": "1476727861",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/33/c7/1633c79c-ed6f-cde6-a39b-0df767656357/mzaf_2551443267775252965.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2008-04-08",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/just-dance-feat-colby-odonis/1476727669?i=1476727861"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1476727861/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1476727669",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1476727669?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1476727861/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1440857433",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1440857433?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "Born This Way (Special Edition)",
+            "artistName": "Lady Gaga",
+            "artistUrl": "https://music.apple.com/id/artist/lady-gaga/277293880",
+            "artwork": {
+              "bgColor": "b2b0b0",
+              "hasP3": false,
+              "height": 1500,
+              "textColor1": "060707",
+              "textColor2": "191a1a",
+              "textColor3": "292829",
+              "textColor4": "373838",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/42/9f/0f/429f0fd2-30bd-b64e-27fc-76d8fbbd0988/11UMGIM12476.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 1500
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Lady Gaga & RedOne",
+            "discNumber": 1,
+            "durationInMillis": 249071,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM71104998",
+            "name": "Judas",
+            "playParams": {
+              "id": "1440857433",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0c/43/75/0c437569-cb18-d647-b887-150e8ac8f76e/mzaf_10797698833362321357.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2011-04-15",
+            "trackNumber": 4,
+            "url": "https://music.apple.com/id/album/judas/1440857161?i=1440857433"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1440857433/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1440857161",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1440857161?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1440857433/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                }
+              ]
+            }
+          },
+          "meta": {
+            "formerIds": [
+              "903211289",
+              "902180920"
+            ]
+          }
+        },
+        {
+          "id": "1891472591",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1891472591?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga & Doechii",
+            "albumName": "RUNWAY - Single",
+            "artistName": "Lady Gaga & Doechii",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-1437641643",
+            "artwork": {
+              "bgColor": "14191b",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "cbd6cb",
+              "textColor2": "d9c1af",
+              "textColor3": "a6b0a8",
+              "textColor4": "b19f91",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/bd/16/74bd16c0-1a16-96e7-41e2-23c722952fc7/26UMGIM41541.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "lossless",
+              "lossy-stereo"
+            ],
+            "composerName": "Bruno Mars, Jaylah Hickmon, Stefani Germanotta, Andrew Watt, Henry Walter, Dernst \"D' Mile\" Emile II & Jayda Love",
+            "contentRating": "explicit",
+            "discNumber": 1,
+            "durationInMillis": 171010,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUG12603164",
+            "name": "RUNWAY",
+            "playParams": {
+              "id": "1891472591",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/d0/f9/6bd0f9f7-b9c3-81df-8c47-e68869bc7c2a/mzaf_17128936363655028744.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2026-04-10",
+            "trackNumber": 1,
+            "url": "https://music.apple.com/id/album/runway/1891472590?i=1891472591"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1891472591/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1891472590",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1891472590?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1891472591/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "1437641643",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1437641643?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "0a1b04",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 6623,
+                      "textColor1": "d6b079",
+                      "textColor2": "d38f65",
+                      "textColor3": "ad9261",
+                      "textColor4": "ab7851",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/3c/04/2c/3c042c42-e11e-2d89-9ba4-68d758a0888a/fd4be4b0-2014-43d7-bbac-750d0275c3a0_ami-identity-0940409ff9680e463498614ed1682b9f-2024-08-28T18-53-24.428Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 6623
+                    },
+                    "name": "Doechii",
+                    "url": "https://music.apple.com/id/artist/doechii/1437641643"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1500952424",
+          "type": "songs",
+          "href": "/v1/catalog/id/songs/1500952424?l=en-GB",
+          "attributes": {
+            "albumArtistName": "Lady Gaga",
+            "albumName": "Chromatica",
+            "artistName": "Lady Gaga & Ariana Grande",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=277293880-412778295",
+            "artwork": {
+              "bgColor": "1d1917",
+              "hasP3": false,
+              "height": 3600,
+              "textColor1": "c5bad0",
+              "textColor2": "e0979a",
+              "textColor3": "a399ab",
+              "textColor4": "b97e80",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5d/4d/f9/5d4df96a-e95e-2fe9-404a-5d570513762d/20UMGIM15390.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3600
+            },
+            "audioLocale": "en-US",
+            "audioTraits": [
+              "atmos",
+              "lossless",
+              "lossy-stereo",
+              "spatial"
+            ],
+            "composerName": "Lady Gaga, Ariana Grande, BloodPop®, BURNS, Nija Charles, Rami Yacoub, Martin Bresso, Alexander Ridha, Jeremiah Burden, Lynn Williams & Betty Wright",
+            "discNumber": 1,
+            "durationInMillis": 182203,
+            "genreNames": [
+              "Pop",
+              "Music"
+            ],
+            "hasLyrics": true,
+            "hasTimeSyncedLyrics": true,
+            "isAppleDigitalMaster": true,
+            "isMasteredForItunes": true,
+            "isVocalAttenuationAllowed": true,
+            "isrc": "USUM72004304",
+            "name": "Rain On Me",
+            "playParams": {
+              "id": "1500952424",
+              "kind": "song"
+            },
+            "previews": [
+              {
+                "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/76/5f/a1765f7c-aef6-30bb-a7fa-8cf5ffa7c8eb/mzaf_9497184505459035948.plus.aac.ep.m4a"
+              }
+            ],
+            "releaseDate": "2020-05-22",
+            "trackNumber": 4,
+            "url": "https://music.apple.com/id/album/rain-on-me/1500951604?i=1500952424"
+          },
+          "relationships": {
+            "albums": {
+              "href": "/v1/catalog/id/songs/1500952424/albums?l=en-GB",
+              "data": [
+                {
+                  "id": "1500951604",
+                  "type": "albums",
+                  "href": "/v1/catalog/id/albums/1500951604?l=en-GB"
+                }
+              ]
+            },
+            "artists": {
+              "href": "/v1/catalog/id/songs/1500952424/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "277293880",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/277293880?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "131825",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3840,
+                      "textColor1": "b8cce0",
+                      "textColor2": "a9bed2",
+                      "textColor3": "97a8ba",
+                      "textColor4": "8b9caf",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/06/94/0f/06940f31-52a4-c770-0169-0bc7f408370f/mza_9050954679593070613.png/{w}x{h}bb.jpg",
+                      "width": 3840
+                    },
+                    "name": "Lady Gaga",
+                    "url": "https://music.apple.com/id/artist/lady-gaga/277293880"
+                  }
+                },
+                {
+                  "id": "412778295",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/412778295?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "232323",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 3750,
+                      "textColor1": "dfdfdf",
+                      "textColor2": "c2c2c2",
+                      "textColor3": "b9b9b9",
+                      "textColor4": "a2a2a2",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/06/f0/41/06f0418f-97d3-34f8-f0a3-3acc37964d89/ami-identity-b7ce039aac2c803c4620ff4ff18920ca-2026-08-06T15-12-54.044Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 3750
+                    },
+                    "name": "Ariana Grande",
+                    "url": "https://music.apple.com/id/artist/ariana-grande/412778295"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "meta": {
+    "results": {
+      "order": [
+        "top",
+        "artist",
+        "album",
+        "song"
+      ],
+      "rawOrder": [
+        "top",
+        "artist",
+        "album",
+        "song"
+      ]
+    },
+    "metrics": {
+      "dataSetId": "1696c866-01d4-4fe9-8d55-9aa1126e0f27"
+    }
+  }
+}

@@ -1,0 +1,1131 @@
+{
+  "results": {
+    "albums": {
+      "href": "/v1/catalog/id/search?groups=album&l=en-GB&limit=12&term=2026&types=albums",
+      "next": "/v1/catalog/id/search?groups=album&l=en-GB&offset=12&term=2026&types=albums",
+      "data": [
+        {
+          "id": "1895760334",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1895760334?l=en-GB",
+          "attributes": {
+            "artistName": "Apple Music Resident DJ",
+            "artistUrl": "https://music.apple.com/id/artist/apple-music-resident-dj/1614019615",
+            "artwork": {
+              "bgColor": "383838",
+              "hasP3": true,
+              "height": 3000,
+              "textColor1": "e8d083",
+              "textColor2": "dbd18b",
+              "textColor3": "c5b174",
+              "textColor4": "bbb37a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/cc/11/c8cc119e-32db-b7a1-6050-e75d5eded311/8d24359b-f84e-4360-8261-7a5f7f656c86.png/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "staticDetailTall": {
+                "bgColor": "040404",
+                "hasP3": true,
+                "height": 2732,
+                "textColor1": "d6c07c",
+                "textColor2": "cdc381",
+                "textColor3": "ac9b64",
+                "textColor4": "a49c68",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e3/d2/bc/e3d2bc77-2593-3afd-6634-bf36970416e0/fba3fb8c-4e5b-400b-a31f-8d358360c846.png/{w}x{h}bb.jpg",
+                "width": 2048
+              },
+              "subscriptionCover": {
+                "bgColor": "080707",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "ffffff",
+                "textColor2": "ffffff",
+                "textColor3": "a8a16d",
+                "textColor4": "a19564",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/1f/85/3d/1f853d95-dbf4-9909-2e62-4fb6a1310104/1ad8de3b-2586-4c51-8d17-f4c459f7fb8b.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "080707",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "d4c080",
+                "textColor2": "cabc7e",
+                "textColor3": "ab9b67",
+                "textColor4": "a39766",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6c/73/31/6c733155-4dc3-fa85-21fc-aefe63a7aee6/d9168554-0e43-497b-b17c-939f6450876a.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "020202",
+                "gradient": {},
+                "hasP3": true,
+                "height": 2240,
+                "textColor1": "d5cc86",
+                "textColor2": "d2b674",
+                "textColor3": "aba36c",
+                "textColor4": "a8925d",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/69/d3/3e/69d33eb5-b7a5-32a9-15ce-9192143b29a7/c0f92e77-7f38-48f7-9b17-e6916f9df34c.png/{w}x{h}sr.jpg",
+                "width": 1680
+              },
+              "superHeroWide": {
+                "bgColor": "080808",
+                "hasP3": true,
+                "height": 1800,
+                "textColor1": "d4be7d",
+                "textColor2": "caba7d",
+                "textColor3": "ab9966",
+                "textColor4": "a39765",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/42/8e/92/428e9220-7de7-8e58-fa2a-6bcbd8d7a813/2889b4a2-1f89-4591-9cdb-2749ec6f43d2.png/{w}x{h}sr.jpg",
+                "width": 4320
+              }
+            },
+            "editorialNotes": {
+              "short": "All the hits, one continuous set—featuring RAYE, sombr, BTS and more.",
+              "standard": "You already know Today’s Hits—home to the biggest songs in pop, hip-hop, R&B and more—but you’ve never heard it like this. This DJ mix blends current on-heavy-rotation songs in one continuous set. Kasabian and Calvin Harris! Robyn! Tame Impala and JENNIE! BTS! You’ll find them all here alongside more hits from artists including Justin Bieber, RAYE, Sabrina Carpenter and PinkPantheress. Lock in and look out for more Today’s Hits mixes, dropping every month.",
+              "tagline": "New DJ Mix"
+            },
+            "name": "Today's Hits: May 2026 (DJ Mix)",
+            "playParams": {
+              "id": "1895760334",
+              "kind": "album"
+            },
+            "releaseDate": "2026-05-01",
+            "trackCount": 22,
+            "url": "https://music.apple.com/id/album/todays-hits-may-2026-dj-mix/1895760334"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1895760334/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1614019615",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1614019615?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "24171a",
+                      "defaultCropCode": "ac",
+                      "hasP3": false,
+                      "height": 3000,
+                      "textColor1": "fff4ee",
+                      "textColor2": "fdd9cc",
+                      "textColor3": "d3c7c3",
+                      "textColor4": "d2b2a8",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/4f/ee/084fee02-878b-1d51-b9bb-d50cd77748c8/07f9ac37-e06b-4e82-86d2-d52f529d927d.jpg/{w}x{h}ac.jpg",
+                      "width": 3000
+                    },
+                    "name": "Apple Music Resident DJ",
+                    "url": "https://music.apple.com/id/artist/apple-music-resident-dj/1614019615"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1867041181",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1867041181?l=en-GB",
+          "attributes": {
+            "artistName": "Apple Music Resident DJ",
+            "artistUrl": "https://music.apple.com/id/artist/apple-music-resident-dj/1614019615",
+            "artwork": {
+              "bgColor": "a7a7a7",
+              "hasP3": true,
+              "height": 3000,
+              "textColor1": "050505",
+              "textColor2": "080707",
+              "textColor3": "262626",
+              "textColor4": "272727",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/ff/85/76ff85f1-6ae6-1b3a-8a58-265591fd9bb7/1162ef28-4b4f-4336-93ea-9313fcd3f1f1.png/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "staticDetailSquare": {
+                "bgColor": "a3a3a3",
+                "hasP3": true,
+                "height": 3840,
+                "textColor1": "000000",
+                "textColor2": "000000",
+                "textColor3": "252525",
+                "textColor4": "282727",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/02/79/11/027911f8-f53f-ed0b-5cd1-a11179db6c66/fa210a5a-65c6-466f-a5ff-9bf52d9b24d9.png/{w}x{h}bb.jpg",
+                "width": 3840
+              },
+              "staticDetailTall": {
+                "bgColor": "dedede",
+                "hasP3": true,
+                "height": 2732,
+                "textColor1": "000000",
+                "textColor2": "000000",
+                "textColor3": "474544",
+                "textColor4": "464646",
+                "textGradient": [
+                  "000000",
+                  "000000"
+                ],
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d5/d9/dc/d5d9dcc8-e429-8f62-b51b-ee144490d8a1/368dbd7b-914d-4d67-a5e2-9d007c54cdfc.png/{w}x{h}bb.jpg",
+                "width": 2048
+              },
+              "subscriptionCover": {
+                "bgColor": "f6f6f6",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "000000",
+                "textColor2": "000000",
+                "textColor3": "3c3b3a",
+                "textColor4": "595858",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/98/7f/d5/987fd550-3585-b422-5f9d-2c9b0facc630/924bccba-eab1-4e61-83aa-5fa40ab6dc02.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "f6f6f6",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "000000",
+                "textColor2": "000000",
+                "textColor3": "3b3a39",
+                "textColor4": "555453",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/47/c4/90/47c49019-c2aa-ba00-16ce-74113504299b/60ba9b72-ee23-44c3-8fd3-e00cddfaa132.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "e0e0e0",
+                "gradient": {},
+                "hasP3": true,
+                "height": 2240,
+                "textColor1": "000000",
+                "textColor2": "000000",
+                "textColor3": "3f3f3f",
+                "textColor4": "4c4948",
+                "textGradient": [
+                  "000000",
+                  "000000"
+                ],
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a6/43/df/a643df5b-8818-bb03-7066-209c6d9809d3/3dcbc0ff-6609-4de4-aa48-f49d8150166d.png/{w}x{h}sr.jpg",
+                "width": 1680
+              },
+              "superHeroWide": {
+                "bgColor": "f6f6f6",
+                "hasP3": true,
+                "height": 1800,
+                "textColor1": "000000",
+                "textColor2": "000000",
+                "textColor3": "575450",
+                "textColor4": "565554",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b7/7a/cb/b77acb84-aa1f-c294-b35b-8b99af01cb6d/b894c048-af49-45ac-b906-91c9eaa6c6d9.png/{w}x{h}sr.jpg",
+                "width": 4320
+              }
+            },
+            "editorialNotes": {
+              "short": "Huge hits from Olivia Dean, Ariana Grande, BLACKPINK, and more.",
+              "standard": "You already know Today’s Hits—the playlist that keeps up with the most popular songs in pop, hip-hop, R&B and more—but you’ve never heard it like this. The Today’s Hits DJ mix captures the world’s biggest songs in one continuous set. This month’s edition features huge tracks from Olivia Dean, Ariana Grande, BLACKPINK and more of your favourite artists. Check back each month for more Today’s Hits mixes.",
+              "tagline": "New DJ Mix"
+            },
+            "name": "Today's Hits: January 2026 (DJ Mix)",
+            "playParams": {
+              "id": "1867041181",
+              "kind": "album"
+            },
+            "releaseDate": "2026-01-09",
+            "trackCount": 22,
+            "url": "https://music.apple.com/id/album/todays-hits-january-2026-dj-mix/1867041181"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1867041181/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1614019615",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1614019615?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "24171a",
+                      "defaultCropCode": "ac",
+                      "hasP3": false,
+                      "height": 3000,
+                      "textColor1": "fff4ee",
+                      "textColor2": "fdd9cc",
+                      "textColor3": "d3c7c3",
+                      "textColor4": "d2b2a8",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/08/4f/ee/084fee02-878b-1d51-b9bb-d50cd77748c8/07f9ac37-e06b-4e82-86d2-d52f529d927d.jpg/{w}x{h}ac.jpg",
+                      "width": 3000
+                    },
+                    "name": "Apple Music Resident DJ",
+                    "url": "https://music.apple.com/id/artist/apple-music-resident-dj/1614019615"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1890298647",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1890298647?l=en-GB",
+          "attributes": {
+            "artistName": "Fred again.. & Thomas Bangalter",
+            "artistUrl": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewCollaboration?cc=id&ids=1455262408-5468291",
+            "artwork": {
+              "bgColor": "141f24",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "d5d8d4",
+              "textColor2": "feb588",
+              "textColor3": "aeb3b1",
+              "textColor4": "cf9774",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/cf/21/2acf21e4-e3a3-e826-ed28-847de8e5b695/5a39484a-1491-4f2c-8e98-ebd30990b5d5.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "subscriptionHero": {
+                "bgColor": "090909",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "dbdbdb",
+                "textColor2": "c3c3c3",
+                "textColor3": "b1b1b1",
+                "textColor4": "9e9e9e",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/58/21/41/582141ef-c129-4982-0987-df1fd91de3c5/53b1cbdc-7db7-48cf-86cc-30f6b6a3619e.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "141f24",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "d5d8d4",
+                "textColor2": "feb588",
+                "textColor3": "aeb3b1",
+                "textColor4": "cf9774",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2a/cf/21/2acf21e4-e3a3-e826-ed28-847de8e5b695/5a39484a-1491-4f2c-8e98-ebd30990b5d5.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "A dance music legend and a modern torchbearer deliver a wide-ranging set.",
+              "standard": "Back in October 2025, Daft Punk’s Thomas Bangalter gave a rare public performance, DJing alongside Fred again.. at Because Music’s 20th anniversary party in Paris. It was Bangalter’s first gig in 16 years—and a taste of what was to come a few months later when he joined Fred again..—again—for the final show of the USB002 tour at London’s Alexandra Palace. What results is a sort of dance music alchemy: a legend of the form playing back-to-back with its most well-known modern torchbearer, two fans of the highest order fuelling each other through a set of classic tunes that contextualise house and rave as a through line for later-20th and 21st century popular music.\n\nIt begins with a declaration—Chuck Roberts’ “In the Beginning (There Was Jack)”—and moves through a blend of Daft Punk’s “One More Time”, Fred’s “Marea (We’ve Lost Dancing”) and the Motown standard \"Ain’t No Mountain High Enough” by Marvin Gaye and Tammi Terrell, hitting ’90s house and techno touchstones from Wildchild, 808 State and LFO along the way. There are curious connections (Skepta’s grime, Dylan Brady’s dubstep, Animal Collective’s indie rock), grander points of reference (Prince, Gil Scott-Heron) and bursts of sheer release (Lil Jon and USHER). But where it all comes back into sharp focus is when Fred—hands intertwined on the decks with the exalted Bangalter’s—drops Daft Punk’s “Teachers”, a roll call of a track about standing on the shoulders of the dance music giants who’ve come before.\n\n\"I usually have a rule that I don’t watch anything back,” Fred wrote online about the set. “I just do the thing and then try to stay present and just sorta keep working on writing music. But, yeah, with this, I justtttt. Can’t. Stop. Probably because a lot of it isn’t my music, so it’s not subject to my usual very critical inner voice about stuff. Instead, I’m just a fan more proud of a sort of human moment than anything else.”",
+              "tagline": "New DJ Mix"
+            },
+            "name": "Alexandra Palace, London, Feb 27, 2026 (DJ Mix)",
+            "playParams": {
+              "id": "1890298647",
+              "kind": "album"
+            },
+            "releaseDate": "2026-02-27",
+            "trackCount": 27,
+            "url": "https://music.apple.com/id/album/alexandra-palace-london-feb-27-2026-dj-mix/1890298647"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1890298647/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1455262408",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1455262408?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "d5d2cf",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 4284,
+                      "textColor1": "191919",
+                      "textColor2": "2e241f",
+                      "textColor3": "3e3e3d",
+                      "textColor4": "4f4742",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages221/v4/00/82/ff/0082ff8e-52c7-8eb6-56af-461b102cb516/ami-identity-1a2db2876f619e9b18082e2f4e63737a-2026-07-28T16-09-38.549Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 4284
+                    },
+                    "name": "Fred again..",
+                    "url": "https://music.apple.com/id/artist/fred-again/1455262408"
+                  }
+                },
+                {
+                  "id": "5468291",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/5468291?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "ffffff",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 2170,
+                      "textColor1": "151515",
+                      "textColor2": "292929",
+                      "textColor3": "444444",
+                      "textColor4": "545454",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages126/v4/e5/e1/a4/e5e1a49c-dec6-fed9-abdf-3919d8190f6b/3889dd2e-8536-41c9-b0cc-f77eda537733_ami-identity-558b86e4947a0987e219f9ca00825d22-2023-03-14T19-43-45.465Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 2170
+                    },
+                    "name": "Thomas Bangalter",
+                    "url": "https://music.apple.com/id/artist/thomas-bangalter/5468291"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6806099396",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/6806099396?l=en-GB",
+          "attributes": {
+            "artistName": "Yoon Jong Shin",
+            "artistUrl": "https://music.apple.com/id/artist/yoon-jong-shin/359836648",
+            "artwork": {
+              "bgColor": "095db8",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f2f6fb",
+              "textColor2": "e6eef7",
+              "textColor3": "c4d8ee",
+              "textColor4": "bad1eb",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/29/ab/fa29ab8a-1447-28ad-8b0a-5daef5449fa0/191953573762.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "095db8",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "f2f6fb",
+                "textColor2": "e6eef7",
+                "textColor3": "c4d8ee",
+                "textColor4": "bad1eb",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fa/29/ab/fa29ab8a-1447-28ad-8b0a-5daef5449fa0/191953573762.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "2026 Monthly Yoon Repair August - On the beach - Single",
+            "playParams": {
+              "id": "6806099396",
+              "kind": "album"
+            },
+            "releaseDate": "2026-08-31",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/2026-monthly-yoon-repair-august-on-the-beach-single/6806099396"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/6806099396/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "359836648",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/359836648?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "686868",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 2400,
+                      "textColor1": "e8e8e8",
+                      "textColor2": "e8e8e8",
+                      "textColor3": "cecece",
+                      "textColor4": "cecece",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/07/dd/1e/07dd1e8a-47d7-66f2-00a6-b4270a3b92d9/mzl.apincdbe.png/{w}x{h}bb.jpg",
+                      "width": 2400
+                    },
+                    "name": "Yoon Jong Shin",
+                    "url": "https://music.apple.com/id/artist/yoon-jong-shin/359836648"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1870998906",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1870998906?l=en-GB",
+          "attributes": {
+            "artistName": "Tainy",
+            "artistUrl": "https://music.apple.com/id/artist/tainy/193167653",
+            "artwork": {
+              "bgColor": "1a0f08",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "9eddfd",
+              "textColor2": "75ccfc",
+              "textColor3": "83b4cc",
+              "textColor4": "63a6cb",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4b/d1/fa/4bd1fa6c-c0dc-60b9-f8af-31b18b2bbc44/7a7a2e20-7bd3-4070-9460-c9e8b8ac9481.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "staticDetailTall": {
+                "bgColor": "141210",
+                "hasP3": true,
+                "height": 2732,
+                "textColor1": "ffffff",
+                "textColor2": "ffffff",
+                "textColor3": "c6aa1c",
+                "textColor4": "6096c5",
+                "textGradient": [
+                  "ffffff",
+                  "ffffff"
+                ],
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/73/b6/e0/73b6e0d9-5432-e6a8-92de-1768e922667d/531b03bf-8061-47e6-960b-bf909620a85e.png/{w}x{h}bb.jpg",
+                "width": 2048
+              },
+              "subscriptionCover": {
+                "bgColor": "000000",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "000000",
+                "textColor2": "7aa6ca",
+                "textColor3": "6a9bc1",
+                "textColor4": "5e7e99",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/a7/80/07/a780079c-e6d0-2bd8-a571-33257428b5b0/9f5db929-3040-4acb-a378-d6718b708860.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "000000",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "8bcfff",
+                "textColor2": "7fadd3",
+                "textColor3": "6fa5cb",
+                "textColor4": "668aa9",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/70/18/a8/7018a821-634b-d0c0-f185-a3481c1fc1a1/abbbfcac-11cd-4d7f-8ced-9868a574124a.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "87ccff",
+                "hasP3": true,
+                "height": 2240,
+                "imageTraits": [
+                  "hasTitle"
+                ],
+                "textColor1": "080604",
+                "textColor2": "590000",
+                "textColor3": "212d36",
+                "textColor4": "622833",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/4d/3e/42/4d3e4230-c5de-e493-9160-cd405fffe092/1d490bfa-c6f7-49d6-8f93-0cc6a178630c.png/{w}x{h}sr.jpg",
+                "width": 1680
+              },
+              "superHeroWide": {
+                "bgColor": "a0d6ff",
+                "hasP3": true,
+                "height": 1800,
+                "textColor1": "070300",
+                "textColor2": "5a0504",
+                "textColor3": "252d33",
+                "textColor4": "682f36",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/ba/b3/40/bab34005-eb71-7e7b-7cd1-5ef9327c0ea3/0b3723eb-d52a-4a61-bdb2-3832a61be111.png/{w}x{h}sr.jpg",
+                "width": 4320
+              }
+            },
+            "editorialNotes": {
+              "short": "One of Bad Bunny’s biggest producers drops a career-spanning set.",
+              "standard": "Those who’ve followed Bad Bunny for a bit know how important a role Tainy has played in his incredible career. Though the hitmaking producer’s catalogue precedes that of the Latin superstar by over a decade, the two Puerto Rican artists have become inextricably linked through their work together. Yet even as massive tracks like “Callaíta” and “DÁKITI” turned into Benito signatures, the studio wizard behind those songs intimately understands the arc of his most famous collaborator’s narrative. “The main idea is to get his whole story, his whole trajectory,” Tainy tells Apple Music about his Bad Bunny Megamix, timed for the Apple Music Super Bowl LX Halftime Show. Several of their team-ups are present here, including the aforementioned pair as well as <i>DeBÍ TiRAR MáS FOToS</i> material like “VOY A LLeVARTE PA PR”. Still, Tainy sought to represent the breadth of the artist’s discography beyond just their historic, ongoing partnership. From early singles of his come-up like the trap favourite “Chambea” to boundary-breaking successes like the perreo-ready “Safaera”, the track selection for his exclusive Apple Music DJ mix encapsulates Bad Bunny’s momentum in roughly a single hour.This approach allows Tainy to cover a lot of ground in a concise fashion, weaving in statement pieces like their first balladic piece “Solo de Mí” with intentionality. “Starting this journey of creating these sounds and our creativity together, seeing the mesh of that, it comes together really well on a track like that,” he says. “I just want to showcase how special he is.”",
+              "tagline": "Exclusive Megamix"
+            },
+            "name": "2026 Super Bowl LX Megamix (DJ Mix)",
+            "playParams": {
+              "id": "1870998906",
+              "kind": "album"
+            },
+            "releaseDate": "2026-01-29",
+            "trackCount": 18,
+            "url": "https://music.apple.com/id/album/2026-super-bowl-lx-megamix-dj-mix/1870998906"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1870998906/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "193167653",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/193167653?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "cfd4d6",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3363,
+                      "textColor1": "040905",
+                      "textColor2": "101611",
+                      "textColor3": "2c322f",
+                      "textColor4": "363c38",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/f4/50/be/f450be2d-2aed-540a-2b40-60c6611f3966/ami-identity-3fe24a019233673a9963501969c2536a-2025-10-24T01-43-31.282Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 3363
+                    },
+                    "name": "Tainy",
+                    "url": "https://music.apple.com/id/artist/tainy/193167653"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6790903804",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/6790903804?l=en-GB",
+          "attributes": {
+            "artistName": "Stray Kids",
+            "artistUrl": "https://music.apple.com/id/artist/stray-kids/1304823362",
+            "artwork": {
+              "bgColor": "002a77",
+              "hasP3": false,
+              "height": 1400,
+              "textColor1": "c4e0d6",
+              "textColor2": "c9cbb8",
+              "textColor3": "9dbcc3",
+              "textColor4": "a1abab",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/{w}x{h}bb.jpg",
+              "width": 1400
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "002a77",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "c4e0d6",
+                "textColor2": "c9cbb8",
+                "textColor3": "9dbcc3",
+                "textColor4": "a1abab",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/70/ea/2270ea94-60f0-94a6-bce2-99fafaa8a057/8809928957340_Cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "SKZ-REPLAY 2026 Pt.1",
+            "playParams": {
+              "id": "6790903804",
+              "kind": "album"
+            },
+            "releaseDate": "2026-07-31",
+            "trackCount": 17,
+            "url": "https://music.apple.com/id/album/skz-replay-2026-pt-1/6790903804"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/6790903804/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1304823362",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1304823362?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "f0f3f6",
+                      "defaultCropCode": "bb",
+                      "hasP3": true,
+                      "height": 6500,
+                      "textColor1": "0a0d11",
+                      "textColor2": "29323a",
+                      "textColor3": "383b3f",
+                      "textColor4": "51585f",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/51/7e/08/517e0829-6c2b-67c3-9fb0-ed9a67025bd8/ami-identity-ae24761de3608ee52087a99d0cd83d87-2026-07-16T13-58-09.733Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 6500
+                    },
+                    "name": "Stray Kids",
+                    "url": "https://music.apple.com/id/artist/stray-kids/1304823362"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1725498674",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1725498674?l=en-GB",
+          "attributes": {
+            "artistName": "Various Artists",
+            "artwork": {
+              "bgColor": "0d132a",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "d3957e",
+              "textColor2": "0da9e8",
+              "textColor3": "ac7b6d",
+              "textColor4": "0d8bc2",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/dd/65/99dd65ae-7123-01b0-bb7c-233f43b1429f/ticket.qzklxtos.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "0d132a",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "d3957e",
+                "textColor2": "0da9e8",
+                "textColor3": "ac7b6d",
+                "textColor4": "0d8bc2",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/99/dd/65/99dd65ae-7123-01b0-bb7c-233f43b1429f/ticket.qzklxtos.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "Gym Music 2026: Best Gym Music and Workout Music by Hoop Records",
+            "playParams": {
+              "id": "1725498674",
+              "kind": "album"
+            },
+            "releaseDate": "2024-01-12",
+            "trackCount": 25,
+            "url": "https://music.apple.com/id/album/gym-music-2026-best-gym-music-and-workout-music-by/1725498674"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1725498674/artists?l=en-GB",
+              "data": []
+            }
+          }
+        },
+        {
+          "id": "6778672248",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/6778672248?l=en-GB",
+          "attributes": {
+            "artistName": "FIFA Sound",
+            "artistUrl": "https://music.apple.com/id/artist/fifa-sound/1622577508",
+            "artwork": {
+              "bgColor": "020707",
+              "hasP3": false,
+              "height": 4000,
+              "textColor1": "f5b660",
+              "textColor2": "4fcaf5",
+              "textColor3": "c4934e",
+              "textColor4": "40a3c5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/f6/45/44f6451a-5fdb-486f-471d-3eff382fc001/26UMGIM74699.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 4000
+            },
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "020707",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "f5b660",
+                "textColor2": "4fcaf5",
+                "textColor3": "c4934e",
+                "textColor4": "40a3c5",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/44/f6/45/44f6451a-5fdb-486f-471d-3eff382fc001/26UMGIM74699.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "A collection of global A-list talent worthy of the biggest event in sports.",
+              "standard": "<b>Every player who takes the field during the FIFA World Cup 2026 is one of the best in the world—and the global slate of artists who’ve contributed to this year’s official soundtrack for football’s biggest event can say the same.</b>\n\nFor decades, the World Cup has inspired compelling collaborations that pair up major stars from multiple continents and genres, and the official FIFA World Cup 2026 album is no exception. The tracklist is packed with talents that represent hip-hop, Afrobeats, urbano, EDM, country, música mexicana, K-pop and more.\n\nTo name a few: <b>Future</b> and <b>Tyla</b>’s trap and R&B-fusing “<b>Game Time”</b>, reggaetón regent Daddy Yankee and Jamaican dance hall queen <b>Shenseea</b>’s <b>“Echo”</b>, <b>Ava Max</b> and <b>BIA</b>’s thumping <b>“Energy”</b> and <b>“No Place Like Home”</b>, <b>Major Lazer</b>’s clap-along collaboration with <b>Nelly Furtado</b> and <b>Davido</b>.\n\nThe 2026 soundtrack offers up solo standouts, too, including the euphoric <b>“In the Stars”</b> from <b>The Rolling Stones</b>, who know a thing or two about penning anthems tailor-made for stadium crowds.\n",
+              "tagline": "New Album"
+            },
+            "name": "Official FIFA World Cup 2026™ Album (Opening Ceremony Edition)",
+            "playParams": {
+              "id": "6778672248",
+              "kind": "album"
+            },
+            "releaseDate": "2026-06-10",
+            "trackCount": 19,
+            "url": "https://music.apple.com/id/album/official-fifa-world-cup-2026-album-opening-ceremony/6778672248"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/6778672248/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1622577508",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1622577508?l=en-GB"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6776010591",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/6776010591?l=en-GB",
+          "attributes": {
+            "artistName": "FIFA Sound",
+            "artistUrl": "https://music.apple.com/id/artist/fifa-sound/1622577508",
+            "artwork": {
+              "bgColor": "010507",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "f5b75f",
+              "textColor2": "4ccbf5",
+              "textColor3": "c4934d",
+              "textColor4": "3da4c5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/4a/84/684a84c9-f6e3-ca17-d516-ee01a88c32ca/26UMGIM68511.rgb.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "storeFlowcase": {
+                "bgColor": "030303",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "f2eee1",
+                "textColor2": "d8f2e0",
+                "textColor3": "c2bfb5",
+                "textColor4": "aec2b4",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/5b/fb/3f/5bfb3fed-ecc0-fdac-a607-2d6ec50069f3/2d351dc2-0a44-4827-ac04-f7afb2e78a31.png/{w}x{h}bb.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "606271",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "f7f7f7",
+                "textColor2": "d9dfeb",
+                "textColor3": "d8d9dc",
+                "textColor4": "c1c6d3",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/78/7c/13/787c137e-4aad-85bb-c7fe-dbe4f3db5953/b424ea21-6fcc-4a0a-88b1-299683740916.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "010507",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "f5b75f",
+                "textColor2": "4ccbf5",
+                "textColor3": "c4934d",
+                "textColor4": "3da4c5",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/68/4a/84/684a84c9-f6e3-ca17-d516-ee01a88c32ca/26UMGIM68511.rgb.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "A collection of global A-list talent worthy of the biggest event in sports.",
+              "standard": "<b>Every player who takes the field during the FIFA World Cup 2026 is one of the best in the world—and the global slate of artists who’ve contributed to this year’s official soundtrack for football’s biggest event can say the same.</b>\n\nFor decades, the World Cup has inspired compelling collaborations that pair up major stars from multiple continents and genres, and the official FIFA World Cup 2026 album is no exception. The tracklist is packed with talents that represent hip-hop, Afrobeats, urbano, EDM, country, música mexicana, K-pop and more.\n\nTo name a few: <b>Future</b> and <b>Tyla</b>’s trap and R&B-fusing “<b>Game Time”</b>, reggaetón regent Daddy Yankee and Jamaican dance hall queen <b>Shenseea</b>’s <b>“Echo”</b>, <b>Ava Max</b> and <b>BIA</b>’s thumping <b>“Energy”</b> and <b>“No Place Like Home”</b>, <b>Major Lazer</b>’s clap-along collaboration with <b>Nelly Furtado</b> and <b>Davido</b>.\n\nThe 2026 soundtrack offers up solo standouts, too, including the euphoric <b>“In the Stars”</b> from <b>The Rolling Stones</b>, who know a thing or two about penning anthems tailor-made for stadium crowds.\n",
+              "tagline": "New Album"
+            },
+            "name": "Official FIFA World Cup 2026™ Album",
+            "playParams": {
+              "id": "6776010591",
+              "kind": "album"
+            },
+            "releaseDate": "2026-06-05",
+            "trackCount": 18,
+            "url": "https://music.apple.com/id/album/official-fifa-world-cup-2026-album/6776010591"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/6776010591/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "1622577508",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/1622577508?l=en-GB"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6797682657",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/6797682657?l=en-GB",
+          "attributes": {
+            "artistName": "Timmy Trumpet",
+            "artistUrl": "https://music.apple.com/id/artist/timmy-trumpet/270602804",
+            "artwork": {
+              "bgColor": "2b2c2a",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "ebfee3",
+              "textColor2": "c1d2bc",
+              "textColor3": "c4d4be",
+              "textColor4": "a3b19e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7a/46/db/7a46dbf9-2db8-9237-e340-02ecd4dd96a1/69cbb64d-9081-416b-a0ae-01f8f4f7d386.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "staticDetailSquare": {
+                "bgColor": "eff5f5",
+                "hasP3": false,
+                "height": 3840,
+                "textColor1": "0c0c0c",
+                "textColor2": "030f09",
+                "textColor3": "393b3b",
+                "textColor4": "323d38",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/6f/ab/b3/6fabb31d-146c-9ffa-8568-8e72010d1153/cf883bda-338f-45b5-b250-bec9d9f2bfa9.png/{w}x{h}bb.jpg",
+                "width": 3840
+              },
+              "staticDetailTall": {
+                "bgColor": "eff5f5",
+                "hasP3": false,
+                "height": 2732,
+                "textColor1": "011008",
+                "textColor2": "03110a",
+                "textColor3": "303d37",
+                "textColor4": "323e39",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f9/18/7e/f9187e40-cec9-2a03-0ef6-1503ee05d48b/fd54dcac-d484-4cd6-8be2-abdeb3d924ae.png/{w}x{h}bb.jpg",
+                "width": 2048
+              },
+              "subscriptionCover": {
+                "bgColor": "eafae2",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "000000",
+                "textColor2": "000000",
+                "textColor3": "3c403a",
+                "textColor4": "4a4e48",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9e/9d/e7/9e9de77c-a98f-c3a2-f268-e9ec8e452134/98874adf-03a8-4d7c-8722-dcfd9158fd42.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "subscriptionHero": {
+                "bgColor": "e8fae1",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "0e0e0e",
+                "textColor2": "262826",
+                "textColor3": "3a3d38",
+                "textColor4": "4d524b",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/05/af/96/05af9609-769e-aba4-a153-50695875fdcb/4ad1dbad-8a5a-40b4-a3f6-a166a181bdaf.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "0c0c0c",
+                "gradient": {},
+                "hasP3": true,
+                "height": 2240,
+                "textColor1": "edfde5",
+                "textColor2": "aefea6",
+                "textColor3": "c0cdb9",
+                "textColor4": "8dce87",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a1/57/d7/a157d755-7210-3013-8db0-ef61107b6f03/5eb539c1-b026-431b-8b67-0ea46c0d9db0.png/{w}x{h}sr.jpg",
+                "width": 1680
+              },
+              "superHeroWide": {
+                "bgColor": "eafbe2",
+                "hasP3": true,
+                "height": 1800,
+                "textColor1": "020102",
+                "textColor2": "121112",
+                "textColor3": "30332f",
+                "textColor4": "3d403c",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9d/ef/f3/9deff3fa-2670-672b-d27b-1f701871cfbd/75df0e7b-83e5-432c-8710-e9dff7338e26.png/{w}x{h}sr.jpg",
+                "width": 4320
+              }
+            },
+            "editorialNotes": {
+              "short": "The Australian DJ/trumpeter brings his energy to a motivating running mix.",
+              "standard": "Each month, the Apple Music Fitness Mix is helmed by the world’s best DJs and producers to deliver the perfect set for your next workout. Appropriately, this month’s mix was put together by an artist known for his particularly energetic sets: Timmy Trumpet. \"If you’ve seen one of my shows, you’ll know I get my cardio in on stage,” the Australian DJ, producer and trumpeter tells Apple Music. \"On top of that, I always try to hit the gym or get out for a run whenever my schedule allows.”\n\nOf the music that keeps him moving, he says, \"I love listening to mixes when I’m training because they give a different kind of energy than a playlist… I wanted to give listeners a taste of what my headphones sound like when I’m smashing out a workout. When I’m running, the music always shapes the session. I started the mix at a slightly lower BPM for a warm-up, but from there it just keeps building. By the time you’re about 45 minutes in, the energy’s at its peak.”\n\nAlong with a few of his own tracks, Trumpet highlights <b>“Makina Time”</b> by <b>Dimitri Vegas & Like Mike, Marlon Hoffstadt and DJ Konik</b> as a key tune in the set. \"By the time this one comes in, you’re fully locked in,” he says. “I’ve had this track in every one of my sets and workouts all summer because the energy is just ridiculous. It’s the perfect track to kick off that last big push towards the end of the mix.”",
+              "tagline": "New Fitness Mix"
+            },
+            "name": "Fitness: Run, August 2026 (DJ Mix)",
+            "playParams": {
+              "id": "6797682657",
+              "kind": "album"
+            },
+            "releaseDate": "2026-08-14",
+            "trackCount": 29,
+            "url": "https://music.apple.com/id/album/fitness-run-august-2026-dj-mix/6797682657"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/6797682657/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "270602804",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/270602804?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "cccccc",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 2400,
+                      "textColor1": "0d0d0d",
+                      "textColor2": "201f1f",
+                      "textColor3": "333333",
+                      "textColor4": "424142",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/71/8f/26/718f2685-4a37-ce18-597d-fe2c120df8e9/pr_source.png/{w}x{h}bb.jpg",
+                      "width": 2400
+                    },
+                    "name": "Timmy Trumpet",
+                    "url": "https://music.apple.com/id/artist/timmy-trumpet/270602804"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "6795243192",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/6795243192?l=en-GB",
+          "attributes": {
+            "artistName": "Armin van Buuren",
+            "artistUrl": "https://music.apple.com/id/artist/armin-van-buuren/17976294",
+            "artwork": {
+              "bgColor": "0c0d11",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "e4e4f3",
+              "textColor2": "cdcdcd",
+              "textColor3": "b9b9c6",
+              "textColor4": "a6a7a7",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/fd/7d/b6fd7dc0-c214-793b-ca45-57aaa7b48946/8718522632358.png/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "editorialArtwork": {
+              "subscriptionHero": {
+                "bgColor": "000000",
+                "hasP3": true,
+                "height": 1080,
+                "textColor1": "f4b7a4",
+                "textColor2": "f2b19c",
+                "textColor3": "c39283",
+                "textColor4": "c18e7d",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b4/f8/5f/b4f85f45-aca1-55c1-4892-25efdc28b548/40413f02-7d84-4270-966c-048037301519.png/{w}x{h}sr.jpg",
+                "width": 4320
+              },
+              "superHeroTall": {
+                "bgColor": "0c0d11",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "e4e4f3",
+                "textColor2": "cdcdcd",
+                "textColor3": "b9b9c6",
+                "textColor4": "a6a7a7",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/fd/7d/b6fd7dc0-c214-793b-ca45-57aaa7b48946/8718522632358.png/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "editorialNotes": {
+              "short": "The club legend traverses the dance spectrum on the series’ 13th instalment."
+            },
+            "name": "A State of Trance, Ibiza 2026 (DJ Mix) [Mixed by Armin van Buuren]",
+            "playParams": {
+              "id": "6795243192",
+              "kind": "album"
+            },
+            "releaseDate": "2026-08-28",
+            "trackCount": 43,
+            "url": "https://music.apple.com/id/album/a-state-of-trance-ibiza-2026-dj-mix-mixed-by-armin-van-buuren/6795243192"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/6795243192/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "17976294",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/17976294?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "a9a8ab",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3648,
+                      "textColor1": "040508",
+                      "textColor2": "0d0e10",
+                      "textColor3": "252628",
+                      "textColor4": "2c2d2f",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/fb/87/46/fb8746ab-c45f-f248-430a-759c96417dcb/ami-identity-133f8309f7cce6851c2ea8fc76b416b0-2025-10-06T08-58-01.615Z_cropped.png/{w}x{h}bb.jpg",
+                      "width": 3648
+                    },
+                    "name": "Armin van Buuren",
+                    "url": "https://music.apple.com/id/artist/armin-van-buuren/17976294"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "1865940541",
+          "type": "albums",
+          "href": "/v1/catalog/id/albums/1865940541?l=en-GB",
+          "attributes": {
+            "artistName": "Vybz Kartel",
+            "artistUrl": "https://music.apple.com/id/artist/vybz-kartel/79371544",
+            "artwork": {
+              "bgColor": "151b1a",
+              "hasP3": false,
+              "height": 3000,
+              "textColor1": "b1d4a3",
+              "textColor2": "c0cdb9",
+              "textColor3": "91af88",
+              "textColor4": "9da999",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/49/1c/35491c79-337a-d11d-10ad-87e0817fea25/199890004141_cover.jpg/{w}x{h}bb.jpg",
+              "width": 3000
+            },
+            "contentRating": "explicit",
+            "editorialArtwork": {
+              "superHeroTall": {
+                "bgColor": "151b1a",
+                "gradient": {},
+                "hasP3": false,
+                "height": 2240,
+                "textColor1": "b1d4a3",
+                "textColor2": "c0cdb9",
+                "textColor3": "91af88",
+                "textColor4": "9da999",
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/35/49/1c/35491c79-337a-d11d-10ad-87e0817fea25/199890004141_cover.jpg/{w}x{h}SHT.AMTPPS01.jpg?l=en-GB",
+                "width": 1680
+              }
+            },
+            "name": "2026 - Single",
+            "playParams": {
+              "id": "1865940541",
+              "kind": "album"
+            },
+            "releaseDate": "2026-01-01",
+            "trackCount": 1,
+            "url": "https://music.apple.com/id/album/2026-single/1865940541"
+          },
+          "relationships": {
+            "artists": {
+              "href": "/v1/catalog/id/albums/1865940541/artists?l=en-GB",
+              "data": [
+                {
+                  "id": "79371544",
+                  "type": "artists",
+                  "href": "/v1/catalog/id/artists/79371544?l=en-GB",
+                  "attributes": {
+                    "artwork": {
+                      "bgColor": "e2d0ce",
+                      "defaultCropCode": "bb",
+                      "hasP3": false,
+                      "height": 3000,
+                      "textColor1": "2e2423",
+                      "textColor2": "34231f",
+                      "textColor3": "524745",
+                      "textColor4": "564542",
+                      "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/7d/a1/e5/7da1e5d9-c520-c08e-c57d-868c61510562/mzl.rxzhbbtd.jpg/{w}x{h}bb.jpg",
+                      "width": 3000
+                    },
+                    "name": "Vybz Kartel",
+                    "url": "https://music.apple.com/id/artist/vybz-kartel/79371544"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "name": "Albums",
+      "groupId": "album"
+    }
+  },
+  "meta": {
+    "results": {
+      "order": [
+        "album"
+      ],
+      "rawOrder": [
+        "album"
+      ]
+    },
+    "metrics": {
+      "dataSetId": "8e0c31ae-828b-416e-98b1-2f656fd1f293"
+    }
+  }
+}

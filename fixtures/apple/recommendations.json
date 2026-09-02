@@ -1,0 +1,3468 @@
+{
+  "data": [
+    {
+      "id": "15-5hPxOsuUeI8Dv5BgfAz91d",
+      "type": "personal-recommendation",
+      "href": "/v1/recommendations/id/personal-recommendation/15-5hPxOsuUeI8Dv5BgfAz91d?l=en-GB&name=search-landing"
+    },
+    {
+      "id": "15-7hrVWzqxCQpgAb8JbbZaKL",
+      "type": "personal-recommendation",
+      "href": "/v1/recommendations/id/personal-recommendation/15-7hrVWzqxCQpgAb8JbbZaKL?l=en-GB&name=search-landing"
+    }
+  ],
+  "resources": {
+    "apple-curators": {
+      "1013610510": {
+        "id": "1013610510",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1013610510?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "aa68d1",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "09060c",
+            "textColor2": "180e1d",
+            "textColor3": "2a1933",
+            "textColor4": "352041",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c3/a5/19/c3a519ee-41d0-7cf7-d2de-0b6caad5228a/8b9ea1f2-9961-4e2d-b4b7-f70267641d62.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "aa68d1",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "09060c",
+              "textColor2": "180e1d",
+              "textColor3": "2a1933",
+              "textColor4": "352041",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c3/a5/19/c3a519ee-41d0-7cf7-d2de-0b6caad5228a/8b9ea1f2-9961-4e2d-b4b7-f70267641d62.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "aa68d1",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "26172f",
+              "textColor4": "271830",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/82/e0/45/82e04572-cb96-320d-98f5-727bc8116ee5/c0642fab-8d20-4f0d-94f2-91a1f8a350c0.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "aa68d1",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "050306",
+              "textColor2": "060408",
+              "textColor3": "26172f",
+              "textColor4": "271830",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/8a/f7/13/8af71306-5480-f40e-e412-cdab12e01677/5d907db8-0855-452b-a3e7-17913c2d61aa.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Classical",
+          "shortName": "Classical",
+          "url": "https://music.apple.com/id/curator/apple-music-classical/1013610510"
+        }
+      },
+      "1013612757": {
+        "id": "1013612757",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1013612757?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "c4bc1e",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "101002",
+            "textColor2": "222005",
+            "textColor3": "343208",
+            "textColor4": "423f0a",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/28/53/10/285310de-0b47-3701-d52e-1bf06d94f56b/9f6e0c01-c97c-4b25-a914-988c93e13cf9.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "c4bc1e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "101002",
+              "textColor2": "222005",
+              "textColor3": "343208",
+              "textColor4": "423f0a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/28/53/10/285310de-0b47-3701-d52e-1bf06d94f56b/9f6e0c01-c97c-4b25-a914-988c93e13cf9.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "c4bc1e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "171603",
+              "textColor2": "232105",
+              "textColor3": "3a3708",
+              "textColor4": "43400a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f0/bf/f2/f0bff2c1-06c6-88d3-6978-cfbd462ce144/f7c0995b-04f2-47cc-9401-c21089a441f7.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "c4bc1e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "171603",
+              "textColor2": "232105",
+              "textColor3": "3a3708",
+              "textColor4": "43400a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/32/ab/94/32ab9412-cc55-27b9-e987-bd403be4400f/c276b52d-b713-41b3-b149-90e75279f18c.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Alternative/Indie",
+          "shortName": "Alternative",
+          "url": "https://music.apple.com/id/curator/apple-music-alternative-indie/1013612757"
+        }
+      },
+      "1013613723": {
+        "id": "1013613723",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1013613723?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "200f0a",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "ee6f4c",
+            "textColor2": "e46a49",
+            "textColor3": "c55c3f",
+            "textColor4": "bc583c",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/39/6e/46/396e4624-9ce7-1a1e-5467-e73d38a73995/0b015d81-cd69-43d1-be01-8906bfdc73bf.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "200f0a",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "ee6f4c",
+              "textColor2": "e46a49",
+              "textColor3": "c55c3f",
+              "textColor4": "bc583c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/39/6e/46/396e4624-9ce7-1a1e-5467-e73d38a73995/0b015d81-cd69-43d1-be01-8906bfdc73bf.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "storeFlowcase": {
+              "bgColor": "f8f0e9",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "01080e",
+              "textColor2": "010f19",
+              "textColor3": "32363a",
+              "textColor4": "323c43",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features6/v4/84/c8/4f/84c84fe7-5010-ff85-335b-04a457f7598d/temp..yfacnjep.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionCover": {
+              "bgColor": "db6646",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "371911",
+              "textColor4": "4b2318",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/60/78/c2/6078c250-34b0-2035-77e0-9229c00778f9/edc08554-46c9-4b5c-8b4b-004316bf735a.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "db6646",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0e0604",
+              "textColor2": "27120c",
+              "textColor3": "371911",
+              "textColor4": "4b2318",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/21/99/9e/21999e1a-c54f-68a7-66d7-7b28f324e264/86770c13-af5e-45fe-a358-f3b7de32e924.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Rock",
+          "shortName": "Rock",
+          "url": "https://music.apple.com/id/curator/apple-music-rock/1013613723"
+        }
+      },
+      "1013624291": {
+        "id": "1013624291",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1013624291?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "6b55ac",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f7f6fa",
+            "textColor2": "f0eef6",
+            "textColor3": "dbd6eb",
+            "textColor4": "d5cfe7",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9c/07/95/9c0795ba-c769-e80c-ab20-975c092ac63b/a8f138a2-0ce4-498d-ac32-972c64bebd1e.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "6b55ac",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f7f6fa",
+              "textColor2": "f0eef6",
+              "textColor3": "dbd6eb",
+              "textColor4": "d5cfe7",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9c/07/95/9c0795ba-c769-e80c-ab20-975c092ac63b/a8f138a2-0ce4-498d-ac32-972c64bebd1e.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "8e75d8",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0d0b14",
+              "textColor2": "151120",
+              "textColor3": "27203b",
+              "textColor4": "2d2545",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9c/67/3a/9c673ab4-540d-899e-0c32-c850ef2ae2df/c88a6d7a-204e-432b-b454-6af3554313cd.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "8e75d8",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0d0b14",
+              "textColor2": "151120",
+              "textColor3": "27203b",
+              "textColor4": "2d2545",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c0/52/02/c052022d-0cc0-73ca-225f-926e2926bc55/173859c9-019b-4f91-8a50-88b43ae90f94.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "short": "You’re on the guest list. Dress to impress.",
+            "standard": "R&B is what happened when rhythm and blues got a glossy modern polish with distant echoes of disco and funk. Of course, it’s sometimes hard to hear traces of either funk or disco in modern R&B. And in fact, many 21st-century R&B hits feel closer to dance-pop or hip-hop than classic soul music or vintage rhythm and blues. The story of contemporary R&B really starts in the late ’70s and early ’80s, a time when several strains of African-American music began to mingle in innovative and unexpected ways. That was the era when innovators and future superstars like Prince and Rick James started to combine slickly futuristic synthesizer hooks and smooth disco rhythms with elements of traditional funk and soul, setting the template for the R&B sound of the ’80s and beyond.\n<br /><br />\nWith the release of <i>Thriller</i> in 1983, Michael Jackson took this hybrid style to mainstream heights, breaking sales records around the world and singlehandedly making R&B one of the key ingredients in pop music for the next several decades. In the late ’80s, singer and producer Teddy Riley coined the name “new jack swing” to describe a funkier, party-ready brand of R&B that was heavy on hip-hop style and attitude. By the ’90s, rappers and R&B singers were constantly collaborating on each other’s songs. As MCs started rhyming over R&B instrumentals and enlisting R&B singers to sing the hooks, it gave hip-hop mainstream appeal. On the flip side, artists like Mary J. Blige led the charge to bring hip-hop beats into R&B, which birthed hip-hop soul and further blurred the lines between the genres. Of course there’s always been room for soulful ballads and slow jams in modern R&B, as anyone who’s swooned to a Mariah Carey or John Legend hit knows well. The late ’90s saw the rise of the movement known as neo-soul, which abandoned the glitzy, synthetic sound of much modern R&B for the kind of classic musicianship that had seemingly been swept away. Of course, the foundations of R&B have always been built on innovation and the unexpected, and it keeps on evolving, whether you’re looking for a club-ready banger from Beyoncé or an adventurous jam from D’Angelo."
+          },
+          "kind": "Genre",
+          "name": "Apple Music R&B",
+          "shortName": "R&B",
+          "url": "https://music.apple.com/id/curator/apple-music-r-b/1013624291"
+        }
+      },
+      "1231180011": {
+        "id": "1231180011",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1231180011?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "29772f",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f4f8f4",
+            "textColor2": "e9f1ea",
+            "textColor3": "cbdecd",
+            "textColor4": "c3d8c4",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c8/dd/30/c8dd30df-4e79-83e5-935a-40e28195f9a4/80a941b5-234f-46da-a876-f0d9cfd0a2de.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "29772f",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f4f8f4",
+              "textColor2": "e9f1ea",
+              "textColor3": "cbdecd",
+              "textColor4": "c3d8c4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/c8/dd/30/c8dd30df-4e79-83e5-935a-40e28195f9a4/80a941b5-234f-46da-a876-f0d9cfd0a2de.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "328634",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "030703",
+              "textColor3": "0c190d",
+              "textColor4": "0d1a0d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/bd/a2/b1/bda2b1cb-0a2b-ff45-afc1-7ef6232487e5/01e076ef-e444-45b5-a880-eb65278054d8.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "3d9543",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "010301",
+              "textColor2": "020502",
+              "textColor3": "0d200e",
+              "textColor4": "0e220f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/94/7e/1e/947e1e93-f570-31de-abe9-38b79669c0c9/03ae5886-1c46-446b-b18f-95b9fe189d2d.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Worldwide",
+          "shortName": "Worldwide",
+          "url": "https://music.apple.com/id/curator/apple-worldwide/1231180011"
+        }
+      },
+      "1441811365": {
+        "id": "1441811365",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1441811365?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "00be78",
+            "hasP3": false,
+            "height": 1080,
+            "textColor1": "000b07",
+            "textColor2": "001a11",
+            "textColor3": "002f1d",
+            "textColor4": "003b25",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/17/06/ad/1706ad51-0546-d2c1-6126-ade4605db314/d534ef31-9cfb-434b-8f9f-f918fbd82d21.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "00be78",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000b07",
+              "textColor2": "001a11",
+              "textColor3": "002f1d",
+              "textColor4": "003b25",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/17/06/ad/1706ad51-0546-d2c1-6126-ade4605db314/d534ef31-9cfb-434b-8f9f-f918fbd82d21.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "17b465",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "01120d",
+              "textColor3": "032115",
+              "textColor4": "052c1b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/5d/81/e8/5d81e897-5fb8-4d1f-0cb6-5aafcbad2afe/4e43aeb7-f8e9-4103-9b3b-0c702f4aa9a7.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "00be78",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000604",
+              "textColor2": "00160e",
+              "textColor3": "002b1b",
+              "textColor4": "003823",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/d0/5a/76/d05a76b2-4946-3230-f489-d4b70524823c/60e3f9b6-8283-4455-8929-e383d4084f19.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "superHeroTall": {
+              "bgColor": "031937",
+              "hasP3": true,
+              "height": 2240,
+              "imageTraits": [
+                "hasTitle"
+              ],
+              "textColor1": "95a6d6",
+              "textColor2": "a290e4",
+              "textColor3": "788ab6",
+              "textColor4": "8278c1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/af/78/7f/af787f10-b243-fb62-5b87-29ebc2082715/da026f7d-9cd9-4f94-a4c2-8ee1acf8b7e4.png/{w}x{h}{c}.{f}",
+              "width": 1680
+            },
+            "superHeroWide": {
+              "bgColor": "9a3d7c",
+              "hasP3": true,
+              "height": 1800,
+              "textColor1": "f9f5f8",
+              "textColor2": "bdc5fb",
+              "textColor3": "e6d0df",
+              "textColor4": "b6aae1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/9c/2b/cc/9c2bcc5d-261f-d3d4-bafe-9609e8f0c4b8/8d71146a-a9b2-458b-9c50-077c59ceddd2.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "name": "DJ Mixes",
+            "short": "Exclusive DJ mixes, radio broadcasts and a livestream of our party in London.",
+            "tagline": "New Year’s Eve"
+          },
+          "kind": "Genre",
+          "name": "Apple Music DJ Mixes",
+          "shortName": "DJ Mixes",
+          "url": "https://music.apple.com/id/curator/apple-music-dj-mixes/1441811365"
+        }
+      },
+      "1479949880": {
+        "id": "1479949880",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1479949880?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "e46689",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "000000",
+            "textColor2": "000000",
+            "textColor3": "32161e",
+            "textColor4": "3a1a23",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a3/19/fa/a319fa06-cf2a-2e7a-cfce-f09b0472939e/7493f0dd-b3b3-43ea-abe7-4ba93bd1df76.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "32161e",
+              "textColor4": "3a1a23",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a3/19/fa/a319fa06-cf2a-2e7a-cfce-f09b0472939e/7493f0dd-b3b3-43ea-abe7-4ba93bd1df76.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "34171f",
+              "textColor4": "361820",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/85/10/39/85103996-ed99-fe20-2302-020cc14a31ba/ca491953-3c1a-40ac-be24-c9616c27b60b.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "34171f",
+              "textColor4": "361820",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/42/61/9a/42619adc-bdcd-c708-7bb5-d2722da6f797/1292a4f9-e8e4-4de2-9feb-ce655e3ae2f1.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music C-Pop",
+          "shortName": "C-Pop",
+          "url": "https://music.apple.com/id/curator/apple-music-c-pop/1479949880"
+        }
+      },
+      "1482068485": {
+        "id": "1482068485",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1482068485?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "2caaaf",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "020909",
+            "textColor2": "071e1f",
+            "textColor3": "0a292a",
+            "textColor4": "0e3a3c",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/14/f5/3e/14f53e52-230e-044d-6fee-4726804529ff/c0d03e1f-f2ca-4c42-8c1d-339033a2a3ba.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "2caaaf",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "020909",
+              "textColor2": "071e1f",
+              "textColor3": "0a292a",
+              "textColor4": "0e3a3c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/14/f5/3e/14f53e52-230e-044d-6fee-4726804529ff/c0d03e1f-f2ca-4c42-8c1d-339033a2a3ba.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "279b9f",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "091616",
+              "textColor3": "0c2122",
+              "textColor4": "0e2b2c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c3/e2/74/c3e27481-3038-fb07-f0ff-c9186c4639fd/511e1d4d-f898-41c0-bf3b-651ea225bd20.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "2caaaf",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "030c0d",
+              "textColor2": "071b1c",
+              "textColor3": "0b2c2d",
+              "textColor4": "0e383a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/13/89/a7/1389a7c8-b58b-4406-38db-cfe53430c025/27b435bd-0838-4226-ba7f-0421bdf05d7d.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Christian",
+          "shortName": "Christian",
+          "url": "https://music.apple.com/id/curator/apple-music-christian/1482068485"
+        }
+      },
+      "1526756058": {
+        "id": "1526756058",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1526756058?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "ddb71e",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "0b0901",
+            "textColor2": "1d1804",
+            "textColor3": "352c07",
+            "textColor4": "433809",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e0/30/3e/e0303e20-31cb-05b7-c829-23a897ec4e4f/296f62bc-c244-45f3-a32f-886b0baf5552.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "ddb71e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0b0901",
+              "textColor2": "1d1804",
+              "textColor3": "352c07",
+              "textColor4": "433809",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e0/30/3e/e0303e20-31cb-05b7-c829-23a897ec4e4f/296f62bc-c244-45f3-a32f-886b0baf5552.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "ddb71e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "392f07",
+              "textColor4": "483c09",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f9/d6/22/f9d622bd-b60d-a3da-e3fa-187f2df74374/aecf5b57-5282-47da-a856-6cc65fff08bc.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "ddb71e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "100d02",
+              "textColor2": "231d04",
+              "textColor3": "392f07",
+              "textColor4": "483c09",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/56/5d/99/565d9979-d675-6115-fb1f-fdbaace00237/ffd387d7-3b01-4610-9106-781c4f393af1.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Hits",
+          "shortName": "Hits",
+          "url": "https://music.apple.com/id/curator/apple-music-hits/1526756058"
+        }
+      },
+      "1528869584": {
+        "id": "1528869584",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1528869584?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "b3be23",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "0f1003",
+            "textColor2": "262807",
+            "textColor3": "303209",
+            "textColor4": "42460d",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/0d/2b/d5/0d2bd532-d2ce-6961-754b-e8c5ea413db9/3e0fdd4b-bb05-4e74-89b8-86da8461fc44.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "b3be23",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0f1003",
+              "textColor2": "262807",
+              "textColor3": "303209",
+              "textColor4": "42460d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/0d/2b/d5/0d2bd532-d2ce-6961-754b-e8c5ea413db9/3e0fdd4b-bb05-4e74-89b8-86da8461fc44.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "b3be23",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "2e3109",
+              "textColor4": "36390a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c5/32/07/c53207d2-599f-ad19-db9c-1675cfc5c0bf/a7966d4e-4e7f-42dc-8aac-5196fcf1228e.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "b3be23",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0d0d02",
+              "textColor2": "161704",
+              "textColor3": "2e3109",
+              "textColor4": "36390a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d4/7a/34/d47a34b0-0a20-dcac-aa17-1c46c93c4116/986ce134-12c9-49dd-baf9-aafc2f5d8408.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Acoustic",
+          "shortName": "Acoustic",
+          "url": "https://music.apple.com/id/curator/apple-acoustic/1528869584"
+        }
+      },
+      "1531543191": {
+        "id": "1531543191",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1531543191?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "c8182c",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "fcf3f4",
+            "textColor2": "f9e7e9",
+            "textColor3": "f1c7cc",
+            "textColor4": "efbec3",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/f1/4d/33f14def-4905-c5ec-0e55-3143ef97c68e/eeaa3d9a-fda4-49a4-9746-45871459f7df.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "c8182c",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "fcf3f4",
+              "textColor2": "f9e7e9",
+              "textColor3": "f1c7cc",
+              "textColor4": "efbec3",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/33/f1/4d/33f14def-4905-c5ec-0e55-3143ef97c68e/eeaa3d9a-fda4-49a4-9746-45871459f7df.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "fa3348",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "420d13",
+              "textColor4": "4e0f16",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/50/e2/0f/50e20f13-06ff-bca7-5c11-3d0c1fcd6cfd/50a301b5-1497-4c8e-94de-939b8b223c45.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "fa3348",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "150406",
+              "textColor2": "23070a",
+              "textColor3": "420d13",
+              "textColor4": "4e0f16",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ea/4b/95/ea4b9582-1fe2-d01a-041a-8c19b5c879de/4a0627e4-5ba0-45e7-bb1c-049854794646.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "name": "Apple Music Radio"
+          },
+          "kind": "Genre",
+          "name": "Apple Music Radio",
+          "shortName": "Apple Music Radio",
+          "url": "https://music.apple.com/id/curator/apple-music-radio/1531543191"
+        }
+      },
+      "1554938339": {
+        "id": "1554938339",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1554938339?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "785624",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f8f6f4",
+            "textColor2": "f1eee9",
+            "textColor3": "ded6ca",
+            "textColor4": "d9cfc1",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/93/3e/16/933e1630-f741-809b-863b-3c138d65bb75/27f47179-af2f-4fd1-99b8-ce67cb4963f4.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "785624",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f8f6f4",
+              "textColor2": "f1eee9",
+              "textColor3": "ded6ca",
+              "textColor4": "d9cfc1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/93/3e/16/933e1630-f741-809b-863b-3c138d65bb75/27f47179-af2f-4fd1-99b8-ce67cb4963f4.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "61421b",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "eeeae4",
+              "textColor3": "d6ccbf",
+              "textColor4": "cfc4b4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/6b/d6/f1/6bd6f18d-2bbc-5e50-a4bf-cedda8bf3c25/56e21bee-22ea-4206-b040-6d5574ee7fca.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "755323",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f8f6f3",
+              "textColor2": "f1ede8",
+              "textColor3": "ddd5ca",
+              "textColor4": "d8cec1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/56/76/7d/56767d51-89b9-e6ce-2e7b-c8c3cf954f47/e23544e8-6aad-45e7-b555-5695fd5f883a.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Decades",
+          "shortName": "Decades",
+          "url": "https://music.apple.com/id/curator/apple-music-decades/1554938339"
+        }
+      },
+      "1558256251": {
+        "id": "1558256251",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1558256251?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "2a5b61",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "75dfea",
+            "textColor2": "71dfec",
+            "textColor3": "66c5ce",
+            "textColor4": "63c4d0",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c0/b8/af/c0b8af94-bf2a-1c38-f950-292f971a5621/78fdaa61-b93f-4675-8276-ca10bdf5effd.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "2a5b61",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "75dfea",
+              "textColor2": "71dfec",
+              "textColor3": "66c5ce",
+              "textColor4": "63c4d0",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c0/b8/af/c0b8af94-bf2a-1c38-f950-292f971a5621/78fdaa61-b93f-4675-8276-ca10bdf5effd.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "20474c",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "64d3e7",
+              "textColor3": "56c2c2",
+              "textColor4": "55b4c5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/a9/5c/09/a95c0963-d134-1caa-1955-4b03c4916cfa/8daeeb28-dcef-45bd-9937-12ae6f68742d.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "28585e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "74e8e8",
+              "textColor2": "72daeb",
+              "textColor3": "65cbcc",
+              "textColor4": "64c0cf",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0f/17/d5/0f17d5a3-6774-1ae1-4530-2b694d8fb6bf/d7944211-2928-4ccc-b382-f0564bcf00b2.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Chill",
+          "shortName": "Chill",
+          "url": "https://music.apple.com/id/curator/apple-music-chill/1558256251"
+        }
+      },
+      "1558256865": {
+        "id": "1558256865",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1558256865?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "37538e",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f4f6f9",
+            "textColor2": "eaedf3",
+            "textColor3": "ced5e3",
+            "textColor4": "c6cfdf",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/d9/a2/3dd9a284-4777-033c-8d95-95fab6dc2ee1/2ac37cfa-5ba6-449e-b6e2-c0e5454c4fc7.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "37538e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f4f6f9",
+              "textColor2": "eaedf3",
+              "textColor3": "ced5e3",
+              "textColor4": "c6cfdf",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3d/d9/a2/3dd9a284-4777-033c-8d95-95fab6dc2ee1/2ac37cfa-5ba6-449e-b6e2-c0e5454c4fc7.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "17213b",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "4d7bf0",
+              "textColor3": "4167c7",
+              "textColor4": "4167c7",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/73/70/2b/73702bb1-c804-64b5-01e5-8b377b90eccd/0182dabf-93b5-40ec-8ccf-b6e098002db5.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "1e2d4c",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "5d91f3",
+              "textColor2": "5d91f3",
+              "textColor3": "517dd1",
+              "textColor4": "517dd1",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/d7/50/a1/d750a1ff-7379-8129-edf4-1cabab7e7dd4/79edca2f-34d6-4d0e-b8a3-85a170222b35.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Feeling Blue",
+          "shortName": "Feeling Blue",
+          "url": "https://music.apple.com/id/curator/apple-music-feeling-blue/1558256865"
+        }
+      },
+      "1558256919": {
+        "id": "1558256919",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1558256919?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "794e26",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "fba24e",
+            "textColor2": "f9a14d",
+            "textColor3": "e19146",
+            "textColor4": "df9045",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/81/10/c5/8110c596-e68c-4538-4d67-9cfb32b81292/8537614a-1ba4-40ec-9be0-6e217e4a52cb.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "794e26",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "fba24e",
+              "textColor2": "f9a14d",
+              "textColor3": "e19146",
+              "textColor4": "df9045",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/81/10/c5/8110c596-e68c-4538-4d67-9cfb32b81292/8537614a-1ba4-40ec-9be0-6e217e4a52cb.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "5d3515",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "f8913e",
+              "textColor3": "d67d35",
+              "textColor4": "d67d35",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/de/98/f7/de98f75b-42bd-2938-9b7f-3b78a096b7ce/0536595b-aaa5-43ee-83f3-099410f37f8e.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "70441b",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "fba24e",
+              "textColor2": "fba24e",
+              "textColor3": "df8f44",
+              "textColor4": "df8f44",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/30/e6/42/30e64278-008f-b3df-6790-bdd7fe382360/f3639799-0252-4a92-b3d4-3df02f586e29.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Feel Good",
+          "shortName": "Feel Good",
+          "url": "https://music.apple.com/id/curator/apple-music-feel-good/1558256919"
+        }
+      },
+      "1558257035": {
+        "id": "1558257035",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1558257035?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "9f3873",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "faf5f7",
+            "textColor2": "f5ebf0",
+            "textColor3": "e7cfdd",
+            "textColor4": "e4c7d7",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/b7/4c/1a/b74c1af6-5102-1546-7a4e-f082468f7559/71588d47-fe6e-493a-bc3f-3440371b5e3e.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "9f3873",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "faf5f7",
+              "textColor2": "f5ebf0",
+              "textColor3": "e7cfdd",
+              "textColor4": "e4c7d7",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/b7/4c/1a/b74c1af6-5102-1546-7a4e-f082468f7559/71588d47-fe6e-493a-bc3f-3440371b5e3e.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "8c2460",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "f3e6ed",
+              "textColor3": "e2c3d5",
+              "textColor4": "ddbacf",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/77/06/cd/7706cd3f-028e-f199-5dd8-203883c0559a/c9fadb11-6353-4b5f-8fde-785856c46ee3.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "9f3873",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "faf5f7",
+              "textColor2": "f5ebf0",
+              "textColor3": "e7cfdd",
+              "textColor4": "e4c7d7",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/13/12/7d/13127dc4-9c81-099c-31a7-afb849518840/06e568d2-c588-448f-8721-1739e6ac2f2f.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Party",
+          "shortName": "Party",
+          "url": "https://music.apple.com/id/curator/apple-music-party/1558257035"
+        }
+      },
+      "1558257095": {
+        "id": "1558257095",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1558257095?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "643d07",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f39411",
+            "textColor2": "f39411",
+            "textColor3": "d6830f",
+            "textColor4": "d6830f",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/0e/45/02/0e450221-a408-297f-b219-515748178701/664885c1-efbe-45a9-8071-c235276fecde.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "643d07",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f39411",
+              "textColor2": "f39411",
+              "textColor3": "d6830f",
+              "textColor4": "d6830f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/0e/45/02/0e450221-a408-297f-b219-515748178701/664885c1-efbe-45a9-8071-c235276fecde.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "60380a",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "ede8e0",
+              "textColor3": "d5c9b7",
+              "textColor4": "cfc1ac",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/40/05/69/40056927-a987-c7d4-da88-49a0d32f0a67/56752891-64b9-425d-b433-fa28f88e631a.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "744808",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f8f5f2",
+              "textColor2": "f1ece6",
+              "textColor3": "ddd3c3",
+              "textColor4": "d8cbb9",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/32/52/4d/32524d36-af28-8bfe-ac7c-66494ee10362/8540fcf4-af4a-4943-af34-1355797f90e1.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Focus",
+          "shortName": "Focus",
+          "url": "https://music.apple.com/id/curator/apple-music-focus/1558257095"
+        }
+      },
+      "1558257146": {
+        "id": "1558257146",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1558257146?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "8c1835",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f9f3f4",
+            "textColor2": "f3e7ea",
+            "textColor3": "e3c7ce",
+            "textColor4": "debec6",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/39/2b/5d/392b5d07-b3ea-6fc5-d365-256b7668a642/4f1c8b84-a81c-49a4-87c5-7917170f1bdd.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "8c1835",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f9f3f4",
+              "textColor2": "f3e7ea",
+              "textColor3": "e3c7ce",
+              "textColor4": "debec6",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/39/2b/5d/392b5d07-b3ea-6fc5-d365-256b7668a642/4f1c8b84-a81c-49a4-87c5-7917170f1bdd.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "730b27",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "f0e2e6",
+              "textColor3": "dbbac3",
+              "textColor4": "d5b0ba",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/45/37/30/45373071-4641-e2ab-54e3-7a68c1d99a84/b82e5e45-5a7f-4d2e-84ec-669c4b74f2bb.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "881834",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f9f3f4",
+              "textColor2": "f3e7ea",
+              "textColor3": "e2c7ce",
+              "textColor4": "ddbec6",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/01/42/38/0142387d-608e-45d2-c839-fb534d5d4259/1e691432-e96a-4042-aea5-79c6d0bbb9af.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Motivation",
+          "shortName": "Motivation",
+          "url": "https://music.apple.com/id/curator/apple-music-motivation/1558257146"
+        }
+      },
+      "1558257257": {
+        "id": "1558257257",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1558257257?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "552879",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f6f4f8",
+            "textColor2": "eee9f1",
+            "textColor3": "d6cbde",
+            "textColor4": "cfc2d9",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f8/30/42/f83042aa-0bbf-4d2c-13d4-a0225f95ffdb/01fc1ecf-1d6e-4035-afd4-79d52f9093e5.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "552879",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f6f4f8",
+              "textColor2": "eee9f1",
+              "textColor3": "d6cbde",
+              "textColor4": "cfc2d9",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/f8/30/42/f83042aa-0bbf-4d2c-13d4-a0225f95ffdb/01fc1ecf-1d6e-4035-afd4-79d52f9093e5.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "3c165b",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "e9e3ed",
+              "textColor3": "cabed4",
+              "textColor4": "c2b3cd",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/aa/20/ec/aa20ecbd-e113-cae8-bf3e-d5f9d68b652f/6863afbe-8cc3-468c-9893-3cda3a684baa.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "4e246e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f6f4f7",
+              "textColor2": "ede9f0",
+              "textColor3": "d4cadc",
+              "textColor4": "cdc1d6",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/66/44/63/6644636a-6134-e464-32e6-a7900d583ce8/bcb74429-1303-4fb0-9c3f-a6f0b87eb86e.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Sleep",
+          "shortName": "Sleep",
+          "url": "https://music.apple.com/id/curator/apple-music-sleep/1558257257"
+        }
+      },
+      "1558257331": {
+        "id": "1558257331",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1558257331?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "e4e6e5",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "11050a",
+            "textColor2": "4e1933",
+            "textColor3": "3b3235",
+            "textColor4": "6c4257",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/81/8a/df/818adf5a-0da2-de01-9687-d249bfd0273b/de25867b-5b4c-436d-80c5-560b4bebe600.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "e4e6e5",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "11050a",
+              "textColor2": "4e1933",
+              "textColor3": "3b3235",
+              "textColor4": "6c4257",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/81/8a/df/818adf5a-0da2-de01-9687-d249bfd0273b/de25867b-5b4c-436d-80c5-560b4bebe600.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "e1d8c3",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "3a302f",
+              "textColor4": "3c3131",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3e/3c/bf/3e3cbfd0-ce7b-32a7-120a-57888a82928c/31b0f682-6b01-4398-99b2-ba2f0604a14e.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "daddde",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0f060a",
+              "textColor2": "11060b",
+              "textColor3": "383135",
+              "textColor4": "393135",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/64/54/4d/64544d03-52cf-3200-e554-d742dcdaa58b/1792da44-b8f1-4eb7-9f07-af7e01ed7b32.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "superHeroTall": {
+              "bgColor": "dbe1e1",
+              "gradient": {},
+              "hasP3": true,
+              "height": 2240,
+              "textColor1": "110306",
+              "textColor2": "0e060a",
+              "textColor3": "392f32",
+              "textColor4": "373235",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/99/90/aa/9990aaae-cf91-4a22-03c1-0dfc04970d4d/b5b96aad-8e19-4a12-91fb-20035a3d05a1.png/{w}x{h}{c}.{f}",
+              "width": 1680
+            },
+            "superHeroWide": {
+              "bgColor": "e2d8c1",
+              "hasP3": true,
+              "height": 1800,
+              "textColor1": "130609",
+              "textColor2": "11070b",
+              "textColor3": "3c302d",
+              "textColor4": "3b312f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/12/ad/dd/12addda4-f2ad-2863-90b7-1b666a4f1202/616ee76b-86fa-495a-9f28-8cf2bd5444de.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "name": "Love"
+          },
+          "kind": "Genre",
+          "name": "Apple Music Love",
+          "shortName": "Love",
+          "url": "https://music.apple.com/id/curator/apple-music-love/1558257331"
+        }
+      },
+      "1558257443": {
+        "id": "1558257443",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1558257443?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "50af98",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "050b0a",
+            "textColor2": "060d0b",
+            "textColor3": "142c26",
+            "textColor4": "152e27",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/56/2c/3c/562c3cb6-5c27-7127-7b2d-20b99c6af86b/8c5cbdb2-fa52-4551-b524-7c50cba6438b.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "50af98",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "050b0a",
+              "textColor2": "060d0b",
+              "textColor3": "142c26",
+              "textColor4": "152e27",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/56/2c/3c/562c3cb6-5c27-7127-7b2d-20b99c6af86b/8c5cbdb2-fa52-4551-b524-7c50cba6438b.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "46aa8c",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "080d0b",
+              "textColor3": "11231e",
+              "textColor4": "12241f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/e3/05/f0/e305f061-ee7a-77ba-b286-c3e55aa764bf/6f52f3da-5a74-4bd7-a113-63c152fd522f.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "53b69e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "050c0a",
+              "textColor2": "060d0c",
+              "textColor3": "142e27",
+              "textColor4": "152f29",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/e2/e4/ef/e2e4ef7e-2611-91a2-bd17-faefa1ac23a7/009cfa78-893d-4e6a-8c8d-2592de8b83f7.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "superHeroTall": {
+              "bgColor": "f4f4f4",
+              "hasP3": true,
+              "height": 2240,
+              "textColor1": "1f176d",
+              "textColor2": "312469",
+              "textColor3": "494388",
+              "textColor4": "584d85",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/cc/08/77/cc0877a5-726d-ea23-e904-027be97f24ed/1d8be5db-1bff-44bb-862d-5781441b09ba.png/{w}x{h}{c}.{f}",
+              "width": 1680
+            },
+            "superHeroWide": {
+              "bgColor": "f4f4f4",
+              "hasP3": true,
+              "height": 1800,
+              "textColor1": "1a116a",
+              "textColor2": "261d68",
+              "textColor3": "463e85",
+              "textColor4": "4f4884",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/5a/67/b6/5a67b688-776d-4e14-ca15-f17dc2d7444a/5da00483-a2d1-4b1e-92a6-a60f5407c8b1.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Wellbeing",
+          "shortName": "Wellbeing",
+          "url": "https://music.apple.com/id/curator/apple-music-wellbeing/1558257443"
+        }
+      },
+      "1564180390": {
+        "id": "1564180390",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1564180390?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "cc0033",
+            "hasP3": false,
+            "height": 1080,
+            "textColor1": "fcf2f4",
+            "textColor2": "f9e5ea",
+            "textColor3": "f2c1ce",
+            "textColor4": "f0b7c5",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/8e/2d/bd/8e2dbdf4-fd1f-417f-3f04-7ec5d2ea00c3/79b7f50d-a834-4d70-8dd6-f5e7d37a09e1.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "cc0033",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "fcf2f4",
+              "textColor2": "f9e5ea",
+              "textColor3": "f2c1ce",
+              "textColor4": "f0b7c5",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/8e/2d/bd/8e2dbdf4-fd1f-417f-3f04-7ec5d2ea00c3/79b7f50d-a834-4d70-8dd6-f5e7d37a09e1.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "fb0032",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "0a0003",
+              "textColor3": "2b000d",
+              "textColor4": "2d000d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/fc/04/80/fc0480fb-79ff-f27f-8122-57b17508bc57/c695e51c-4a2e-4bbc-8e5d-1457d9072947.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "ff0040",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "080002",
+              "textColor2": "0a0002",
+              "textColor3": "39000e",
+              "textColor4": "3b000e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3c/95/15/3c9515e6-13fc-c6de-d1dd-ed8779f3df99/a586989f-b7a3-46f1-b54d-128aa1eebad9.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "standard": "Spatial Audio with Dolby Atmos is a premium listening experience that brings you closer to the music you love than ever before. It’s an evolution from traditional stereo and allows you to step inside songs and hear sounds all around and above you. The future of sound is now—a giant leap forward that’s revolutionised the way fans listen and artists create."
+          },
+          "kind": "Genre",
+          "name": "Apple Music Spatial Audio",
+          "shortName": "Spatial Audio",
+          "url": "https://music.apple.com/id/curator/apple-music-spatial-audio/1564180390"
+        }
+      },
+      "1649426593": {
+        "id": "1649426593",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1649426593?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "031440",
+            "hasP3": false,
+            "height": 1080,
+            "textColor1": "869cf7",
+            "textColor2": "6d99f6",
+            "textColor3": "6c81d2",
+            "textColor4": "587fd2",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/52/0a/1e/520a1e52-f030-a9db-4d0e-571b675f9004/daf89aa1-30de-4bb7-9bea-053519f2a002.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "031440",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "869cf7",
+              "textColor2": "6d99f6",
+              "textColor3": "6c81d2",
+              "textColor4": "587fd2",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/52/0a/1e/520a1e52-f030-a9db-4d0e-571b675f9004/daf89aa1-30de-4bb7-9bea-053519f2a002.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "040411",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "6c86c8",
+              "textColor4": "5877c8",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/62/ec/57/62ec57a0-2b8a-401e-0fcc-c6005f1aced2/a607c52e-30d8-4974-b874-04efa60ebc44.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "040411",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "86a6f6",
+              "textColor2": "6e94f6",
+              "textColor3": "6c86c8",
+              "textColor4": "5877c8",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/00/1a/90/001a9082-4c31-4404-c0ca-c2347e100c50/6fe44fb3-cb7d-4af7-a307-74da09d6072d.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "name": "Apple Music Live",
+            "short": "Our concert series with a performance streamed on Apple Music, plus a special pre-show.",
+            "standard": "Apple Music Live is a concert series available only to Apple Music subscribers. We’ll feature a performance from an artist that will be streamed on Apple Music, along with a special pre-show. Relive highlights from past shows in Spatial Audio and look out for the next exclusive event.",
+            "tagline": "Apple Music Live"
+          },
+          "kind": "Genre",
+          "name": "Apple Music Live",
+          "shortName": "Apple Music Live",
+          "url": "https://music.apple.com/id/curator/apple-music-live/1649426593"
+        }
+      },
+      "1708863073": {
+        "id": "1708863073",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1708863073?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "e7678b",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "14090c",
+            "textColor2": "2d141b",
+            "textColor3": "3e1c25",
+            "textColor4": "522431",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/66/b4/bd/66b4bda7-7b5e-50f9-15cd-9d56144e43ed/4633b319-5726-4d46-a070-c084a835f076.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "e7678b",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "14090c",
+              "textColor2": "2d141b",
+              "textColor3": "3e1c25",
+              "textColor4": "522431",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/66/b4/bd/66b4bda7-7b5e-50f9-15cd-9d56144e43ed/4633b319-5726-4d46-a070-c084a835f076.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "db4d76",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "0d080a",
+              "textColor3": "291219",
+              "textColor4": "2b131a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/77/e4/4e/77e44e1b-568d-3a18-0760-cb20a43ef8fe/79758679-f073-4a2a-a931-4322fa482249.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0b0506",
+              "textColor2": "0f0609",
+              "textColor3": "361820",
+              "textColor4": "391922",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/71/5c/8b/715c8b88-f29a-5f5f-6058-fd782154dd80/9c1ebccb-0225-4e92-a860-674c45d755aa.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "name": "T-Pop"
+          },
+          "kind": "Genre",
+          "name": "Apple Music T-Pop",
+          "shortName": "⁧T-Pop",
+          "url": "https://music.apple.com/id/curator/apple-music-t-pop/1708863073"
+        }
+      },
+      "1710452798": {
+        "id": "1710452798",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1710452798?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "e65058",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "161414",
+            "textColor2": "161616",
+            "textColor3": "402022",
+            "textColor4": "402223",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/99/cf/05/99cf0587-2c71-23ea-1017-c39be7e02f25/cb612d61-3714-4f50-97ab-7a17e041221a.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "e65058",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "161414",
+              "textColor2": "161616",
+              "textColor3": "402022",
+              "textColor4": "402223",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/99/cf/05/99cf0587-2c71-23ea-1017-c39be7e02f25/cb612d61-3714-4f50-97ab-7a17e041221a.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "e75762",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "150e0f",
+              "textColor2": "161112",
+              "textColor3": "3f1d20",
+              "textColor4": "3f1f22",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/44/3b/8e/443b8e5c-9d71-3113-70a6-cc226592da1d/5dea8aed-785c-4c1b-b849-867c0ad5e0ed.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "e75762",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "150f0f",
+              "textColor2": "161111",
+              "textColor3": "3f1d20",
+              "textColor4": "3f1f22",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/b3/b1/2c/b3b12cf5-2ced-2378-ba8e-9c990250ed87/20524f60-aabc-42c8-8195-553aafeaa9c5.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Sing",
+          "shortName": "Sing",
+          "url": "https://music.apple.com/id/curator/sing/1710452798"
+        }
+      },
+      "1747003654": {
+        "id": "1747003654",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1747003654?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "98bd29",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "040501",
+            "textColor2": "1a2107",
+            "textColor3": "212a09",
+            "textColor4": "33400e",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d8/ad/28/d8ad28ad-7195-1333-b77a-3979ae64cf9b/5bf52762-ab08-4976-a5ed-8b945f226496.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "98bd29",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "040501",
+              "textColor2": "1a2107",
+              "textColor3": "212a09",
+              "textColor4": "33400e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/d8/ad/28/d8ad28ad-7195-1333-b77a-3979ae64cf9b/5bf52762-ab08-4976-a5ed-8b945f226496.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "98bd29",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "232b09",
+              "textColor4": "2f3a0d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f1/69/0b/f1690ba1-255e-cc0f-5201-20b8b522ca98/c4e19ad8-14fc-4a4b-ac72-23f15f0176de.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "98bd29",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "050701",
+              "textColor2": "151a05",
+              "textColor3": "232b09",
+              "textColor4": "2f3a0d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9c/0c/43/9c0c43cc-f3a0-9c14-0d7e-3f60e70482d9/2d0aaf75-f3cd-44db-9415-d4f3e054d488.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Afrobeats",
+          "shortName": "Afrobeats",
+          "url": "https://music.apple.com/id/curator/apple-music-afrobeats/1747003654"
+        }
+      },
+      "1878215041": {
+        "id": "1878215041",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/1878215041?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "6c22a0",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f7f3fa",
+            "textColor2": "f0e8f5",
+            "textColor3": "dbc9e8",
+            "textColor4": "d5c1e4",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/8c/e0/7a/8ce07a80-67ff-d12d-e2d5-ccad846fbc94/3fc87b82-3b82-4aa9-a908-e061f1248e6f.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "6c22a0",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f7f3fa",
+              "textColor2": "f0e8f5",
+              "textColor3": "dbc9e8",
+              "textColor4": "d5c1e4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/8c/e0/7a/8ce07a80-67ff-d12d-e2d5-ccad846fbc94/3fc87b82-3b82-4aa9-a908-e061f1248e6f.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "6c22a0",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "dbc9e8",
+              "textColor4": "d5c1e4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9c/a0/2f/9ca02f64-0250-1635-b604-aece9e2e3582/30a18a9a-922f-47c0-8db1-5e7e19a46cc6.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "6c22a0",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f7f3fa",
+              "textColor2": "f0e8f5",
+              "textColor3": "dbc9e8",
+              "textColor4": "d5c1e4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/bc/07/eb/bc07ebf2-d3ee-6361-0377-a1e7a5b13c41/a3e9f51a-b922-43c8-89af-af3a2c6bb9df.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "standard": "Alpha Women is Apple Music’s year-round destination honouring the artists who are redefining the meaning of a woman’s power. Discover playlists, interviews and albums that highlight the women making music on their terms, uplifting one another and challenging notions through the simple act of being.",
+            "tagline": "Women We Love"
+          },
+          "kind": "Genre",
+          "name": "Alpha Women",
+          "shortName": "Alpha Women",
+          "url": "https://music.apple.com/id/curator/alpha-women/1878215041"
+        }
+      },
+      "976439528": {
+        "id": "976439528",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439528?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "4997d5",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "050b10",
+            "textColor2": "08121a",
+            "textColor3": "132737",
+            "textColor4": "162c3f",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/0f/23/37/0f2337bd-4024-c886-5165-6577c021ffbd/42e85f7b-0d6d-4653-abb2-52a4297daae6.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "4997d5",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "050b10",
+              "textColor2": "08121a",
+              "textColor3": "132737",
+              "textColor4": "162c3f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/0f/23/37/0f2337bd-4024-c886-5165-6577c021ffbd/42e85f7b-0d6d-4653-abb2-52a4297daae6.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "4997d5",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "122534",
+              "textColor4": "152b3e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/4b/b4/2f/4bb42f64-e875-a7b7-c36d-26283349b07d/189e032e-c63b-4345-8219-863797c471c1.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "4997d5",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "04080c",
+              "textColor2": "081118",
+              "textColor3": "122534",
+              "textColor4": "152b3e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9f/cb/28/9fcb28ce-d34a-c841-78ec-79dd2067e6e7/1ba54c60-a74e-4511-a925-f7cffb00f6a9.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Blues",
+          "shortName": "Blues",
+          "url": "https://music.apple.com/id/curator/apple-music-blues/976439528"
+        }
+      },
+      "976439531": {
+        "id": "976439531",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439531?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "29130d",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f1724e",
+            "textColor2": "e46c4a",
+            "textColor3": "c95f41",
+            "textColor4": "bf5a3e",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b7/37/45/b7374552-33c1-18bb-5995-ae6d22522eea/b06b1b4c-036e-4f51-9aa4-18e8fa860614.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "29130d",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f1724e",
+              "textColor2": "e46c4a",
+              "textColor3": "c95f41",
+              "textColor4": "bf5a3e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/b7/37/45/b7374552-33c1-18bb-5995-ae6d22522eea/b06b1b4c-036e-4f51-9aa4-18e8fa860614.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "dd6848",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "391b12",
+              "textColor4": "442016",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/01/c7/74/01c77427-d834-923f-24c1-0dbcc7200c67/8083b86a-2908-4573-95b2-73d898f044c5.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "dd6848",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "110805",
+              "textColor2": "1e0e09",
+              "textColor3": "391b12",
+              "textColor4": "442016",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ee/0f/04/ee0f04df-41fa-5a91-346d-677baf0703d0/aa4c4050-2b2a-475e-ab94-89f70c4c5a11.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Classic Rock",
+          "shortName": "Classic Rock",
+          "url": "https://music.apple.com/id/curator/apple-music-classic-rock/976439531"
+        }
+      },
+      "976439534": {
+        "id": "976439534",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439534?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "d18937",
+            "hasP3": false,
+            "height": 1080,
+            "textColor1": "120c04",
+            "textColor2": "1b1207",
+            "textColor3": "38250e",
+            "textColor4": "402a11",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ce/e4/48/cee448a8-d9c2-4731-d398-0d0b3e124aa4/f9234ffe-98b5-444b-b173-09c46e55c881.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "d18937",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "120c04",
+              "textColor2": "1b1207",
+              "textColor3": "38250e",
+              "textColor4": "402a11",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ce/e4/48/cee448a8-d9c2-4731-d398-0d0b3e124aa4/f9234ffe-98b5-444b-b173-09c46e55c881.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "d18937",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "060401",
+              "textColor2": "140d05",
+              "textColor3": "2f1f0c",
+              "textColor4": "3a260f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3a/49/24/3a49241e-fa1f-9e1e-dbc0-84333e4131fe/ed9a3060-d13f-4ab8-8014-18db8fc30432.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "d18937",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "060401",
+              "textColor2": "140d05",
+              "textColor3": "2f1f0c",
+              "textColor4": "3a260f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/4f/51/a2/4f51a2ea-b2ff-2914-750b-a4780e2bb18d/e53d055d-746f-4fbd-9c2d-3a753cd472c6.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Country",
+          "shortName": "Country",
+          "url": "https://music.apple.com/id/curator/apple-music-country/976439534"
+        }
+      },
+      "976439535": {
+        "id": "976439535",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439535?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "3cbb7d",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "04100a",
+            "textColor2": "0c2519",
+            "textColor3": "0f3221",
+            "textColor4": "15432d",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a8/55/58/a855589f-addf-23c4-cdf1-b3d4178c649c/842afe26-2e2e-4c9d-949a-e183d0925690.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "3cbb7d",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "04100a",
+              "textColor2": "0c2519",
+              "textColor3": "0f3221",
+              "textColor4": "15432d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/a8/55/58/a855589f-addf-23c4-cdf1-b3d4178c649c/842afe26-2e2e-4c9d-949a-e183d0925690.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "emailFeature": {
+              "bgColor": "1c2016",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "32da74",
+              "textColor2": "d2b86a",
+              "textColor3": "2db561",
+              "textColor4": "ae9959",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features69/v4/68/d4/8c/68d48cac-5882-ec43-66f8-6f430b6ad588/temp..ltyibjjh.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionCover": {
+              "bgColor": "3cbb7d",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "0f2f20",
+              "textColor4": "123826",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/85/23/3f/85233f5a-fc42-c370-51a5-b8ba97b7c5de/fb8f5e27-8564-4122-93c5-f822b7b601df.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "3cbb7d",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "040c08",
+              "textColor2": "071810",
+              "textColor3": "0f2f20",
+              "textColor4": "123826",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f8/f3/ff/f8f3ff82-9c53-70d2-4f07-2308291b84e7/c2847f42-a681-4fac-97fe-8a9154b1fe64.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Dance",
+          "shortName": "Dance",
+          "url": "https://music.apple.com/id/curator/apple-music-dance/976439535"
+        }
+      },
+      "976439536": {
+        "id": "976439536",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439536?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "00be78",
+            "hasP3": false,
+            "height": 1080,
+            "textColor1": "000b07",
+            "textColor2": "002517",
+            "textColor3": "002f1d",
+            "textColor4": "00432b",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/36/27/e0/3627e077-e20a-1904-75d3-bd4c18da1e23/47c45eb8-1415-4cb2-ac3d-0edbf178d6a7.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "00be78",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000b07",
+              "textColor2": "002517",
+              "textColor3": "002f1d",
+              "textColor4": "00432b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/36/27/e0/3627e077-e20a-1904-75d3-bd4c18da1e23/47c45eb8-1415-4cb2-ac3d-0edbf178d6a7.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "17b465",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "02140e",
+              "textColor3": "042416",
+              "textColor4": "062d1c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/e5/99/cd/e599cd32-37d8-d1fb-e24e-f9ce3e215261/feb8883d-30ab-41f0-ae11-6b27f8ef151c.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "00be78",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "010a06",
+              "textColor2": "001910",
+              "textColor3": "012e1d",
+              "textColor4": "003a24",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/e2/e1/11/e2e11121-18f3-0d7a-ce7f-e9fd3d51b527/d763cb91-7a93-4579-9a19-88c122889349.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Electronic",
+          "shortName": "Electronic",
+          "url": "https://music.apple.com/id/curator/apple-music-electronic/976439536"
+        }
+      },
+      "976439541": {
+        "id": "976439541",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439541?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "00ba98",
+            "hasP3": false,
+            "height": 1080,
+            "textColor1": "000706",
+            "textColor2": "001611",
+            "textColor3": "002b23",
+            "textColor4": "00362c",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/83/04/13/830413af-86c8-3217-a6cf-d549bc244f61/73316129-e4af-4863-ad5b-e51dc158a5db.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "00ba98",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000706",
+              "textColor2": "001611",
+              "textColor3": "002b23",
+              "textColor4": "00362c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/83/04/13/830413af-86c8-3217-a6cf-d549bc244f61/73316129-e4af-4863-ad5b-e51dc158a5db.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "17af86",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000a09",
+              "textColor3": "03211a",
+              "textColor4": "03221c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/83/92/9f/83929f64-57eb-027c-d164-3b46fec498b1/dc296017-921d-4ef7-9e92-e10d1ad6ae3f.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "00ba98",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000706",
+              "textColor2": "000908",
+              "textColor3": "002b23",
+              "textColor4": "002c24",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/6e/16/c9/6e16c931-af84-24a3-e648-017de74a6bd8/437bbe95-54b3-4be5-9881-dfb0547d2922.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Indie",
+          "shortName": "Indie",
+          "url": "https://music.apple.com/id/curator/apple-music-indie/976439541"
+        }
+      },
+      "976439544": {
+        "id": "976439544",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439544?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "c48820",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "130d03",
+            "textColor2": "261a06",
+            "textColor3": "372609",
+            "textColor4": "45300b",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/1e/51/af/1e51af93-5615-72f8-ec7f-80be75c44509/5aec4791-9312-4f73-96b4-2271bc556957.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "c48820",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "130d03",
+              "textColor2": "261a06",
+              "textColor3": "372609",
+              "textColor4": "45300b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/1e/51/af/1e51af93-5615-72f8-ec7f-80be75c44509/5aec4791-9312-4f73-96b4-2271bc556957.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "c48820",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "181104",
+              "textColor2": "281c06",
+              "textColor3": "3a2909",
+              "textColor4": "47320b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/89/61/4e/89614e55-ac9f-b517-7a06-b049178cffc9/047cdd8d-367e-4c8e-8465-e108fba04cfc.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "c48820",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "181104",
+              "textColor2": "281c06",
+              "textColor3": "3a2909",
+              "textColor4": "47320b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/c2/6b/be/c26bbea1-6bae-af4f-cdab-b76a2794ad38/02e902a7-0cbc-43b9-8a12-c482b8b808cc.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Música Mexicana",
+          "shortName": "Música Mexicana",
+          "url": "https://music.apple.com/id/curator/apple-music-m%C3%BAsica-mexicana/976439544"
+        }
+      },
+      "976439547": {
+        "id": "976439547",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439547?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "dda426",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "0b0801",
+            "textColor2": "211805",
+            "textColor3": "352709",
+            "textColor4": "47340c",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/55/10/38/551038b4-d3d5-0358-b9ad-0d7f11234919/23d33f0f-9f2e-490b-9cff-06fcc85c5f72.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "dda426",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0b0801",
+              "textColor2": "211805",
+              "textColor3": "352709",
+              "textColor4": "47340c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/55/10/38/551038b4-d3d5-0358-b9ad-0d7f11234919/23d33f0f-9f2e-490b-9cff-06fcc85c5f72.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "dda426",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "302308",
+              "textColor4": "523d0e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/99/56/d4/9956d4eb-fa63-d02e-1de5-55c0dacdefaf/39eafc85-7388-4fa6-aa6a-03b03d6c571a.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "dda426",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "040300",
+              "textColor2": "302308",
+              "textColor3": "302308",
+              "textColor4": "523d0e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ce/96/70/ce967059-2c46-421f-00f6-1110fa17c0a4/95ed5239-47d3-40d6-bea9-1bad7b949fd0.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Oldies",
+          "shortName": "Oldies",
+          "url": "https://music.apple.com/id/curator/apple-music-oldies/976439547"
+        }
+      },
+      "976439548": {
+        "id": "976439548",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439548?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "e46689",
+            "hasP3": false,
+            "height": 1080,
+            "textColor1": "0c0507",
+            "textColor2": "190b0e",
+            "textColor3": "371821",
+            "textColor4": "411d27",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/2e/5c/a7/2e5ca71c-0135-5710-1dde-90e65c7d4eea/9fd695b4-6da1-439f-aa34-2a44407d045c.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "e46689",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "0c0507",
+              "textColor2": "190b0e",
+              "textColor3": "371821",
+              "textColor4": "411d27",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/2e/5c/a7/2e5ca71c-0135-5710-1dde-90e65c7d4eea/9fd695b4-6da1-439f-aa34-2a44407d045c.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "emailFeature": {
+              "bgColor": "8dbbb4",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "25130e",
+              "textColor2": "1d1917",
+              "textColor3": "3a352f",
+              "textColor4": "333936",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features18/v4/65/8b/d1/658bd146-3e36-f360-fe5d-89cf36ee1f67/mza_5364688071624214075.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionCover": {
+              "bgColor": "e46689",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "421d28",
+              "textColor4": "4d222e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/5f/21/d3/5f21d32a-9d36-67ff-38e2-af703d1515be/b37c0c26-52e7-4871-8af1-d895e09a9e8a.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "e46689",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "1a0b0f",
+              "textColor2": "281118",
+              "textColor3": "421d28",
+              "textColor4": "4d222e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/63/8e/fd/638efd44-88da-10c5-cbf0-fb3b5d9fc267/5910bbc6-9ea4-421b-89ed-ba7f404fb00a.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Pop",
+          "shortName": "Pop",
+          "url": "https://music.apple.com/id/curator/apple-music-pop/976439548"
+        }
+      },
+      "976439549": {
+        "id": "976439549",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439549?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "773546",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "fc6f96",
+            "textColor2": "fc6f96",
+            "textColor3": "e16386",
+            "textColor4": "e16386",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/08/6d/a2/086da2c8-01ec-5d2f-e14e-57d21a99134c/77da79e9-0ac5-4010-8164-a571cbf494ea.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "773546",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "fc6f96",
+              "textColor2": "fc6f96",
+              "textColor3": "e16386",
+              "textColor4": "e16386",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/08/6d/a2/086da2c8-01ec-5d2f-e14e-57d21a99134c/77da79e9-0ac5-4010-8164-a571cbf494ea.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "e26486",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "32161e",
+              "textColor4": "401c26",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9e/22/a6/9e22a666-b7cc-e137-91a1-26b5c2c22b83/d9b6c63a-5d88-4f18-b74f-a38051dcf996.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "e26486",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "060203",
+              "textColor2": "170a0e",
+              "textColor3": "32161e",
+              "textColor4": "401c26",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/de/13/69/de136948-a7fb-673d-0420-27394b774f16/5d02e8e8-5ac5-477f-b104-61010cd9dbcf.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Pop Latino",
+          "shortName": "Pop Latino",
+          "url": "https://music.apple.com/id/curator/apple-music-pop-latino/976439549"
+        }
+      },
+      "976439552": {
+        "id": "976439552",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439552?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "7ab539",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "060903",
+            "textColor2": "0e1506",
+            "textColor3": "1e2c0e",
+            "textColor4": "243511",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/95/1d/79/951d793c-98d0-c4ee-d149-bbed765609c3/00345a04-5470-4349-9fe0-de908c610e26.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "7ab539",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "060903",
+              "textColor2": "0e1506",
+              "textColor3": "1e2c0e",
+              "textColor4": "243511",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/95/1d/79/951d793c-98d0-c4ee-d149-bbed765609c3/00345a04-5470-4349-9fe0-de908c610e26.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "6aaa2d",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "0f1509",
+              "textColor3": "17210d",
+              "textColor4": "1e2d0f",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/d2/36/ff/d236ff49-576f-6a6d-d59e-e92e51a19fa4/97b74263-e3c3-4864-ae0b-5077925b7dff.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "7ab539",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "060802",
+              "textColor2": "121a08",
+              "textColor3": "1d2b0d",
+              "textColor4": "273912",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/a3/88/3d/a3883de4-2c6d-f0b5-2d34-d92e6c6fdae7/44d9670c-3152-44f3-9bec-47bb2188d86e.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "superHeroTall": {
+              "bgColor": "090000",
+              "hasP3": false,
+              "height": 2240,
+              "textColor1": "e89b26",
+              "textColor2": "f49325",
+              "textColor3": "bb7c1f",
+              "textColor4": "c5761e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/2b/72/b9/2b72b93a-9078-6166-8525-2aeccfcb4819/U0hULU1TLVdXLUJvYl9NYXJsZXktQXJ0aXN0LUFEQU1fSUQ9OTc2NDM5NTUyLnBuZw.png/{w}x{h}{c}.{f}",
+              "width": 1680
+            },
+            "superHeroWide": {
+              "bgColor": "070301",
+              "hasP3": false,
+              "height": 1800,
+              "textColor1": "f0ca52",
+              "textColor2": "e49625",
+              "textColor3": "c1a241",
+              "textColor4": "b7791e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/98/09/16/980916b4-d152-1070-d792-3f992c9b58cc/U0hXLU1TLVdXLUJvYl9NYXJsZXktQXJ0aXN0LUFEQU1fSUQ9OTc2NDM5NTUyLnBuZw.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Reggae",
+          "shortName": "Reggae",
+          "url": "https://music.apple.com/id/curator/apple-music-reggae/976439552"
+        }
+      },
+      "976439585": {
+        "id": "976439585",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/976439585?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "8280e7",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "090910",
+            "textColor2": "19182c",
+            "textColor3": "21213b",
+            "textColor4": "2e2d51",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/cb/8b/86/cb8b86c7-40a7-c732-332f-235551389072/77fd1ea7-b429-4343-8b76-b1162e5b6765.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "8280e7",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "090910",
+              "textColor2": "19182c",
+              "textColor3": "21213b",
+              "textColor4": "2e2d51",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/cb/8b/86/cb8b86c7-40a7-c732-332f-235551389072/77fd1ea7-b429-4343-8b76-b1162e5b6765.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "6e67e1",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "060609",
+              "textColor3": "161527",
+              "textColor4": "171628",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/78/a7/40/78a740c4-14b4-d94f-6ba8-11a0ac3992a8/e3c9c4d6-6803-4a39-b57b-e100a3f940ce.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "8280e7",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "030306",
+              "textColor2": "040408",
+              "textColor3": "1c1c33",
+              "textColor4": "1d1d35",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/b4/63/1b/b4631b83-b21d-113b-3a94-6c4389fb2629/8a0898cb-faa2-44c0-bed8-bdf1f4c76a32.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Soul/Funk",
+          "shortName": "Soul/Funk",
+          "url": "https://music.apple.com/id/curator/apple-music-soul-funk/976439585"
+        }
+      },
+      "979231690": {
+        "id": "979231690",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/979231690?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "27120d",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f0714e",
+            "textColor2": "e56c4b",
+            "textColor3": "c85e41",
+            "textColor4": "bf5a3e",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/87/61/36/87613653-9add-2000-cd45-814757e4b0a7/16489eb6-f0a8-4b11-8938-fefd245c354f.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "27120d",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f0714e",
+              "textColor2": "e56c4b",
+              "textColor3": "c85e41",
+              "textColor4": "bf5a3e",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/87/61/36/87613653-9add-2000-cd45-814757e4b0a7/16489eb6-f0a8-4b11-8938-fefd245c354f.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "d35238",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "160c0a",
+              "textColor3": "2b140f",
+              "textColor4": "331712",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/7b/7b/25/7b7b2580-b92d-ce78-908a-2db13ea27813/6e64d2c8-4387-4363-a8ec-8eaa76ae0b2c.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "dd6848",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0f0704",
+              "textColor2": "1d0d09",
+              "textColor3": "381a12",
+              "textColor4": "431f15",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/79/d2/18/79d2181e-eb7d-f0ce-b02c-f591dbbcce03/161e14bd-ce16-4c43-90cb-d7b2951afc8f.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Hard Rock",
+          "shortName": "Hard Rock",
+          "url": "https://music.apple.com/id/curator/apple-music-hard-rock/979231690"
+        }
+      },
+      "982302294": {
+        "id": "982302294",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/982302294?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "a376e4",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "0f0b15",
+            "textColor2": "16101f",
+            "textColor3": "2d203e",
+            "textColor4": "322446",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3b/93/78/3b937855-3c76-f217-5d02-a41140b6500c/63983291-a6b9-4586-9f3a-c19fc546ea71.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "a376e4",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0f0b15",
+              "textColor2": "16101f",
+              "textColor3": "2d203e",
+              "textColor4": "322446",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3b/93/78/3b937855-3c76-f217-5d02-a41140b6500c/63983291-a6b9-4586-9f3a-c19fc546ea71.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "925bdd",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "120d18",
+              "textColor3": "21172e",
+              "textColor4": "261a36",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/a5/ad/68/a5ad685a-1f27-b83f-6135-96324a0615e5/9b781cc9-c7ba-47c2-999d-f4aeb1a26554.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "a376e4",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "0d0912",
+              "textColor2": "16101f",
+              "textColor3": "2b1f3c",
+              "textColor4": "322446",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/3e/2a/75/3e2a753a-492c-f34b-aa2d-4a66bd678f32/500aa611-84c4-49de-ac80-8dde30262fd1.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Anime",
+          "shortName": "Anime",
+          "url": "https://music.apple.com/id/curator/apple-anime/982302294"
+        }
+      },
+      "982307152": {
+        "id": "982307152",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/982307152?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "a376e4",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "030204",
+            "textColor2": "110c18",
+            "textColor3": "231931",
+            "textColor4": "2e2141",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/94/1f/4a/941f4a8c-ff9b-c8cf-e894-0aa29d88adc1/f97f655c-7209-421c-8c91-a5acf97ba494.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "a376e4",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "030204",
+              "textColor2": "110c18",
+              "textColor3": "231931",
+              "textColor4": "2e2141",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/94/1f/4a/941f4a8c-ff9b-c8cf-e894-0aa29d88adc1/f97f655c-7209-421c-8c91-a5acf97ba494.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "a376e4",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "060408",
+              "textColor2": "130d1a",
+              "textColor3": "251b34",
+              "textColor4": "302243",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/f9/99/77/f9997752-7359-36eb-979d-ec2f1382e0b6/021af0f2-512b-4b51-84c7-b81cd1b35990.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "a376e4",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "060408",
+              "textColor2": "130d1a",
+              "textColor3": "251b34",
+              "textColor4": "302243",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/92/fd/c0/92fdc017-0240-a225-d668-84502e0ac51c/5474fcc2-a833-4963-9d08-15aec750c6c4.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Bollywood",
+          "shortName": "Bollywood",
+          "url": "https://music.apple.com/id/curator/apple-music-bollywood/982307152"
+        }
+      },
+      "982356297": {
+        "id": "982356297",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/982356297?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "693b83",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f7f5f8",
+            "textColor2": "f0ebf2",
+            "textColor3": "dbd0e1",
+            "textColor4": "d5c8dc",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0e/f6/6f/0ef66fbd-9cc9-7d8c-48c8-61a8421d0993/6e0db58d-e264-4df4-bcd7-9fb28c56a125.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "693b83",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f7f5f8",
+              "textColor2": "f0ebf2",
+              "textColor3": "dbd0e1",
+              "textColor4": "d5c8dc",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0e/f6/6f/0ef66fbd-9cc9-7d8c-48c8-61a8421d0993/6e0db58d-e264-4df4-bcd7-9fb28c56a125.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "562970",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "ece6ef",
+              "textColor3": "d2c5da",
+              "textColor4": "cbbbd4",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/c1/c8/a4/c1c8a426-620c-9bc0-b468-0166f78925ad/088d491c-29b2-49e5-a9a3-7c1013ed94dc.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "693b83",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f7f5f8",
+              "textColor2": "f0ebf2",
+              "textColor3": "dbd0e1",
+              "textColor4": "d5c8dc",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/d0/02/ee/d002eeb9-3940-af92-ab35-53417c1dbacf/bf04493d-bf8f-4b2d-a52c-a174435d7d5e.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Tamil",
+          "shortName": "Tamil",
+          "url": "https://music.apple.com/id/curator/apple-music-tamil/982356297"
+        }
+      },
+      "983062953": {
+        "id": "983062953",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/983062953?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "36409e",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "f4f5fa",
+            "textColor2": "eaebf5",
+            "textColor3": "ced1e7",
+            "textColor4": "c6c9e3",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/bb/71/60/bb71600f-0829-6732-92d7-568b70188395/4969d3e5-ea19-4d6c-9403-c42120db0a4f.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "36409e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f4f5fa",
+              "textColor2": "eaebf5",
+              "textColor3": "ced1e7",
+              "textColor4": "c6c9e3",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/bb/71/60/bb71600f-0829-6732-92d7-568b70188395/4969d3e5-ea19-4d6c-9403-c42120db0a4f.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "292c8d",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "e6e7f3",
+              "textColor3": "c4c6e2",
+              "textColor4": "bbbddd",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/b2/4c/c1/b24cc148-5edf-1723-0305-2bcb922262ee/2315df54-5d98-4c65-8e34-43c31efe133c.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "36409e",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f4f5fa",
+              "textColor2": "eaebf5",
+              "textColor3": "ced1e7",
+              "textColor4": "c6c9e3",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/47/d4/38/47d43849-a55c-eab1-ae48-0cdc3b8bb645/7ae255ec-0f90-48d1-9d41-31b350cd95a1.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Indonesian Music",
+          "shortName": "Indonesian Music",
+          "url": "https://music.apple.com/id/curator/apple-music-indonesian-music/983062953"
+        }
+      },
+      "987714244": {
+        "id": "987714244",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/987714244?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "4c1e2a",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "fc658f",
+            "textColor2": "fb638e",
+            "textColor3": "d9577b",
+            "textColor4": "d8557a",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/e8/94/bb/e894bbc7-c766-ff72-e21d-55f940b8150e/bb664aa6-9608-4f6d-8513-29b7ad7bfd1e.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "4c1e2a",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "fc658f",
+              "textColor2": "fb638e",
+              "textColor3": "d9577b",
+              "textColor4": "d8557a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/e8/94/bb/e894bbc7-c766-ff72-e21d-55f940b8150e/bb664aa6-9608-4f6d-8513-29b7ad7bfd1e.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "d8416d",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "090405",
+              "textColor3": "250f16",
+              "textColor4": "261016",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/bd/a4/23/bda4235c-1aca-3de2-cfbd-4da98a7d6a5f/b0024a06-444c-4aac-b1e5-0fc980ebc845.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "e25a80",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "050203",
+              "textColor2": "070304",
+              "textColor3": "31131c",
+              "textColor4": "33141d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/d3/2b/fe/d32bfe0b-6894-3027-478e-23e6924ba8e7/4a5b9fe8-6ead-4bf0-802c-83d308e0a92a.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music J-Pop",
+          "shortName": "J-Pop",
+          "url": "https://music.apple.com/id/curator/apple-music-j-pop/987714244"
+        }
+      },
+      "988658197": {
+        "id": "988658197",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/988658197?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "e46689",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "13080c",
+            "textColor2": "230f15",
+            "textColor3": "3d1b25",
+            "textColor4": "49202c",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/1e/43/ef/1e43ef27-5ca6-8832-479e-bae6b5399e50/e1290653-1c9f-40ae-8baa-43d8f364e8f2.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "13080c",
+              "textColor2": "230f15",
+              "textColor3": "3d1b25",
+              "textColor4": "49202c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/1e/43/ef/1e43ef27-5ca6-8832-479e-bae6b5399e50/e1290653-1c9f-40ae-8baa-43d8f364e8f2.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "emailFeature": {
+              "bgColor": "ffffff",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "1e313b",
+              "textColor2": "432c1d",
+              "textColor3": "4b5a62",
+              "textColor4": "69564a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features69/v4/d6/c6/7e/d6c67e80-b711-a61e-e5e9-51a1692a9c92/temp..tlqgwhps.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionCover": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "33161e",
+              "textColor4": "3e1b25",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/fd/44/b7/fd44b7f7-570d-2df9-223e-6cd216562847/2a53fa05-a859-4090-8f7c-7caf366bc83e.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "060304",
+              "textColor2": "14080c",
+              "textColor3": "33161e",
+              "textColor4": "3e1b25",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/49/c5/29/49c5292a-1afe-f0e3-e016-57779d71e6c8/97480dd0-ec4b-44c7-af49-8066bcabc04e.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music K-Pop",
+          "shortName": "K-Pop",
+          "url": "https://music.apple.com/id/curator/apple-music-k-pop/988658197"
+        }
+      },
+      "988658199": {
+        "id": "988658199",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/988658199?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "e46689",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "000000",
+            "textColor2": "000000",
+            "textColor3": "3b1a23",
+            "textColor4": "532532",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/64/41/4c/64414c05-a0a5-4e9b-95b6-3be7b2aa0d7e/b3e34120-70f7-46a7-a2ba-7d847c38e389.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "3b1a23",
+              "textColor4": "532532",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/64/41/4c/64414c05-a0a5-4e9b-95b6-3be7b2aa0d7e/b3e34120-70f7-46a7-a2ba-7d847c38e389.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "381922",
+              "textColor4": "421d28",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/e2/65/71/e2657111-9e6c-3542-6250-0071546f9101/c6ab39ce-d7cc-406a-b956-f4c0b9ca540f.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "e46689",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "381922",
+              "textColor4": "421d28",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/3f/18/31/3f1831cb-0fde-5617-07b3-b90153ad0ad0/f830af50-920e-4558-849e-7dd64714aef0.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Mandopop",
+          "shortName": "Mandopop",
+          "url": "https://music.apple.com/id/curator/apple-music-mandopop/988658199"
+        }
+      },
+      "989010186": {
+        "id": "989010186",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/989010186?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "20b747",
+            "hasP3": false,
+            "height": 1080,
+            "textColor1": "041408",
+            "textColor2": "07220d",
+            "textColor3": "0a3414",
+            "textColor4": "0c3f18",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/30/9c/a4/309ca470-ab48-c39a-8f43-c4657a9847cc/38763425-fea7-4056-b700-68074151d9a0.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "bannerUber": {
+              "bgColor": "fad617",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "130400",
+              "textColor2": "100804",
+              "textColor3": "412e05",
+              "textColor4": "3e3108",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features123/v4/83/e1/51/83e151ac-74fd-f7ad-2524-49fdc3f17fae/QlUtTVMtV1ctS2lkc18mX0ZhbWlseS1keW5hbWljcy5wbmc.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "brandLogo": {
+              "bgColor": "20b747",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "041408",
+              "textColor2": "07220d",
+              "textColor3": "0a3414",
+              "textColor4": "0c3f18",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/30/9c/a4/309ca470-ab48-c39a-8f43-c4657a9847cc/38763425-fea7-4056-b700-68074151d9a0.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "storeFlowcase": {
+              "bgColor": "ffe118",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "130400",
+              "textColor2": "100804",
+              "textColor3": "423005",
+              "textColor4": "3f3308",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features113/v4/b6/87/45/b68745f9-6c78-00d1-22c5-55e8a483b462/U0YtTVMtV1ctS2lkc19BbmRfRmFtaWx5LWR5bmFtaWNzLnBuZw.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionCover": {
+              "bgColor": "23ad37",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "091a0c",
+              "textColor3": "0c2710",
+              "textColor4": "0e3213",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/d1/23/6a/d1236a98-cbfd-1e18-f3d1-1419f9766802/5e622fe5-c114-403f-a1e5-a31d77d664ec.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "20b747",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "041107",
+              "textColor2": "07210d",
+              "textColor3": "0a3313",
+              "textColor4": "0c3f18",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/d4/6a/c0/d46ac0ec-a412-b14d-5f59-a0ae7c086c1b/ac4e623b-5d63-4ed9-bc7c-3a2dacc85a67.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Kids",
+          "shortName": "Kids",
+          "url": "https://music.apple.com/id/curator/apple-music-kids/989010186"
+        }
+      },
+      "989058908": {
+        "id": "989058908",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/989058908?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "29a5c9",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "010506",
+            "textColor2": "041013",
+            "textColor3": "09252d",
+            "textColor4": "0b2d38",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/a0/53/66/a0536661-f9df-617e-64cc-93775ecd1f7e/a4e8a682-0b16-49c6-8486-d776b777adfa.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "29a5c9",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "010506",
+              "textColor2": "041013",
+              "textColor3": "09252d",
+              "textColor4": "0b2d38",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/a0/53/66/a0536661-f9df-617e-64cc-93775ecd1f7e/a4e8a682-0b16-49c6-8486-d776b777adfa.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "2594bd",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "071013",
+              "textColor3": "0b1e24",
+              "textColor4": "0d242d",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/7e/2d/b7/7e2db7d2-6079-ab60-df57-de08d6c85c7d/8614946c-d239-4906-86ae-0634f9ebc181.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "29a5c9",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "020809",
+              "textColor2": "041317",
+              "textColor3": "0a2730",
+              "textColor4": "0c303b",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/47/92/38/47923847-b165-2acb-e46c-eb8735e42f31/7a73c91e-53f2-4043-8ec6-7255f51e302e.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "short": "The language of pain, joy and endless possibilities.",
+            "standard": "Forged in the multicultural melting pot of early 20th-century New Orleans—a place where the blues of Deep South collided with European classical music and Caribbean rhythms—jazz began as a fundamentally African American expression and became America’s indigenous music. The music grew up in speakeasies and brothels, where singular geniuses like Louis Armstrong displayed a new improvisatory language, and it was transported to ballrooms and dancefloors with the sophisticated compositions and arrangements of Duke Ellington and Fletcher Henderson. The music was refined and popularised in the ‘30s as the swinging sounds of Benny Goodman and Count Basie entertained dancing masses in ballrooms and on the radio. At the same time, tunes from popular songwriters like George and Ira Gershwin, Cole Porter and Irving Berlin were reimagined by vocalists like Billie Holiday and Ella Fitzgerald. Early jazz styles spoke with regional accents—particularly in hotbeds like Harlem, Kansas City and Chicago—but as time passed, the language emerged in France, Japan, Brazil and beyond. This constantly evolving diaspora—connecting people, cities and countries across the globe—fuels the genre’s unique energy.\n<br /><br />\nThe ‘40s and ‘50s saw jazz take some of its most ambitious artistic leaps, placing improvisation and free expression at its centre. Smaller ensembles became nimble vehicles for fearless solos from the likes of bebop pioneer and alto saxophonist Charlie “Bird” Parker, trumpeter Dizzy Gillespie and pianist Bud Powell. While Dave Brubeck became a sensation on college campuses in the ‘50s, Miles Davis’ mid-century trajectory—from his cool-jazz landmark <i>Kind of Blue</i> to the rock fusion of <i>Bitches Brew</i>—encapsulated many of the changes happening within the music for the next 30 years. The restless experimentation of Ornette Coleman and John Coltrane in the ‘60s took jazz to new artistic heights and challenged audiences as it never had before. Straight-ahead jazz reemerged in the ‘80s thanks to traditionalists like Wynton Marsalis and others, while the genre mingled with ‘70s R&B-flavoured pop to create smooth jazz. Broadly appealing singers like Diana Krall and Harry Connick, Jr. kept the repertoire of standards alive at the end of the century, while other artists embraced a newly ascendent art form: hip-hop. Jazz in the new millennium continues to do what it has always done, by reflecting the complexity of our times in the work of musicians who know their history but aren’t bound by it."
+          },
+          "kind": "Genre",
+          "name": "Apple Music Jazz",
+          "shortName": "Jazz",
+          "url": "https://music.apple.com/id/curator/apple-music-jazz/989058908"
+        }
+      },
+      "989061415": {
+        "id": "989061415",
+        "type": "apple-curators",
+        "href": "/v1/catalog/id/apple-curators/989061415?l=en-GB",
+        "attributes": {
+          "artwork": {
+            "bgColor": "1c2540",
+            "hasP3": true,
+            "height": 1080,
+            "textColor1": "000000",
+            "textColor2": "000000",
+            "textColor3": "5f7dd0",
+            "textColor4": "5a76c6",
+            "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/7a/71/05/7a710511-f676-5713-18c3-f1b394e3247e/d8883e06-5478-4be8-a1c5-02ea4ac3fa42.png/{w}x{h}{c}.{f}",
+            "width": 1080
+          },
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "1c2540",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "5f7dd0",
+              "textColor4": "5a76c6",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/7a/71/05/7a710511-f676-5713-18c3-f1b394e3247e/d8883e06-5478-4be8-a1c5-02ea4ac3fa42.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "bgColor": "6b8ce9",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "1b243c",
+              "textColor4": "212c49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/37/d0/e0/37d0e01b-85e6-f9b4-08f6-62a3afde92a8/043994b3-0c14-4a89-a7c5-65d95da3c818.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "6b8ce9",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "000000",
+              "textColor3": "1b243c",
+              "textColor4": "212c49",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/9a/33/e3/9a33e303-8708-1b73-b145-099320aec16b/d718e4cf-fb9a-46e3-b310-212ddd3451c6.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "kind": "Genre",
+          "name": "Apple Music Hip-Hop/Rap",
+          "shortName": "Hip-Hop/Rap",
+          "url": "https://music.apple.com/id/curator/apple-music-hip-hop-rap/989061415"
+        }
+      }
+    },
+    "editorial-items": {
+      "1514706977": {
+        "id": "1514706977",
+        "type": "editorial-items",
+        "href": "/v1/editorial/id/editorial-items/1514706977?l=en-GB",
+        "attributes": {
+          "editorialArtwork": {
+            "brandLogo": {
+              "bgColor": "5f5e22",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "f2f055",
+              "textColor2": "ecec53",
+              "textColor3": "d5d34b",
+              "textColor4": "d0d049",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/58/5d/8f/585d8fdc-1bfd-c6a5-ba5a-3df6f7c5e4b9/81882ac0-e995-40ac-a792-ddba5a0a8842.png/{w}x{h}{c}.{f}",
+              "width": 1080
+            },
+            "subscriptionCover": {
+              "alt": "Charts",
+              "bgColor": "474818",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "e7eb44",
+              "textColor3": "c5c93b",
+              "textColor4": "c4c73a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/55/c5/4f/55c54f87-32ae-82f6-0cc8-80ae35ed5448/1f600eb6-9789-4a9c-927c-79d1425511fe.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            },
+            "subscriptionHero": {
+              "bgColor": "595920",
+              "hasP3": true,
+              "height": 1080,
+              "textColor1": "eded55",
+              "textColor2": "ebeb54",
+              "textColor3": "cfcf4a",
+              "textColor4": "cece4a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/62/61/c4/6261c465-fe72-eb32-5687-b7c015064b39/77b7bb43-5e28-4c40-afbc-97904ab8636a.png/{w}x{h}{c}.{f}",
+              "width": 4320
+            }
+          },
+          "editorialNotes": {
+            "name": "Charts"
+          },
+          "link": {
+            "feature": "top-charts",
+            "target": "internal",
+            "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=34"
+          },
+          "url": "https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewTop?genreId=34"
+        }
+      }
+    },
+    "personal-recommendation": {
+      "15-5hPxOsuUeI8Dv5BgfAz91d": {
+        "id": "15-5hPxOsuUeI8Dv5BgfAz91d",
+        "type": "personal-recommendation",
+        "href": "/v1/recommendations/id/personal-recommendation/15-5hPxOsuUeI8Dv5BgfAz91d?l=en-GB&name=search-landing",
+        "attributes": {
+          "display": {
+            "decorations": [],
+            "kind": "MusicNamedBrickShelf",
+            "size": "standard"
+          },
+          "hasSeeAll": false,
+          "isGroupRecommendation": false,
+          "kind": "music-recommendations",
+          "nextUpdateDate": "2026-09-01T19:59:59Z",
+          "resourceTypes": [
+            "apple-curators"
+          ],
+          "title": {
+            "stringForDisplay": "Browse Categories"
+          },
+          "version": 2
+        },
+        "relationships": {
+          "contents": {
+            "href": "/v1/recommendations/id/personal-recommendation/15-5hPxOsuUeI8Dv5BgfAz91d/contents?l=en-GB&name=search-landing",
+            "data": [
+              {
+                "id": "1531543191",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1531543191?l=en-GB"
+              }
+            ]
+          }
+        },
+        "meta": {
+          "cachePolicy": {
+            "updateDate": "2026-09-01T19:59:59Z"
+          },
+          "metrics": {
+            "Platform": "MusicAPI",
+            "moduleType": "15",
+            "reco_additionalData": "{moduleType=15, Platform=MusicAPI}",
+            "reco_algoId": "2.0",
+            "reco_eligible": "0",
+            "reco_id": "b4267e50-3f98-481a-b6ff-52c25274eaa0~ee324731-5eb9-48ff-80cc-efa72d42ac51~0~1788285385501",
+            "reco_timeStamp": "1788285385503"
+          }
+        }
+      },
+      "15-7hrVWzqxCQpgAb8JbbZaKL": {
+        "id": "15-7hrVWzqxCQpgAb8JbbZaKL",
+        "type": "personal-recommendation",
+        "href": "/v1/recommendations/id/personal-recommendation/15-7hrVWzqxCQpgAb8JbbZaKL?l=en-GB&name=search-landing",
+        "attributes": {
+          "display": {
+            "decorations": [],
+            "kind": "MusicNamedBrickShelf",
+            "size": "standard"
+          },
+          "hasSeeAll": false,
+          "isGroupRecommendation": false,
+          "kind": "music-recommendations",
+          "nextUpdateDate": "2026-09-01T19:59:59Z",
+          "resourceTypes": [
+            "apple-curators",
+            "editorial-items"
+          ],
+          "version": 2
+        },
+        "relationships": {
+          "contents": {
+            "href": "/v1/recommendations/id/personal-recommendation/15-7hrVWzqxCQpgAb8JbbZaKL/contents?l=en-GB&name=search-landing",
+            "data": [
+              {
+                "id": "983062953",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/983062953?l=en-GB"
+              },
+              {
+                "id": "976439548",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439548?l=en-GB"
+              },
+              {
+                "id": "988658197",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/988658197?l=en-GB"
+              },
+              {
+                "id": "1013612757",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1013612757?l=en-GB"
+              },
+              {
+                "id": "1013613723",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1013613723?l=en-GB"
+              },
+              {
+                "id": "1013624291",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1013624291?l=en-GB"
+              },
+              {
+                "id": "989061415",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/989061415?l=en-GB"
+              },
+              {
+                "id": "976439535",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439535?l=en-GB"
+              },
+              {
+                "id": "1514706977",
+                "type": "editorial-items",
+                "href": "/v1/editorial/id/editorial-items/1514706977?l=en-GB"
+              },
+              {
+                "id": "1710452798",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1710452798?l=en-GB"
+              },
+              {
+                "id": "1564180390",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1564180390?l=en-GB"
+              },
+              {
+                "id": "1649426593",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1649426593?l=en-GB"
+              },
+              {
+                "id": "1558257331",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1558257331?l=en-GB"
+              },
+              {
+                "id": "1558257035",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1558257035?l=en-GB"
+              },
+              {
+                "id": "1558257146",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1558257146?l=en-GB"
+              },
+              {
+                "id": "1558256919",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1558256919?l=en-GB"
+              },
+              {
+                "id": "1558257095",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1558257095?l=en-GB"
+              },
+              {
+                "id": "1554938339",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1554938339?l=en-GB"
+              },
+              {
+                "id": "1558256251",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1558256251?l=en-GB"
+              },
+              {
+                "id": "1558257443",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1558257443?l=en-GB"
+              },
+              {
+                "id": "1558256865",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1558256865?l=en-GB"
+              },
+              {
+                "id": "1558257257",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1558257257?l=en-GB"
+              },
+              {
+                "id": "976439549",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439549?l=en-GB"
+              },
+              {
+                "id": "1708863073",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1708863073?l=en-GB"
+              },
+              {
+                "id": "1479949880",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1479949880?l=en-GB"
+              },
+              {
+                "id": "987714244",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/987714244?l=en-GB"
+              },
+              {
+                "id": "988658199",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/988658199?l=en-GB"
+              },
+              {
+                "id": "976439531",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439531?l=en-GB"
+              },
+              {
+                "id": "979231690",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/979231690?l=en-GB"
+              },
+              {
+                "id": "1526756058",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1526756058?l=en-GB"
+              },
+              {
+                "id": "976439547",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439547?l=en-GB"
+              },
+              {
+                "id": "976439534",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439534?l=en-GB"
+              },
+              {
+                "id": "976439544",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439544?l=en-GB"
+              },
+              {
+                "id": "1528869584",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1528869584?l=en-GB"
+              },
+              {
+                "id": "1747003654",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1747003654?l=en-GB"
+              },
+              {
+                "id": "976439552",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439552?l=en-GB"
+              },
+              {
+                "id": "976439536",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439536?l=en-GB"
+              },
+              {
+                "id": "1231180011",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1231180011?l=en-GB"
+              },
+              {
+                "id": "989010186",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/989010186?l=en-GB"
+              },
+              {
+                "id": "1441811365",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1441811365?l=en-GB"
+              },
+              {
+                "id": "976439541",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439541?l=en-GB"
+              },
+              {
+                "id": "1482068485",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1482068485?l=en-GB"
+              },
+              {
+                "id": "989058908",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/989058908?l=en-GB"
+              },
+              {
+                "id": "976439528",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439528?l=en-GB"
+              },
+              {
+                "id": "976439585",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/976439585?l=en-GB"
+              },
+              {
+                "id": "1013610510",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1013610510?l=en-GB"
+              },
+              {
+                "id": "982356297",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/982356297?l=en-GB"
+              },
+              {
+                "id": "982302294",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/982302294?l=en-GB"
+              },
+              {
+                "id": "1878215041",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/1878215041?l=en-GB"
+              },
+              {
+                "id": "982307152",
+                "type": "apple-curators",
+                "href": "/v1/catalog/id/apple-curators/982307152?l=en-GB"
+              }
+            ]
+          }
+        },
+        "meta": {
+          "cachePolicy": {
+            "updateDate": "2026-09-01T19:59:59Z"
+          },
+          "metrics": {
+            "Platform": "MusicAPI",
+            "moduleType": "15",
+            "reco_additionalData": "{moduleType=15, Platform=MusicAPI}",
+            "reco_algoId": "2.0",
+            "reco_eligible": "0",
+            "reco_id": "b4267e50-3f98-481a-b6ff-52c25274eaa0~a5ae2830-7fdd-4316-9880-690dfcb06541~0~1788285385501",
+            "reco_timeStamp": "1788285385503"
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "metrics": {
+      "Platform": "MusicAPI",
+      "reco_additionalData": "{Platform=MusicAPI}",
+      "reco_algoId": "default",
+      "reco_eligible": "0",
+      "reco_id": "eb958839-c6da-4829-b255-a157fb4103f8",
+      "reco_timeStamp": "1788285385481"
+    }
+  }
+}

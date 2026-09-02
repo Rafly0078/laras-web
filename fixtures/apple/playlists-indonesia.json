@@ -1,0 +1,512 @@
+{
+  "results": {
+    "playlists": {
+      "href": "/v1/catalog/id/search?groups=playlist&l=en-GB&limit=12&term=indonesia&types=playlists",
+      "next": "/v1/catalog/id/search?groups=playlist&l=en-GB&offset=12&term=indonesia&types=playlists",
+      "data": [
+        {
+          "id": "pl.9701289a07b845fb91b0a428c12f42c9",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.9701289a07b845fb91b0a428c12f42c9?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "df09be",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "0a030b",
+              "textColor3": "240928",
+              "textColor4": "280925",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/bf/dd/8d/bfdd8d51-8402-9aa1-4633-ee85d182adff/U0MtTVMtV1ctSW5kb25lc2lhbl9NdXNpY19Ub2RheS1BREFNX0lEPTEwNDg0Nzg2MTYucG5n.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "The latest and best from Indonesia’s flourishing music scene.",
+              "standard": "Considering the bevy of concerts and festivals in Indonesia, it’s no surprise that the current musical landscape encompasses a wide range of styles. From soaring ballads to pumped-up rock instrumentals, toe-tapping hooks and more, these are the top new tracks from the Indonesian pop scene and beyond. This playlist is updated regularly—if you like a song, add it to your library."
+            },
+            "editorialNotes": {
+              "name": "Indonesian Music Today",
+              "short": "The latest and best from Indonesia’s flourishing music scene.",
+              "standard": "Considering the bevy of concerts and festivals in Indonesia, it’s no surprise that the current musical landscape encompasses a wide range of styles. From soaring ballads to pumped-up rock instrumentals, toe-tapping hooks and more, these are the top new tracks from the Indonesian pop scene and beyond. This playlist is updated regularly—if you like a song, add it to your library."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-24T08:32:43Z",
+            "name": "Indonesian Music Today",
+            "playParams": {
+              "id": "pl.9701289a07b845fb91b0a428c12f42c9",
+              "kind": "playlist",
+              "versionHash": "a285f5ac2064b593f755d0f7713693a4cce8f25c937c3dbef2f4b4dc76ea4104"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/indonesian-music-today/pl.9701289a07b845fb91b0a428c12f42c9"
+          }
+        },
+        {
+          "id": "pl.2b7e089dc9ef4dd7a18429df9c6e26a3",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.2b7e089dc9ef4dd7a18429df9c6e26a3?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "f1f1f1",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "110101",
+              "textColor3": "322525",
+              "textColor4": "322525",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features116/v4/81/36/4c/81364c9b-2c97-12f2-3b97-6c16b567e456/d143b0b2-35b3-40d7-94ac-020386689180.png/{w}x{h}cc.jpg",
+              "width": 4320
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music",
+            "description": {
+              "standard": "The most-played songs in Indonesia, updated every day."
+            },
+            "editorialNotes": {
+              "name": "Top 100: Indonesia",
+              "short": "The most-played songs in Indonesia, updated every day.",
+              "standard": "The most-played songs in Indonesia, updated every day."
+            },
+            "hasCollaboration": false,
+            "isChart": true,
+            "lastModifiedDate": "2026-09-01T07:01:39Z",
+            "name": "Top 100: Indonesia",
+            "playParams": {
+              "id": "pl.2b7e089dc9ef4dd7a18429df9c6e26a3",
+              "kind": "playlist",
+              "versionHash": "b7a6ce73b9056b454965e9dd43cfb5f2155ff43a90c85b8a51c6dff4dff4afa0"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/top-100-indonesia/pl.2b7e089dc9ef4dd7a18429df9c6e26a3"
+          }
+        },
+        {
+          "id": "pl.8d6e453de1c04e17b31839c504045455",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.8d6e453de1c04e17b31839c504045455?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "edc7d4",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "ffffff",
+              "textColor3": "2f2f41",
+              "textColor4": "514956",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/65/34/b9/6534b964-4c0b-ceb5-db05-c240e488da58/03d9acf9-cf30-489f-9133-f3749f4fb010.png/{w}x{h}SC.CAESS02.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "Unforgettable Indopop hits from the best of the best.",
+              "standard": "Indonesia's most loved artists represent every shade on the modern pop spectrum in these hit songs. Renowned rockers like Noah and Virzha deliver blazing guitars with searing melodies and gritty vocals; Maudy Ayunda and Chrisye bring heart-rending tones to orchestral ballads; Rinni Wulandari and Teddy Adhitya lay honeyed vocals under smooth, sensual R&B rhythms."
+            },
+            "editorialNotes": {
+              "name": "All-Time Indonesian Hits",
+              "short": "Unforgettable Indopop hits from the best of the best.",
+              "standard": "Indonesia's most loved artists represent every shade on the modern pop spectrum in these hit songs. Renowned rockers like Noah and Virzha deliver blazing guitars with searing melodies and gritty vocals; Maudy Ayunda and Chrisye bring heart-rending tones to orchestral ballads; Rinni Wulandari and Teddy Adhitya lay honeyed vocals under smooth, sensual R&B rhythms."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-10T09:10:04Z",
+            "name": "All-Time Indonesian Hits",
+            "playParams": {
+              "id": "pl.8d6e453de1c04e17b31839c504045455",
+              "kind": "playlist",
+              "versionHash": "3dd97d9331d62516b26b54d0ad6a7b62101b5966cbc11b60de86bc4b86e7cd7a"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/all-time-indonesian-hits/pl.8d6e453de1c04e17b31839c504045455"
+          }
+        },
+        {
+          "id": "pl.cbd613befce44fdf8050886a9c414905",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.cbd613befce44fdf8050886a9c414905?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "c75877",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "ffffff",
+              "textColor3": "2e131c",
+              "textColor4": "30141c",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/32/82/d7/3282d7b3-4584-4eea-b6a2-b92f743d6ec0/8ea07e48-c0c6-42c5-8412-da859042d2df.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "The genre’s best tunes making the rounds online.",
+              "standard": "Here’s where you’ll find the best Indonesian pop songs making the rounds online. Just like your feed, this playlist is constantly being updated—if you hear a song you like, add it to your library."
+            },
+            "editorialNotes": {
+              "name": "Viral Indo Pop",
+              "short": "The genre’s best tunes making the rounds online.",
+              "standard": "Here’s where you’ll find the best Indonesian pop songs making the rounds online. Just like your feed, this playlist is constantly being updated—if you hear a song you like, add it to your library."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-26T08:11:37Z",
+            "name": "Viral Indo Pop",
+            "playParams": {
+              "id": "pl.cbd613befce44fdf8050886a9c414905",
+              "kind": "playlist",
+              "versionHash": "fdf61c63205d9247d73b20b0169a3f2c3eb1a951f1c781f5934f81f642b0f25e"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/viral-indo-pop/pl.cbd613befce44fdf8050886a9c414905"
+          }
+        },
+        {
+          "id": "pl.4dc5ea56024143d69904e3b6f014ad76",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.4dc5ea56024143d69904e3b6f014ad76?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "292c8d",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "e6e7f3",
+              "textColor3": "c4c6e2",
+              "textColor4": "bbbddd",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/2b/6a/9a/2b6a9a66-077d-aef4-f328-50b857a7429e/8c581287-089e-4365-acb4-6c4003824bb0.png/{w}x{h}SC.CAESS02.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "A bright, blissful flashback to the turn of the new millennium.",
+              "standard": "An abundance of electric mid-tempo rhythm and emotive ballads recall fond memories of fresh musical beginnings. Indonesian pop unfolds through melodic narratives, whether it's Sheila On 7's inspired slices of alt-rock guitar lines and lyrical strings, or Ecoutez's sun-kissed jazzy serenades. Agnes Monica adds alluring R&B tones to the mix, underscoring romance with a sizzling, soft-swaying beat."
+            },
+            "editorialNotes": {
+              "name": "2000s Indonesian Music Essentials",
+              "short": "A bright, blissful flashback to the turn of the new millennium.",
+              "standard": "An abundance of electric mid-tempo rhythm and emotive ballads recall fond memories of fresh musical beginnings. Indonesian pop unfolds through melodic narratives, whether it's Sheila On 7's inspired slices of alt-rock guitar lines and lyrical strings, or Ecoutez's sun-kissed jazzy serenades. Agnes Monica adds alluring R&B tones to the mix, underscoring romance with a sizzling, soft-swaying beat."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-05-25T09:47:11Z",
+            "name": "2000s Indonesian Music Essentials",
+            "playParams": {
+              "id": "pl.4dc5ea56024143d69904e3b6f014ad76",
+              "kind": "playlist",
+              "versionHash": "95d4c67f37b2327668bb5f5166a0228632386256fefe894d79668d8e034c6cf4"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/2000s-indonesian-music-essentials/pl.4dc5ea56024143d69904e3b6f014ad76"
+          }
+        },
+        {
+          "id": "pl.abb6f92c0e3843e0af2672adfde94c83",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.abb6f92c0e3843e0af2672adfde94c83?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "3b3eaf",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "e9e9f7",
+              "textColor3": "cacceb",
+              "textColor4": "c2c4e8",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features221/v4/0c/ed/af/0cedaf19-fe38-9744-0157-aac21878f0e5/46f4d898-4204-4f18-848d-9c889ca14548.png/{w}x{h}SC.CAESS02.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "A survey of the decade’s definitive Indonesian pop cuts.",
+              "standard": "One of the most notable shifts in Indonesian pop throughout the 2010s was the increasingly prominent use of the English language. Stephanie Poetri’s “I Love You 3000” and NIKI’s “lowkey” showed that next-gen Indonesian artists are more than adept at conversing with global listeners linguistically as well as stylistically. Tulus and Hindia are shining examples of how the biggest sensations can emerge from the grassroots scene. Groups such as RAN and HIVI! churned out catchy numbers underpinned with jazzy chords and funky rhythms."
+            },
+            "editorialNotes": {
+              "name": "2010s Indonesian Essentials",
+              "short": "A survey of the decade’s definitive Indonesian pop cuts.",
+              "standard": "One of the most notable shifts in Indonesian pop throughout the 2010s was the increasingly prominent use of the English language. Stephanie Poetri’s “I Love You 3000” and NIKI’s “lowkey” showed that next-gen Indonesian artists are more than adept at conversing with global listeners linguistically as well as stylistically. Tulus and Hindia are shining examples of how the biggest sensations can emerge from the grassroots scene. Groups such as RAN and HIVI! churned out catchy numbers underpinned with jazzy chords and funky rhythms."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-03T10:14:08Z",
+            "name": "2010s Indonesian Essentials",
+            "playParams": {
+              "id": "pl.abb6f92c0e3843e0af2672adfde94c83",
+              "kind": "playlist",
+              "versionHash": "a47644a0f0a258756dccb197a828e121a4ade26be4d00bb394e7846011ab8b95"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/2010s-indonesian-essentials/pl.abb6f92c0e3843e0af2672adfde94c83"
+          }
+        },
+        {
+          "id": "pl.876ce935748b46fa8e587bbd6aac657c",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.876ce935748b46fa8e587bbd6aac657c?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "d1c6d1",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "12243e",
+              "textColor3": "2f2b3f",
+              "textColor4": "2f3f58",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/9b/d9/b7/9bd9b7b9-e25f-a0fd-0373-0cf759dccc92/contsched.knbzsein.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "standard": "These songs will have you feeling all the feels."
+            },
+            "editorialNotes": {
+              "name": "Indonesian Love Songs",
+              "short": "These songs will have you feeling all the feels.",
+              "standard": "These songs will have you feeling all the feels."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2022-11-03T08:03:48Z",
+            "name": "Indonesian Love Songs",
+            "playParams": {
+              "id": "pl.876ce935748b46fa8e587bbd6aac657c",
+              "kind": "playlist",
+              "versionHash": "f8aefd8e2fc0f849a81ad560712b7e20c3ae314de45aad244088b3d645669181"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/indonesian-love-songs/pl.876ce935748b46fa8e587bbd6aac657c"
+          }
+        },
+        {
+          "id": "pl.0c62737709b74297aa07f15745c6f988",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.0c62737709b74297aa07f15745c6f988?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "141942",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "ffffff",
+              "textColor3": "c8628f",
+              "textColor4": "bd6492",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/15/92/ed/1592eda6-e767-4840-f57b-dc6ed523f126/6e2b44d8-4f20-4017-acfb-0ea271192c51.png/{w}x{h}SC.CAESS02.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "Vulnerable hearts, powerhouse vocals and melodies that move deeply.",
+              "standard": "Few idioms in Indonesian music come as emotionally charged as galau. It’s a word that encompasses a world of feelings and moods—heartache, longing, betrayal, reflection or self-searching. Unbound by genre but anchored by honest, relatable, lyric-driven melodies in nuanced shades of blue, galau ballads fill those late nights of loneliness and doubt with solace and warmth. Featuring some of Indonesian pop, rock and alternative music’s greatest voices, these galau essentials have struck a chord through the years with narratives and emotions that are intimately personal, yet universally understood."
+            },
+            "editorialNotes": {
+              "short": "Vulnerable hearts, powerhouse vocals and melodies that move deeply.",
+              "standard": "Few idioms in Indonesian music come as emotionally charged as galau. It’s a word that encompasses a world of feelings and moods—heartache, longing, betrayal, reflection or self-searching. Unbound by genre but anchored by honest, relatable, lyric-driven melodies in nuanced shades of blue, galau ballads fill those late nights of loneliness and doubt with solace and warmth. Featuring some of Indonesian pop, rock and alternative music’s greatest voices, these galau essentials have struck a chord through the years with narratives and emotions that are intimately personal, yet universally understood."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-06-08T08:15:11Z",
+            "name": "Galau Ballad Essentials",
+            "playParams": {
+              "id": "pl.0c62737709b74297aa07f15745c6f988",
+              "kind": "playlist",
+              "versionHash": "68cd6e7b3f99377d13365b8f52443d75838c2df20324fde91660ff83c43ba0fb"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/galau-ballad-essentials/pl.0c62737709b74297aa07f15745c6f988"
+          }
+        },
+        {
+          "id": "pl.8f7f9e69b8c746c5b8f877a165e1d198",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.8f7f9e69b8c746c5b8f877a165e1d198?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "e12776",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "ffffff",
+              "textColor2": "ffffff",
+              "textColor3": "320a1b",
+              "textColor4": "3f1325",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ba/90/b6/ba90b6f1-3e69-0bb8-6e98-2837ab4abba5/501f7460-da79-4789-b1d1-6bf042de1b3a.png/{w}x{h}cc.jpg",
+              "width": 4320
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "editorialNotes": {
+              "name": "Sing: Indo Pop",
+              "short": "A mix of Indo Pop’s most Sing-worthy tracks.",
+              "tagline": "Recommended Playlist"
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-24T04:54:42Z",
+            "name": "Sing: Indo Pop",
+            "playParams": {
+              "id": "pl.8f7f9e69b8c746c5b8f877a165e1d198",
+              "kind": "playlist",
+              "versionHash": "4a611cfa87d9a9b72cbe783e1c7d0e02f80b7d10f186e770d1b87da48da3c883"
+            },
+            "playlistType": "editorial",
+            "supportsSing": true,
+            "url": "https://music.apple.com/id/playlist/sing-indo-pop/pl.8f7f9e69b8c746c5b8f877a165e1d198"
+          }
+        },
+        {
+          "id": "pl.04bb737ba3874079b5c42b4e8f5b02e6",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.04bb737ba3874079b5c42b4e8f5b02e6?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "090402",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "e89d70",
+              "textColor2": "dd895c",
+              "textColor3": "bb7e5a",
+              "textColor4": "b26e4a",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/90/5f/0c/905f0c81-961c-7f10-5bad-8e385fe0e035/ami-identity-05dd3c30b3643f3a5de0e524528cd46a-2026-02-12T04-03-26.466Z_cropped.png/{w}x{h}SC.FPESS04.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "The Indonesian star shows off unique vocals and stirring ballads.",
+              "standard": "Raisa Andriana, known mononymously as Raisa, has been making waves on the Indonesian pop scene since her 2011 self-titled debut. Embodying a soulful, jazzy style, the singer/songwriter is known for velvety vocals that move smoothly between English and Indonesian in tracks that poetically explore the nature of life and love. Later songs show off her ability to integrate her music with varying instruments, like the 2018 single “My Kind of Crazy” with DJ Dipha Barus—a track with chilled-out, slow-paced beats, brightened with Barus’s synths and enriched with Raisa’s lush, refined voice."
+            },
+            "editorialNotes": {
+              "name": "Raisa Essentials",
+              "short": "The Indonesian star shows off unique vocals and stirring ballads.",
+              "standard": "Raisa Andriana, known mononymously as Raisa, has been making waves on the Indonesian pop scene since her 2011 self-titled debut. Embodying a soulful, jazzy style, the singer/songwriter is known for velvety vocals that move smoothly between English and Indonesian in tracks that poetically explore the nature of life and love. Later songs show off her ability to integrate her music with varying instruments, like the 2018 single “My Kind of Crazy” with DJ Dipha Barus—a track with chilled-out, slow-paced beats, brightened with Barus’s synths and enriched with Raisa’s lush, refined voice."
+            },
+            "editorialPlaylistKind": "artist-franchise",
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2025-07-02T09:47:35Z",
+            "name": "Raisa Essentials",
+            "playParams": {
+              "id": "pl.04bb737ba3874079b5c42b4e8f5b02e6",
+              "kind": "playlist",
+              "versionHash": "78c41529c77ba2f4c71899a65cbe0f736c7c9d8461560caa6562b359df14684c"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/raisa-essentials/pl.04bb737ba3874079b5c42b4e8f5b02e6"
+          }
+        },
+        {
+          "id": "pl.5b1ce03458c84a91a9a368575d630c38",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.5b1ce03458c84a91a9a368575d630c38?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "050508",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "edd0b5",
+              "textColor2": "ebb37d",
+              "textColor3": "bea793",
+              "textColor4": "bd9066",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/AMCArtistImages211/v4/3d/36/ff/3d36fff1-5a69-6ced-c647-722e12399920/ami-identity-b5dd720506f4f10c9febd9a9d26fd61e-2025-05-08T03-00-09.749Z_cropped.png/{w}x{h}SC.FPESS04.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Indonesian Music",
+            "description": {
+              "short": "The Indonesian vocalist can soundtrack any romantic moment.",
+              "standard": "Originally know as the lead singer of Dewa 19, Ari Lasso launched a solo career in dark times. Facing drug addiction and dismissal from the band that he helped create, Lasso harnessed those experiences into a heartfelt, slow-burning catalogue of albums. His penchant for the dramatic is always evident in his music, with every track building into a tsunami of big-scale vocals and soaring guitar solos."
+            },
+            "editorialNotes": {
+              "name": "Ari Lasso Essentials",
+              "short": "The Indonesian vocalist can soundtrack any romantic moment.",
+              "standard": "Originally know as the lead singer of Dewa 19, Ari Lasso launched a solo career in dark times. Facing drug addiction and dismissal from the band that he helped create, Lasso harnessed those experiences into a heartfelt, slow-burning catalogue of albums. His penchant for the dramatic is always evident in his music, with every track building into a tsunami of big-scale vocals and soaring guitar solos."
+            },
+            "editorialPlaylistKind": "artist-franchise",
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2024-04-11T07:51:28Z",
+            "name": "Ari Lasso Essentials",
+            "playParams": {
+              "id": "pl.5b1ce03458c84a91a9a368575d630c38",
+              "kind": "playlist",
+              "versionHash": "64c839d1314ebff98bbf00c0389bae24b4dc89f94bb5b7ee384c3656df803464"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/ari-lasso-essentials/pl.5b1ce03458c84a91a9a368575d630c38"
+          }
+        },
+        {
+          "id": "pl.ed0e79f6afc84bed8b9dc072ba5283a4",
+          "type": "playlists",
+          "href": "/v1/catalog/id/playlists/pl.ed0e79f6afc84bed8b9dc072ba5283a4?l=en-GB",
+          "attributes": {
+            "artwork": {
+              "bgColor": "ebb318",
+              "hasP3": false,
+              "height": 1080,
+              "textColor1": "000000",
+              "textColor2": "121111",
+              "textColor3": "322b12",
+              "textColor4": "322b12",
+              "url": "https://is1-ssl.mzstatic.com/image/thumb/Features126/v4/9e/25/f9/9e25f99b-119a-ff89-75a5-f0358d61b0b7/6651bf2a-df27-4e95-bf68-139038114799.png/{w}x{h}SC.DN01.jpg?l=en-GB",
+              "width": 1080
+            },
+            "audioTraits": [],
+            "curatorName": "Apple Music Chill",
+            "description": {
+              "short": "Stripped-back cuts chart the highs and lows of love and intimacy.",
+              "standard": "It’s often the more understated fare that makes the biggest impression. This collection of acoustic-leaning regional and international tracks proves that stripped-back tunes can be as compelling as any plugged-in production. Our editors update this playlist regularly so if you hear something you like, add it to your library."
+            },
+            "editorialNotes": {
+              "name": "Acoustic Sunset",
+              "short": "Stripped-back cuts chart the highs and lows of love and intimacy.",
+              "standard": "It’s often the more understated fare that makes the biggest impression. This collection of acoustic-leaning regional and international tracks proves that stripped-back tunes can be as compelling as any plugged-in production. Our editors update this playlist regularly so if you hear something you like, add it to your library."
+            },
+            "hasCollaboration": false,
+            "isChart": false,
+            "lastModifiedDate": "2026-08-31T08:50:44Z",
+            "name": "Acoustic Sunset",
+            "playParams": {
+              "id": "pl.ed0e79f6afc84bed8b9dc072ba5283a4",
+              "kind": "playlist",
+              "versionHash": "3902665072adcb8b48ef98b90c2309dec110dbf1c1cec98bae4aa78cf1c1a67e"
+            },
+            "playlistType": "editorial",
+            "supportsSing": false,
+            "url": "https://music.apple.com/id/playlist/acoustic-sunset/pl.ed0e79f6afc84bed8b9dc072ba5283a4"
+          }
+        }
+      ],
+      "name": "Playlists",
+      "groupId": "playlist"
+    }
+  },
+  "meta": {
+    "results": {
+      "order": [
+        "playlist"
+      ],
+      "rawOrder": [
+        "playlist"
+      ]
+    },
+    "metrics": {
+      "dataSetId": "884a0f27-74bb-4c96-9a91-8fc1dcb11556"
+    }
+  }
+}

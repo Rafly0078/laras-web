@@ -20,12 +20,6 @@
   overflow-x: hidden;
   overflow-y: auto;
 
-  /* Lebih besar dari angka spicy-lyrics clamp(1.85rem, 7cqw, 3.5rem).
-     Rujukan Apple Music memakai teks yang mengisi pane dan membungkus ke
-     beberapa baris; pada 7cqw lirik terbaca seperti daftar, bukan seperti
-     lirik. Deviasi yang disengaja — angka aslinya ada di komentar ini. */
-  --laras-lyrics-size: clamp(2.1rem, calc(1cqw * 8.4), 4rem);
-  font-size: var(--laras-lyrics-size);
   font-weight: 700;
 
   /* Fade di tepi atas & bawah supaya baris tidak terpotong keras. */
@@ -50,6 +44,31 @@
 
 /* Ruang agar baris pertama & terakhir bisa mencapai tengah pane. */
 .scroller {
+  /*
+   * UKURAN TEKS DIDEKLARASIKAN DI SINI, BUKAN DI `.larasLyrics`. Ini bukan soal
+   * kerapian — sebuah container TIDAK BISA meng-query dirinya sendiri.
+   *
+   * Dulu `clamp(..., 8.4cqw, ...)` dipasang di `.larasLyrics`, elemen yang
+   * sekaligus mendeklarasikan `container-type: size`. Akibatnya `cqw` di situ
+   * diselesaikan terhadap container LELUHUR, dan karena tidak ada, ia jatuh ke
+   * satuan viewport: 8,4% lebar JENDELA, bukan lebar pane.
+   *
+   * Terukur di produksi sebelum diperbaiki — `font-size` tetap 64px pada
+   * viewport 1920, 1536, 1366, DAN 1100, sementara pane menyusut 1190px ke
+   * 370px. Huruf tidak pernah mengecil, jadi di pane sempit kata selebar 371px
+   * jelas tidak muat: 4 kata melewati tepi, terburuk 36,8px, dan karena
+   * `overflow-x: hidden` luberannya dipotong keras.
+   *
+   * Padding kanan berapa pun tidak bisa menolong keadaan itu; yang salah
+   * ukurannya, bukan ruangnya. Dideklarasikan di anak, `cqw` merujuk
+   * `.larasLyrics` dan huruf akhirnya mengikuti lebar pane.
+   *
+   * Batas bawah 1.5rem, bukan 2.1rem: pane bisa benar-benar sempit di layar
+   * kecil, dan 2.1rem (33,6px) masih terlalu besar di sana.
+   */
+  --laras-lyrics-size: clamp(1.5rem, calc(1cqw * 8.4), 4rem);
+  font-size: var(--laras-lyrics-size);
+
   display: flex;
   flex-direction: column;
   padding-top: 25cqh;

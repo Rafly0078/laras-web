@@ -21,6 +21,7 @@ import styles from './lyrics.module.css';
 
 import { LyricsAnimator, syllableKey } from '@/lib/lyrics/animator';
 import { DOTS, GRADIENT } from '@/lib/lyrics/design-tokens';
+import { toWordGroups } from '@/lib/lyrics/word-groups';
 import type { Lyrics } from '@/lib/types';
 
 export interface LyricsViewProps {
@@ -268,50 +269,44 @@ export function LyricsView({
                   }
                 }}
               >
-                {line.lead.syllables.map((syllable, i) => {
-                  const key = syllableKey(line.index, -1, i);
-                  const isLast = i === line.lead.syllables.length - 1;
-                  return (
-                    <span
-                      key={key}
-                      ref={(el) => registerWord(key, el)}
-                      className={[
-                        styles.word,
-                        syllable.isPartOfWord ? styles.partOfWord : '',
-                        isLast ? styles.lastInLine : '',
-                      ]
-                        .filter(Boolean)
-                        .join(' ')}
-                    >
-                      {syllable.text}
-                    </span>
-                  );
-                })}
+                {toWordGroups(line.lead.syllables).map((indices) => (
+                  <span key={indices[0]} className={styles.wordGroup}>
+                    {indices.map((i) => {
+                      const key = syllableKey(line.index, -1, i);
+                      return (
+                        <span
+                          key={key}
+                          ref={(el) => registerWord(key, el)}
+                          className={styles.word}
+                        >
+                          {line.lead.syllables[i].text}
+                        </span>
+                      );
+                    })}
+                  </span>
+                ))}
 
                 {line.background.map((group, groupIndex) => (
                   <div
                     key={groupIndex}
                     className={`${styles.background} ${line.oppositeAligned ? styles.opposite : ''}`}
                   >
-                    {group.syllables.map((syllable, i) => {
-                      const key = syllableKey(line.index, groupIndex, i);
-                      const isLast = i === group.syllables.length - 1;
-                      return (
-                        <span
-                          key={key}
-                          ref={(el) => registerWord(key, el)}
-                          className={[
-                            styles.word,
-                            syllable.isPartOfWord ? styles.partOfWord : '',
-                            isLast ? styles.lastInLine : '',
-                          ]
-                            .filter(Boolean)
-                            .join(' ')}
-                        >
-                          {syllable.text}
-                        </span>
-                      );
-                    })}
+                    {toWordGroups(group.syllables).map((indices) => (
+                      <span key={indices[0]} className={styles.wordGroup}>
+                        {indices.map((i) => {
+                          const key = syllableKey(line.index, groupIndex, i);
+                          return (
+                            <span
+                              key={key}
+                              ref={(el) => registerWord(key, el)}
+                              className={styles.word}
+                            >
+                              {group.syllables[i].text}
+                            </span>
+                          );
+                        })}
+                      </span>
+                    ))}
                   </div>
                 ))}
               </div>

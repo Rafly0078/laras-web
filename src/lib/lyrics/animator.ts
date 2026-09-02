@@ -80,6 +80,14 @@ interface SyllableSprings {
   opacity: LarasSpring;
 }
 
+/** Nilai target satu suku kata pada satu frame, hasil spline sebelum spring. */
+interface SyllableTargets {
+  scale: number;
+  yOffset: number;
+  glow: number;
+  opacity: number;
+}
+
 const SPLINES = {
   scale: new LarasSpline(SPLINE.scale),
   scaleEmphasis: new LarasSpline(SPLINE.scaleEmphasis),
@@ -88,18 +96,29 @@ const SPLINES = {
   opacity: new LarasSpline(SPLINE.opacity),
 } as const;
 
+/**
+ * Keadaan satu suku kata pada posisi tertentu.
+ *
+ * Guard span pertama menangani data TTML rusak: durasi nol (start === end),
+ * durasi negatif (end < start), dan NaN. Tanpa itu, `end` NaN membuat kedua
+ * perbandingan di bawah bernilai false sekaligus — suku kata tersangkut
+ * 'active' selamanya dan seluruh nilai gayanya jadi NaN.
+ */
 function stateOf(position: number, start: number, end: number): SyllableState {
+  if (!(end > start)) return position < start ? 'notSung' : 'sung';
   if (position < start) return 'notSung';
   if (position >= end) return 'sung';
   return 'active';
 }
 
 function progressOf(position: number, start: number, end: number): number {
+  const span = end - start;
+  // Sama seperti stateOf: span nol/negatif/NaN tidak boleh jadi pembagian nol
+  // atau NaN. Suku kata seperti itu tidak punya "tengah" — begitu posisi
+  // mencapai start ia langsung dianggap selesai.
+  if (!(span > 0)) return position < start ? 0 : 1;
   if (position <= start) return 0;
   if (position >= end) return 1;
-  const span = end - start;
-  // Suku kata berdurasi nol (data rusak) tidak boleh jadi pembagian nol.
-  if (span <= 0) return 1;
   return (position - start) / span;
 }
 
@@ -159,29 +178,42 @@ export class LyricsAnimator {
     return found;
   }
 
-  private springsFor(key: string, emphasis: boolean): SyllableSprings {
+  /**
+   * Spring untuk satu suku kata, dibuat saat pertama kali dibutuhkan.
+   *
+   * KENAPA spring baru dimulai DI TARGET SEKARANG, bukan di nilai idle:
+   * `frame()` hanya menghitung baris yang terlihat, jadi spring sebuah suku
+   * kata baru lahir saat barisnya masuk jendela. Untuk suku kata yang belum
+   * dinyanyikan itu tidak ada bedanya (target-nya memang nilai idle). Tapi
+   * setelah seek — atau saat jendela bergeser cepat — suku kata yang sudah
+   * 'sung' juga baru lahir di sana, dan kalau ia mulai dari idle ia akan
+   * MENGEJAR target-nya sepanjang ~1,5 detik. Terukur: skala merangkak
+   * 0.95041 → 1.05050 (Δ 0.1001) selama 90 frame untuk SELURUH blok kata yang
+   * sudah lewat sekaligus. Itu gelombang yang justru dilarang oleh komentar
+   * `reset()` di atas — dan `reset()` sendiri yang memicunya.
+   */
+  private springsFor(key: string, initial: SyllableTargets): SyllableSprings {
     const existing = this.springs.get(key);
     if (existing) return existing;
 
-    const scaleSpline = emphasis ? SPLINES.scaleEmphasis : SPLINES.scale;
     const created: SyllableSprings = {
       scale: new LarasSpring(
-        scaleSpline.at(0),
+        initial.scale,
         SPRING.scale.frequency,
         SPRING.scale.damping,
       ),
       yOffset: new LarasSpring(
-        SPLINES.yOffset.at(0),
+        initial.yOffset,
         SPRING.yOffset.frequency,
         SPRING.yOffset.damping,
       ),
       glow: new LarasSpring(
-        SPLINES.glow.at(0),
+        initial.glow,
         SPRING.glow.frequency,
         SPRING.glow.damping,
       ),
       opacity: new LarasSpring(
-        SPLINES.opacity.at(0),
+        initial.opacity,
         SPRING.opacity.frequency,
         SPRING.opacity.damping,
       ),
@@ -281,22 +313,29 @@ export class LyricsAnimator {
 
     group.syllables.forEach((syllable, syllableIndex) => {
       const key = syllableKey(lineIndex, groupIndex, syllableIndex);
-      const springs = this.springsFor(key, syllable.emphasis);
       const state = stateOf(position, syllable.start, syllable.end);
       const progress = progressOf(position, syllable.start, syllable.end);
 
       const scaleSpline = syllable.emphasis ? SPLINES.scaleEmphasis : SPLINES.scale;
 
       // Target spring diambil dari spline. Untuk keadaan NotSung/Sung kita
-      // pakai ujung spline (0 atau 1) supaya kata pulang ke posisi diamnya
+      // pakai ujung spline (0 atau 1) supaya kata bergerak ke posisi diamnya
       // lewat spring yang sama — bukan lompat.
       const splineAt =
         state === 'notSung' ? 0 : state === 'sung' ? 1 : sweeps ? progress : 1;
 
-      springs.scale.setGoal(scaleSpline.at(splineAt));
-      springs.yOffset.setGoal(SPLINES.yOffset.at(splineAt));
-      springs.glow.setGoal(SPLINES.glow.at(splineAt));
-      springs.opacity.setGoal(SPLINES.opacity.at(splineAt));
+      const target: SyllableTargets = {
+        scale: scaleSpline.at(splineAt),
+        yOffset: SPLINES.yOffset.at(splineAt),
+        glow: SPLINES.glow.at(splineAt),
+        opacity: SPLINES.opacity.at(splineAt),
+      };
+
+      const springs = this.springsFor(key, target);
+      springs.scale.setGoal(target.scale);
+      springs.yOffset.setGoal(target.yOffset);
+      springs.glow.setGoal(target.glow);
+      springs.opacity.setGoal(target.opacity);
 
       const scale = springs.scale.step(dt);
       const yOffset = springs.yOffset.step(dt);

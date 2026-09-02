@@ -4,7 +4,8 @@ import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 
 import { LyricsAnimator, syllableKey } from '@/lib/lyrics/animator';
-import { BLUR, GRADIENT, LINE_OPACITY } from '@/lib/lyrics/design-tokens';
+import { BLUR, GRADIENT, LINE_OPACITY, SPLINE } from '@/lib/lyrics/design-tokens';
+import { LarasSpline } from '@/lib/lyrics/spline';
 import { parseAppleTtml } from '@/lib/lyrics/ttml';
 import type { Lyrics } from '@/lib/types';
 
@@ -373,5 +374,49 @@ describe('LyricsAnimator — lirik line-level TIDAK disapu per kata', () => {
 
     expect(value).toBeGreaterThan(GRADIENT.positionNotSung);
     expect(value).toBeLessThan(GRADIENT.positionSung);
+  });
+});
+
+describe('LyricsAnimator — kata yang sudah dinyanyikan PULANG ke skala diam', () => {
+  /**
+   * Cacat yang ditutup di sini terukur di DOM: satu pane pernah memuat 219 span
+   * diam di 1.0505/1.175 bersebelahan dengan 324 span di 0.95 — empat ukuran
+   * huruf diam sekaligus, beda terjauh 24%. Karena `scale` tidak mengubah
+   * layout, kata yang melebar menabrak tetangganya (jarak tinta -7,30px).
+   *
+   * Penyebabnya `SPLINE.scale` tanpa simpul `time: 1`: `at()` meng-clamp di
+   * simpul terakhir, jadi `at(1)` mengembalikan PUNCAK, dan animator memakai
+   * `splineAt = 1` untuk keadaan 'sung'.
+   */
+  const idle = SPLINE.scale[0].value;
+
+  it('spline scale mengembalikan nilai DIAM di progres 1, bukan puncaknya', () => {
+    expect(new LarasSpline(SPLINE.scale).at(1)).toBeCloseTo(idle, 6);
+    expect(new LarasSpline(SPLINE.scaleEmphasis).at(1)).toBeCloseTo(idle, 6);
+  });
+
+  it('puncaknya tetap utuh di progres 0.7', () => {
+    expect(new LarasSpline(SPLINE.scale).at(0.7)).toBeCloseTo(1.0505, 6);
+    expect(new LarasSpline(SPLINE.scaleEmphasis).at(0.7)).toBeCloseTo(1.175, 6);
+  });
+
+  it('setelah lagu lewat, skala setiap suku kata kembali ke diam', () => {
+    const lyrics = load('bertaut');
+    const animator = new LyricsAnimator(lyrics);
+    const line = lyrics.lines.find((l) => !l.interlude && l.lead.syllables.length > 2);
+    expect(line).toBeDefined();
+    if (!line) return;
+
+    // Jalankan sampai jauh melewati baris itu supaya spring benar-benar tidur.
+    let frame = animator.frame(line.end + 1, FRAME, [line.index]);
+    for (let t = 0; t < 3; t += FRAME) {
+      frame = animator.frame(line.end + 1 + t, FRAME, [line.index]);
+    }
+
+    for (let i = 0; i < line.lead.syllables.length; i += 1) {
+      const style = frame.syllables.get(syllableKey(line.index, -1, i));
+      expect(style?.state).toBe('sung');
+      expect(style?.scale).toBeCloseTo(idle, 3);
+    }
   });
 });

@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LARAS
 
-## Getting Started
+Pemutar musik web bergaya Apple Music dengan **lirik tersinkron per kata**.
 
-First, run the development server:
+- **Katalog, metadata, artwork, lirik** — Apple Music lewat relay pihak ketiga,
+  dengan LRCLIB sebagai cadangan lirik level-baris.
+- **Audio** — YouTube Music, diputar lewat YouTube IFrame Player API.
+- **Tanpa akun.** Tidak ada login, tidak ada database user; riwayat dan favorit
+  hidup di localStorage perangkat.
+- **Bahasa UI: Indonesia.** Tema gelap tunggal, tanpa light mode.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Live: <https://laras-web.vercel.app>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js 16 (App Router) · React 19 · TypeScript strict · Tailwind v4 (CSS-first,
+tanpa `tailwind.config`) · framer-motion 13 (transisi halaman/sheet saja, **tidak**
+untuk lirik) · Vitest.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Perintah
 
-## Learn More
+    npm run dev          dev server di port 3000
+    npm test             unit test (Vitest)
+    npm run typecheck    tsc --noEmit
+    npm run lint         eslint
+    npm run build        build produksi
 
-To learn more about Next.js, take a look at the following resources:
+## Konfigurasi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Salin `.env.example` ke `.env.local`. Satu-satunya env yang diset di produksi
+adalah `NEXT_PUBLIC_SITE_URL`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**`LARAS_ENABLE_DEV=1` JANGAN pernah diset di produksi.** Flag itu membuka rute
+uji `/demo` dan `/dev/lirik`, dan kedua rute itu menyajikan lirik berhak cipta
+empat lagu dari fixture. Tanpa flag, keduanya 404 — begitulah seharusnya di
+produksi.
 
-## Deploy on Vercel
+## Dokumen untuk kontributor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Baca berurutan sebelum menyentuh kode:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. `HANDOFF.md` — keadaan sekarang, arsitektur, dan jebakan yang sudah dibayar.
+2. `BRIEF.md` — keputusan produk yang final (tema, kontrak data, TTML, ToS YouTube).
+3. `AGENTS.md` — aturan yang paling sering dilanggar.
+
+## Lisensi
+
+LARAS berlisensi **GNU AGPL-3.0-or-later**. Teks lengkap: [`LICENSE`](./LICENSE).
+
+Mesin liriknya **diturunkan dari kode** [`spicy-lyrics`](https://github.com/spikerko/spicy-lyrics)
+karya **Spikerko** (AGPL-3.0), commit `4576d022b39e98291d71c75b0d4d355bcc332ced`.
+Kode itu ada di `src/vendor/spicy-lyrics/` dan setiap berkasnya membawa header
+asal + catatan modifikasi. Karena itulah seluruh proyek ini AGPL-3.0.
+
+Konsekuensinya, dan ini bukan opsional: **AGPL pasal 13** mewajibkan setiap
+pengguna yang memakai LARAS lewat jaringan ditawari source lengkapnya. Repo ini
+harus tetap **publik**, dan tautan ke repo ini harus tetap **terlihat di UI**
+(kaki sidebar). Jangan hapus tautan itu karena dianggap dekorasi.
+
+Atribusi lengkap — termasuk spring yang di-port dari
+[`Fraktality/spr`](https://github.com/Fraktality/spr) (MIT) — ada di
+[`NOTICE.md`](./NOTICE.md).
+
+Katalog, artwork, lirik, dan audio adalah **data pihak ketiga**, bukan kode.
+AGPL-3.0 di repo ini tidak melisensikannya; hak ciptanya tetap pada pemiliknya
+masing-masing. Lihat `NOTICE.md`.

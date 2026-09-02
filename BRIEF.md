@@ -122,11 +122,48 @@ Isi `{w}`/`{h}` sendiri. CORS `*`, jadi canvas getImageData aman. Sampai 3000px.
 - Autoplay wajib muted dulu.
 - Jangan pernah menyembunyikan iframe untuk menjadikannya audio-only.
 
-## Lisensi
+## Lisensi: AGPL-3.0 — DIUBAH 2026-09-02
 
-spicy-lyrics AGPL-3.0. **Nol baris kode mereka** di project ini — hanya angka
-hasil pengukuran (fakta, bukan ekspresi berhak cipta). Spring di-port dari
-`Fraktality/spr` (MIT). Tulis semuanya dari nol.
+Keadaan sekarang, dan ini yang berlaku:
+
+**Kode `spicy-lyrics` (spikerko, AGPL-3.0) DIPAKAI di project ini.** Mesin
+liriknya diturunkan dari kode mereka, disalin dari commit
+`4576d022b39e98291d71c75b0d4d355bcc332ced`, dan tinggal di
+`src/vendor/spicy-lyrics/` — tiap berkas di sana membawa header asal + catatan
+modifikasi.
+
+Konsekuensinya sudah diterima pemilik repo secara eksplisit, ketiganya:
+
+1. **Seluruh LARAS ikut AGPL-3.0-or-later.** Bukan pilihan gaya — syarat
+   copyleft. Lihat `LICENSE` dan `NOTICE.md`.
+2. **Repo jadi publik.** `HANDOFF.md` §10 masih mencatatnya private; itu harus
+   diubah di GitHub, bukan cuma di dokumen.
+3. **Source wajib DITAWARKAN ke pengguna jaringan** (AGPL pasal 13). LARAS
+   dilayani di laras-web.vercel.app, jadi pasal itu aktif: tautan ke
+   github.com/Rafly0078/laras-web terpasang di kaki sidebar dan **tidak boleh
+   dihapus**.
+
+Spring tetap di-port dari `Fraktality/spr` (MIT) — MIT boleh masuk ke karya
+AGPL, atribusinya wajib tetap ada.
+
+Katalog, artwork, lirik, dan audio adalah **data** pihak ketiga (Apple Music via
+relay, LRCLIB, YouTube). AGPL kita tidak melisensikannya dan kita tidak berhak
+melisensikannya kembali.
+
+### Keputusan lama (dibatalkan)
+
+Bagian ini dulu berbunyi: "**Nol baris kode mereka** di project ini — hanya angka
+hasil pengukuran (fakta, bukan ekspresi berhak cipta). Tulis semuanya dari nol."
+Tujuannya menghindari copyleft AGPL.
+
+Pemilik repo membatalkannya pada **2026-09-02**: menyalin kode mereka jauh lebih
+murah daripada menulis ulang mesin lirik, dan AGPL memang mengizinkannya asalkan
+karya turunan ikut AGPL-3.0 dan source ditawarkan ke pengguna. Kedua syarat itu
+dipenuhi, jadi tidak ada alasan lagi menulis dari nol.
+
+Jejaknya disimpan karena beberapa komentar di kode lama masih berbunyi "tidak
+ada satu baris kode mereka" (mis. `src/lib/lyrics/design-tokens.ts`). Itu sisa
+fase sebelumnya, bukan keadaan sekarang.
 
 ## Gaya kode
 

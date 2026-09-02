@@ -138,23 +138,77 @@
 
   transform-origin: center bottom;
   will-change: transform, background-position, text-shadow;
+
+  /* Skala DIAM, disamakan dengan SPLINE.scale titik 0 di design-tokens.ts.
+     CSS tidak bisa mengimpor TS, jadi angka ini dijaga manual — sama seperti
+     angka lain di file ini.
+
+     Kenapa perlu dipasang di CSS dan tidak dibiarkan pada animator: animator
+     hanya menghitung baris di dalam jendela ±9. Terukur 390 dari 935 span di
+     luar jendela sama sekali tidak punya inline transform, jadi skalanya 1.0 —
+     dan saat barisnya masuk jendela, kata-katanya melompat 1.0 ke 0.95 dalam
+     satu frame. Dengan nilai diam ada di CSS, tidak ada lompatan. */
+  transform: scale(0.95);
 }
 
-/* Jarak antar KATA (bukan antar suku kata) = 0.32ch, dipasang lewat ::after
-   supaya tidak ikut ter-scale saat kata membesar. */
-.word:not(.partOfWord):not(.lastInLine)::after {
-  content: '';
+/* ── Satu KATA = satu unit yang tidak boleh dipisah ──────────────────── */
+
+/*
+ * Flex item di `.line` adalah KELOMPOK KATA, bukan suku kata.
+ *
+ * `white-space: nowrap` yang menutup cacat "kata patah di tengah": flexbox boleh
+ * memutus baris di antara dua flex item mana pun, jadi selama tiap suku kata
+ * jadi item tersendiri, "Su|a|tu" bisa terbelah ke dua baris. Terukur di pane
+ * sungguhan 824px sebelum diperbaiki: 32 kejadian (peradaban), 20 (bertaut),
+ * 2 (die-with-a-smile, Inggris).
+ *
+ * Jarak antar kata 0.32ch juga pindah ke sini. Dulu ia dipasang per suku kata
+ * lewat `::after` dan arahnya tertukar (lihat `toWordGroups` di lyrics-view.tsx):
+ * 72–76% batas kata Indonesia kehilangan jaraknya, 65–66% sambungan di dalam
+ * kata justru mendapatkannya. Sebagai margin ANTAR KELOMPOK, kiri/kanan tidak
+ * bisa lagi tertukar.
+ *
+ * `inline-flex` + `align-items: baseline`, bukan `inline-block`: suku kata di
+ * dalam satu kata harus duduk di baseline yang sama walau masing-masing
+ * di-`scale()` sendiri.
+ */
+.wordGroup {
+  display: inline-flex;
+  align-items: baseline;
+  white-space: nowrap;
+}
+
+/* Margin di KELOMPOK, bukan di span yang di-scale — jadi jaraknya tidak ikut
+   membesar saat kata menyala, dan `transform-origin` pada span kembali berarti
+   tengah GLIF (dulu tengah kotak yang termasuk margin, pivotnya bergeser ~6px). */
+.wordGroup:not(:last-child) {
   margin-right: 0.32ch;
 }
 
-/* Suku kata yang menempel: nol jarak, jadi "Su"+"a"+"tu" terbaca "Suatu". */
-.partOfWord {
-  margin-right: 0;
+/*
+ * Pivot scale SADAR POSISI di dalam kata — supaya sambungan suku kata tidak
+ * merenggang saat di-scale.
+ *
+ * Masalahnya terukur, dan muncul BEGITU skala diam 0.95 dipasang: setiap span
+ * mengecil 5% di sekitar pivotnya sendiri, jadi sambungan di dalam satu kata
+ * membuka celah tinta p50 3,07px (0,081ch) — "Su|a|tu" jadi renggang. Pivot
+ * bawaan `center bottom` mengecilkan kedua sisi sekaligus.
+ *
+ * Jawabannya: kunci sisi yang menempel ke tetangga. Potongan pertama sebuah
+ * kata mengecil ke arah KANANNYA (tepi kanan tetap), potongan terakhir ke arah
+ * KIRINYA (tepi kiri tetap), yang di tengah tetap simetris. Sumbu vertikal
+ * dibiarkan `bottom` supaya baseline tidak bergeser — hanya sumbu horizontal
+ * yang jadi masalah di sini.
+ *
+ * Kata satu suku kata tidak punya sambungan, jadi ia tetap memakai
+ * `center bottom` dari `.word` di atas.
+ */
+.wordGroup > .word:first-child:not(:last-child) {
+  transform-origin: right bottom;
 }
 
-/* Kata terakhir di baris tidak perlu jarak di belakangnya. */
-.lastInLine {
-  margin-right: 0;
+.wordGroup > .word:last-child:not(:first-child) {
+  transform-origin: left bottom;
 }
 
 /* ── Vokal latar ─────────────────────────────────────────────────────── */

@@ -25,15 +25,33 @@ export const SPRING = {
  * Titik-titik ini diinterpolasi cubic; spring lalu MENGEJAR nilainya.
  * Jadi ada dua lapis pelembutan — itu sebabnya terasa organik.          */
 export const SPLINE = {
-  /** Skala kata biasa: mengecil saat diam, puncak 1.0505 di progres 0.7. */
+  /**
+   * Skala kata biasa: diam 0.95, puncak 1.0505 di progres 0.7, PULANG ke 0.95.
+   *
+   * Simpul `time: 1` itu wajib dan pernah tidak ada. Tanpanya `LarasSpline.at()`
+   * meng-clamp di simpul terakhir, jadi `at(1) === 1.0505` — dan karena animator
+   * memakai `splineAt = 1` untuk keadaan 'sung', goal spring kata yang SUDAH
+   * dinyanyikan adalah PUNCAKNYA, bukan nilai diamnya. Kata yang sudah lewat
+   * tidak pernah mengecil kembali.
+   *
+   * Terukur pada satu pane sebelum diperbaiki: 219 span diam di 1.0505/1.175
+   * bersebelahan dengan 324 span di 0.95 — empat ukuran huruf diam sekaligus,
+   * beda terjauh 24%. Karena `scale` tidak mengubah layout, kata yang melebar
+   * menabrak tetangganya; jarak tinta terukur sampai -7,30px (tumpang-tindih).
+   *
+   * `yOffset` dan `glow` di bawah SUDAH punya simpul pulang sejak awal. Dua
+   * kurva skala ini yang tertinggal.
+   */
   scale: [
     { time: 0, value: 0.95 },
     { time: 0.7, value: 1.0505 },
+    { time: 1, value: 0.95 },
   ],
-  /** Kata "emphasis" (span panjang) menonjol jauh lebih kuat. */
+  /** Kata "emphasis" (span panjang) menonjol jauh lebih kuat, lalu pulang juga. */
   scaleEmphasis: [
     { time: 0, value: 0.95 },
     { time: 0.7, value: 1.175 },
+    { time: 1, value: 0.95 },
   ],
   /** Naik ke atas 1/60 em di progres 0.9 — sangat kecil, sangat penting. */
   yOffset: [

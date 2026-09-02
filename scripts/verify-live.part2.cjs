@@ -150,7 +150,10 @@ module.exports = async function run({ evalJs, check, sleep, goto, clickNavigate 
   const trackPage = JSON.parse(
     await evalJs(`(() => {
       const lines = [...document.querySelectorAll('[aria-label^="Lompat ke"]')];
-      const words = [...document.querySelectorAll('[aria-label^="Lompat ke"] span')];
+      /* Dua lapis span sekarang: baris > span.wordGroup > span.word. Selektor
+         satu lapis menghitung KEDUANYA, jadi angkanya membengkak (799 padahal
+         suku katanya 471). Anak-kedua yang dihitung supaya labelnya jujur. */
+      const words = [...document.querySelectorAll('[aria-label^="Lompat ke"] > span > span')];
       const playBtn = [...document.querySelectorAll('button[aria-label^="Putar"]')];
       const h1 = document.querySelector('h1');
       const text = document.body.innerText;

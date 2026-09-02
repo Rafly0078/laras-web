@@ -354,19 +354,65 @@ memberi error di konsol.
     repo ini: pisahkan yang murni dari yang mem-fetch (`innertube.ts` vs
     `youtube.ts`, `lrclib.ts` vs `lrclib-client.ts`).
 
-20. **Menyisipkan lagu "setelah yang sekarang" salah kalau lagunya sudah ada di
+20. **`isPartOfWord` bicara batas KIRI; `::after` bekerja di batas KANAN.**
+    Ketidakcocokan arah itu membuat lirik Indonesia tampil seperti
+    `Ha ri-hariber ulang` — jarak jatuh di tengah kata, hilang di antara kata.
+    Untuk split `Ha|ri-|ha|ri| ber|u|lang`, kode lama memasang jarak sesudah
+    setiap span ber-`isPartOfWord === false`, yaitu suku kata PERTAMA tiap kata.
+
+    Terukur di DOM, pane 824px, 0.32ch = 12,08px:
+
+        peradaban (ID)   72,0% batas kata kehilangan jarak
+                         64,6% sambungan dalam kata malah mendapatkannya
+        bertaut (ID)     75,5% · 66,2%
+        die-with-a-smile  0,0% · 78,6%
+
+    Jumlah jarak palsu cocok PERSIS dengan jumlah kata majemuk di TTML
+    (326/143/11). Indonesia terkena karena Apple memecah 76–80% katanya jadi
+    beberapa span; Inggris hanya ~4%.
+
+    Perbaikannya struktural: suku kata satu kata dibungkus `.wordGroup`, dan
+    jarak jadi milik ANTAR kelompok — arah tidak bisa lagi tertukar.
+    `src/lib/lyrics/word-groups.ts` MURNI dan diuji: gabungan katanya wajib sama
+    dengan `LyricLine.text` yang dibangun parser lewat jalur berbeda, di keempat
+    fixture, semua baris. Jangan pindahkan logika itu balik ke komponen React.
+
+21. **Skala diam harus di KELOMPOK, bukan di tiap suku kata.** `scale` tidak
+    mengubah kotak layout, hanya tinta. Menyusutkan tiap span 5% membuka celah
+    di dalam kata (terukur 3,07px; 0,91px setelah pivot diperbaiki). Dengan satu
+    transform di `.wordGroup`, celah dalam kata jadi **0,00px** di ketiga lagu.
+    Konsekuensi yang wajib dijaga: renderer menulis skala RELATIF (absolut
+    dibagi `IDLE_SCALE`), karena transform induk berkali dengan transform anak.
+    Animator tetap mengeluarkan angka absolut supaya bisa diuji langsung
+    terhadap angka desain.
+
+22. **`SPLINE.scale` wajib punya simpul `time: 1`.** `LarasSpline.at()`
+    meng-clamp di simpul terakhir, dan animator memakai `splineAt = 1` untuk
+    keadaan `sung` — jadi tanpa simpul pulang, goal spring kata yang SUDAH
+    dinyanyikan adalah PUNCAKNYA. Satu pane pernah memuat empat ukuran huruf
+    diam berdampingan: 0,95 / 1,0 / 1,0505 / 1,175, beda terjauh 24%, dengan
+    tumpang-tindih tinta sampai −7,30px. `yOffset` dan `glow` sudah punya simpul
+    itu sejak awal; dua kurva skala yang tertinggal.
+
+23. **`display: inline-flex` + `white-space: nowrap` menahan kata TERLALU
+    kuat.** Kata yang lebih lebar dari pane akan meluber keluar. `inline-block`
+    memberi hasil yang sama untuk kata normal (celah dalam kata 0,00px) tapi
+    tetap membolehkan patah sebagai upaya terakhir. Patah lebih baik daripada
+    meluber.
+
+24. **Menyisipkan lagu "setelah yang sekarang" salah kalau lagunya sudah ada di
     antrean.** Lagu itu dicabut dulu dari `order`, dan pencabutan menggeser
     posisi lagu yang sedang diputar — angka posisi yang dihitung SEBELUM
     pencabutan jadi salah satu. Ditangkap unit test, bukan mata.
 
 ### Lingkungan (Windows + MSYS bash)
 
-21. `next dev`/`next start` orphan menyajikan build LAMA. Kill listener dulu:
+25. `next dev`/`next start` orphan menyajikan build LAMA. Kill listener dulu:
     `powershell -Command "Get-NetTCPConnection -LocalPort 3210 -State Listen | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }"`.
     `taskkill //F` GAGAL di MSYS.
-22. `curl` exit code 23 di MSYS itu normal (write error pada `-o /dev/null -w`);
+26. `curl` exit code 23 di MSYS itu normal (write error pada `-o /dev/null -w`);
     baca body/HTTP code-nya, jangan exit code.
-23. Auto-lint `write_file` melaporkan TS6053 palsu di path ber-spasi. Verifikasi
+27. Auto-lint `write_file` melaporkan TS6053 palsu di path ber-spasi. Verifikasi
     lewat `npm run lint` / `npm run build` sungguhan.
 
 ---

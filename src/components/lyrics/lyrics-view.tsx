@@ -20,7 +20,7 @@ import { useCallback, useEffect, useMemo, useRef } from 'react';
 import styles from './lyrics.module.css';
 
 import { LyricsAnimator, syllableKey } from '@/lib/lyrics/animator';
-import { DOTS, GRADIENT } from '@/lib/lyrics/design-tokens';
+import { DOTS, GRADIENT, IDLE_SCALE } from '@/lib/lyrics/design-tokens';
 import { toWordGroups } from '@/lib/lyrics/word-groups';
 import type { Lyrics } from '@/lib/types';
 
@@ -168,11 +168,23 @@ export function LyricsView({
 
         // transform digabung jadi satu penulisan: dua penulisan terpisah
         // (scale lalu translate) akan menimpa satu sama lain.
-        const cachedScale = cache.get(`${key}t`);
-        const packed = style.scale * 1000 + style.yOffsetEm;
-        if (cachedScale === undefined || Math.abs(cachedScale - packed) > 0.002) {
+        /* Skala ditulis RELATIF terhadap skala diam.
+           `.wordGroup` sudah membawa `scale(IDLE_SCALE)`, dan transform induk
+           berkali dengan transform anak — jadi menulis skala absolut di sini
+           menghasilkan 0.95 x 0.95. Animator sengaja tetap mengeluarkan angka
+           ABSOLUT supaya bisa diuji langsung terhadap angka desain. */
+        const relativeScale = style.scale / IDLE_SCALE;
+
+        /* Ambang dinormalkan per properti, bukan dikemas jadi satu angka.
+           Pengemasan lama (`scale * 1000 + yOffset`) membuat ambang efektif
+           untuk skala jadi 0.002/1000 = 2e-6, sehingga `writeIfChanged`
+           praktis tidak pernah menahan apa pun: terukur p95 190 penulisan
+           transform per frame, maks 192. */
+        const cached = cache.get(`${key}t`);
+        const packed = Math.round(relativeScale * 1000) + Math.round(style.yOffsetEm * 1000) / 1e6;
+        if (cached === undefined || cached !== packed) {
           cache.set(`${key}t`, packed);
-          el.style.transform = `translateY(${style.yOffsetEm}em) scale(${style.scale})`;
+          el.style.transform = `translateY(${style.yOffsetEm}em) scale(${relativeScale})`;
         }
       }
 

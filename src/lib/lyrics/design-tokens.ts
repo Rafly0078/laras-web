@@ -21,6 +21,28 @@ export const SPRING = {
   opacity: { frequency: 1.25, damping: 0.5 },
 } as const;
 
+/**
+ * Skala kata saat DIAM.
+ *
+ * Diberi nama karena dipakai di tiga tempat yang harus sepakat: dua kurva skala
+ * di bawah, kelas `.wordGroup` di lyrics.module.css (nilai diam dipasang di CSS
+ * supaya baris di luar jendela animator tidak melompat), dan renderer yang
+ * membagi skala absolut dengan angka ini sebelum menulisnya.
+ *
+ * KENAPA PEMBAGIAN ITU ADA: skala diam dipasang pada KELOMPOK KATA, bukan pada
+ * tiap suku kata. Kalau tiap span mengecil 5% di sekitar pivotnya sendiri,
+ * sambungan di dalam satu kata membuka celah tinta (terukur p50 0,91px setelah
+ * pivot diperbaiki, 3,07px sebelumnya) dan celah ANTAR kata melebar jadi 0,50ch
+ * padahal marginnya 0,32ch — kotak layout tidak menyusut, hanya tintanya.
+ *
+ * Dengan skala di kelompok, seluruh kata menyusut sebagai satu kotak: nol seam
+ * di dalam kata, dan celah antar kata ikut menyusut proporsional. Konsekuensinya
+ * animator tetap mengeluarkan skala ABSOLUT (0.95..1.0505, supaya tetap bisa
+ * diuji terhadap angka desain) dan renderer membaginya dengan nilai ini supaya
+ * hasil kalinya kembali absolut.
+ */
+export const IDLE_SCALE = 0.95;
+
 /* ── Spline: goal spring sebagai fungsi progres kata (0..1) ──────────
  * Titik-titik ini diinterpolasi cubic; spring lalu MENGEJAR nilainya.
  * Jadi ada dua lapis pelembutan — itu sebabnya terasa organik.          */
@@ -43,15 +65,15 @@ export const SPLINE = {
    * kurva skala ini yang tertinggal.
    */
   scale: [
-    { time: 0, value: 0.95 },
+    { time: 0, value: IDLE_SCALE },
     { time: 0.7, value: 1.0505 },
-    { time: 1, value: 0.95 },
+    { time: 1, value: IDLE_SCALE },
   ],
   /** Kata "emphasis" (span panjang) menonjol jauh lebih kuat, lalu pulang juga. */
   scaleEmphasis: [
-    { time: 0, value: 0.95 },
+    { time: 0, value: IDLE_SCALE },
     { time: 0.7, value: 1.175 },
-    { time: 1, value: 0.95 },
+    { time: 1, value: IDLE_SCALE },
   ],
   /** Naik ke atas 1/60 em di progres 0.9 — sangat kecil, sangat penting. */
   yOffset: [
@@ -90,8 +112,19 @@ export const GRADIENT = {
   alphaEnd: 0.35,
   /** Lebar bulu/feather gradient. */
   feather: 20,
-  /** 180deg = sapuan VERTIKAL. spicy-lyrics menimpa default 90deg dengan ini. */
-  degrees: 180,
+  /**
+   * 90deg = sapuan HORIZONTAL, kiri ke kanan mengikuti arah baca.
+   *
+   * spicy-lyrics memakai 180deg (vertikal), dan itu sempat disalin ke sini
+   * apa adanya. Terbukti lewat piksel: pada 180deg batas terang/redup melintang
+   * MENDATAR di tengah huruf, jadi setiap suku kata di-wipe dari atas ke bawah —
+   * pada peradaban itu 935 wipe vertikal pendek (durasi span p50 0,315s).
+   *
+   * Pemilik repo menunjuk rujukan visual bergaya Apple Music: kata menyala
+   * berurutan dari kiri ke kanan. Itu 90deg. Angka ini SENGAJA berbeda dari
+   * spicy-lyrics — bukan salah salin.
+   */
+  degrees: 90,
   /** Vokal latar memakai alpha lebih redup. */
   backgroundAlpha: 0.6,
   backgroundAlphaEnd: 0.3,

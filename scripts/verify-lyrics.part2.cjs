@@ -42,7 +42,13 @@ module.exports = async function run({ evalJs, check, sleep }) {
 
   const technique = JSON.parse(
     await evalJs(`(() => {
-      const word = document.querySelector('[aria-label^="Lompat ke"] span');
+      /* Suku kata bersarang satu lapis lebih dalam sekarang: baris >
+         span.wordGroup > span.word. Selektor lama mengambil .wordGroup, yang
+         memang tidak punya background-image, jadi hasilnya "none" dan lima
+         assertion di bagian ini gagal tanpa ada yang rusak di aplikasi.
+         JANGAN pakai backtick di komentar ini: seluruh blok ini hidup di dalam
+         template literal, dan satu backtick menutupnya lebih awal. */
+      const word = document.querySelector('[aria-label^="Lompat ke"] > span > span');
       if (!word) return JSON.stringify({ found: false });
       const cs = getComputedStyle(word);
       return JSON.stringify({
@@ -50,12 +56,17 @@ module.exports = async function run({ evalJs, check, sleep }) {
         fillColor: cs.webkitTextFillColor,
         backgroundClip: cs.backgroundClip || cs.webkitBackgroundClip,
         hasGradient: cs.backgroundImage.includes('gradient'),
-        // getComputedStyle MENGHILANGKAN sudut 180deg sepenuhnya, karena
-        // "to bottom" adalah arah DEFAULT linear-gradient. Jadi bukti arah
-        // vertikal = tidak ada sudut/arah lain yang tercantum.
-        gradientVertical:
+        /* Sapuan sekarang HORIZONTAL (90deg) mengikuti arah baca; lihat
+           GRADIENT.degrees di design-tokens.ts untuk alasannya.
+
+           Jebakan #10 berlaku TERBALIK di sini: getComputedStyle menghapus
+           sudut yang merupakan default (to bottom / 180deg) dan
+           mempertahankan yang bukan default. Jadi bukti arah horizontal
+           adalah 90deg yang benar-benar tercantum, bukan ketiadaan sudut. */
+        gradientHorizontal:
           cs.backgroundImage.includes('gradient') &&
-          !/\b(?:0|90|270|-90)deg|to (?:right|left|top)\b/.test(cs.backgroundImage),
+          (cs.backgroundImage.includes('90deg') ||
+            cs.backgroundImage.includes('to right')),
         gradientRaw: cs.backgroundImage.slice(0, 100),
         textShadow: cs.textShadow,
         fontWeight: cs.fontWeight,
@@ -73,7 +84,11 @@ module.exports = async function run({ evalJs, check, sleep }) {
   );
   check('background di-clip ke teks', technique.backgroundClip === 'text', technique.backgroundClip);
   check('gradient terpasang', technique.hasGradient === true);
-  check('sapuan VERTIKAL (default to bottom, tanpa sudut lain)', technique.gradientVertical === true, technique.gradientRaw);
+  check(
+    'sapuan HORIZONTAL (90deg tercantum, mengikuti arah baca)',
+    technique.gradientHorizontal === true,
+    technique.gradientRaw,
+  );
   check('text-shadow aktif (glow + blur)', (technique.textShadow || 'none') !== 'none');
   check('font-weight 700 rata', technique.fontWeight === '700', technique.fontWeight);
   check(

@@ -59,7 +59,9 @@
   --gradient-position: -20%;
   --gradient-alpha: 0.85;
   --gradient-alpha-end: 0.35;
-  --gradient-degrees: 180deg;
+  /* 90deg = sapuan HORIZONTAL mengikuti arah baca. Dijaga sama dengan
+     GRADIENT.degrees di design-tokens.ts; alasannya ada di sana. */
+  --gradient-degrees: 90deg;
   --gradient-offset: 0%;
   --blur-amount: 0px;
 
@@ -139,16 +141,6 @@
   transform-origin: center bottom;
   will-change: transform, background-position, text-shadow;
 
-  /* Skala DIAM, disamakan dengan SPLINE.scale titik 0 di design-tokens.ts.
-     CSS tidak bisa mengimpor TS, jadi angka ini dijaga manual — sama seperti
-     angka lain di file ini.
-
-     Kenapa perlu dipasang di CSS dan tidak dibiarkan pada animator: animator
-     hanya menghitung baris di dalam jendela ±9. Terukur 390 dari 935 span di
-     luar jendela sama sekali tidak punya inline transform, jadi skalanya 1.0 —
-     dan saat barisnya masuk jendela, kata-katanya melompat 1.0 ke 0.95 dalam
-     satu frame. Dengan nilai diam ada di CSS, tidak ada lompatan. */
-  transform: scale(0.95);
 }
 
 /* ── Satu KATA = satu unit yang tidak boleh dipisah ──────────────────── */
@@ -173,9 +165,22 @@
  * di-`scale()` sendiri.
  */
 .wordGroup {
-  display: inline-flex;
-  align-items: baseline;
-  white-space: nowrap;
+  /*
+   * `inline-block`, BUKAN `inline-flex` + `white-space: nowrap`.
+   *
+   * Keduanya menahan kata agar tidak patah, tapi dengan alasan berbeda — dan
+   * bedanya penting untuk kata yang LEBIH LEBAR dari pane. `nowrap` melarang
+   * pemutusan mutlak, jadi kata sepanjang apa pun akan meluber keluar pane.
+   * Dengan `inline-block`, potongan di dalamnya adalah kotak inline yang di
+   * sumbernya tidak dipisahkan spasi sama sekali, jadi browser tidak punya
+   * kesempatan putus di antaranya — kecuali sebagai upaya terakhir ketika satu
+   * kata memang tidak bisa muat. Itu perilaku yang benar: patah lebih baik
+   * daripada meluber.
+   *
+   * `align-items: baseline` tidak diperlukan lagi; kotak inline memang duduk di
+   * baseline tanpa diminta.
+   */
+  display: inline-block;
 }
 
 /* Margin di KELOMPOK, bukan di span yang di-scale — jadi jaraknya tidak ikut
@@ -186,29 +191,31 @@
 }
 
 /*
- * Pivot scale SADAR POSISI di dalam kata — supaya sambungan suku kata tidak
- * merenggang saat di-scale.
+ * Skala DIAM ada di KELOMPOK, bukan di tiap suku kata.
  *
- * Masalahnya terukur, dan muncul BEGITU skala diam 0.95 dipasang: setiap span
- * mengecil 5% di sekitar pivotnya sendiri, jadi sambungan di dalam satu kata
- * membuka celah tinta p50 3,07px (0,081ch) — "Su|a|tu" jadi renggang. Pivot
- * bawaan `center bottom` mengecilkan kedua sisi sekaligus.
+ * Angka ini disamakan dengan `IDLE_SCALE` di design-tokens.ts; CSS tidak bisa
+ * mengimpor TS, jadi dijaga manual seperti angka lain di file ini.
  *
- * Jawabannya: kunci sisi yang menempel ke tetangga. Potongan pertama sebuah
- * kata mengecil ke arah KANANNYA (tepi kanan tetap), potongan terakhir ke arah
- * KIRINYA (tepi kiri tetap), yang di tengah tetap simetris. Sumbu vertikal
- * dibiarkan `bottom` supaya baseline tidak bergeser — hanya sumbu horizontal
- * yang jadi masalah di sini.
+ * Kenapa di kelompok: kalau tiap span mengecil 5% di sekitar pivotnya sendiri,
+ * kotak LAYOUT-nya tidak menyusut tapi TINTANYA menyusut — jadi sambungan di
+ * dalam satu kata membuka celah (terukur 3,07px, 0,91px setelah pivot
+ * diperbaiki) dan celah antar kata melebar jadi 0,50ch padahal marginnya
+ * 0,32ch. Dengan satu transform di kelompok, seluruh kata menyusut sebagai satu
+ * kotak: nol celah di dalam kata, dan jarak antar kata ikut menyusut
+ * proporsional (12,08px x 0,95 = 11,5px terlihat).
  *
- * Kata satu suku kata tidak punya sambungan, jadi ia tetap memakai
- * `center bottom` dari `.word` di atas.
+ * Kenapa di CSS dan bukan diserahkan ke animator: animator hanya menghitung
+ * baris di dalam jendela +/-9. Terukur 390 dari 935 span di luar jendela tidak
+ * punya inline transform sama sekali, jadi dulu kata-katanya melompat 1.0 ke
+ * 0.95 saat barisnya masuk jendela.
+ *
+ * KONSEKUENSI YANG WAJIB DIJAGA: renderer menulis skala RELATIF (absolut dibagi
+ * IDLE_SCALE), karena transform span berkali dengan transform kelompok ini.
+ * Lihat `lyrics-view.tsx`.
  */
-.wordGroup > .word:first-child:not(:last-child) {
-  transform-origin: right bottom;
-}
-
-.wordGroup > .word:last-child:not(:first-child) {
-  transform-origin: left bottom;
+.wordGroup {
+  transform: scale(0.95);
+  transform-origin: center bottom;
 }
 
 /* ── Vokal latar ─────────────────────────────────────────────────────── */

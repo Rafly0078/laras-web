@@ -79,10 +79,27 @@
 
   padding: 0.34em 0;
 
-  /* Ruang di kanan supaya kata terakhir tidak menempel ke tepi pane. Nilai yang
-     sama dipakai upstream (5cqw); kita dulu nol, dan akibatnya baris panjang
-     terlihat seperti terpotong padahal sebenarnya cuma mentok. */
-  padding-right: 5cqw;
+  /*
+   * Ruang di kanan. Dua alasan, dan yang kedua yang menentukan angkanya.
+   *
+   * (a) Kata terakhir tidak menempel ke tepi pane. Kita dulu nol, dan baris
+   *     panjang terlihat seperti terpotong padahal cuma mentok.
+   *
+   * (b) Kata yang MEMBESAR tidak boleh terpotong. `.larasLyrics` memakai
+   *     `overflow-x: hidden` (wajib, karena `overflow-y: auto` memaksa sumbu
+   *     lain jadi kontainer gulir), jadi apa pun yang keluar kotaknya dipotong
+   *     keras — termasuk pertumbuhan `scale`.
+   *
+   *     Hitungannya dari angka terukur: puncak skala relatif 1.0505/0.95 =
+   *     1.1058, jadi kata tumbuh 10,58%. Pivotnya `center`, jadi setengahnya
+   *     ke kanan. Kata terlebar yang terukur 371px, maka pertumbuhan ke kanan
+   *     371 × 0.1058 / 2 ≈ 19,6px.
+   *
+   *     5cqw sudah cukup di pane lebar (59,5px pada 1190px) tapi TIPIS di pane
+   *     sempit: 27,5px pada 550px. 7cqw memberi 38,5px di sana — masih longgar
+   *     terhadap 19,6px, tanpa memakan ruang baca berlebihan.
+   */
+  padding-right: 7cqw;
   margin: 0;
   border: 0;
   background: none;

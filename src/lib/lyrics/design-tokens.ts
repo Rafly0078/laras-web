@@ -24,6 +24,24 @@ export const SPRING = {
 /**
  * Skala kata saat DIAM.
  *
+ * 1.0, BUKAN 0.95 seperti spicy-lyrics. Ini deviasi yang dibayar sadar.
+ *
+ * Dengan diam 0.95 dan puncak 1.0505, kata tumbuh 10,58% saat menyala. Pivotnya
+ * `center`, jadi separuhnya keluar ke kanan: untuk kata terlebar yang terukur
+ * (371px) itu 19,6px = 0,52ch. Jarak antar kata cuma 0,32ch — jadi pertumbuhan
+ * SELALU lebih besar dari jaraknya, dan kata yang menyala menabrak tetangganya.
+ * Melebarkan jarak bukan jawaban: liriknya jadi renggang, dan kata yang lebih
+ * panjang tetap menabrak.
+ *
+ * Dengan diam 1.0, pertumbuhannya 5,05% dan separuhnya 0,13ch — muat di dalam
+ * 0,32ch. Kata masih membesar saat menyala, hanya separuh sebelumnya.
+ *
+ * Efek sampingnya diinginkan: pada diam 0.95 tinta menyusut 5% sementara kotak
+ * layout tidak, jadi celah yang TERLIHAT jadi 0,5ch padahal marginnya 0,32ch.
+ * Pada 1.0 celahnya kembali sama dengan yang diniatkan.
+ *
+ * Yang hilang: efek "mengecil saat diam" milik spicy-lyrics.
+ *
  * Diberi nama karena dipakai di tiga tempat yang harus sepakat: dua kurva skala
  * di bawah, kelas `.wordGroup` di lyrics.module.css (nilai diam dipasang di CSS
  * supaya baris di luar jendela animator tidak melompat), dan renderer yang
@@ -41,7 +59,7 @@ export const SPRING = {
  * diuji terhadap angka desain) dan renderer membaginya dengan nilai ini supaya
  * hasil kalinya kembali absolut.
  */
-export const IDLE_SCALE = 0.95;
+export const IDLE_SCALE = 1.0;
 
 /* ── Spline: goal spring sebagai fungsi progres kata (0..1) ──────────
  * Titik-titik ini diinterpolasi cubic; spring lalu MENGEJAR nilainya.

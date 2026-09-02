@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 
-import { SPLINE, SPRING } from '@/lib/lyrics/design-tokens';
+import { IDLE_SCALE, SPLINE, SPRING } from '@/lib/lyrics/design-tokens';
 import { LarasSpline } from '@/lib/lyrics/spline';
 import { LarasSpring } from '@/lib/lyrics/spring';
 
@@ -154,10 +154,19 @@ describe('LarasSpline', () => {
 });
 
 describe('nilai desain NYATA dari design-tokens', () => {
-  it('SPLINE.scale: diam 0.95, puncak 1.0505 di progres 0.7', () => {
+  it('SPLINE.scale: diam = IDLE_SCALE, puncak 1.0505 di progres 0.7', () => {
+    /* Nilai diam DISENGAJA berbeda dari spicy-lyrics (0.95). Dengan diam 0.95,
+       pertumbuhan kata 10,58% dan separuhnya (0,52ch untuk kata terlebar 371px)
+       melebihi jarak antar kata 0,32ch — kata yang menyala menabrak tetangganya.
+       Diam 1.0 memangkas pertumbuhan jadi 5,05% sehingga muat. Assertion ini
+       mengikat ke tokennya, bukan ke angka, supaya perubahan berikutnya tetap
+       konsisten di kedua ujung kurva. */
     const s = new LarasSpline(SPLINE.scale);
-    expect(s.at(0)).toBeCloseTo(0.95, 9);
+    expect(s.at(0)).toBeCloseTo(IDLE_SCALE, 9);
+    expect(s.at(1)).toBeCloseTo(IDLE_SCALE, 9);
     expect(s.at(0.7)).toBeCloseTo(1.0505, 9);
+    // Pertumbuhan harus lebih kecil dari jarak antar kata 0.32ch.
+    expect((1.0505 - IDLE_SCALE) / IDLE_SCALE).toBeLessThan(0.08);
   });
 
   it('SPLINE.scaleEmphasis memuncak jauh lebih tinggi (1.175)', () => {

@@ -4,7 +4,7 @@ import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 
 import { LyricsAnimator, syllableKey } from '@/lib/lyrics/animator';
-import { BLUR, GRADIENT, LINE_OPACITY, SPLINE } from '@/lib/lyrics/design-tokens';
+import { BLUR, GRADIENT, IDLE_SCALE, LINE_OPACITY, SPLINE } from '@/lib/lyrics/design-tokens';
 import { LarasSpline } from '@/lib/lyrics/spline';
 import { parseAppleTtml } from '@/lib/lyrics/ttml';
 import type { Lyrics } from '@/lib/types';
@@ -121,13 +121,13 @@ describe('LyricsAnimator — sapuan gradient', () => {
 describe('LyricsAnimator — skala & emphasis', () => {
   const lyrics = load('die-with-a-smile');
 
-  it('kata diam berada di sekitar skala idle 0.95', () => {
+  it('kata diam berada di sekitar IDLE_SCALE', () => {
     const animator = new LyricsAnimator(lyrics);
     const timed = lyrics.lines.find((l) => !l.interlude);
     if (!timed) return;
     const frame = animator.frame(0, FRAME, [timed.index]);
     const style = frame.syllables.get(syllableKey(timed.index, -1, 0));
-    expect(style?.scale).toBeCloseTo(0.95, 2);
+    expect(style?.scale).toBeCloseTo(IDLE_SCALE, 2);
   });
 
   it('kata aktif tumbuh melewati 1', () => {
@@ -272,7 +272,7 @@ describe('LyricsAnimator — ketahanan', () => {
     const frame = animator.frame(0, FRAME, [timed.index]);
     const style = frame.syllables.get(syllableKey(timed.index, -1, 0));
     // Setelah reset, spring mulai dari nilai idle lagi.
-    expect(style?.scale).toBeCloseTo(0.95, 2);
+    expect(style?.scale).toBeCloseTo(IDLE_SCALE, 2);
   });
 
   it('lirik kosong tidak crash', () => {
@@ -388,7 +388,7 @@ describe('LyricsAnimator — kata yang sudah dinyanyikan PULANG ke skala diam', 
    * simpul terakhir, jadi `at(1)` mengembalikan PUNCAK, dan animator memakai
    * `splineAt = 1` untuk keadaan 'sung'.
    */
-  const idle = SPLINE.scale[0].value;
+  const idle = IDLE_SCALE;
 
   it('spline scale mengembalikan nilai DIAM di progres 1, bukan puncaknya', () => {
     expect(new LarasSpline(SPLINE.scale).at(1)).toBeCloseTo(idle, 6);

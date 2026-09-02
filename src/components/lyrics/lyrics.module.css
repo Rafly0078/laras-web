@@ -258,32 +258,14 @@
 }
 
 /*
- * Skala DIAM ada di KELOMPOK, bukan di tiap suku kata.
+ * Tidak ada lagi skala diam di kelompok.
  *
- * Angka ini disamakan dengan `IDLE_SCALE` di design-tokens.ts; CSS tidak bisa
- * mengimpor TS, jadi dijaga manual seperti angka lain di file ini.
- *
- * Kenapa di kelompok: kalau tiap span mengecil 5% di sekitar pivotnya sendiri,
- * kotak LAYOUT-nya tidak menyusut tapi TINTANYA menyusut — jadi sambungan di
- * dalam satu kata membuka celah (terukur 3,07px, 0,91px setelah pivot
- * diperbaiki) dan celah antar kata melebar jadi 0,50ch padahal marginnya
- * 0,32ch. Dengan satu transform di kelompok, seluruh kata menyusut sebagai satu
- * kotak: nol celah di dalam kata, dan jarak antar kata ikut menyusut
- * proporsional (12,08px x 0,95 = 11,5px terlihat).
- *
- * Kenapa di CSS dan bukan diserahkan ke animator: animator hanya menghitung
- * baris di dalam jendela +/-9. Terukur 390 dari 935 span di luar jendela tidak
- * punya inline transform sama sekali, jadi dulu kata-katanya melompat 1.0 ke
- * 0.95 saat barisnya masuk jendela.
- *
- * KONSEKUENSI YANG WAJIB DIJAGA: renderer menulis skala RELATIF (absolut dibagi
- * IDLE_SCALE), karena transform span berkali dengan transform kelompok ini.
- * Lihat `lyrics-view.tsx`.
+ * `IDLE_SCALE` sekarang 1.0 (lihat design-tokens.ts): kata diam berukuran
+ * penuh, dan hanya kata yang menyala yang membesar 5,05%. Sebelumnya kelompok
+ * ini membawa `scale(0.95)` supaya baris di luar jendela animator tidak
+ * melompat — dengan diam 1.0, identitas transform sudah benar tanpa dipasang
+ * apa pun, jadi aturannya dihapus daripada ditulis `scale(1)`.
  */
-.wordGroup {
-  transform: scale(0.95);
-  transform-origin: center bottom;
-}
 
 /* ── Vokal latar ─────────────────────────────────────────────────────── */
 

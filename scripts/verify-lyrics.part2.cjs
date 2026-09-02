@@ -164,9 +164,19 @@ module.exports = async function run({ evalJs, check, sleep }) {
   );
 
   if (transformed.minScale !== null) {
+    /*
+     * Skala diam sekarang 1.0, BUKAN 0.95 seperti spicy-lyrics.
+     *
+     * Assertion lama lolos dengan nilai 1 karena toleransinya 0.06 — label yang
+     * berbohong, bukan penjaga. Alasan angkanya berubah: pada diam 0.95 kata
+     * tumbuh 10,58% saat menyala dan separuhnya (19,6px untuk kata terlebar
+     * 371px) melebihi jarak antar kata 12,1px, jadi kata yang menyala menabrak
+     * tetangganya. Pada diam 1.0 pertumbuhannya 5,05% dan separuhnya 9,4px —
+     * masih di dalam 12,1px.
+     */
     check(
-      'skala diam mendekati 0.95 (idle scale spicy-lyrics)',
-      Math.abs(transformed.minScale - 0.95) < 0.06,
+      'skala diam = 1.0 (kata diam berukuran penuh)',
+      Math.abs(transformed.minScale - 1) < 0.01,
       `min ${transformed.minScale}`,
     );
   }

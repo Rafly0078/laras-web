@@ -6,7 +6,9 @@
  * usePathname dan tidak menarik seluruh navigasi ke bundel klien.
  *
  * Lebar 260px dipatok di sini (bukan di app-shell) supaya satu-satunya sumber
- * kebenaran lebar navigasi ada di komponennya sendiri.
+ * kebenaran lebar navigasi ada di komponennya sendiri. Angkanya sendiri hidup
+ * di `--laras-sidebar-width` (globals.css), karena aturan yang menggeser panel
+ * ini keluar layar saat ditutup butuh angka yang sama persis.
  *
  * Di kaki komponen ini ada tautan source AGPL. Itu KEWAJIBAN LISENSI, bukan
  * elemen desain — baca komentar di `SourceOffer` sebelum menyentuhnya.
@@ -111,7 +113,16 @@ function SourceOffer() {
 
 export function Sidebar({ active, playlists }: SidebarProps) {
   return (
-    <aside className="flex h-full w-[260px] shrink-0 flex-col overflow-y-auto border-r border-laras-outline/40 bg-laras-surface">
+    <aside
+      /* Ditunjuk `aria-controls` tombol di TopBar; tanpa id, hubungan
+         tombol→panel tidak tersampaikan ke pembaca layar. */
+      id="laras-sidebar"
+      /* Lebar & keadaan tersembunyi diurus CSS lewat `[data-sidebar='closed']`
+         di globals.css, BUKAN cabang render — supaya skrip inline di <head>
+         sudah menetapkan lebar yang benar sebelum cat pertama. Lihat
+         lib/shell/sidebar.ts. */
+      className="laras-sidebar flex h-full w-[var(--laras-sidebar-width)] shrink-0 flex-col overflow-y-auto border-r border-laras-outline/40 bg-laras-surface"
+    >
       {/* Wordmark, bukan <h1>: judul halaman sesungguhnya dipasang top bar. */}
       <div className="px-6 py-5 font-display text-2xl font-bold tracking-tight">
         LARAS

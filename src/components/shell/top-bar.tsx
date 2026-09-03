@@ -12,7 +12,8 @@ import { useRouter } from 'next/navigation';
 import { useCallback, useRef } from 'react';
 import type { FormEvent } from 'react';
 
-import { ChevronLeftIcon, ChevronRightIcon, SearchIcon } from '@/components/ui/icons';
+import { ChevronLeftIcon, ChevronRightIcon, SearchIcon, SidebarIcon } from '@/components/ui/icons';
+import { useSidebar } from '@/lib/shell/sidebar-context';
 
 export interface TopBarProps {
   title?: string;
@@ -32,6 +33,7 @@ const NAV_BUTTON =
 
 export function TopBar({ title, showSearch = true }: TopBarProps) {
   const router = useRouter();
+  const { open: sidebarOpen, toggle: toggleSidebar } = useSidebar();
 
   /**
    * Input tidak dikontrol state: nilainya hanya dibutuhkan saat submit, dan
@@ -51,6 +53,30 @@ export function TopBar({ title, showSearch = true }: TopBarProps) {
 
   return (
     <header className="sticky top-0 z-20 flex h-14 items-center gap-3 border-b border-laras-outline/30 bg-laras-black/70 px-6 backdrop-blur-xl">
+      {/*
+        Tombol buka/tutup sidebar — paling kiri, sebelum tombol riwayat.
+        Posisinya mengikuti apa yang dikendalikannya: sidebar ada di kiri, jadi
+        tombolnya juga, dan urutan fokus keyboard membacanya lebih dulu.
+
+        `aria-expanded` + `aria-controls` yang menyampaikan keadaannya; ikonnya
+        tetap sama di kedua keadaan (lihat SidebarIcon).
+      */}
+      <button
+        type="button"
+        onClick={toggleSidebar}
+        aria-expanded={sidebarOpen}
+        aria-controls="laras-sidebar"
+        // Pintasan disebut di dalam nama aksesibel: pengguna keyboard tidak
+        // punya cara lain menemukannya, dan tooltip title tidak dibacakan.
+        aria-label={
+          sidebarOpen ? 'Sembunyikan sidebar (Ctrl+B)' : 'Tampilkan sidebar (Ctrl+B)'
+        }
+        title={sidebarOpen ? 'Sembunyikan sidebar (Ctrl+B)' : 'Tampilkan sidebar (Ctrl+B)'}
+        className={`${NAV_BUTTON} ${sidebarOpen ? '' : 'text-laras-text'}`}
+      >
+        <SidebarIcon className="h-[18px] w-[18px] shrink-0" />
+      </button>
+
       <button
         type="button"
         onClick={() => router.back()}

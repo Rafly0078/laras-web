@@ -39,6 +39,13 @@
 :root {
   color-scheme: dark;
 
+  /* Lebar sidebar — SATU sumber kebenaran.
+     Dipakai dua tempat yang harus selalu sama: kelas lebar di `Sidebar` dan
+     margin negatif yang menggesernya keluar layar saat ditutup (lihat aturan
+     `.laras-sidebar` di bawah). Angka yang ditulis dua kali akan berbeda pada
+     perubahan pertama. */
+  --laras-sidebar-width: 260px;
+
   /* Ambient artwork — diisi runtime oleh ekstraksi warna dari artwork.
      Nilai awal netral supaya tidak ada kedipan warna saat memuat. */
   --laras-ambient-1: #1c1c1e;
@@ -167,3 +174,42 @@ img {
   background: rgb(255 255 255 / 0.07);
   animation: laras-skeleton 1.8s ease-in-out infinite;
 }
+
+/* ═══════════════════════════════════════════════════════════════
+   Sidebar yang bisa ditutup
+
+   Kenapa keadaannya di CSS (atribut `data-sidebar` pada <html>) dan bukan
+   cabang render React: pilihan pengguna hidup di localStorage, yang tidak ada
+   di server. Kalau sidebar dirender-atau-tidak dari state React, kunjungan
+   pertama dengan pilihan "tertutup" menampilkan sidebar dulu lalu
+   mengempiskannya setelah hydrate — kedipan 260px, tepat di halaman yang
+   sedang dibuka untuk membaca lirik. Skrip inline di <head> menyetel atribut
+   ini sebelum cat pertama, jadi lebar kerangka sudah benar di frame pertama.
+
+   Kenapa MARGIN NEGATIF dan bukan menganimasikan `width`: menyusutkan lebar
+   memaksa seluruh isi sidebar di-layout ulang setiap frame — label playlist
+   membungkus lalu terpotong, dan teksnya terlihat mengkerut. Dengan margin
+   negatif lebarnya tetap 260px; panel itu hanya bergeser keluar layar (dijepit
+   `overflow-hidden` di <body>) sementara kolom konten memuai mengisi ruangnya.
+
+   `visibility: hidden` yang mengeluarkan tautan di dalamnya dari urutan Tab dan
+   dari pohon aksesibilitas — panel yang tidak terlihat tapi masih bisa
+   di-fokus adalah perangkap keyboard. Ia ikut ditransisikan supaya berlaku di
+   AKHIR animasi menutup (visibility beranimasi diskret), sedangkan saat
+   membuka ia berlaku langsung di awal.
+   ═══════════════════════════════════════════════════════════════ */
+.laras-sidebar {
+  /* Kurva sama dengan panel Apple Music: cepat lepas, mendarat lembut. */
+  transition:
+    margin-left 280ms cubic-bezier(0.32, 0.72, 0, 1),
+    opacity 180ms ease-out,
+    visibility 280ms;
+}
+
+[data-sidebar='closed'] .laras-sidebar {
+  margin-left: calc(-1 * var(--laras-sidebar-width));
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+

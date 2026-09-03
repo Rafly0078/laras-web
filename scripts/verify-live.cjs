@@ -89,6 +89,11 @@ async function main() {
   await send('Page.enable');
   await send('Runtime.enable');
   await send('Page.bringToFront');
+  /* Jendela Chrome debug bisa tetap di belakang jendela lain di desktop —
+     bringToFront saja tidak cukup dan rAF tidak memproduksi frame. Emulasi
+     fokus memaksa halaman menganggap dirinya terlihat (pola yang sama dengan
+     scripts/verify-sidebar.cjs). */
+  await send('Emulation.setFocusEmulationEnabled', { enabled: true });
 
   const visibility = await evalJs('document.visibilityState');
   if (visibility !== 'visible') {

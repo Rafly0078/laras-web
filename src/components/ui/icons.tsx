@@ -54,6 +54,32 @@ export function PlaylistIcon({ className = BASE }: IconProps) {
   );
 }
 
+/**
+ * Panel dengan kolom kiri — ikon untuk tombol buka/tutup sidebar.
+ *
+ * Bentuknya sengaja SATU untuk kedua keadaan: yang menyampaikan keadaan adalah
+ * `aria-expanded` di tombolnya dan sidebar itu sendiri yang terlihat/tidak.
+ * Ikon yang ikut berubah (mis. panah bolak-balik) memaksa pengguna membaca
+ * arah panah untuk menebak apa yang akan terjadi — di Apple Music, VS Code, dan
+ * Finder ikonnya juga tetap.
+ */
+export function SidebarIcon({ className = BASE }: IconProps) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      className={className}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <rect x="3" y="4.5" width="18" height="15" rx="2.5" />
+      <path d="M9.5 4.5v15" />
+    </svg>
+  );
+}
+
 export function PlayIcon({ className = BASE }: IconProps) {
   return (
     <svg viewBox="0 0 24 24" className={className} fill="currentColor" aria-hidden="true">

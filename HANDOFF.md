@@ -548,11 +548,17 @@ Bentuk respons `/lyrics`:
 `{ syncedLyrics: "<tt …>", plainLyrics, format, trackId, trackName, duration, hasWordLevel, source }`.
 Yang dipakai `syncedLyrics` (TTML); `plainLyrics` tanpa timing per kata.
 
-Jebakan endpoint:
-- `/playlist?playlist=` balas **404**. Yang jalan `/playlist/tracks?playlist=`.
-- `/playlist/tracks` mengirim DUA bentuk: `raw_data.data` (Apple penuh, punya
-  isrc + template artwork yang bisa di-resize) dan `parsed_tracks` (snake_case,
-  lebih miskin). **Pakai `raw_data.data`.**
+Jebakan endpoint (DIBALIK TOTAL 2026-09-03 — relay berganti rute, terverifikasi
+ulang terhadap `/openapi.json` + probe; jangan percaya catatan lama):
+- `/song?song=` dan `/playlist/tracks` sekarang **404**. Yang hidup:
+  `/song/<id>` (bentuk path) dan `/playlist?playlist=`.
+- `/playlist` mengirim metadata DAN track sekaligus
+  (`data[0].relationships.tracks.data`, 100 lagu) plus artwork playlist —
+  tapi **MENOLAK `limit`** (400 "Limit may not be supplied"), jadi pemotongan
+  rak Home terjadi di `loadHomeShelf`, bukan di relay.
+- `/artist` hanya mengirim identitas; `songs` tidak ada dan `albums` cuma stub
+  `{id,type,href}`. Judul + artwork yang sungguhan: `/artist/songs` dan
+  `/artist/albums` (digabung `toArtistFromParts`).
 - `/recommendations` tanpa akun hanya memberi kartu genre — **nol lagu**. Itu
   sebabnya Beranda memakai playlist editorial.
 - Relay menolak permintaan tanpa User-Agent browser dengan 403. Jangan simpulkan

@@ -7,9 +7,6 @@
  * tetap murni — ia hanya menerima `getPosition` dan tidak peduli dari mana
  * posisinya datang. Pemisahan itu yang membuat mesin lirik bisa diuji dengan
  * jam sintetis di halaman dev.
- *
- * Lirik disembunyikan sepenuhnya saat video diperbesar: kebijakan YouTube
- * melarang menampilkan elemen apa pun di depan pemutar yang terlihat.
  */
 
 import { useCallback } from 'react';
@@ -24,7 +21,7 @@ export interface LyricsPanelProps {
 }
 
 export function LyricsPanel({ track, lyrics }: LyricsPanelProps) {
-  const { current, readPosition, seek, videoExpanded } = usePlayer();
+  const { current, readPosition, seek } = usePlayer();
 
   /* Bergantung pada readPosition (stabil), BUKAN objek pemutar (baru setiap
      render) — kalau tidak, efek rAF di LyricsView dibongkar-pasang terus. */
@@ -32,17 +29,6 @@ export function LyricsPanel({ track, lyrics }: LyricsPanelProps) {
 
   /** Lagu ini sedang benar-benar diputar? Kalau bukan, lirik tidak bergerak. */
   const isCurrent = current?.id === track.id;
-
-  if (videoExpanded) {
-    return (
-      <div className="flex h-full items-center justify-center px-8">
-        <p className="max-w-xs text-center text-sm text-laras-tertiary">
-          Lirik disembunyikan saat video diperbesar: kebijakan YouTube melarang
-          menampilkan elemen apa pun di depan pemutar yang terlihat.
-        </p>
-      </div>
-    );
-  }
 
   if (lyrics === null || lyrics.lines.length === 0) {
     /* Tiga keadaan yang tampak sama di layar tapi berbeda artinya, dan pengguna

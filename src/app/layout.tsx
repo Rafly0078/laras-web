@@ -50,8 +50,9 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
           PlayerProvider membungkus SELURUH aplikasi, termasuk children.
 
           Iframe YouTube hidup di dalam VideoDock yang dirender di sini, di luar
-          `children`. Konsekuensinya: navigasi antar halaman mengganti children
-          tetapi TIDAK menyentuh iframe, sehingga lagu terus berjalan. Kalau
+          `children` — dan di-parkir di luar layar (LARAS audio-only).
+          Konsekuensinya: navigasi antar halaman mengganti children tetapi
+          TIDAK menyentuh iframe, sehingga lagu terus berjalan. Kalau
           pemutar diletakkan di dalam halaman, setiap navigasi memuat ulang
           iframe dan audio berhenti.
         */}

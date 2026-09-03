@@ -4,80 +4,39 @@
  * Dok video: SATU tempat di mana iframe YouTube hidup, selamanya.
  *
  * Iframe tidak pernah dipindah di DOM dan tidak pernah dilepas — kalau
- * dipindah, browser memuat ulang dan audio berhenti. Yang berubah hanyalah
- * gaya wrapper-nya:
+ * dipindah, browser memuat ulang dan audio berhenti. Ia juga TIDAK PERNAH
+ * terlihat: pemilik repo memutuskannya 2026-09-03 untuk menjadikan LARAS
+ * audio-only. Kontainer iframe diparkir di luar layar kanan (bukan
+ * display:none, bukan 0×0) supaya elemen pemutar tetap "ada" di viewport
+ * fisik dan iframe tidak pernah unmount — kalau diblokir YouTube, yang
+ * mati bukan cuma videonya, seluruh jembatan audio ikut mati, karena
+ * `/player` InnerTube membalas UNPLAYABLE tanpa PO token.
  *
- *  - videoExpanded = false  →  petak 200×200 di kanan bawah, di atas mini
- *    player. Tetap TERLIHAT (bukan display:none, bukan 0×0) karena kebijakan
- *    YouTube melarang menyembunyikan pemutar untuk membuat pengalaman
- *    audio-only.
- *
- *    BATAS 200×200 ITU LANTAI, BUKAN PILIHAN GAYA. Pemilik repo meminta video
- *    ini dihilangkan; itu tidak bisa dikerjakan. Menyembunyikannya berarti
- *    memakai embed YouTube sebagai sumber audio saja, dan kalau embed diblokir
- *    yang mati bukan cuma videonya — seluruh jembatan audio ikut mati, karena
- *    `/player` InnerTube membalas UNPLAYABLE tanpa PO token. Yang bisa
- *    dilakukan hanya menurunkan bobot visualnya: bayangan dan ring dilepas
- *    supaya ia menyatu ke latar alih-alih melayang seperti kartu. Ukuran,
- *    opacity, dan visibilitas TIDAK boleh disentuh. `verify-live` §6 menjaga
- *    kelimanya.
- *  - videoExpanded = true   →  panel besar di tengah; lirik disembunyikan
- *    sepenuhnya oleh halaman, karena tidak boleh ada apa pun di depan pemutar
- *    yang terlihat.
- *
- * Saat belum ada lagu, dok dipindahkan ke luar layar lewat `translate` alih-alih
- * dilepas. Melepasnya berarti ref container hilang dan pemutar harus dibangun
- * ulang saat lagu pertama diputar.
+ * Kalau YouTube suatu hari menolak memutar di kontainer yang terparkir,
+ * itu adalah sinyal bahwa jalur embed-audio ini sudah buntu — carilah
+ * sumber audio yang baru, jangan sekadar menggeser parkirnya.
  */
 
 import { usePlayer } from '@/lib/player/player-context';
 
 export function VideoDock() {
-  const { current, videoExpanded, setVideoExpanded, containerRef } = usePlayer();
+  const { current, containerRef } = usePlayer();
 
   const hasTrack = current !== null;
 
   return (
     <div
-      className={[
-        'fixed z-40 overflow-hidden bg-black',
-        'transition-all duration-300 ease-out',
-        videoExpanded
-          ? 'bottom-24 left-1/2 h-[min(56vw,405px)] w-[min(90vw,720px)] -translate-x-1/2 rounded-[var(--radius-sheet,16px)] shadow-2xl ring-1 ring-white/10'
-          // Tanpa bayangan/ring, dan didorong ke sudut: 200x200 tetap utuh,
-          // tapi ia tidak lagi bersaing dengan pane lirik.
-          : 'bottom-[80px] right-2 h-[200px] w-[200px] rounded-[var(--radius-artwork)]',
-        // Di luar layar saat belum ada lagu — TIDAK dilepas dari DOM.
-        hasTrack ? 'opacity-100' : 'pointer-events-none translate-y-[200vh] opacity-0',
-      ].join(' ')}
       aria-hidden={!hasTrack}
+      className={[
+        'fixed right-0 top-0 z-40 h-[200px] w-[200px] overflow-hidden bg-black',
+        'transition-all duration-300 ease-out',
+        // Parkir di luar layar: 200×200 utuh, tapi tidak bersaing dengan
+        // apa pun di layar. Di luar layar lagi (bukan dilepas) saat belum
+        // ada lagu — ref container harus tetap hidup.
+        hasTrack ? 'translate-x-[100vw]' : 'translate-x-[100vw] translate-y-[200vh]',
+      ].join(' ')}
     >
       <div ref={containerRef} className="h-full w-full" />
-
-      {hasTrack ? (
-        <button
-          type="button"
-          onClick={() => setVideoExpanded(!videoExpanded)}
-          className="absolute right-2 top-2 flex h-9 w-9 items-center justify-center rounded-full bg-black/60 text-white backdrop-blur-sm transition hover:bg-black/80"
-          aria-label={videoExpanded ? 'Perkecil video' : 'Perbesar video'}
-        >
-          <svg
-            viewBox="0 0 24 24"
-            className="h-4 w-4"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            aria-hidden="true"
-          >
-            {videoExpanded ? (
-              <path d="M9 15 4 20m0-5v5h5M15 9l5-5m0 5V4h-5" />
-            ) : (
-              <path d="M4 14v6h6M20 10V4h-6M4 20l7-7M20 4l-7 7" />
-            )}
-          </svg>
-        </button>
-      ) : null}
     </div>
   );
 }

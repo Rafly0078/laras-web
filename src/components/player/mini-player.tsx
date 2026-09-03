@@ -47,8 +47,6 @@ export function MiniPlayer() {
     muted,
     setMuted,
     upcoming,
-    videoExpanded,
-    setVideoExpanded,
   } = usePlayer();
 
   const fillRef = useRef<HTMLDivElement>(null);
@@ -294,15 +292,6 @@ export function MiniPlayer() {
               <path d="M3 6h12v2H3zm0 5h12v2H3zm0 5h8v2H3zm14-9 5 4-5 4z" />
             </svg>
             {upcoming.length > 0 ? <span className="tabular-nums">{upcoming.length}</span> : null}
-          </button>
-
-          <button
-            type="button"
-            onClick={() => setVideoExpanded(!videoExpanded)}
-            className="ml-1 hidden h-11 items-center rounded-[var(--radius-card)] px-3 text-xs font-medium text-laras-secondary transition hover:bg-white/10 hover:text-laras-text sm:flex"
-            aria-pressed={videoExpanded}
-          >
-            {videoExpanded ? 'Kecilkan' : 'Video'}
           </button>
         </div>
       </div>

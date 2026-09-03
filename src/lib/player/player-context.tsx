@@ -99,10 +99,6 @@ export interface PlayerContextValue {
   jumpTo: (queueIndex: number) => void;
   clearQueue: () => void;
 
-  /** Iframe membesar jadi permukaan utama. Lirik disembunyikan saat true. */
-  videoExpanded: boolean;
-  setVideoExpanded: (expanded: boolean) => void;
-
   /** Dipakai VideoDock untuk memasang iframe. Jangan dipakai komponen lain. */
   containerRef: React.RefObject<HTMLDivElement | null>;
 }
@@ -124,7 +120,6 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   const [queueState, dispatch] = useReducer(playerQueueReducer, emptyQueue);
-  const [videoExpanded, setVideoExpanded] = useState(false);
   const [resolving, setResolving] = useState(false);
   const [bridgeError, setBridgeError] = useState<string | null>(null);
 
@@ -303,8 +298,6 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
       removeFromQueue,
       jumpTo,
       clearQueue,
-      videoExpanded,
-      setVideoExpanded,
       containerRef,
     }),
     [
@@ -337,7 +330,6 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
       removeFromQueue,
       jumpTo,
       clearQueue,
-      videoExpanded,
     ],
   );
 

@@ -113,14 +113,20 @@ Isi `{w}`/`{h}` sendiri. CORS `*`, jadi canvas getImageData aman. Sampai 3000px.
 6. **Math.random() di useState initializer** = hydration mismatch fatal di Next.
    Semua nilai render-time wajib deterministik.
 
-## Aturan YouTube ToS (bukan opsional)
+## Iframe YouTube: audio-only (DIUBAH 2026-09-03, keputusan pemilik repo)
 
-- Iframe **wajib terlihat** saat mode Video; viewport minimal 200×200px.
-- **Dilarang** menaruh overlay/elemen apa pun DI DEPAN player yang terlihat.
-  Karena itu: saat mode Video menyala, lirik **disembunyikan sepenuhnya** dan
-  tombol lirik menjadi non-aktif. Ini keputusan final pemilik repo.
-- Autoplay wajib muted dulu.
-- Jangan pernah menyembunyikan iframe untuk menjadikannya audio-only.
+- LARAS adalah **audio-only**: videonya tidak perlu terlihat.
+- Iframe TIDAK PERNAH di-render di layar. Kontainernya (200×200, ukuran utuh)
+  di-parkir di luar layar kanan lewat `transform: translateX(100vw)` — BUKAN
+  `display:none`, BUKAN 0×0, dan BUKAN dilepas dari DOM. Melepasnya memutus
+  jembatan audio; `display:none`/0×0 melanggar "elemen pemutar harus ada di
+  DOM dengan ukuran nyata".
+- Konsekuensi yang HARUS dijaga: `VideoDock` mengubah **posisi lewat CSS**
+  (transform), bukan memindahkan node; saat belum ada lagu dok digeser ke luar
+  layar, tidak dilepas.
+- Kalau suatu hari YouTube menolak memutar di kontainer terparkir (embed
+  diblokir), itu sinyal jalur embed-audio sudah buntu — carilah sumber audio
+  baru, jangan menggeser parkiran. `verify-live` §6 menjaga ini.
 
 ## Lisensi: AGPL-3.0 — DIUBAH 2026-09-02
 

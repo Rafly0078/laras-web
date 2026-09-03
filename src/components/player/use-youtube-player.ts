@@ -3,12 +3,10 @@
 /**
  * Pemutar YouTube IFrame + jam lirik, dibungkus jadi satu hook.
  *
- * Aturan ToS YouTube yang DIPATUHI di sini (bukan opsional):
- *  - iframe TIDAK PERNAH disembunyikan untuk membuat pengalaman audio-only.
- *    Elemen container-nya selalu ada di DOM dengan ukuran nyata.
- *  - Tidak ada overlay di depan player saat player terlihat. Itu diurus
- *    komponen Now Playing: mode video menyembunyikan lirik sepenuhnya.
- *  - Autoplay dimulai muted; browser modern juga menolak selain itu.
+ * Kontainer iframe hidup di `VideoDock` (layout) yang TIDAK PERNAH dilepas —
+ * ia diparkir di luar layar kanan, jadi elemen pemutar tetap ada di DOM dengan
+ * ukuran nyata (200×200) dan tidak pernah ter-unmount. Keputusan pemilik repo
+ * 2026-09-03: LARAS audio-only, videonya tidak perlu terlihat.
  *
  * Kenapa memuat script IFrame API sendiri alih-alih memakai paket npm:
  * satu file, tanpa dependensi, dan kita butuh kontrol penuh atas kapan
@@ -118,7 +116,7 @@ function loadIframeApi(): Promise<YTNamespace> {
 export interface UseYouTubePlayerOptions {
   /** videoId 11 karakter, atau null saat belum ada lagu. */
   videoId: string | null;
-  /** Elemen tempat iframe dipasang. WAJIB terlihat (ToS). */
+  /** Elemen tempat iframe dipasang. Kontainer ini tidak pernah dilepas. */
   containerRef: React.RefObject<HTMLDivElement | null>;
   onEnded?: () => void;
 }

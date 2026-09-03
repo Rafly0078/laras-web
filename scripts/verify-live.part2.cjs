@@ -275,11 +275,18 @@ module.exports = async function run({ evalJs, check, sleep, goto, clickNavigate 
     dockAfter.stillHasMiniPlayer === true,
   );
 
-  /* ── 7. Kepatuhan ToS: iframe tidak disembunyikan ────────────────── */
+  /* ── 7. Iframe audio-only: hidup di luar layar, tidak terlihat ────── */
 
-  console.log('\n[6] Kepatuhan ToS YouTube');
+  console.log('\n[6] Iframe audio-only: hidup, terparkir di luar layar');
 
-  const tos = JSON.parse(
+  /*
+   * Keputusan pemilik repo 2026-09-03: LARAS audio-only. Iframe TIDAK PERNAH
+   * dirender di layar — kontainernya diparkir lewat transform di luar layar
+   * kanan. Jagaannya di sini: (a) iframe masih dibuat dan TETAP TIDAK TERLIHAT
+   * di layar; (b) kontainer tidak dilepas (bukan display:none, ukuran utuh) —
+   * melepasnya memutus jembatan audio.
+   */
+  const parked = JSON.parse(
     await evalJs(`(() => {
       const f = [...document.querySelectorAll('iframe')].find((x) => (x.src || '').includes('youtube'));
       if (!f) return JSON.stringify({ found: false });
@@ -293,20 +300,23 @@ module.exports = async function run({ evalJs, check, sleep, goto, clickNavigate 
         visibility: cs.visibility,
         w: Math.round(r.width),
         h: Math.round(r.height),
+        visibleOnScreen: r.left < window.innerWidth && r.right > 0 && r.top < window.innerHeight && r.bottom > 0,
         wrapperDisplay: wcs ? wcs.display : null,
+        wrapperW: wcs ? Math.round(wrapper.getBoundingClientRect().width) : null,
       });
     })()`),
   );
 
-  check('iframe ada', tos.found === true);
-  if (tos.found) {
-    check('iframe TIDAK display:none', tos.display !== 'none', tos.display);
-    check('iframe TIDAK visibility:hidden', tos.visibility !== 'hidden', tos.visibility);
-    check('wrapper TIDAK display:none', tos.wrapperDisplay !== 'none', tos.wrapperDisplay);
+  check('iframe ada (sumber audio)', parked.found === true);
+  if (parked.found) {
+    check('iframe TIDAK display:none', parked.display !== 'none', parked.display);
+    check('iframe TIDAK visibility:hidden', parked.visibility !== 'hidden', parked.visibility);
+    check('wrapper TIDAK display:none', parked.wrapperDisplay !== 'none', parked.wrapperDisplay);
+    check('ukuran iframe 200x200 utuh', parked.w === 200 && parked.h === 200, `${parked.w}x${parked.h}`);
     check(
-      'ukuran iframe >= 200x200 (syarat viewport)',
-      tos.w >= 200 && tos.h >= 200,
-      `${tos.w}x${tos.h}`,
+      'iframe TIDAK terlihat di layar (terparkir di luar)',
+      parked.visibleOnScreen === false,
+      JSON.stringify({ w: parked.w, h: parked.h, visible: parked.visibleOnScreen }),
     );
   }
 

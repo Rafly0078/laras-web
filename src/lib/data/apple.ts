@@ -9,8 +9,11 @@
  * Bentuk mentah yang ditangani (terverifikasi dari fixture nyata):
  *  - /search        -> { results: { songs|albums|artists|top: { data: [...] } } }
  *  - /album         -> { data: [ { attributes, relationships.tracks.data } ] }
- *  - /artist        -> { data: [ { attributes, relationships.{albums,songs} } ] }
- *  - /playlist/tracks -> { parsed_tracks: [snake_case], raw_data: { data: [...] } }
+ *  - /artist        -> { data: [ { attributes } ] }  (relasi kosong — lihat
+ *                      toArtistFromParts; lagu & album datang dari
+ *                      /artist/songs dan /artist/albums)
+ *  - /playlist      -> { data: [ { attributes, relationships.tracks.data } ] }
+ *  - /playlist/tracks (lama) -> { parsed_tracks: [snake_case], raw_data }
  */
 
 import type {
@@ -248,6 +251,48 @@ export function toArtist(raw: unknown): Artist | null {
     albums: relationshipData(raw, 'albums')
       .map(toAlbum)
       .filter((a): a is Album => a !== null),
+  };
+}
+
+/** Buka pembungkus `{ data: [...] }` milik endpoint katalog. */
+export function catalogDataOf(raw: unknown): unknown[] {
+  return isRec(raw) ? asArray(raw.data) : [];
+}
+
+/**
+ * Artis dari TIGA respons relay yang digabung pemanggil (`loadArtist`).
+ *
+ * KENAPA TIDAK `toArtist` saja: sejak relay berganti bentuk, `/artist` tidak
+ * lagi mengirim relasi yang terisi — `songs` hilang sama sekali dan `albums`
+ * hanya berisi stub `{id, type, href}` tanpa judul maupun artwork. Hasilnya
+ * di produksi: halaman artis menampilkan "Katalog tidak mengirim lagu atau
+ * album" untuk artis yang jelas-jelas punya keduanya. Judul dan sampul yang
+ * sungguhan ada di `/artist/songs` dan `/artist/albums`.
+ *
+ * Bagian yang gagal (null) dibiarkan kosong, bukan membatalkan artisnya:
+ * halaman tetap bisa dirender dengan nama + foto + apa pun yang berhasil.
+ */
+export function toArtistFromParts(
+  base: unknown,
+  songs: unknown,
+  albums: unknown,
+): Artist | null {
+  const artist = toArtistResponse(base);
+  if (artist === null) return null;
+
+  const topTracks = catalogDataOf(songs)
+    .map(toTrack)
+    .filter((t): t is Track => t !== null);
+  const albumList = catalogDataOf(albums)
+    .map(toAlbum)
+    .filter((a): a is Album => a !== null);
+
+  return {
+    ...artist,
+    // Relasi inline tetap dipakai kalau ternyata terisi (fixture lama, atau
+    // relay kembali ke bentuk itu): jangan buang data yang sudah ada.
+    topTracks: topTracks.length > 0 ? topTracks : artist.topTracks,
+    albums: albumList.length > 0 ? albumList : artist.albums,
   };
 }
 

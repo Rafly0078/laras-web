@@ -315,10 +315,11 @@ export function playlistMetadata(
       : `${playlist.tracks.length} lagu di playlist ${meta.title}${curatedBy}. ` +
         `Putar dengan lirik tersinkron per kata di ${SITE_NAME}.`;
 
-  /* Sampul diambil dari lagu pertama — SAMA seperti yang dirender halaman.
-     Endpoint `/playlist/tracks` tidak mengirim artwork playlist, dan kartu
-     bagikan yang berbeda dari halamannya adalah janji yang tidak ditepati. */
-  const cover = playlist?.tracks[0]?.artwork ?? null;
+  /* Sampul diambil dari artwork playlist itu sendiri (dikirim `/playlist`
+     sejak relay berganti bentuk), dengan lagu pertama sebagai cadangan —
+     SAMA seperti yang dirender halaman. Kartu bagikan yang berbeda dari
+     halamannya adalah janji yang tidak ditepati. */
+  const cover = playlist?.artwork ?? playlist?.tracks[0]?.artwork ?? null;
   const images = shareImages(cover, `Sampul ${meta.title}`);
 
   return {

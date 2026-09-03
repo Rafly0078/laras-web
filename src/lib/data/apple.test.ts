@@ -5,12 +5,15 @@ import { describe, expect, it } from 'vitest';
 
 import {
   playlistFixtureToShelf,
+  playlistToShelf,
   toPlaylistFixture,
+  toPlaylistResponse,
   toSearchResults,
 } from '@/lib/data/apple-collections';
 import {
   artworkUrl,
   toAlbumResponse,
+  toArtistFromParts,
   toArtistResponse,
   toArtwork,
   toTrack,
@@ -200,6 +203,95 @@ describe('playlistFixtureToShelf', () => {
       'wide',
     );
     expect(wide?.shape).toBe('wide');
+  });
+});
+
+describe('bentuk relay 2026-09: /song/<id>, /playlist, /artist/*', () => {
+  /* Fixture di blok ini direkam LANGSUNG dari relay pada 2026-09-03, setelah
+     relay mengganti rute-nya (`/song?song=` dan `/playlist/tracks` jadi 404).
+     Test ini ada supaya perubahan bentuk berikutnya ketahuan oleh angka, bukan
+     oleh mata: lihat aturan #3 di AGENTS.md. */
+
+  it('/song/<id> terbaca sebagai track penuh', () => {
+    const raw = load('song-fein');
+    const first = (raw as { data: unknown[] }).data[0];
+    const track = toTrack(first);
+    expect(track).not.toBeNull();
+    expect(track?.id).toBe('1708274783');
+    expect(track?.title).toBe('FE!N (feat. Playboi Carti)');
+    expect(track?.artist).toBe('Travis Scott');
+    expect(track?.album).toBe('UTOPIA');
+    // 191703 ms -> 191,7 detik; formatDuration halaman menampilkan 3:12.
+    expect(Math.round(track?.durationSeconds ?? 0)).toBe(192);
+    expect(track?.hasLyrics).toBe(true);
+    expect(track?.artwork?.template).toContain('{w}');
+    // Storefront id menandai lagu ini 'clean' — assertion mengikuti fixture,
+    // bukan asumsi dari layar lain.
+    expect(track?.explicit).toBe(false);
+  });
+
+  it('/playlist mengirim metadata DAN 100 track dalam satu respons', () => {
+    const playlist = toPlaylistResponse(load('playlist-top-100-live'));
+    expect(playlist).not.toBeNull();
+    expect(playlist?.title).toBe('Top 100: Indonesia');
+    expect(playlist?.curator).toBe('Apple Music');
+    expect(playlist?.tracks).toHaveLength(100);
+    for (const track of playlist?.tracks ?? []) {
+      expect(track.title.length).toBeGreaterThan(0);
+      expect(track.durationSeconds).toBeGreaterThan(0);
+    }
+    // Bukti bentuk kaya (bukan parsed_tracks): template artwork yang bisa
+    // di-resize, dan artwork playlist sendiri — dulu tidak ada.
+    expect(playlist?.tracks[0]?.artwork?.template).toContain('{w}');
+    expect(playlist?.artwork?.template).toContain('{w}');
+  });
+
+  it('rak Home dari respons /playlist yang baru berisi lagu', () => {
+    const shelf = playlistToShelf(
+      'top-100-indonesia',
+      { title: 'Top 100: Indonesia', curator: 'Apple Music', description: null, artwork: null },
+      load('playlist-top-100-live'),
+    );
+    expect(shelf?.items).toHaveLength(100);
+    expect(shelf?.items.every((i) => i.kind === 'track')).toBe(true);
+  });
+
+  it('/artist saja TIDAK cukup — relasinya kosong (alasan toArtistFromParts)', () => {
+    const bare = toArtistResponse(load('artist-travis-live'));
+    expect(bare).not.toBeNull();
+    expect(bare?.name).toBe('Travis Scott');
+    // Inilah bug produksinya: halaman artis jadi "Katalog tidak mengirim
+    // lagu atau album" padahal keduanya ada.
+    expect(bare?.topTracks).toHaveLength(0);
+    expect(bare?.albums).toHaveLength(0);
+  });
+
+  it('toArtistFromParts menggabungkan identitas + lagu + diskografi', () => {
+    const artist = toArtistFromParts(
+      load('artist-travis-live'),
+      load('artist-travis-songs'),
+      load('artist-travis-albums'),
+    );
+    expect(artist).not.toBeNull();
+    expect(artist?.name).toBe('Travis Scott');
+    expect(artist?.genres).toEqual(['Hip-Hop/Rap']);
+    expect(artist?.artwork?.template).toContain('{w}');
+    expect(artist?.topTracks.length).toBeGreaterThan(0);
+    expect(artist?.topTracks[0]?.title).toBe('HIGHEST IN THE ROOM');
+    expect(artist?.albums.length).toBeGreaterThan(0);
+    // Album harus punya judul DAN artwork — stub {id,type,href} tidak lolos.
+    for (const album of artist?.albums ?? []) {
+      expect(album.title.length).toBeGreaterThan(0);
+      expect(album.artwork).not.toBeNull();
+    }
+  });
+
+  it('bagian yang gagal tidak membatalkan artisnya', () => {
+    const partial = toArtistFromParts(load('artist-travis-live'), null, 'sampah');
+    expect(partial?.name).toBe('Travis Scott');
+    expect(partial?.topTracks).toHaveLength(0);
+    expect(partial?.albums).toHaveLength(0);
+    expect(toArtistFromParts(null, null, null)).toBeNull();
   });
 });
 

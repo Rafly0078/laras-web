@@ -18,6 +18,7 @@ import {
   toTrackFromParsed,
 } from '@/lib/data/apple';
 import { toPlaylistFixture } from '@/lib/data/apple-collections';
+import type { Playlist } from '@/lib/types';
 import { homePlaylistBySlug } from '@/lib/data/playlists';
 import {
   albumMetadata,
@@ -217,12 +218,23 @@ describe('playlistMetadata', () => {
     );
   });
 
-  it('sampul diambil dari lagu pertama, sama seperti yang dirender halaman', () => {
+  it('sampul memakai artwork playlist, sama seperti yang dirender halaman', () => {
     const og = openGraphOf(card);
     expect('type' in og && og.type).toBe('music.playlist');
     expect(og.url).toBe('/playlist/top-100-indonesia');
-    // Lagu pertama fixture ini "Teh Hijau" — sampulnya yang dipakai.
+    // Sejak 2026-09 `/playlist` mengirim artwork-nya sendiri dan halaman
+    // memakainya lebih dulu; lagu pertama hanya cadangan. Kartu bagikan harus
+    // menunjuk gambar yang SAMA dengan yang dirender.
+    expect(playlist.artwork).not.toBeNull();
     expect(String(firstImage(card).url)).toBe(
+      playlist.artwork?.template.replace('{w}', '1200').replace('{h}', '1200'),
+    );
+  });
+
+  it('playlist tanpa artwork sendiri jatuh ke sampul lagu pertama', () => {
+    const noCover: Playlist = { ...playlist, artwork: null };
+    const card2 = playlistMetadata(slug, meta, noCover);
+    expect(String(firstImage(card2).url)).toBe(
       playlist.tracks[0].artwork?.template
         .replace('{w}', '1200')
         .replace('{h}', '1200'),

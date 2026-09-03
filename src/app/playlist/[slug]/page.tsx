@@ -53,10 +53,9 @@ export default async function PlaylistPage({
 
   const playlist = await loadPlaylist(slug);
 
-  /* Artwork playlist diambil dari lagu pertama: endpoint /playlist/tracks tidak
-     mengirim artwork playlist, dan sampul lagu pembuka adalah representasi yang
-     jauh lebih baik daripada kotak kosong. */
-  const cover = playlist?.tracks[0]?.artwork ?? null;
+  /* Artwork playlist: `/playlist` sekarang mengirim artwork-nya sendiri;
+     lagu pertama hanya cadangan kalau relay mengirim item tanpa sampul. */
+  const cover = playlist?.artwork ?? playlist?.tracks[0]?.artwork ?? null;
 
   return (
     <AppShell active={`/playlist/${slug}`} playlists={SIDEBAR_PLAYLISTS}>

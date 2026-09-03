@@ -9,17 +9,19 @@
 
 import 'server-only';
 
-import { toAlbumResponse, toArtistResponse, toTrack } from '@/lib/data/apple';
+import { toAlbumResponse, toArtistFromParts, toTrack } from '@/lib/data/apple';
 import {
-  toPlaylist,
+  toPlaylistResponse,
   toSearchResults,
   playlistToShelf,
 } from '@/lib/data/apple-collections';
 import {
   apiAlbum,
   apiArtist,
+  apiArtistAlbums,
+  apiArtistSongs,
   apiLyrics,
-  apiPlaylistTracks,
+  apiPlaylist,
   apiSearch,
   apiSong,
 } from '@/lib/data/client';
@@ -39,6 +41,9 @@ import { homePlaylistBySlug, HOME_PLAYLISTS } from '@/lib/data/playlists';
 
 type Rec = Record<string, unknown>;
 
+/** Jumlah kartu maksimum per rak Home (lihat `loadHomeShelf`). */
+const HOME_SHELF_SIZE = 30;
+
 function isRec(value: unknown): value is Rec {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
 }
@@ -57,28 +62,45 @@ export async function loadPlaylist(slug: string): Promise<Playlist | null> {
   const meta = homePlaylistBySlug(slug);
   if (!meta) return null;
 
-  const raw = await apiPlaylistTracks(meta.id, 100);
+  const raw = await apiPlaylist(meta.id);
   if (raw === null) return null;
 
-  // Metadata dikirim dalam bentuk pipih; adapter menerima kedua bentuk.
-  return toPlaylist(
-    { title: meta.title, curator: meta.curator, description: null, artwork: null },
-    raw,
-  );
+  /* Judul dan kurator tetap dari konstanta lokal: kartu bagikan dan sidebar
+     tidak boleh berubah-ubah mengikuti respons relay, dan konstantanya sudah
+     diverifikasi cocok dengan Apple. Yang diambil dari relay hanya artwork
+     dan deskripsi — dua hal yang tidak mungkin ditebak. */
+  const live = toPlaylistResponse(raw);
+  if (live === null) return null;
+  return {
+    ...live,
+    id: meta.id,
+    title: meta.title,
+    curator: live.curator ?? meta.curator,
+  };
 }
 
 export async function loadHomeShelf(slug: string): Promise<Shelf | null> {
   const meta = homePlaylistBySlug(slug);
   if (!meta) return null;
 
-  const raw = await apiPlaylistTracks(meta.id, 30);
+  const raw = await apiPlaylist(meta.id);
   if (raw === null) return null;
 
-  return playlistToShelf(
+  const shelf = playlistToShelf(
     slug,
     { title: meta.title, curator: meta.curator, description: null, artwork: null },
     raw,
   );
+  if (shelf === null) return null;
+
+  /* Rak Home dipotong ke 30 kartu. Dulu `limit` dikirim ke relay; endpoint
+     `/playlist` yang baru MENOLAK parameter itu (400 "Limit may not be
+     supplied"), jadi pemotongan pindah ke sini. Tanpa batas ini Beranda
+     merender 400 baris lagu — empat kali lipat, dan sisanya tidak pernah
+     terlihat di atas lipatan. */
+  return shelf.items.length > HOME_SHELF_SIZE
+    ? { ...shelf, items: shelf.items.slice(0, HOME_SHELF_SIZE) }
+    : shelf;
 }
 
 /**
@@ -101,7 +123,17 @@ export async function loadAlbum(albumId: string): Promise<Album | null> {
 }
 
 export async function loadArtist(artistId: string): Promise<Artist | null> {
-  return toArtistResponse(await apiArtist(artistId));
+  /* TIGA permintaan paralel, bukan satu: `/artist` hanya mengirim identitas
+     (nama, foto, genre) — relasi lagunya hilang dan albumnya cuma stub.
+     Paralel supaya totalnya selebar permintaan terlambat (~350ms), bukan
+     tiga kali latensi. Yang gagal jadi null per-bagian, bukan membatalkan
+     artisnya. */
+  const [base, songs, albums] = await Promise.all([
+    apiArtist(artistId),
+    apiArtistSongs(artistId),
+    apiArtistAlbums(artistId),
+  ]);
+  return toArtistFromParts(base, songs, albums);
 }
 
 /* ── Satu lagu ─────────────────────────────────────────────────────────── */

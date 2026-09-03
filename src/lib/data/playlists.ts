@@ -11,6 +11,8 @@
  * Id di sini DIAMBIL dari respons `/playlist/tracks` yang sungguhan (field
  * `playlist_id` di fixtures/apple/playlist-*.json) — jangan pernah menebaknya.
  * Id yang ditebak membalas 404 atau, lebih buruk, playlist orang lain.
+ * (Endpoint itu sekarang `/playlist?playlist=` — lihat `client.ts` — dan id
+ * yang sama tetap valid di sana, terverifikasi 2026-09-03.)
  *
  * Disimpan sebagai konstanta alih-alih dicari lewat `/search` tiap kali:
  * pencarian menambah satu round-trip 360–950ms per rak tanpa memberi apa pun

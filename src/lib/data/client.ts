@@ -183,27 +183,54 @@ export async function apiArtist(artistId: string): Promise<unknown> {
 }
 
 /**
- * Daftar track sebuah playlist.
+ * Satu playlist editorial: metadata + seluruh track sekaligus.
  *
- * CATATAN: endpoint-nya `/playlist/tracks`, BUKAN `/playlist`. Yang kedua
- * membalas 404 — sudah diverifikasi. Metadata playlist (nama, kurator) tidak
- * ada di sini; ambil lewat `/search?types=playlists`.
+ * CATATAN (berubah 2026-09, terverifikasi ulang terhadap openapi relay):
+ * `/playlist/tracks` MATI — balas 404 untuk id yang dulu jalan. Yang hidup
+ * `/playlist?playlist=`; ia mengirim `data[0].relationships.tracks.data`
+ * (bentuk Apple penuh, 100 track) plus metadata playlist (nama, kurator,
+ * artwork). `limit` DILARANG di endpoint ini — relay membalas 400 "Limit may
+ * not be supplied on this request", jadi parameter itu sengaja tidak dikirim.
  */
-export async function apiPlaylistTracks(
-  playlistId: string,
-  limit: number,
-): Promise<unknown> {
+export async function apiPlaylist(playlistId: string): Promise<unknown> {
   return fetchJson(
-    '/playlist/tracks',
-    { playlist: playlistId, limit, storefront: STOREFRONT, l: LANGUAGE },
+    '/playlist',
+    { playlist: playlistId, storefront: STOREFRONT, l: LANGUAGE },
     { revalidate: TTL.playlist, tags: [`playlist:${playlistId}`] },
   );
 }
 
+/**
+ * Metadata satu lagu.
+ *
+ * `/song?song=` MATI (404) sejak relay berganti rute; yang hidup bentuk path
+ * `/song/<id>` (alias dinamis `/{resource}/{id}`, storefront default `us` —
+ * karena itu `storefront` tetap dikirim eksplisit supaya artwork/preview id
+ * storefront Indonesia). Bentuk responsnya sama: `{ data: [ { attributes } ] }`.
+ */
 export async function apiSong(appleTrackId: string): Promise<unknown> {
   return fetchJson(
-    '/song',
-    { song: appleTrackId, storefront: STOREFRONT, l: LANGUAGE },
+    `/song/${encodeURIComponent(appleTrackId)}`,
+    { storefront: STOREFRONT },
     { revalidate: TTL.album, tags: [`song:${appleTrackId}`] },
+  );
+}
+
+/** Lagu teratas seorang artis — `/artist` tidak lagi mengirimnya inline. */
+export async function apiArtistSongs(artistId: string): Promise<unknown> {
+  return fetchJson(
+    '/artist/songs',
+    { artist: artistId, storefront: STOREFRONT, l: LANGUAGE },
+    { revalidate: TTL.artist, tags: [`artist-songs:${artistId}`] },
+  );
+}
+
+/** Diskografi seorang artis dengan attributes penuh (relasi di `/artist`
+ *  hanya stub `{id,type,href}` — tanpa judul, tanpa artwork). */
+export async function apiArtistAlbums(artistId: string): Promise<unknown> {
+  return fetchJson(
+    '/artist/albums',
+    { artist: artistId, storefront: STOREFRONT, l: LANGUAGE },
+    { revalidate: TTL.artist, tags: [`artist-albums:${artistId}`] },
   );
 }

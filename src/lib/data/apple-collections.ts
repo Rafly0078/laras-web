@@ -33,15 +33,31 @@ function asArray(value: unknown): unknown[] {
 /* ── Playlist ──────────────────────────────────────────────────────────── */
 
 /**
- * Ambil daftar track dari respons `/playlist/tracks`.
+ * Ambil daftar track dari respons playlist.
  *
- * Relay mengirim DUA bentuk: `raw_data.data` (bentuk Apple penuh) dan
- * `parsed_tracks` (snake_case, disederhanakan). Yang penuh dipakai lebih dulu
- * karena memuat isrc, hasLyrics, dan template artwork yang bisa di-resize;
- * bentuk sederhana hanya punya URL artwork berukuran tetap.
+ * Tiga bentuk pernah dikirim relay dan semuanya harus tetap terbaca:
+ *  - `/playlist` (2026-09 ke atas): item Apple penuh, track di
+ *    `data[0].relationships.tracks.data` — bentuk `toTrack` standar.
+ *  - `/playlist/tracks` lama: `raw_data.data` (Apple penuh) dan
+ *    `parsed_tracks` (snake_case). `raw_data` dipakai lebih dulu karena
+ *    memuat isrc, hasLyrics, dan template artwork yang bisa di-resize.
  */
 function tracksFromPlaylistResponse(raw: unknown): Track[] {
   if (!isRec(raw)) return [];
+
+  // Bentuk baru: `{ data: [item] }` dengan track di `item.relationships.tracks.data`.
+  const item = asArray(raw.data)[0];
+  const source = isRec(item) && isRec(item.relationships) ? item : raw;
+
+  if (isRec(source.relationships)) {
+    const rel = source.relationships.tracks;
+    if (isRec(rel)) {
+      const full = asArray(rel.data)
+        .map(toTrack)
+        .filter((t): t is Track => t !== null);
+      if (full.length > 0) return full;
+    }
+  }
 
   if (isRec(raw.raw_data)) {
     const full = asArray(raw.raw_data.data)
@@ -109,6 +125,20 @@ export function toPlaylist(meta: unknown, tracks: unknown): Playlist | null {
 export function toPlaylistFixture(raw: unknown): Playlist | null {
   if (!isRec(raw)) return null;
   return toPlaylist(raw.meta, raw.tracks);
+}
+
+/**
+ * Playlist dari respons `/playlist` yang membungkus di `data[0]`.
+ *
+ * Bentuk baru relay mengirim SATU objek berisi metadata DAN relasi tracks,
+ * jadi `meta` dan `tracks` menunjuk item yang sama — `toPlaylist` sudah
+ * menangani kedua sisi bentuk itu (attributes untuk metadata, relationships
+ * untuk daftar lagu).
+ */
+export function toPlaylistResponse(raw: unknown): Playlist | null {
+  if (!isRec(raw)) return null;
+  const item = asArray(raw.data)[0];
+  return item === undefined ? null : toPlaylist(item, item);
 }
 
 /* ── Hasil pencarian ───────────────────────────────────────────────────── */

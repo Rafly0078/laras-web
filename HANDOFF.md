@@ -30,17 +30,18 @@ teks berhak cipta — bukan sesuatu yang layak terbuka di produksi.
 
 ### Verifikasi (semua hijau, jalankan sendiri sebelum percaya)
 
-    npm test                 303 test, 14 file
+    npm test                 461 test, 20 file
     npm run typecheck        bersih
     npm run lint             0 error, 0 warning
     npm run build            sukses
 
     node scripts/verify-lyrics.cjs   45 assertion — mesin sapuan lirik
-    node scripts/verify-home.cjs     29 assertion — kerangka UI
-    node scripts/verify-live.cjs     43 assertion — data live + pemutar global
+    node scripts/verify-home.cjs     36 assertion — kerangka UI + hero
+    node scripts/verify-live.cjs     44 assertion — data live + pemutar global
+    node scripts/verify-sidebar.cjs  32 assertion — sidebar buka/tutup
     node scripts/verify-stream.cjs   17 assertion — kerangka dulu, lirik menyusul
 
-134 assertion browser, semuanya hijau pada build yang sama.
+174 assertion browser, semuanya hijau pada build yang sama.
 
 Harness CDP butuh Chrome berjalan dengan remote debugging — lihat §7.
 
@@ -234,6 +235,9 @@ bentuknya, yang gagal lebih dulu adalah test, bukan pengguna.
 
     src/components/shell/{sidebar,top-bar,app-shell}.tsx
     src/components/ui/{artwork,icons,shelf-row,track-row,track-list}.tsx
+    src/components/home/{home-ambient,home-greeting,home-hero}.tsx
+    src/lib/shell/{sidebar.ts,sidebar-context.tsx}   keadaan buka/tutup sidebar
+    src/lib/home/{greeting,hero}.ts                  logika murni Beranda
 
 `track-row.tsx` presentasi murni; `track-list.tsx` yang tahu pemutar.
 
@@ -483,10 +487,21 @@ Butuh Chrome dengan remote debugging DAN jendela di depan (lihat jebakan #9):
       --user-data-dir="$LOCALAPPDATA/Temp/laras-cdp-profile" \
       --no-first-run --no-default-browser-check \
       --autoplay-policy=no-user-gesture-required \
+      --disable-features=CalculateNativeWinOcclusion \
       --disable-backgrounding-occluded-windows \
       --disable-renderer-backgrounding \
       --disable-background-timer-throttling \
       --window-position=0,0 --window-size=1440,900 about:blank
+
+`--disable-features=CalculateNativeWinOcclusion` bukan hiasan: tanpa itu Windows
+melaporkan jendela Chrome sebagai TERTUTUP jendela lain, dan Chrome menyetel
+`document.visibilityState` ke `hidden` — rAF berhenti, seluruh `verify-lyrics`
+gagal 0/45. Flag ini hanya bisa diberikan **saat peluncuran**; jendela yang sudah
+jalan tidak bisa diperbaiki belakangan. Terukur 2026-09-04: `Page.bringToFront`,
+`Emulation.setFocusEmulationEnabled`, `Page.setWebLifecycleState('active')`, dan
+bahkan `SetForegroundWindow` Win32 (yang melapor `cocok=True`) SEMUANYA
+mengembalikan `hidden`; meluncurkan ulang Chrome dengan flag ini langsung
+memberi `visible` dan 45/45.
 
 Lalu — perhatikan flag-nya:
 
@@ -506,6 +521,9 @@ produksi TIDAK boleh memakai flag ini.
 
     BU_CDP_URL=http://127.0.0.1:9222 TARGET=http://127.0.0.1:3210 \
       node scripts/verify-home.cjs
+
+    BU_CDP_URL=http://127.0.0.1:9222 TARGET=http://127.0.0.1:3210 \
+      node scripts/verify-sidebar.cjs
 
     BU_CDP_URL=http://127.0.0.1:9222 TARGET=http://127.0.0.1:3210 \
       node scripts/verify-stream.cjs

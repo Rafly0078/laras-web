@@ -17,8 +17,6 @@ const anim = require('./measure-anim.cjs');
 const SLUG = process.env.SLUG || 'peradaban';
 const call = (fn, ...args) =>
   `JSON.stringify((${String(fn)}).apply(null, ${JSON.stringify(args)}))`;
-const callAsync = (fn, ...args) =>
-  `(${String(fn)}).apply(null, ${JSON.stringify(args)}).then(JSON.stringify)`;
 
 /** Statistik + baris ringkas dalam ms. */
 function ms(label, values, budget) {

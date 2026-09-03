@@ -30,7 +30,7 @@ aturan ToS.
 ## Perintah
 
     npm run dev              dev server (port 3000)
-    npm test                 303 unit test
+    npm test                 461 unit test
     npm run typecheck        tsc --noEmit
     npm run lint             eslint
     npm run build            build produksi
@@ -38,9 +38,10 @@ aturan ToS.
 Harness browser (butuh Chrome remote debugging DAN build ber-flag —
 `LARAS_ENABLE_DEV=1 npm run build`, lihat `HANDOFF.md` §7):
 
-    node scripts/verify-live.cjs     43 assertion, data live + pemutar
+    node scripts/verify-live.cjs     44 assertion, data live + pemutar
     node scripts/verify-lyrics.cjs   45 assertion, mesin sapuan lirik
-    node scripts/verify-home.cjs     29 assertion, kerangka UI
+    node scripts/verify-home.cjs     36 assertion, kerangka UI + hero
+    node scripts/verify-sidebar.cjs  32 assertion, sidebar buka/tutup
     node scripts/verify-stream.cjs   17 assertion, kerangka dulu lalu lirik
 
 ## Empat aturan yang paling sering dilanggar

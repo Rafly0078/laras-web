@@ -154,7 +154,11 @@ module.exports = async function run({ evalJs, check }) {
       }
       const bodyBg = getComputedStyle(document.body).backgroundColor;
       // Radius yang benar-benar terpakai pada wrapper artwork.
-      const wrapper = document.querySelector('img') ? document.querySelector('img').parentElement : null;
+      // Sengaja img di DALAM rak, bukan img pertama di halaman: img pertama
+      // sekarang adalah artwork hero (radius lg, 14px — sengaja berbeda).
+      const strip = document.querySelector('[class*="overflow-x-auto"]');
+      const rackImg = strip ? strip.querySelector('img') : null;
+      const wrapper = rackImg ? rackImg.parentElement : null;
       return JSON.stringify({
         vals,
         bodyBg,
@@ -281,4 +285,63 @@ module.exports = async function run({ evalJs, check }) {
   check('tanpa pesan error di halaman', health.hasError === false);
   check('tepat satu h1', health.headings === 1, `${health.headings} h1: ${health.h1Text}`);
   check('lang="id"', health.lang === 'id', health.lang);
+
+  /* ── 10. "Lihat semua" adalah tautan sungguhan ──────────────────── */
+
+  console.log('\n[9] "Lihat semua"');
+
+  const seeAll = JSON.parse(
+    await evalJs(`(() => {
+      const links = [...document.querySelectorAll('a')].filter((a) =>
+        (a.textContent || '').trim() === 'Lihat semua');
+      return JSON.stringify({
+        count: links.length,
+        hrefs: links.map((a) => new URL(a.href).pathname),
+      });
+    })()`),
+  );
+
+  check(
+    'setiap rak punya "Lihat semua" sebagai LINK (bukan span mati)',
+    seeAll.count === 4,
+    JSON.stringify(seeAll.hrefs),
+  );
+  check(
+    'tautan menuju /playlist/<slug>',
+    seeAll.hrefs.every((h) => h.startsWith('/playlist/')),
+    JSON.stringify(seeAll.hrefs),
+  );
+
+  /* ── 11. Hero + ambient ─────────────────────────────────────────── */
+
+  console.log('\n[10] Hero & ambient');
+
+  const heroAmbient = JSON.parse(
+    await evalJs(`(() => {
+      const hero = document.querySelector('section[aria-label]');
+      const heroImg = hero ? hero.querySelector('img') : null;
+      const heroBtn = hero ? hero.querySelector('button[aria-label^="Putar"], button[aria-label^="Jeda"]') : null;
+      const ambient = document.querySelector('.laras-home-ambient');
+      const cs = ambient ? getComputedStyle(ambient) : null;
+      return JSON.stringify({
+        heroFound: hero !== null,
+        heroLabel: hero ? hero.getAttribute('aria-label') : null,
+        heroImgSize: heroImg ? Math.round(heroImg.getBoundingClientRect().width) : null,
+        heroButton: heroBtn ? (heroBtn.getAttribute('aria-label') || '').slice(0, 30) : null,
+        ambientFound: ambient !== null,
+        ambientBg: cs ? (cs.backgroundImage || 'none').slice(0, 40) : null,
+        ambientFilter: cs ? cs.filter : null,
+      });
+    })()`),
+  );
+
+  check('hero dirender di atas rak', heroAmbient.heroFound === true, heroAmbient.heroLabel);
+  check('hero punya artwork 220px', heroAmbient.heroImgSize === 220, `${heroAmbient.heroImgSize}px`);
+  check('hero punya tombol putar', heroAmbient.heroButton !== null, heroAmbient.heroButton);
+  check('lapis ambient ada di shell', heroAmbient.ambientFound === true);
+  check(
+    'lapis ambient punya gradient + filter saturasi',
+    /radial-gradient/.test(heroAmbient.ambientBg ?? '') && /saturate/.test(heroAmbient.ambientFilter ?? ''),
+    `${heroAmbient.ambientBg} | ${heroAmbient.ambientFilter}`,
+  );
 };

@@ -7,13 +7,21 @@
  * masing-masing anak.
  */
 
+import Link from 'next/link';
+
 export interface ShelfRowProps {
   title: string;
   subtitle?: string | null;
+  /**
+   * Tujuan "Lihat semua". Kalau tidak ada, labelnya dirender sebagai teks
+   * (bukan tautan) — label mati yang tidak bisa diklik lebih menyesatkan
+   * daripada tidak ada sama sekali.
+   */
+  href?: string;
   children: React.ReactNode;
 }
 
-export function ShelfRow({ title, subtitle, children }: ShelfRowProps) {
+export function ShelfRow({ title, subtitle, href, children }: ShelfRowProps) {
   return (
     <section className="py-4">
       <header className="flex items-baseline justify-between px-6 pb-3">
@@ -21,12 +29,18 @@ export function ShelfRow({ title, subtitle, children }: ShelfRowProps) {
           <h2 className="font-display text-xl font-bold tracking-tight">{title}</h2>
           {subtitle ? <p className="text-sm text-laras-secondary">{subtitle}</p> : null}
         </div>
-        {/* <span>, bukan <button>: komponen ini server-side sehingga tidak boleh
-            membawa onClick. Dibuat sebagai teks dulu supaya tampilannya sudah
-            final; kelak dinaikkan menjadi Link saat rute daftar penuh ada. */}
-        <span className="shrink-0 text-sm font-medium text-laras-accent hover:underline">
-          Lihat Semua
-        </span>
+        {/* Dahulu ini <span> mati menunggu rute daftar penuh; rute
+            /playlist/[slug] sudah ada, jadi ia kini tautan sungguhan. */}
+        {href ? (
+          <Link
+            href={href}
+            className="shrink-0 text-sm font-medium text-laras-accent hover:underline"
+          >
+            Lihat semua
+          </Link>
+        ) : (
+          <span className="shrink-0 text-sm font-medium text-laras-tertiary">Lihat semua</span>
+        )}
       </header>
 
       {/* snap-x + snap-mandatory: gulir berhenti rapi di tepi kartu, seperti rak

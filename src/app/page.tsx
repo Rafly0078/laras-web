@@ -1,12 +1,10 @@
 /**
- * Beranda LARAS — rak-rak lagu dari playlist editorial Apple Music.
+ * Beranda LARAS — hero + rak-rak lagu dari playlist editorial Apple Music.
  *
  * Kenapa playlist editorial, bukan /recommendations: endpoint rekomendasi
  * tanpa akun hanya mengembalikan kartu genre (apple-curators) tanpa satu pun
  * lagu. Playlist editorial punya lagu sungguhan dengan artwork resmi, jadi
  * Beranda bisa terisi penuh tanpa login — dan LARAS memang tanpa akun.
- *
- * Fase frontend: data dari fixture di disk, nol panggilan jaringan.
  */
 
 import Link from 'next/link';
@@ -15,6 +13,9 @@ import { HomeShelf } from './home-shelf';
 
 import { AppShell } from '@/components/shell/app-shell';
 import { TopBar } from '@/components/shell/top-bar';
+import { HomeAmbient } from '@/components/home/home-ambient';
+import { HomeHero } from '@/components/home/home-hero';
+import { HomeGreeting } from '@/components/home/home-greeting';
 import { loadHomeShelves } from '@/lib/data/catalog';
 import { DEV_ROUTES_ENABLED } from '@/lib/dev-routes';
 import { SIDEBAR_PLAYLISTS } from '@/lib/data/playlists';
@@ -28,14 +29,18 @@ export default async function HomePage() {
     <AppShell active="/" playlists={SIDEBAR_PLAYLISTS}>
       <TopBar title="Beranda" />
 
+      {/* Menyusunkan warna ambient mengikuti lagu yang sedang diputar. */}
+      <HomeAmbient />
+
       <div className="pt-2">
         <header className="px-6 pb-2 pt-6">
+          {/* Sapaan waktu: render server merendernya kosong supaya tidak ada
+              tabrakan dengan jam pengguna (lihat home-greeting.tsx). */}
+          <HomeGreeting />
           <h1 className="font-display text-4xl font-bold tracking-tight">Beranda</h1>
-          <p className="mt-2 max-w-xl text-laras-secondary">
-            Kurasi editorial Apple Music, diputar lewat YouTube. Lirik tersinkron
-            per kata tersedia untuk lagu yang punya datanya.
-          </p>
         </header>
+
+        <HomeHero shelves={shelves} />
 
         {shelves.map((shelf) => (
           <HomeShelf key={shelf.id} shelf={shelf} />

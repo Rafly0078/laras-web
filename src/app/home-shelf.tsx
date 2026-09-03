@@ -18,8 +18,13 @@ import type { Shelf } from '@/lib/types';
 const CARD_SIZE = 176;
 
 export function HomeShelf({ shelf }: { shelf: Shelf }) {
+  /* `shelf.id` adalah slug playlist editorial yang sama dengan URL
+     /playlist/[slug] (lihat lib/data/playlists.ts), jadi tautan "Lihat
+     semua" tidak perlu sumber data baru. */
+  const href = `/playlist/${shelf.id}`;
+
   return (
-    <ShelfRow title={shelf.title} subtitle={shelf.subtitle}>
+    <ShelfRow title={shelf.title} subtitle={shelf.subtitle} href={href}>
       {shelf.items.map((item, index) => {
         if (item.kind !== 'track') return null;
         const track = item.track;

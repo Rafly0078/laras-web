@@ -46,6 +46,32 @@
   --laras-ambient-3: #141414;
 }
 
+/*
+ * Lapis ambient halaman — wash warna lembut di belakang konten.
+ *
+ * Warna datang dari `--laras-ambient-live` yang ditulis `HomeAmbient` saat ada
+ * lagu yang diputar (warna artwork-nya). Saat tidak ada lagu, fallback `0 0 0`
+ * membuat seluruh wash menjadi hitam di atas hitam = tak terlihat, jadi
+ * halamannya tetap permukaan hitam murni tanpa cabang render apa pun.
+ *
+ * Kenapa `filter` di lapis ini dan bukan di tiap stop gradient: satu filter
+ * untuk satu elemen GPU-compositable, dan angka saturate/brightness-nya lebih
+ * redup daripada AMBIENT halaman lagu (lihat home-ambient.tsx) — di Beranda
+ * di belakang wash ini ada 120+ kartu artwork, dan latar yang terlalu pekat
+ * membuat artwork justru tenggelam.
+ */
+.laras-home-ambient {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  transition: background 1.5s ease-out;
+  filter: saturate(1.7) brightness(0.62);
+  background:
+    radial-gradient(55% 45% at 18% 8%, rgb(var(--laras-ambient-live, 0 0 0) / 0.5), transparent 70%),
+    radial-gradient(50% 40% at 85% 12%, rgb(var(--laras-ambient-live, 0 0 0) / 0.32), transparent 70%),
+    radial-gradient(60% 50% at 70% 95%, rgb(var(--laras-ambient-live, 0 0 0) / 0.28), transparent 75%);
+}
+
 html,
 body {
   height: 100%;

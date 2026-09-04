@@ -12,6 +12,7 @@ import 'server-only';
 import {
   artistIdsBySong,
   similarArtistIds,
+  similarArtistsOf,
   toAlbumResponse,
   toArtistFromParts,
   toTrack,
@@ -37,6 +38,12 @@ import {
 import { fetchLrclibLyrics } from '@/lib/data/lrclib-client';
 import { homePlaylistBySlug, HOME_PLAYLISTS } from '@/lib/data/playlists';
 import {
+  dedupeDiscovery,
+  discoveryArtistId,
+  pickTopResult,
+  type TopResult,
+} from '@/lib/data/search-rank';
+import {
   MAX_SEED_ARTISTS,
   buildRecommendationShelf,
   mergeSimilarArtists,
@@ -52,6 +59,22 @@ import type {
   Shelf,
   Track,
 } from '@/lib/types';
+
+/**
+ * Hasil pencarian yang sudah diperkaya: kartu teratas + rak penemuan.
+ *
+ * `top` bisa null — itu jawaban yang sah dan penting (lihat `pickTopResult`).
+ * `artistTracks` dan `similarArtists` kosong kalau tidak ada artis jangkar yang
+ * meyakinkan; halaman merender apa yang ada, bukan tempat kosong berjudul.
+ */
+export interface SearchWithDiscovery {
+  results: SearchResults;
+  top: TopResult | null;
+  /** Nama artis jangkar, untuk judul rak ("Lagu lain dari Tulus"). */
+  anchorArtistName?: string;
+  artistTracks: Track[];
+  similarArtists: Artist[];
+}
 
 type Rec = Record<string, unknown>;
 
@@ -77,6 +100,60 @@ export async function searchCatalog(query: string): Promise<SearchResults> {
   const raw = await apiSearch(query, 'songs,albums,artists,playlists', 24);
   // toSearchResults sudah tahan terhadap null/sampah, jadi tidak perlu cabang.
   return toSearchResults(query, raw);
+}
+
+/**
+ * Hasil pencarian + kartu "Hasil teratas" + rak penemuan.
+ *
+ * KENAPA ADA LAPIS TAMBAHAN INI: mencari "Teh Hijau" mengembalikan 24 lagu yang
+ * SEMUANYA punya ISRC berbeda — bukan duplikat, tapi 23 lagu lain (DJ remix,
+ * cover, satu akun yang mengunggah "GREEN TEA DC" tiga kali). Yang asli tenggelam
+ * di antara mereka. Karena bukan duplikasi, dedup tidak menyelesaikan apa pun;
+ * yang dibutuhkan adalah isyarat MANA yang dimaksud, dan jalan keluar dari
+ * daftar itu.
+ *
+ * DUA permintaan relay, PARALEL setelah yang pertama selesai:
+ *  1. `/search` — hasil apa adanya.
+ *  2. `views=top-songs,similar-artists` untuk artis jangkar — "lagu lain dari
+ *     artis ini" dan "artis serupa". Relay TIDAK mengirim id artis di hasil
+ *     pencarian (terukur: item hasil tidak punya `relationships`), jadi
+ *     jangkarnya dicocokkan dari nama — lihat `discoveryArtistId`.
+ *
+ * Permintaan kedua DILEWATI kalau tidak ada jangkar yang meyakinkan. Rak
+ * penemuan yang menampilkan artis salah lebih buruk daripada tidak ada rak.
+ */
+export async function searchWithDiscovery(query: string): Promise<SearchWithDiscovery> {
+  const results = await searchCatalog(query);
+
+  const top = pickTopResult(results);
+  const artistId = discoveryArtistId(top, results.artists);
+
+  if (artistId === null) {
+    return { results, top, artistTracks: [], similarArtists: [] };
+  }
+
+  const raw = await apiArtistsBatch([artistId], 'top-songs,similar-artists');
+
+  /* Nama artis jangkar diambil dari hasil pencarian, bukan dari respons batch:
+     keduanya sama, dan memakai yang sudah ada menghemat satu penelusuran. */
+  const anchorName =
+    top?.kind === 'artist'
+      ? top.artist.name
+      : top?.kind === 'track'
+        ? top.track.artist
+        : (top?.album.artist ?? '');
+
+  return {
+    results,
+    top,
+    anchorArtistName: anchorName,
+    artistTracks: dedupeDiscovery(
+      topSongsByArtist(raw).get(artistId) ?? [],
+      top,
+      results.tracks,
+    ),
+    similarArtists: similarArtistsOf(raw).get(artistId) ?? [],
+  };
 }
 
 /* ── Playlist ──────────────────────────────────────────────────────────── */

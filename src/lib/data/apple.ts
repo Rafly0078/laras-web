@@ -363,6 +363,32 @@ export function similarArtistIds(raw: unknown): Map<string, string[]> {
 }
 
 /**
+ * Peta `id artis -> artis mirip[]` LENGKAP (nama + artwork) dari respons
+ * `apiArtistsBatch` dengan `views=similar-artists`.
+ *
+ * Beda dari `similarArtistIds` yang hanya mengambil id: rak "Artis serupa" di
+ * halaman pencarian MERENDER artisnya, jadi butuh nama dan fotonya. Rekomendasi
+ * Beranda tidak — ia hanya memakai id untuk permintaan berikutnya, dan mengubah
+ * 15 objek artis penuh menjadi tipe internal di sana adalah kerja yang hasilnya
+ * langsung dibuang.
+ */
+export function similarArtistsOf(raw: unknown): Map<string, Artist[]> {
+  const out = new Map<string, Artist[]>();
+  for (const entry of catalogDataOf(raw)) {
+    if (!isRec(entry)) continue;
+    const id = asString(entry.id);
+    if (id === null) continue;
+    out.set(
+      id,
+      viewData(entry, 'similar-artists')
+        .map(toArtist)
+        .filter((a): a is Artist => a !== null),
+    );
+  }
+  return out;
+}
+
+/**
  * Peta `id artis -> lagu teratas[]` dari respons `apiArtistsBatch` dengan
  * `views=top-songs`.
  *

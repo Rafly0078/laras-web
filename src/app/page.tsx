@@ -16,6 +16,7 @@ import { TopBar } from '@/components/shell/top-bar';
 import { HomeAmbient } from '@/components/home/home-ambient';
 import { HomeHero } from '@/components/home/home-hero';
 import { HomeGreeting } from '@/components/home/home-greeting';
+import { HomeRecommendations } from '@/components/home/home-recommendations';
 import { loadHomeShelves } from '@/lib/data/catalog';
 import { DEV_ROUTES_ENABLED } from '@/lib/dev-routes';
 import { SIDEBAR_PLAYLISTS } from '@/lib/data/playlists';
@@ -41,6 +42,11 @@ export default async function HomePage() {
         </header>
 
         <HomeHero shelves={shelves} />
+
+        {/* Rak personal, di ATAS rak editorial: kalau ada rekomendasi, itulah
+            yang paling relevan untuk pengguna ini. Ia merender null saat
+            riwayat kosong, jadi pengguna baru tidak melihat celah. */}
+        <HomeRecommendations />
 
         {shelves.map((shelf) => (
           <HomeShelf key={shelf.id} shelf={shelf} />

@@ -9,7 +9,14 @@
 
 import 'server-only';
 
-import { toAlbumResponse, toArtistFromParts, toTrack } from '@/lib/data/apple';
+import {
+  artistIdsBySong,
+  similarArtistIds,
+  toAlbumResponse,
+  toArtistFromParts,
+  toTrack,
+  topSongsByArtist,
+} from '@/lib/data/apple';
 import {
   toPlaylistResponse,
   toSearchResults,
@@ -20,11 +27,21 @@ import {
   apiArtist,
   apiArtistAlbums,
   apiArtistSongs,
+  apiArtistsBatch,
   apiLyrics,
   apiPlaylist,
   apiSearch,
   apiSong,
+  apiSongsBatch,
 } from '@/lib/data/client';
+import { fetchLrclibLyrics } from '@/lib/data/lrclib-client';
+import { homePlaylistBySlug, HOME_PLAYLISTS } from '@/lib/data/playlists';
+import {
+  MAX_SEED_ARTISTS,
+  buildRecommendationShelf,
+  mergeSimilarArtists,
+  type RecommendationCandidate,
+} from '@/lib/home/recommend';
 import { parseAppleTtml } from '@/lib/lyrics/ttml';
 import type {
   Album,
@@ -36,13 +53,19 @@ import type {
   Track,
 } from '@/lib/types';
 
-import { fetchLrclibLyrics } from '@/lib/data/lrclib-client';
-import { homePlaylistBySlug, HOME_PLAYLISTS } from '@/lib/data/playlists';
-
 type Rec = Record<string, unknown>;
 
 /** Jumlah kartu maksimum per rak Home (lihat `loadHomeShelf`). */
 const HOME_SHELF_SIZE = 30;
+
+/**
+ * Lagu riwayat terbaru yang di-lookup id artisnya.
+ *
+ * `seedArtistIds` berhenti di 3 artis, tapi tiga lagu pertama bisa berasal dari
+ * artis yang sama — jadi jendelanya lebih lebar dari jumlah benih supaya
+ * pengguna yang baru saja memutar satu album tetap dapat tiga artis benih.
+ */
+const RECOMMENDATION_LOOKUP = 12;
 
 function isRec(value: unknown): value is Rec {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
@@ -198,4 +221,95 @@ async function loadAppleLyrics(appleTrackId: string): Promise<Lyrics | null> {
   } catch {
     return null;
   }
+}
+
+/* ── Rekomendasi ───────────────────────────────────────────────────────── */
+
+/**
+ * Lagu yang direkomendasikan dari riwayat pengguna.
+ *
+ * TIGA permintaan relay, berurutan karena masing-masing butuh hasil sebelumnya
+ * (terukur total ~3,9 detik / 176KB):
+ *
+ *  1. `apiSongsBatch(idRiwayat)` → id artis tiap lagu. Riwayat di localStorage
+ *     hanya menyimpan bentuk `Track`, yang TIDAK punya id artis — dan hasil
+ *     `/search` juga tidak membawanya, jadi lookup ini tidak bisa dihindari.
+ *  2. `views=similar-artists` untuk artis benih → daftar artis mirip.
+ *  3. `views=top-songs` untuk artis mirip → kandidat lagunya.
+ *
+ * Ketiganya BATCH (`?ids=a,b,c`), jadi jumlah artis tidak menambah jumlah
+ * permintaan — hanya ukuran responsnya. Tanpa batch, langkah 3 sendirian
+ * berarti 12 permintaan berurutan.
+ *
+ * Kegagalan di langkah mana pun mengembalikan array kosong, bukan melempar:
+ * rak yang tidak muncul jauh lebih baik daripada Beranda yang jadi layar error
+ * karena relay sedang lambat.
+ *
+ * Penyusunan akhirnya (buang yang sudah didengar, batasi per artis, acak
+ * berbenih) ada di `lib/home/recommend.ts` — logika murni, teruji tanpa
+ * jaringan.
+ */
+export async function loadRecommendations(historyIds: string[]): Promise<Track[]> {
+  if (historyIds.length === 0) return [];
+
+  /* Hanya lagu terbaru yang di-lookup. Meminta 100 id riwayat berarti respons
+     besar yang 97 barisnya tidak pernah dipakai — `seedArtistIds` berhenti di
+     tiga artis pertama. */
+  const lookupIds = historyIds.slice(0, RECOMMENDATION_LOOKUP);
+
+  const songsRaw = await apiSongsBatch(lookupIds);
+  const artistOfSong = artistIdsBySong(songsRaw);
+  if (artistOfSong.size === 0) return [];
+
+  /* Urutan riwayat DIPERTAHANKAN: peta di atas tidak menjamin urutan relay,
+     sementara "artis terbaru" adalah inti aturan benih. */
+  const seeds: string[] = [];
+  for (const id of lookupIds) {
+    const artistId = artistOfSong.get(id);
+    if (artistId === undefined || seeds.includes(artistId)) continue;
+    seeds.push(artistId);
+    if (seeds.length >= MAX_SEED_ARTISTS) break;
+  }
+  if (seeds.length === 0) return [];
+
+  const similarRaw = await apiArtistsBatch(seeds, 'similar-artists');
+  const similarPerSeed = similarArtistIds(similarRaw);
+  const similar = mergeSimilarArtists(
+    seeds.map((id) => similarPerSeed.get(id) ?? []),
+    seeds,
+  );
+  if (similar.length === 0) return [];
+
+  const topRaw = await apiArtistsBatch(similar, 'top-songs');
+  const topPerArtist = topSongsByArtist(topRaw);
+
+  const candidates: RecommendationCandidate[] = [];
+  for (const artistId of similar) {
+    for (const track of topPerArtist.get(artistId) ?? []) {
+      candidates.push({ track, artistId });
+    }
+  }
+
+  /* Riwayat penuh dikirim sebagai daftar "sudah didengar" — bukan hanya yang
+     di-lookup. Lagu yang diputar bulan lalu tetap bukan penemuan. */
+  const heard: Track[] = historyIds.map((id) => ({
+    id,
+    title: '',
+    artist: '',
+    album: null,
+    durationSeconds: 0,
+    isrc: null,
+    hasLyrics: false,
+    artwork: null,
+    trackNumber: null,
+    discNumber: null,
+    explicit: false,
+    audio: null,
+  }));
+
+  return buildRecommendationShelf(candidates, heard, {
+    /* Benih dari riwayat, bukan dari daftar kandidat: dua pengunjung dengan
+       riwayat berbeda mendapat urutan berbeda walau artis miripnya sama. */
+    seed: lookupIds.join(','),
+  });
 }

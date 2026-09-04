@@ -24,6 +24,19 @@ export const lyricsLimiter = createRateLimiter({ capacity: 10, refillPerSecond: 
 export const healthLimiter = createRateLimiter({ capacity: 5, refillPerSecond: 0.1 });
 
 /**
+ * Batas untuk `/api/rekomendasi`: 5 sekaligus, lalu 1 tiap 6 detik.
+ *
+ * Lebih ketat daripada `/api/lirik` karena SATU permintaan di sini memicu TIGA
+ * panggilan relay berurutan (~3,9 detik total) — bukan satu. Kebiasaan wajar
+ * hanya butuh satu permintaan per kunjungan Beranda, jadi kapasitas 5 sudah
+ * memberi ruang untuk muat-ulang berkali-kali tanpa membuka pintu penyapuan.
+ */
+export const recommendationLimiter = createRateLimiter({
+  capacity: 5,
+  refillPerSecond: 1 / 6,
+});
+
+/**
  * Alamat pemanggil.
  *
  * Di belakang proxy (Vercel selalu), alamat soket adalah milik proxy — yang

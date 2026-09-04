@@ -302,3 +302,86 @@ export function toArtistResponse(raw: unknown): Artist | null {
   const direct = asArray(raw.data)[0];
   return direct === undefined ? null : toArtist(direct);
 }
+
+/* ── Batch & views (jalur `/v1/catalog/...`) ───────────────────────────── */
+
+/**
+ * Peta `id lagu -> id artis` dari respons `apiSongsBatch`.
+ *
+ * Kenapa peta dan bukan daftar: pemanggil punya id lagu (dari riwayat) dan
+ * butuh id artisnya, sementara relay TIDAK menjamin urutan maupun kelengkapan
+ * balasannya — terukur, meminta dua id bisa dibalas satu (id yang tidak ada di
+ * storefront dilewati diam-diam). Mencocokkan berdasarkan posisi array akan
+ * memasangkan lagu dengan artis yang salah.
+ */
+export function artistIdsBySong(raw: unknown): Map<string, string> {
+  const out = new Map<string, string>();
+  for (const entry of catalogDataOf(raw)) {
+    if (!isRec(entry)) continue;
+    const songId = asString(entry.id);
+    if (songId === null) continue;
+
+    /* Artis PERTAMA saja. Lagu kolaborasi punya beberapa, dan yang pertama
+       adalah artis utama menurut Apple — itu yang mewakili selera pengguna,
+       bukan penyanyi tamu. */
+    const first = relationshipData(entry, 'artists')[0];
+    const artistId = isRec(first) ? asString(first.id) : null;
+    if (artistId === null) continue;
+
+    out.set(songId, artistId);
+  }
+  return out;
+}
+
+/** Ambil array dari `views.<nama>.data`, atau kosong kalau view tidak ada. */
+function viewData(raw: unknown, name: string): unknown[] {
+  if (!isRec(raw) || !isRec(raw.views)) return [];
+  const node = raw.views[name];
+  if (!isRec(node)) return [];
+  return asArray(node.data);
+}
+
+/**
+ * Peta `id artis -> id artis mirip[]` dari respons `apiArtistsBatch` dengan
+ * `views=similar-artists`.
+ *
+ * Hanya idnya yang diambil, bukan objek artisnya: langkah berikutnya meminta
+ * `top-songs` per id, jadi metadata artis mirip tidak pernah dirender.
+ */
+export function similarArtistIds(raw: unknown): Map<string, string[]> {
+  const out = new Map<string, string[]>();
+  for (const entry of catalogDataOf(raw)) {
+    if (!isRec(entry)) continue;
+    const id = asString(entry.id);
+    if (id === null) continue;
+    const similar = viewData(entry, 'similar-artists')
+      .map((s) => (isRec(s) ? asString(s.id) : null))
+      .filter((s): s is string => s !== null);
+    out.set(id, similar);
+  }
+  return out;
+}
+
+/**
+ * Peta `id artis -> lagu teratas[]` dari respons `apiArtistsBatch` dengan
+ * `views=top-songs`.
+ *
+ * Artis yang view-nya kosong tetap masuk peta dengan array kosong: pemanggil
+ * bisa membedakan "artis ini tanpa lagu teratas" dari "artis ini tidak dibalas
+ * relay", dan keduanya butuh penanganan berbeda.
+ */
+export function topSongsByArtist(raw: unknown): Map<string, Track[]> {
+  const out = new Map<string, Track[]>();
+  for (const entry of catalogDataOf(raw)) {
+    if (!isRec(entry)) continue;
+    const id = asString(entry.id);
+    if (id === null) continue;
+    out.set(
+      id,
+      viewData(entry, 'top-songs')
+        .map(toTrack)
+        .filter((t): t is Track => t !== null),
+    );
+  }
+  return out;
+}

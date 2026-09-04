@@ -234,3 +234,65 @@ export async function apiArtistAlbums(artistId: string): Promise<unknown> {
     { revalidate: TTL.artist, tags: [`artist-albums:${artistId}`] },
   );
 }
+
+/* ── Batch (jalur `/v1/catalog/...`) ──────────────────────────────────────
+ *
+ * Relay meneruskan bentuk MusicKit penuh di `/v1/catalog/<storefront>/...`,
+ * dan di jalur itu dua kemampuan yang tidak ada di endpoint pendek jadi
+ * tersedia — keduanya terukur, bukan diasumsikan:
+ *
+ *  - `?ids=a,b,c` mengambil BANYAK sumber daya dalam satu permintaan. Terukur:
+ *    12 artis + `views=top-songs` dibalas dalam 2,0 detik / 176KB. Tanpa batch
+ *    itu 12 permintaan berurutan.
+ *  - `?views=...` menyertakan relasi turunan yang tidak punya endpoint sendiri.
+ *    `similar-artists` (10 artis) dan `top-songs` (10 lagu) hanya bisa didapat
+ *    lewat ini; `/v1/catalog/us/artists/<id>/similar-artists` membalas 400
+ *    "No relationship found".
+ *
+ * Bentuk balasannya `{ data: [ { id, attributes, views: { <nama>: { data } } } ] }`.
+ */
+
+/** Batas panjang daftar id per permintaan — URL yang terlalu panjang ditolak. */
+const MAX_BATCH_IDS = 25;
+
+function batchPath(resource: 'songs' | 'artists'): string {
+  return `/v1/catalog/${STOREFRONT}/${resource}`;
+}
+
+/**
+ * Beberapa lagu sekaligus, LENGKAP dengan `relationships.artists`.
+ *
+ * Kenapa perlu: `/search` dan riwayat localStorage sama-sama tidak membawa id
+ * artis (terukur: hasil `/search` tidak punya `relationships` sama sekali),
+ * sedangkan rekomendasi butuh id itu sebagai titik awal. `/song/<id>` membawanya
+ * tapi satu per satu.
+ */
+export async function apiSongsBatch(trackIds: string[]): Promise<unknown> {
+  const ids = trackIds.slice(0, MAX_BATCH_IDS);
+  if (ids.length === 0) return null;
+  return fetchJson(
+    batchPath('songs'),
+    { ids: ids.join(','), l: LANGUAGE },
+    { revalidate: TTL.album, tags: ['songs-batch'] },
+  );
+}
+
+/**
+ * Beberapa artis sekaligus dengan view yang diminta.
+ *
+ * `views` dikirim apa adanya (mis. `'similar-artists,top-songs'`). TTL memakai
+ * `artist` (12 jam): daftar artis mirip dan lagu teratas berubah pelan, dan
+ * rekomendasi tidak perlu mutakhir sampai ke menit.
+ */
+export async function apiArtistsBatch(
+  artistIds: string[],
+  views: string,
+): Promise<unknown> {
+  const ids = artistIds.slice(0, MAX_BATCH_IDS);
+  if (ids.length === 0) return null;
+  return fetchJson(
+    batchPath('artists'),
+    { ids: ids.join(','), views, l: LANGUAGE },
+    { revalidate: TTL.artist, tags: ['artists-batch'] },
+  );
+}

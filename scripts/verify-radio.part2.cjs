@@ -1,7 +1,18 @@
 /** Assertion numerik untuk radio (antrean auto-isi) + halaman yang mengikuti lagu. */
 
 module.exports = async function run({ evalJs, check, sleep, send, apiCalls, TARGET }) {
-  /** Tunggu halaman lagu benar-benar siap (tombol putar + follower terpasang). */
+  /**
+   * Tunggu halaman lagu benar-benar siap: kerangka DAN pane lirik.
+   *
+   * Menunggu kerangka saja TIDAK CUKUP, dan kegagalannya bergantung pada cache
+   * sehingga mudah salah dibaca sebagai regresi kode: pane lirik datang di bawah
+   * `<Suspense>`, jadi setelah build baru (Data Cache kosong) ia butuh ~10 detik
+   * sementara `<h1>` sudah ada di bawah 1 detik. Versi pertama harness ini lolos
+   * hanya karena lirik sedang hangat dari run sebelumnya.
+   *
+   * Dua assertion bergantung pada pane itu — penandanya sendiri, dan penundaan
+   * saat pengguna menggulir lirik.
+   */
   async function bootTrack(id) {
     await send('Page.navigate', { url: `${TARGET}/lagu/${id}` });
     for (let i = 0; i < 60; i += 1) {
@@ -10,6 +21,13 @@ module.exports = async function run({ evalJs, check, sleep, send, apiCalls, TARG
         `Boolean(document.querySelector('h1') && [...document.querySelectorAll('button')].some((b) => /^(Putar|Jeda)/.test(b.getAttribute('aria-label') || '')))`,
       );
       if (ready) break;
+    }
+    /* Relay cold terukur ~10 detik; batasnya dilebihkan supaya kegagalan di sini
+       berarti "lirik memang tidak datang", bukan "harness terlalu cepat". */
+    for (let i = 0; i < 75; i += 1) {
+      const has = await evalJs(`Boolean(document.querySelector('[data-laras-lyrics]'))`);
+      if (has) break;
+      await sleep(400);
     }
   }
 

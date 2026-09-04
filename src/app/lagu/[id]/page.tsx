@@ -22,6 +22,7 @@ import { Suspense } from 'react';
 
 import { LyricsKindNote, LyricsSection } from './lyrics-section';
 import { PlayTrackButton } from './play-button';
+import { TrackPageFollower } from './track-page-follower';
 
 import { LyricsSkeleton } from '@/components/lyrics/lyrics-skeleton';
 import { AmbientBackdrop } from '@/components/player/ambient-backdrop';
@@ -86,6 +87,11 @@ export default async function TrackPage({
   return (
     <AppShell active="" playlists={SIDEBAR_PLAYLISTS}>
       <TopBar title={track.title} />
+
+      {/* Halaman mengikuti lagu yang sedang diputar: saat antrean maju, artwork,
+          judul, dan lirik ikut berpindah (router.replace, ditunda kalau pengguna
+          sedang menggulir lirik). Lihat track-page-follower.tsx. */}
+      <TrackPageFollower trackId={track.id} />
 
       <div className="relative min-h-full">
         <AmbientBackdrop

@@ -237,7 +237,7 @@ export function LyricsView({
   }
 
   return (
-    <div className={styles.larasLyrics} ref={scrollerRef}>
+    <div className={styles.larasLyrics} ref={scrollerRef} data-laras-lyrics="">
       <div className={styles.scroller}>
         {lyrics.lines.map((line) => {
           if (line.interlude) {

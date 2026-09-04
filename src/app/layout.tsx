@@ -4,6 +4,7 @@ import './globals.css';
 
 import { MiniPlayer } from '@/components/player/mini-player';
 import { PlayHistoryRecorder } from '@/components/player/play-history-recorder';
+import { RadioFiller } from '@/components/player/radio-filler';
 import { VideoDock } from '@/components/player/video-dock';
 import { SITE_URL } from '@/lib/metadata';
 import { CollectionProvider } from '@/lib/player/collection-context';
@@ -98,6 +99,14 @@ export default function RootLayout({ children }: LayoutProps<'/'>) {
             <VideoDock />
             <MiniPlayer />
             <PlayHistoryRecorder />
+            {/*
+              Radio: mengisi antrean saat lagu terakhir tiba, supaya pemutar
+              tidak berhenti setelah satu lagu (tombol Putar di halaman lagu
+              memang membuat antrean berisi satu). Di sini, bukan di dalam
+              PlayerProvider, dengan alasan yang sama seperti perekam riwayat:
+              pemutar tidak perlu tahu bahwa rekomendasi ada.
+            */}
+            <RadioFiller />
           </PlayerProvider>
         </CollectionProvider>
       </body>
